@@ -1,0 +1,223 @@
+{
+  "_id" : "@babel/helper-validator-identifier",
+  "_rev" : "6-725023e94a4f425d507112b818fbdfb0",
+  "name" : "@babel/helper-validator-identifier",
+  "description" : "Validate identifier/keywords name",
+  "dist-tags" : {
+    "latest" : "7.10.4"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/helper-validator-identifier",
+      "description" : "Validate identifier/keywords name",
+      "version" : "7.10.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-validator-identifier"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-validator-identifier/-/helper-validator-identifier-7.10.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-validator-identifier%2F-%2Fhelper-validator-identifier-7.10.1.tgz",
+        "shasum" : "5770b0c1a826c4f53f5ede5e153163e0318e94b5"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0",
+        "unicode-13.0.0" : "^0.8.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-identifier@7.10.1",
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-validator-identifier_7.10.1_1590617211141_0.10617264348204825"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.10.3" : {
+      "name" : "@babel/helper-validator-identifier",
+      "description" : "Validate identifier/keywords name",
+      "version" : "7.10.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-validator-identifier"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-validator-identifier/-/helper-validator-identifier-7.10.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-validator-identifier%2F-%2Fhelper-validator-identifier-7.10.3.tgz",
+        "shasum" : "60d9847f98c4cea1b279e005fdb7c28be5412d15"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0",
+        "unicode-13.0.0" : "^0.8.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/helper-validator-identifier@7.10.3",
+      "gitHead" : "2787ee2f967b6d8e1121fca00a8d578d75449a53",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-validator-identifier_7.10.3_1592600047692_0.340037691683142"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.9.5" : {
+      "name" : "@babel/helper-validator-identifier",
+      "description" : "Validate identifier/keywords name",
+      "version" : "7.9.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-validator-identifier"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-validator-identifier/-/helper-validator-identifier-7.9.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-validator-identifier%2F-%2Fhelper-validator-identifier-7.9.5.tgz",
+        "shasum" : "90977a8e6fbf6b431a7dc31752eee233bf052d80"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0",
+        "unicode-13.0.0" : "^0.8.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.19.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-identifier@7.9.5",
+      "gitHead" : "5b97e77e030cf3853a147fdff81844ea4026219d",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-validator-identifier_7.9.5_1586287513888_0.9235828215531656"
+      },
+      "_nodeVersion" : "10.19.0"
+    },
+    "7.10.4" : {
+      "name" : "@babel/helper-validator-identifier",
+      "description" : "Validate identifier/keywords name",
+      "version" : "7.10.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-validator-identifier"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-validator-identifier/-/helper-validator-identifier-7.10.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-validator-identifier%2F-%2Fhelper-validator-identifier-7.10.4.tgz",
+        "shasum" : "a78c7a7251e01f616512d31b10adcf52ada5e0d2"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0",
+        "unicode-13.0.0" : "^0.8.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/helper-validator-identifier@7.10.4",
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-validator-identifier_7.10.4_1593522678752_0.5058194301908499"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.9.0" : {
+      "name" : "@babel/helper-validator-identifier",
+      "description" : "Validate identifier/keywords name",
+      "version" : "7.9.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-validator-identifier"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-validator-identifier/-/helper-validator-identifier-7.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-validator-identifier%2F-%2Fhelper-validator-identifier-7.9.0.tgz",
+        "shasum" : "ad53562a7fc29b3b9a91bbf7d10397fd146346ed"
+      },
+      "devDependencies" : {
+        "charcodes" : "^0.2.0",
+        "unicode-13.0.0" : "^0.8.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.11.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-validator-identifier@7.9.0",
+      "gitHead" : "8d5e422be27251cfaadf8dd2536b31b4a5024b02",
+      "exports" : "./lib/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-validator-identifier_7.9.0_1584718753919_0.9651042569180548"
+      },
+      "_nodeVersion" : "13.11.0"
+    }
+  },
+  "readme" : "# @babel/helper-validator-identifier\n\n> Validate identifier/keywords name\n\nSee our website [@babel/helper-validator-identifier](https://babeljs.io/docs/en/next/babel-helper-validator-identifier.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-validator-identifier\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-validator-identifier --dev\n```\n",
+  "time" : {
+    "7.10.1" : "2020-05-27T22:06:51.324Z",
+    "7.10.3" : "2020-06-19T20:54:07.806Z",
+    "7.9.5" : "2020-04-07T19:25:14.155Z",
+    "7.10.4" : "2020-06-30T13:11:18.900Z",
+    "created" : "2020-03-20T15:39:13.517Z",
+    "7.9.0" : "2020-03-20T15:39:14.099Z",
+    "modified" : "2020-06-30T13:11:26.408Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/babel/babel.git",
+    "directory" : "packages/babel-helper-validator-identifier"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

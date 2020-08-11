@@ -1,0 +1,862 @@
+{
+  "_id" : "postcss-minify-gradients",
+  "_rev" : "23-68c5b62fcea24d5cab231ea94f6c50b6",
+  "name" : "postcss-minify-gradients",
+  "description" : "Minify gradient parameters with PostCSS.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "nightly" : "4.0.0-nightly.2020.8.10",
+    "latest" : "4.0.2"
+  },
+  "versions" : {
+    "4.0.0-nightly.2020.8.1" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0-nightly.2020.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0-nightly.2020.8.1.tgz",
+        "shasum" : "ac056ba1f6df368fd099d9ce7967147a41e658a2"
+      },
+      "dependencies" : {
+        "cssnano-utils" : "nightly",
+        "is-color-stop" : "^1.1.0",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0-nightly.2020.8.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.0-nightly.2020.8.1_1596302124211_0.004823173067314501"
+      },
+      "readme" : "# [postcss][postcss]-minify-gradients\n\n> Minify gradient parameters with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-minify-gradients) do:\n\n```\nnpm install postcss-minify-gradients\n```\n\n\n## Example\n\nWhere possible, this module will minify gradient parameters. It can convert\nlinear gradient directional syntax to angles, remove the unnecessary `0%` and\n`100%` start and end values, and minimise color stops that use the same length\nvalues (the browser will adjust the value automatically).\n\n### Input\n\n```css\nh1 {\n    background: linear-gradient(to bottom, #ffe500 0%, #ffe500 50%, #121 50%, #121 100%)\n}\n```\n\n### Output\n\n```css\nh1 {\n    background: linear-gradient(180deg, #ffe500, #ffe500 50%, #121 0, #121)\n}\n```\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.2" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.2.tgz",
+        "shasum" : "93b29c2ff5099c535eecda56c4aa6e665a663471"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0",
+        "is-color-stop" : "^1.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.2_1549994294642_0.8796175376775219"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-nightly.2020.8.4" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0-nightly.2020.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0-nightly.2020.8.4.tgz",
+        "shasum" : "b49b6abafa9d3b03c08681bf581045ab585d8f3a"
+      },
+      "dependencies" : {
+        "cssnano-utils" : "nightly",
+        "is-color-stop" : "^1.1.0",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0-nightly.2020.8.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.0-nightly.2020.8.4_1596545450879_0.7395084741862052"
+      },
+      "readme" : "# [postcss][postcss]-minify-gradients\n\n> Minify gradient parameters with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-minify-gradients) do:\n\n```\nnpm install postcss-minify-gradients\n```\n\n\n## Example\n\nWhere possible, this module will minify gradient parameters. It can convert\nlinear gradient directional syntax to angles, remove the unnecessary `0%` and\n`100%` start and end values, and minimise color stops that use the same length\nvalues (the browser will adjust the value automatically).\n\n### Input\n\n```css\nh1 {\n    background: linear-gradient(to bottom, #ffe500 0%, #ffe500 50%, #121 50%, #121 100%)\n}\n```\n\n### Output\n\n```css\nh1 {\n    background: linear-gradient(180deg, #ffe500, #ffe500 50%, #121 0, #121)\n}\n```\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0.tgz",
+        "shasum" : "3fc3916439d27a9bb8066db7cdad801650eb090e"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0",
+        "is-color-stop" : "^1.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.0_1530702744022_0.5879232532464367"
+      }
+    },
+    "4.0.1" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.1.tgz",
+        "shasum" : "6da95c6e92a809f956bb76bf0c04494953e1a7dd"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0",
+        "is-color-stop" : "^1.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "postcss-minify-gradients@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.1_1537823148710_0.4959006651600164"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0-rc.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0-rc.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0-rc.2.tgz",
+        "shasum" : "c07e95a4f4f9f8a056e59ac0817e72e891bc62dc"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0-rc.2",
+        "is-color-stop" : "^1.1.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients-4.0.0-rc.2.tgz_1502049216793_0.8409613205585629"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0-rc.0.tgz",
+        "shasum" : "1fef548f1d318a1d1f8ccaff85cf02dab55a2364"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0-rc.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients-4.0.0-rc.0.tgz_1496311200705_0.07408005697652698"
+      },
+      "_shasum" : "1fef548f1d318a1d1f8ccaff85cf02dab55a2364",
+      "_nodeVersion" : "6.9.1"
+    },
+    "1.0.3" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "1.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-minify-gradients.git"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-1.0.3.tgz",
+        "shasum" : "09d228148c942fa8126679de9ff7738b54919fe3"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.12",
+        "postcss-value-parser" : "^3.1.3"
+      },
+      "devDependencies" : {
+        "babel" : "^5.8.23",
+        "babel-tape-runner" : "1.2.0",
+        "eslint" : "^2.0.0",
+        "eslint-config-cssnano" : "^2.0.0",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.2.2"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "prepublish" : "babel src --out-dir dist --ignore /__tests__/",
+        "test" : "npm run lint && babel-tape-runner \"src/**/__tests__/*.js\" | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.5",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@1.0.3",
+      "gitHead" : "70c998fa65dc803576ee26fedf06a03ae66ec127",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-minify-gradients-1.0.3.tgz_1465942342017_0.15763695375062525"
+      },
+      "_shasum" : "09d228148c942fa8126679de9ff7738b54919fe3",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "_nodeVersion" : "5.4.1"
+    },
+    "1.0.4" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "1.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-minify-gradients.git"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-1.0.4.tgz",
+        "shasum" : "47d4fef7efbcc64e541fae6115c9a3cc84d47006"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.12",
+        "postcss-value-parser" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^3.0.5",
+        "ava" : "^0.16.0",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "babel-register" : "^6.9.0",
+        "del-cli" : "^0.2.0",
+        "eslint" : "^3.0.0",
+        "eslint-config-cssnano" : "^3.0.0",
+        "eslint-plugin-babel" : "^3.3.0",
+        "eslint-plugin-import" : "^2.0.1"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "contributorAdd" : "all-contributors add",
+        "contributorGenerate" : "all-contributors generate",
+        "pretest" : "eslint src",
+        "prepublish" : "del-cli dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+        "test" : "ava src/__tests__",
+        "test-012" : "ava src/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.2",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@1.0.4",
+      "gitHead" : "bbc382b3876d8a31bb788dd6e77178980b9b1ca6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-minify-gradients-1.0.4.tgz_1476886744132_0.73909628437832"
+      },
+      "_shasum" : "47d4fef7efbcc64e541fae6115c9a3cc84d47006",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "ava" : {
+        "require" : "babel-register"
+      },
+      "_nodeVersion" : "5.4.1"
+    },
+    "1.0.5" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "1.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-minify-gradients.git"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-1.0.5.tgz",
+        "shasum" : "5dbda11373703f83cfb4a3ea3881d8d75ff5e6e1"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.12",
+        "postcss-value-parser" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^3.0.5",
+        "ava" : "^0.16.0",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "babel-register" : "^6.9.0",
+        "del-cli" : "^0.2.0",
+        "eslint" : "^3.0.0",
+        "eslint-config-cssnano" : "^3.0.0",
+        "eslint-plugin-babel" : "^3.3.0",
+        "eslint-plugin-import" : "^2.0.1"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "contributorAdd" : "all-contributors add",
+        "contributorGenerate" : "all-contributors generate",
+        "pretest" : "eslint src",
+        "prepublish" : "del-cli dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+        "test" : "ava src/__tests__",
+        "test-012" : "ava src/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.2",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@1.0.5",
+      "gitHead" : "7988589504d76ff782bf38a2fed7cdae7a496a77",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-minify-gradients-1.0.5.tgz_1477958561213_0.879301795270294"
+      },
+      "_shasum" : "5dbda11373703f83cfb4a3ea3881d8d75ff5e6e1",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "ava" : {
+        "require" : "babel-register"
+      },
+      "_nodeVersion" : "5.4.1"
+    },
+    "4.0.0-nightly.2020.7.31" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0-nightly.2020.7.31",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0-nightly.2020.7.31.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0-nightly.2020.7.31.tgz",
+        "shasum" : "6da52d6b5cb39235a07541b7d40a760c9f426950"
+      },
+      "dependencies" : {
+        "cssnano-utils" : "nightly",
+        "is-color-stop" : "^1.1.0",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0-nightly.2020.7.31",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.0-nightly.2020.7.31_1596215722111_0.6679143131495484"
+      },
+      "readme" : "# [postcss][postcss]-minify-gradients\n\n> Minify gradient parameters with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-minify-gradients) do:\n\n```\nnpm install postcss-minify-gradients\n```\n\n\n## Example\n\nWhere possible, this module will minify gradient parameters. It can convert\nlinear gradient directional syntax to angles, remove the unnecessary `0%` and\n`100%` start and end values, and minimise color stops that use the same length\nvalues (the browser will adjust the value automatically).\n\n### Input\n\n```css\nh1 {\n    background: linear-gradient(to bottom, #ffe500 0%, #ffe500 50%, #121 50%, #121 100%)\n}\n```\n\n### Output\n\n```css\nh1 {\n    background: linear-gradient(180deg, #ffe500, #ffe500 50%, #121 0, #121)\n}\n```\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.8.10" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0-nightly.2020.8.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0-nightly.2020.8.10.tgz",
+        "shasum" : "ed633259dd7a9ee5cd2d52c363fe074480453d68"
+      },
+      "dependencies" : {
+        "cssnano-utils" : "nightly",
+        "is-color-stop" : "^1.1.0",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0-nightly.2020.8.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.0-nightly.2020.8.10_1597079752718_0.8100462845225835"
+      },
+      "readme" : "# [postcss][postcss]-minify-gradients\n\n> Minify gradient parameters with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-minify-gradients) do:\n\n```\nnpm install postcss-minify-gradients\n```\n\n\n## Example\n\nWhere possible, this module will minify gradient parameters. It can convert\nlinear gradient directional syntax to angles, remove the unnecessary `0%` and\n`100%` start and end values, and minimise color stops that use the same length\nvalues (the browser will adjust the value automatically).\n\n### Input\n\n```css\nh1 {\n    background: linear-gradient(to bottom, #ffe500 0%, #ffe500 50%, #121 50%, #121 100%)\n}\n```\n\n### Output\n\n```css\nh1 {\n    background: linear-gradient(180deg, #ffe500, #ffe500 50%, #121 0, #121)\n}\n```\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.7.25" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0-nightly.2020.7.25",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0-nightly.2020.7.25.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0-nightly.2020.7.25.tgz",
+        "shasum" : "5e5a2ba3672048e13352bbcc181ab1ed9d8f0883"
+      },
+      "dependencies" : {
+        "cssnano-utils" : "nightly",
+        "is-color-stop" : "^1.1.0",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0-nightly.2020.7.25",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.0-nightly.2020.7.25_1595697229849_0.07175857537550212"
+      },
+      "readme" : "# [postcss][postcss]-minify-gradients\n\n> Minify gradient parameters with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-minify-gradients) do:\n\n```\nnpm install postcss-minify-gradients\n```\n\n\n## Example\n\nWhere possible, this module will minify gradient parameters. It can convert\nlinear gradient directional syntax to angles, remove the unnecessary `0%` and\n`100%` start and end values, and minimise color stops that use the same length\nvalues (the browser will adjust the value automatically).\n\n### Input\n\n```css\nh1 {\n    background: linear-gradient(to bottom, #ffe500 0%, #ffe500 50%, #121 50%, #121 100%)\n}\n```\n\n### Output\n\n```css\nh1 {\n    background: linear-gradient(180deg, #ffe500, #ffe500 50%, #121 0, #121)\n}\n```\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.21.0"
+    },
+    "4.0.0-nightly.2020.7.24" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "4.0.0-nightly.2020.7.24",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-4.0.0-nightly.2020.7.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-4.0.0-nightly.2020.7.24.tgz",
+        "shasum" : "0e82171d6279d5e27bd0f21ef7d689de75b5b41c"
+      },
+      "dependencies" : {
+        "cssnano-utils" : "nightly",
+        "is-color-stop" : "^1.1.0",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@4.0.0-nightly.2020.7.24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-minify-gradients_4.0.0-nightly.2020.7.24_1595578361316_0.715981954315789"
+      },
+      "readme" : "# [postcss][postcss]-minify-gradients\n\n> Minify gradient parameters with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-minify-gradients) do:\n\n```\nnpm install postcss-minify-gradients\n```\n\n\n## Example\n\nWhere possible, this module will minify gradient parameters. It can convert\nlinear gradient directional syntax to angles, remove the unnecessary `0%` and\n`100%` start and end values, and minimise color stops that use the same length\nvalues (the browser will adjust the value automatically).\n\n### Input\n\n```css\nh1 {\n    background: linear-gradient(to bottom, #ffe500 0%, #ffe500 50%, #121 50%, #121 100%)\n}\n```\n\n### Output\n\n```css\nh1 {\n    background: linear-gradient(180deg, #ffe500, #ffe500 50%, #121 0, #121)\n}\n```\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.21.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-minify-gradients.git"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-1.0.0.tgz",
+        "shasum" : "30bd6f54bbcb9ba093634e2d465a43ffe7535b1a"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.12",
+        "postcss-value-parser" : "^3.1.3"
+      },
+      "devDependencies" : {
+        "babel" : "^5.8.23",
+        "babel-tape-runner" : "1.2.0",
+        "eslint" : "^1.10.3",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.2.2"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "prepublish" : "babel src --out-dir dist --ignore /__tests__/",
+        "test" : "npm run lint && babel-tape-runner \"src/**/__tests__/*.js\" | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.9",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@1.0.0",
+      "gitHead" : "bfe750c23919f10c3116b2fdcd2fe7810368a7b7",
+      "_shasum" : "30bd6f54bbcb9ba093634e2d465a43ffe7535b1a",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.0.1" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-minify-gradients.git"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-1.0.1.tgz",
+        "shasum" : "3db3224a395711732bc0ae97b4c76597481a40f8"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.12",
+        "postcss-value-parser" : "^3.1.3"
+      },
+      "devDependencies" : {
+        "babel" : "^5.8.23",
+        "babel-tape-runner" : "1.2.0",
+        "eslint" : "^1.10.3",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.2.2"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "prepublish" : "babel src --out-dir dist --ignore /__tests__/",
+        "test" : "npm run lint && babel-tape-runner \"src/**/__tests__/*.js\" | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.9",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@1.0.1",
+      "gitHead" : "a96f689225dd756fadea8e3b5d40dfaef24e1432",
+      "_shasum" : "3db3224a395711732bc0ae97b4c76597481a40f8",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.0.2" : {
+      "name" : "postcss-minify-gradients",
+      "description" : "Minify gradient parameters with PostCSS.",
+      "version" : "1.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-minify-gradients.git"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-minify-gradients/-/postcss-minify-gradients-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-minify-gradients%2F-%2Fpostcss-minify-gradients-1.0.2.tgz",
+        "shasum" : "83c4a0134d11817b0445e7dee66b5c45014e6e8d"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.12",
+        "postcss-value-parser" : "^3.1.3"
+      },
+      "devDependencies" : {
+        "babel" : "^5.8.23",
+        "babel-tape-runner" : "1.2.0",
+        "eslint" : "^2.0.0",
+        "eslint-config-cssnano" : "^2.0.0",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.2.2"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "prepublish" : "babel src --out-dir dist --ignore /__tests__/",
+        "test" : "npm run lint && babel-tape-runner \"src/**/__tests__/*.js\" | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-minify-gradients@1.0.2",
+      "gitHead" : "7a528d22d9dd840f55ba53dbe37df173edc07ee6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-minify-gradients-1.0.2.tgz_1463478625319_0.6197292758151889"
+      },
+      "_shasum" : "83c4a0134d11817b0445e7dee66b5c45014e6e8d",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "_nodeVersion" : "5.4.1"
+    }
+  },
+  "readme" : "",
+  "time" : {
+    "4.0.0-nightly.2020.8.1" : "2020-08-01T17:15:24.345Z",
+    "created" : "2015-12-06T13:32:22.752Z",
+    "4.0.2" : "2019-02-12T17:58:14.740Z",
+    "4.0.0-nightly.2020.8.4" : "2020-08-04T12:50:51.023Z",
+    "4.0.0" : "2018-07-04T11:12:24.132Z",
+    "4.0.1" : "2018-09-24T21:05:48.866Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:37.758Z",
+    "4.0.0-rc.0" : "2017-06-01T10:00:02.039Z",
+    "1.0.3" : "2016-06-14T22:12:24.667Z",
+    "1.0.4" : "2016-10-19T14:19:04.745Z",
+    "1.0.5" : "2016-11-01T00:02:43.042Z",
+    "4.0.0-nightly.2020.7.31" : "2020-07-31T17:15:22.271Z",
+    "4.0.0-nightly.2020.8.10" : "2020-08-10T17:15:52.912Z",
+    "4.0.0-nightly.2020.7.25" : "2020-07-25T17:13:49.967Z",
+    "4.0.0-nightly.2020.7.24" : "2020-07-24T08:12:41.473Z",
+    "modified" : "2020-08-10T17:15:55.060Z",
+    "1.0.0" : "2015-12-06T13:32:22.752Z",
+    "1.0.1" : "2015-12-07T11:53:45.223Z",
+    "1.0.2" : "2016-05-17T09:50:27.659Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

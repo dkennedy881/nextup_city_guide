@@ -1,0 +1,290 @@
+{
+  "_id" : "postcss-focus-visible",
+  "_rev" : "4-7a93d5d6e0ac7ee7192159e1747e3497",
+  "name" : "postcss-focus-visible",
+  "description" : "Use the :focus-visible pseudo-selector in CSS",
+  "dist-tags" : {
+    "latest" : "5.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-focus-visible",
+      "description" : "Use the :focus-visible pseudo-selector in CSS",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-focus-visible.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.bundle.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-focus-visible/-/postcss-focus-visible-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-focus-visible%2F-%2Fpostcss-focus-visible-2.0.0.tgz",
+        "shasum" : "a6b9881f6710f6251790e2f151c94b161e23eeb6"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26",
+        "babel-eslint" : "^8.2",
+        "babel-preset-env" : "^1.6",
+        "echint" : "^4.0",
+        "eslint" : "^4.18",
+        "eslint-config-dev" : "2.0",
+        "postcss-tape" : "2.2",
+        "pre-commit" : "^1.2",
+        "rollup" : "^0.56",
+        "rollup-plugin-babel" : "^3.0"
+      },
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "index.bundle.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:ec && npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.bundle.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-focus-visible@2.0.0",
+      "gitHead" : "42b81e478a9f3b279f813e901b0992a7c3a92d91",
+      "module" : "index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-focus-visible_2.0.0_1518886605822_0.9427457693730479"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "3.0.0" : {
+      "name" : "postcss-focus-visible",
+      "description" : "Use the :focus-visible pseudo-selector in CSS",
+      "version" : "3.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-focus-visible.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-focus-visible/-/postcss-focus-visible-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-focus-visible%2F-%2Fpostcss-focus-visible-3.0.0.tgz",
+        "shasum" : "c105b9d97e83c6a60cf3af34245ae451b326fb54"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26",
+        "babel-eslint" : "^8.2",
+        "babel-preset-env" : "^1.6",
+        "eslint" : "^4.19",
+        "eslint-config-dev" : "2.0",
+        "postcss-tape" : "2.2",
+        "pre-commit" : "^1.2",
+        "rollup" : "^0.57",
+        "rollup-plugin-babel" : "^3.0"
+      },
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-focus-visible@3.0.0",
+      "gitHead" : "fc74d538f6b67a78ce144c0668252b5e3104184a",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-focus-visible_3.0.0_1523155088521_0.8843043718722636"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "5.0.0" : {
+      "name" : "postcss-focus-visible",
+      "description" : "Use the :focus-visible pseudo-selector in CSS",
+      "version" : "5.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/postcss-focus-visible.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-focus-visible/-/postcss-focus-visible-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-focus-visible%2F-%2Fpostcss-focus-visible-5.0.0.tgz",
+        "shasum" : "61e0909244cd15b9075bd40a4f176aa4e2446dbc"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.27"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.9.0",
+        "@babel/preset-env" : "^7.9.5",
+        "babel-eslint" : "^10.1.0",
+        "eslint" : "^6.8.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "5.0.2",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^2.6.1",
+        "rollup-plugin-babel" : "^4.4.0"
+      },
+      "license" : "CC0-1.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npx rollup -c .rollup.js",
+        "build:watch" : "npx rollup -c .rollup.js --watch",
+        "lint" : "npx eslint --cache src",
+        "lint:fix" : "npx eslint --cache --fix",
+        "pretest" : "npm install && npm run build",
+        "test" : "npm run lint && npm run tape",
+        "tape" : "npx postcss-tape"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-focus-visible@5.0.0",
+      "gitHead" : "e8472d1bd7828ed5e0c548de34dd5b8cc57d796d",
+      "module" : "dist/index.esm.mjs",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : "maintained node versions"
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-focus-visible_5.0.0_1586839476643_0.8448016055457568"
+      },
+      "eslintConfig" : {
+        "env" : {
+          "es6" : true,
+          "node" : true
+        },
+        "extends" : "eslint:recommended",
+        "parser" : "babel-eslint"
+      },
+      "rollup" : {
+        "input" : "src/index.js",
+        "plugins" : [ "rollup-plugin-babel" ],
+        "output" : [ {
+          "file" : "dist/index.cjs.js",
+          "format" : "cjs"
+        }, {
+          "file" : "dist/index.esm.js",
+          "format" : "esm"
+        } ]
+      },
+      "_nodeVersion" : "13.12.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-focus-visible",
+      "description" : "Use the :focus-visible pseudo-selector in CSS",
+      "version" : "4.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-focus-visible.git"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-focus-visible/-/postcss-focus-visible-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-focus-visible%2F-%2Fpostcss-focus-visible-4.0.0.tgz",
+        "shasum" : "477d107113ade6024b14128317ade2bd1e17046e"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0",
+        "eslint" : "^5.6",
+        "eslint-config-dev" : "2.0",
+        "postcss-tape" : "2.2",
+        "pre-commit" : "^1.2",
+        "rollup" : "^0.66",
+        "rollup-plugin-babel" : "^4.0.1"
+      },
+      "license" : "CC0-1.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-focus-visible@4.0.0",
+      "gitHead" : "518221410a832af581833bd908d133a34a70d986",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-focus-visible_4.0.0_1537242348740_0.3424971279106772"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    }
+  },
+  "readme" : "# PostCSS Focus Visible [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS Logo\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[<img alt=\"npm version\" src=\"https://img.shields.io/npm/v/postcss-focus-visible.svg\" height=\"20\">][npm-url]\n[<img alt=\"CSS Standard Status\" src=\"https://cssdb.org/badge/focus-within-pseudo-class.svg\" height=\"20\">][css-url]\n[<img alt=\"build status\" src=\"https://img.shields.io/travis/csstools/postcss-focus-visible/master.svg\" height=\"20\">][cli-url]\n[<img alt=\"support chat\" src=\"https://img.shields.io/badge/support-chat-blue.svg\" height=\"20\">][git-url]\n\n[PostCSS Focus Visible] lets you use the `:focus-visible` pseudo-class in\nCSS, following the [Selectors Level 4 specification].\n\nIt is the companion to the [focus-visible polyfill].\n\n[!['Can I use' table](https://caniuse.bitsofco.de/image/css-focus-visible.png)](https://caniuse.com/#feat=css-focus-visible)\n\n```css\n:focus:not(:focus-visible) {\n  outline: none;\n}\n\n/* becomes */\n\n:focus:not(.focus-visible) {\n  outline: none;\n}\n\n:focus:not(:focus-visible) {\n  outline: none;\n}\n```\n\n[PostCSS Focus Visible] duplicates rules using the `:focus-visible` pseudo-class\nwith a `.focus-visible` class selector, the same selector used by the\n[focus-visible polyfill]. This replacement selector can be changed using the\n`replaceWith` option. Also, the preservation of the original `:focus-visible`\nrule can be disabled using the `preserve` option.\n\n## Usage\n\nAdd [PostCSS Focus Visible] to your project:\n\n```bash\nnpm install postcss-focus-visible --save-dev\n```\n\nUse [PostCSS Focus Visible] to process your CSS:\n\n```js\nconst postcssFocusVisible = require('postcss-focus-visible');\n\npostcssFocusVisible.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nconst postcss = require('postcss');\nconst postcssFocusVisible = require('postcss-focus-visible');\n\npostcss([\n  postcssFocusVisible(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Focus Visible] runs in all Node environments, with special\ninstructions for:\n\n| [Node](INSTALL.md#node) | [PostCSS CLI](INSTALL.md#postcss-cli) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- | --- |\n\n## Options\n\n### preserve\n\nThe `preserve` option defines whether the original selector should remain. By\ndefault, the original selector is preserved.\n\n```js\nfocusVisible({ preserve: false });\n```\n\n```css\n:focus:not(:focus-visible) {\n  outline: none;\n}\n\n/* becomes */\n\n:focus:not(.focus-visible) {\n  outline: none;\n}\n```\n\n### replaceWith\n\nThe `replaceWith` option defines the selector to replace `:focus-visible`. By\ndefault, the replacement selector is `.focus-visible`.\n\n```js\nfocusVisible({ replaceWith: '[focus-visible]' });\n```\n\n```css\n:focus:not(:focus-visible) {\n  outline: none;\n}\n\n/* becomes */\n\n:focus:not([focus-visible]) {\n  outline: none;\n}\n\n:focus:not(:focus-visible) {\n  outline: none;\n}\n```\n\n[cli-url]: https://travis-ci.org/csstools/postcss-focus-visible\n[css-url]: https://cssdb.org/#focus-visible-pseudo-class\n[git-url]: https://gitter.im/postcss/postcss\n[npm-url]: https://www.npmjs.com/package/postcss-focus-visible\n\n[focus-visible polyfill]: https://github.com/WICG/focus-visible\n[Gulp PostCSS]: https://github.com/postcss/gulp-postcss\n[Grunt PostCSS]: https://github.com/nDmitry/grunt-postcss\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Focus Visible]: https://github.com/csstools/postcss-focus-visible\n[PostCSS Loader]: https://github.com/postcss/postcss-loader\n[Selectors Level 4 specification]: https://www.w3.org/TR/selectors-4/#the-focus-visible-pseudo\n",
+  "time" : {
+    "2.0.0" : "2018-02-17T16:56:45.872Z",
+    "3.0.0" : "2018-04-08T02:38:08.592Z",
+    "created" : "2018-02-17T16:56:45.821Z",
+    "modified" : "2020-04-14T04:44:39.125Z",
+    "5.0.0" : "2020-04-14T04:44:36.756Z",
+    "4.0.0" : "2018-09-18T03:45:48.899Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/csstools/postcss-focus-visible.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "CC0-1.0"
+}

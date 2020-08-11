@@ -1,0 +1,1539 @@
+{
+  "_id" : "@babel/plugin-proposal-export-namespace-from",
+  "_rev" : "58-512c0153cc1a5a88af95fe2dc995db42",
+  "name" : "@babel/plugin-proposal-export-namespace-from",
+  "description" : "Compile export namespace to ES2015",
+  "dist-tags" : {
+    "latest" : "7.10.4"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.10.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.10.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.10.1.tgz",
+        "shasum" : "512ee069cd866256600bdf89639cf7e1b51fbfe9"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.10.1",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.8.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.1",
+        "@babel/helper-plugin-test-runner" : "^7.10.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.10.1",
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.10.1_1590617220549_0.6333055352051289"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.0.0-rc.1" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-rc.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-rc.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-rc.1.tgz",
+        "shasum" : "6483305f41d0609517e9a87deb34935a1f0a756e"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.1",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-rc.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.1",
+        "@babel/helper-plugin-test-runner" : "7.0.0-rc.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-rc.1_1533845308285_0.2250941844432086"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-rc.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-rc.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-rc.2.tgz",
+        "shasum" : "aafdbed675d50155f48bc0f2a9aa2ffebf23ccd2"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.2",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-rc.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.2",
+        "@babel/helper-plugin-test-runner" : "7.0.0-rc.2"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-rc.2_1534879474007_0.38744225614063277"
+      }
+    },
+    "7.10.4" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.10.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.10.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.10.4.tgz",
+        "shasum" : "570d883b91031637b3e2958eea3c438e62c05f54"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.10.4",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.8.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.4",
+        "@babel/helper-plugin-test-runner" : "^7.10.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.10.4",
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.10.4_1593522698710_0.6434402825608967"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-rc.0.tgz",
+        "shasum" : "54e06001dafdbebf93124541da74fb1303eaa212"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.0",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-rc.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.0",
+        "@babel/helper-plugin-test-runner" : "7.0.0-rc.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-rc.0_1533830326993_0.8086910074570326"
+      }
+    },
+    "7.0.0-beta.39" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.39",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.39.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.39.tgz",
+        "shasum" : "861ca8b83e2df981e5022193760e459a0c41300a"
+      },
+      "dependencies" : {
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.39"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.39",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.39"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.39"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.39",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from-7.0.0-beta.39.tgz_1517344066767_0.10798267112113535"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.38" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.38",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.38.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.38.tgz",
+        "shasum" : "c53ccce30677c2576c2cbb0ded5c10a2e95e437b"
+      },
+      "dependencies" : {
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.38"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.38",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.38"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.38"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.38",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from-7.0.0-beta.38.tgz_1516206734375_0.7372386988718063"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-rc.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-rc.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-rc.3.tgz",
+        "shasum" : "21ebd470798cb9000151c377576de47cbc34da8c"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.3",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-rc.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.3",
+        "@babel/helper-plugin-test-runner" : "7.0.0-rc.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-rc.3_1535134106910_0.45199772990888376"
+      }
+    },
+    "7.0.0-beta.37" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.37",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.37.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.37.tgz",
+        "shasum" : "aba647dbb627f7831601f3d9b0462f53881dfb44"
+      },
+      "dependencies" : {
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.37"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.37",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.37"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.37"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.37",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from-7.0.0-beta.37.tgz_1515427366318_0.6026493683457375"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-rc.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-rc.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-rc.4.tgz",
+        "shasum" : "dafa4ed1d24911c667d40f871b957fa28fc59712"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0-rc.4",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0-rc.4",
+        "@babel/helper-plugin-test-runner" : "^7.0.0-rc.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-rc.4_1535388282308_0.16608242925689676"
+      }
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.54",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.54.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.54.tgz",
+        "shasum" : "87ccd73694aa0edb1ddb758da40b648036b40313"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.54",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.54"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.54",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.54"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.54_1531764012200_0.10228754241909654"
+      }
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.53",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.53.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.53.tgz",
+        "shasum" : "35ca2e1f9ac56736c40d70a6d50c2a4890c44ff0"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.53",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.53"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.53",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.53"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.53_1531316429830_0.2903630024799748"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.52",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.52.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.52.tgz",
+        "shasum" : "776abbbf3907d7de8f55ea712ca72ec4b952c0fe"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.52",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.52"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.52",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.52"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.52_1530838771264_0.01875321668773333"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.51",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.51.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.51.tgz",
+        "shasum" : "979a3c5951cf4caf78e4ce061c51b9fcfc275dbf"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.51",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.51"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.51",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.51"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.51_1528838406460_0.3558880464883636"
+      }
+    },
+    "7.0.0-beta.36" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.36",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.36.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.36.tgz",
+        "shasum" : "77146d4ad0929bd61d2fac4b1aa926fc03beffba"
+      },
+      "dependencies" : {
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.36"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.36",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.36"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.36"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.36",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from-7.0.0-beta.36.tgz_1514228703581_0.6509438974317163"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.35" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.35",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.35.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.35.tgz",
+        "shasum" : "58b3810c8063ad2e2f8de9c3ed0f0e1d8b8385a1"
+      },
+      "dependencies" : {
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.35"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.35",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.35"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.35"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.35",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from-7.0.0-beta.35.tgz_1513288084362_0.9166162824258208"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.34" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.34",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.34.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.34.tgz",
+        "shasum" : "37bfe39e26663f3a756ae9dc74fc718b4fc15119"
+      },
+      "dependencies" : {
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.34"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.34",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.34"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.34"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.34",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from-7.0.0-beta.34.tgz_1512225583664_0.3890640730969608"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.56",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.56.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.56.tgz",
+        "shasum" : "e070d923818b122e8a18df5d97b2facc3342277a"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.56",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.56"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.56",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.56"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.56_1533344787875_0.05718024321886528"
+      }
+    },
+    "7.0.0-beta.33" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.33",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.33.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.33.tgz",
+        "shasum" : "221194b452adae0c36607a53993240cd0b102208"
+      },
+      "dependencies" : {
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.33"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.33",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.33"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.33"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.33",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from-7.0.0-beta.33.tgz_1512138524589_0.5708884715568274"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.55",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.55.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.55.tgz",
+        "shasum" : "00d46ff9ee371601865d4c4610c359610960d5b2"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.55",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.55"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.55",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.55"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.55_1532815656090_0.5033118976981192"
+      }
+    },
+    "7.7.4" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.7.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.7.4.tgz",
+        "shasum" : "9b32a9e3538ba4b0e2fa08942f0a8e5f60899dea"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.7.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.4",
+        "@babel/helper-plugin-test-runner" : "^7.7.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.7.4_1574465555960_0.5666799979907864"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.8.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.8.3.tgz",
+        "shasum" : "63ad57265d0e3912afd666eb44ce26fa8cd2c774"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.8.3",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.8.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.3",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.8.3_1578951714814_0.10558087200766364"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.50",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.50.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.50.tgz",
+        "shasum" : "c0ee81d7e1c8187ebd45e566400deaf6b55ace3b"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.50",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.50"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.50",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.50"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.49"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.50_1528832850654_0.4379350293558437"
+      }
+    },
+    "7.5.2" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.5.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.5.2.tgz",
+        "shasum" : "ccd5ed05b06d700688ff1db01a9dd27155e0d2a0"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.2.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v11.14.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.5.2",
+      "gitHead" : "0dbf99bedb1d82b8414685181416c19336dd0d96",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.5.2_1562615475543_0.6085633873496841"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "7.8.0" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.8.0.tgz",
+        "shasum" : "60bbb22deb6f7b4a93b630d2db6f53d3abc615c8"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.8.0",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.8.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.0",
+        "@babel/helper-plugin-test-runner" : "^7.8.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.8.0_1578788219260_0.8607822950674402"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.2.0" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.2.0.tgz",
+        "shasum" : "308fd4d04ff257fc3e4be090550840eeabad5dd9"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.2.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.2.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.2.0_1543863746471_0.3913252793057542"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0.tgz",
+        "shasum" : "ce847cc62c3626547107a1b835592b8ee494af51"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/plugin-syntax-export-namespace-from" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0_1535406218177_0.8728044274947842"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/plugin-proposal-export-namespace-from\n\n> Compile export namespace to ES2015\n\nSee our website [@babel/plugin-proposal-export-namespace-from](https://babeljs.io/docs/en/next/babel-plugin-proposal-export-namespace-from.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-proposal-export-namespace-from\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-proposal-export-namespace-from --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.49",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.49.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.49.tgz",
+        "shasum" : "6f35b129102a6046d3c93d45f97d84ac97c7fe8a"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.49",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.49"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.49",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.49"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.49"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.49_1527264165221_0.4954266510765539"
+      },
+      "_shasum" : "6f35b129102a6046d3c93d45f97d84ac97c7fe8a",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.48",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.48.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.48.tgz",
+        "shasum" : "9c296fbd12b55cd1964369776407674f0747e1d1"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.48",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.48"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.48",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.48"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.48"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.48_1527189800660_0.9172713117488995"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.43",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.43.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.43.tgz",
+        "shasum" : "2ceaca64fbb8f4fd07fd9aa50eb9ada2996d6734"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.43",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.43"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.43",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.43"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.43"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.43_1522687713544_0.8490037124339398"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.42",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.42.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.42.tgz",
+        "shasum" : "6cdf36049c07111accf3e7b9dbc91d9a2ab1287a"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.42",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.42"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.42",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.42"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.42"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.42",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.42_1521147096520_0.4578460069976653"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.41",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.41.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.41.tgz",
+        "shasum" : "57b2e7a89a1d30f41b5d5d07a69db7d4b5bbb59e"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.41",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.41"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.41",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.41"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.41"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.41",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.41_1521044782184_0.1578830509208915"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.40" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.40",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.40.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.40.tgz",
+        "shasum" : "ae8cdf479c256823f45a052e023b3a50aa350c5a"
+      },
+      "dependencies" : {
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.40"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.40",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.40"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.40"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.40",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.40_1518453722505_0.7095806316877733"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.47",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.47.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.47.tgz",
+        "shasum" : "38171dd0fd5f54aee377d338ed41bb92e25d6720"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.47",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.47"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.47",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.47"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.47"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.47_1526342972492_0.3120705983249661"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.46",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.46.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.46.tgz",
+        "shasum" : "81fa717faa390db694c2b2f241830a31d01f5170"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.46",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.46"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.46",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.46"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.46"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.46_1524457901514_0.34146482293272107"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.45",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.45.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.45.tgz",
+        "shasum" : "f3d04f0aa687e7c6e614c37e6465554e2a6552fb"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.45",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.45"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.45",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.45"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.45"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.45_1524448637466_0.334480983283026"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/plugin-proposal-export-namespace-from",
+      "description" : "Compile export namespace to ES2015",
+      "version" : "7.0.0-beta.44",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-export-namespace-from/-/plugin-proposal-export-namespace-from-7.0.0-beta.44.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-export-namespace-from%2F-%2Fplugin-proposal-export-namespace-from-7.0.0-beta.44.tgz",
+        "shasum" : "00ac9d8a28addd88599d356f098894ae3d8ec1de"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.44",
+        "@babel/plugin-syntax-export-namespace-from" : "7.0.0-beta.44"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.44",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.44"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.44"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-export-namespace-from@7.0.0-beta.44",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-export-namespace-from_7.0.0-beta.44_1522707615109_0.11477438547642627"
+      },
+      "_nodeVersion" : "8.10.0"
+    }
+  },
+  "readme" : "# @babel/plugin-proposal-export-namespace-from\n\n> Compile export namespace to ES2015\n\nSee our website [@babel/plugin-proposal-export-namespace-from](https://babeljs.io/docs/en/next/babel-plugin-proposal-export-namespace-from.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-proposal-export-namespace-from\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-proposal-export-namespace-from --dev\n```\n",
+  "time" : {
+    "7.10.1" : "2020-05-27T22:07:00.686Z",
+    "7.0.0-rc.1" : "2018-08-09T20:08:28.368Z",
+    "7.0.0-rc.2" : "2018-08-21T19:24:34.144Z",
+    "7.10.4" : "2020-06-30T13:11:38.837Z",
+    "7.0.0-rc.0" : "2018-08-09T15:58:47.102Z",
+    "7.0.0-beta.39" : "2018-01-30T20:27:47.285Z",
+    "7.0.0-beta.38" : "2018-01-17T16:32:14.511Z",
+    "7.0.0-rc.3" : "2018-08-24T18:08:26.961Z",
+    "7.0.0-beta.37" : "2018-01-08T16:02:46.415Z",
+    "7.0.0-rc.4" : "2018-08-27T16:44:42.425Z",
+    "7.0.0-beta.54" : "2018-07-16T18:00:12.244Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:29.904Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:31.323Z",
+    "7.0.0-beta.51" : "2018-06-12T21:20:06.554Z",
+    "7.0.0-beta.36" : "2017-12-25T19:05:04.403Z",
+    "7.0.0-beta.35" : "2017-12-14T21:48:04.412Z",
+    "7.0.0-beta.34" : "2017-12-02T14:39:44.445Z",
+    "7.0.0-beta.56" : "2018-08-04T01:06:27.951Z",
+    "7.0.0-beta.33" : "2017-12-01T14:28:45.502Z",
+    "7.0.0-beta.55" : "2018-07-28T22:07:36.168Z",
+    "modified" : "2020-06-30T13:11:45.728Z",
+    "7.7.4" : "2019-11-22T23:32:36.068Z",
+    "7.8.3" : "2020-01-13T21:41:54.908Z",
+    "7.0.0-beta.50" : "2018-06-12T19:47:30.754Z",
+    "7.5.2" : "2019-07-08T19:51:15.653Z",
+    "7.8.0" : "2020-01-12T00:16:59.422Z",
+    "7.2.0" : "2018-12-03T19:02:26.590Z",
+    "created" : "2017-12-01T14:28:45.502Z",
+    "7.0.0" : "2018-08-27T21:43:38.262Z",
+    "7.0.0-beta.49" : "2018-05-25T16:02:45.277Z",
+    "7.0.0-beta.48" : "2018-05-24T19:23:20.746Z",
+    "7.0.0-beta.43" : "2018-04-02T16:48:33.637Z",
+    "7.0.0-beta.42" : "2018-03-15T20:51:36.580Z",
+    "7.0.0-beta.41" : "2018-03-14T16:26:22.241Z",
+    "7.0.0-beta.40" : "2018-02-12T16:42:02.583Z",
+    "7.0.0-beta.47" : "2018-05-15T00:09:32.607Z",
+    "7.0.0-beta.46" : "2018-04-23T04:31:41.627Z",
+    "7.0.0-beta.45" : "2018-04-23T01:57:17.558Z",
+    "7.0.0-beta.44" : "2018-04-02T22:20:15.195Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/babel/babel.git",
+    "directory" : "packages/babel-plugin-proposal-export-namespace-from"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

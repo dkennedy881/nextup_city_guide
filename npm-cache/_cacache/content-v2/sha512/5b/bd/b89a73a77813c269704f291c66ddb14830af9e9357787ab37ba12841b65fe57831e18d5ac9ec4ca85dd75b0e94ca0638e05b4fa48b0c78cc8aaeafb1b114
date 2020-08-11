@@ -1,0 +1,692 @@
+{
+  "_id" : "@babel/plugin-proposal-private-methods",
+  "_rev" : "21-737a7e177c6d33e3b8e9a874681ef4d4",
+  "name" : "@babel/plugin-proposal-private-methods",
+  "description" : "This plugin transforms private class methods",
+  "dist-tags" : {
+    "latest" : "7.10.4"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.10.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.10.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.10.1.tgz",
+        "shasum" : "ed85e8058ab0fe309c3f448e5e1b73ca89cdb598"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.10.1",
+        "@babel/helper-plugin-utils" : "^7.10.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.1",
+        "@babel/helper-plugin-test-runner" : "^7.10.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.10.1",
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.10.1_1590617314202_0.5353280756269636"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.2.0" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.2.0.tgz",
+        "shasum" : "f20c6eafcf41d376a3ff2afe8d437cd49ef31a27"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.2.0",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.2.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.2.0_1543863758860_0.22878264250112434"
+      }
+    },
+    "7.2.1" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.2.1.tgz",
+        "shasum" : "4aa1a765d63f366fd31a2f5176224ac5d3327078"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.2.1",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.2.1",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.2.1_1543936912813_0.9506215833644225"
+      }
+    },
+    "7.3.0" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.3.0.tgz",
+        "shasum" : "da373257a66525cb76544c37ab2ce4c611568841"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.3.0",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.3.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.3.0_1548106792427_0.3363351265325043"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "7.4.0" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.4.0.tgz",
+        "shasum" : "7baebf9655dd6b5eb37533e5305704f4fbf6d458"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.4.0",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.4.0",
+      "gitHead" : "f1328fb913b5a93d54dfc6e3728b1f56c8f4a804",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.4.0_1553028329809_0.4675256954011333"
+      }
+    },
+    "7.10.4" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.10.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.10.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.10.4.tgz",
+        "shasum" : "b160d972b8fdba5c7d111a145fc8c421fc2a6909"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.10.4",
+        "@babel/helper-plugin-utils" : "^7.10.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.4",
+        "@babel/helper-plugin-test-runner" : "^7.10.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.10.4",
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.10.4_1593522812922_0.4043010624740224"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.7.4" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.7.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.7.4.tgz",
+        "shasum" : "2531e747064df7a2d9162eac47d713c7b26340b9"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.7.4",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.4",
+        "@babel/helper-plugin-test-runner" : "^7.7.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.7.4_1574465638034_0.6580330723867658"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.8.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.8.3.tgz",
+        "shasum" : "01248c6c8dc292116b3b4ebd746150f4f0728bab"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.8.3",
+        "@babel/helper-plugin-utils" : "^7.8.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.3",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.8.3_1578951758737_0.48967413514531377"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.2.3" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.2.3.tgz",
+        "shasum" : "aff0f5436df2c4365938c0309d551984e42c290c"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.2.3",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.2.3",
+      "gitHead" : "d35f2ad92b322c3bb9c6792e2683807afae0b105",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.2.3_1545304406670_0.30779539363054975"
+      }
+    },
+    "7.3.2" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.3.2.tgz",
+        "shasum" : "a1878ed04fd06c4007761ce80cfdca8d76ac2a3f"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.3.2",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.3.2",
+      "gitHead" : "d896ce2b53f64742feeea27dd33ee45934cd041a",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.3.2_1549318998369_0.7196501683551508"
+      }
+    },
+    "7.6.0" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.6.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.6.0.tgz",
+        "shasum" : "19ddc493c7b5d47afdd4291e740c609a83c9fae4"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.6.0",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v11.14.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.6.0",
+      "gitHead" : "cbd5a26e57758e3f748174ff84aa570e8780e85d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.6.0_1567791225868_0.5288029508287733"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "7.3.4" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.3.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.3.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.3.4.tgz",
+        "shasum" : "2c5cca68fe73fc5821355dde48ac1b13622a95ba"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.3.4",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.3.4",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.3.4",
+      "gitHead" : "1f6454cc90fe33e0a32260871212e2f719f35741",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.3.4_1551119763031_0.17240707608124728"
+      }
+    },
+    "7.4.3" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.4.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.4.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.4.3.tgz",
+        "shasum" : "0c49b51080f259722c944dfccb400ca1f9f71fec"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.4.3",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.3",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.4.3",
+      "gitHead" : "508fde4009f31883f318b9e6546459ac1b086a91",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.4.3_1554234976161_0.9497330610323165"
+      }
+    },
+    "7.4.4" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.4.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.4.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.4.4.tgz",
+        "shasum" : "307b7db29d8ae2d259e7c0e6e665b1922d7ac856"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.4.4",
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.4",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.4.4",
+      "gitHead" : "2c88694388831b1e5b88e4bbed6781eb2be1edba",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.4.4_1556312704544_0.796593693827703"
+      }
+    },
+    "7.8.0" : {
+      "name" : "@babel/plugin-proposal-private-methods",
+      "description" : "This plugin transforms private class methods",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-private-methods"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-private-methods%2F-%2Fplugin-proposal-private-methods-7.8.0.tgz",
+        "shasum" : "3fb776ecb562a25721122ec92833f136b55e21d8"
+      },
+      "dependencies" : {
+        "@babel/helper-create-class-features-plugin" : "^7.8.0",
+        "@babel/helper-plugin-utils" : "^7.8.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.0",
+        "@babel/helper-plugin-test-runner" : "^7.8.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-private-methods@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-private-methods_7.8.0_1578788260827_0.07521882817017045"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    }
+  },
+  "readme" : "# @babel/plugin-proposal-private-methods\n\n> This plugin transforms private class methods\n\nSee our website [@babel/plugin-proposal-private-methods](https://babeljs.io/docs/en/next/babel-plugin-proposal-private-methods.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-proposal-private-methods\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-proposal-private-methods --dev\n```\n",
+  "time" : {
+    "7.10.1" : "2020-05-27T22:08:34.345Z",
+    "7.2.0" : "2018-12-03T19:02:38.960Z",
+    "7.2.1" : "2018-12-04T15:21:52.944Z",
+    "7.3.0" : "2019-01-21T21:39:52.500Z",
+    "7.4.0" : "2019-03-19T20:45:29.923Z",
+    "7.10.4" : "2020-06-30T13:13:33.039Z",
+    "created" : "2018-12-03T19:02:38.696Z",
+    "modified" : "2020-06-30T13:13:39.124Z",
+    "7.7.4" : "2019-11-22T23:33:58.204Z",
+    "7.8.3" : "2020-01-13T21:42:38.875Z",
+    "7.2.3" : "2018-12-20T11:13:26.834Z",
+    "7.3.2" : "2019-02-04T22:23:18.562Z",
+    "7.6.0" : "2019-09-06T17:33:45.985Z",
+    "7.3.4" : "2019-02-25T18:36:03.207Z",
+    "7.4.3" : "2019-04-02T19:56:16.269Z",
+    "7.4.4" : "2019-04-26T21:05:04.717Z",
+    "7.8.0" : "2020-01-12T00:17:40.963Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/babel/babel.git",
+    "directory" : "packages/babel-plugin-proposal-private-methods"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

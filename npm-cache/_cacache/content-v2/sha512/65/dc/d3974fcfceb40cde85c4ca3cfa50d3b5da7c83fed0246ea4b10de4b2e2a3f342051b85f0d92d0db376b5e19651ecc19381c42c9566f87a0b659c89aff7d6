@@ -1,0 +1,324 @@
+{
+  "_id" : "universalify",
+  "_rev" : "10-026d0c5e7bae69a46bc7032f3b652f4c",
+  "name" : "universalify",
+  "description" : "Make a callback- or promise-based function support both promises and callbacks.",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "universalify",
+      "description" : "Make a callback- or promise-based function support both promises and callbacks.",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/RyanZim/universalify.git"
+      },
+      "engines" : {
+        "node" : ">= 10.0.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/universalify/-/universalify-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Funiversalify%2F-%2Funiversalify-2.0.0.tgz",
+        "shasum" : "75a4984efedc4b08975c5aeb73f530d02df25717"
+      },
+      "devDependencies" : {
+        "colortape" : "^0.1.2",
+        "coveralls" : "^3.0.1",
+        "nyc" : "^15.0.0",
+        "standard" : "^14.3.1",
+        "tape" : "^5.0.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && nyc tape test/*.js | colortape"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "ryanzim",
+        "email" : "opensrc@ryanzim.com"
+      },
+      "_id" : "universalify@2.0.0",
+      "gitHead" : "a853a4aedc63c69fcdc62b77643d75b0d162a098",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/universalify_2.0.0_1595684108772_0.826098899436974"
+      },
+      "_nodeVersion" : "14.0.0"
+    },
+    "0.1.1" : {
+      "name" : "universalify",
+      "description" : "Make a callback- or promise-based function support both promises and callbacks.",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/RyanZim/universalify.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/universalify/-/universalify-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Funiversalify%2F-%2Funiversalify-0.1.1.tgz",
+        "shasum" : "fa71badd4437af4c148841e3b3b165f9e9e590b7"
+      },
+      "devDependencies" : {
+        "colortape" : "^0.1.2",
+        "nyc" : "^10.2.0",
+        "standard" : "^10.0.1",
+        "tape" : "^4.6.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && nyc tape test/*.js | colortape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "ryanzim",
+        "email" : "opensrc@ryanzim.com"
+      },
+      "_id" : "universalify@0.1.1",
+      "gitHead" : "6dcade29ad1fc945f3d2a6e63cf92ec041fa83d2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/universalify-0.1.1.tgz_1500561668015_0.5723595882300287"
+      },
+      "_shasum" : "fa71badd4437af4c148841e3b3b165f9e9e590b7",
+      "_nodeVersion" : "7.8.0"
+    },
+    "0.2.0" : {
+      "name" : "universalify",
+      "description" : "Make a callback- or promise-based function support both promises and callbacks.",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/RyanZim/universalify.git"
+      },
+      "engines" : {
+        "node" : ">= 4.0.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/universalify/-/universalify-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Funiversalify%2F-%2Funiversalify-0.2.0.tgz",
+        "shasum" : "6451760566fa857534745ab1dde952d1b1761be0"
+      },
+      "devDependencies" : {
+        "colortape" : "^0.1.2",
+        "coveralls" : "^3.0.1",
+        "nyc" : "^10.2.0",
+        "standard" : "^10.0.1",
+        "tape" : "^4.6.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && nyc tape test/*.js | colortape"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "ryanzim",
+        "email" : "opensrc@ryanzim.com"
+      },
+      "_id" : "universalify@0.2.0",
+      "gitHead" : "4342aa98a8801428ac66319c956443c0bfb0ce7e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/universalify_0.2.0_1582129485961_0.19346377093010547"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "0.1.2" : {
+      "name" : "universalify",
+      "description" : "Make a callback- or promise-based function support both promises and callbacks.",
+      "version" : "0.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/RyanZim/universalify.git"
+      },
+      "engines" : {
+        "node" : ">= 4.0.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/universalify/-/universalify-0.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Funiversalify%2F-%2Funiversalify-0.1.2.tgz",
+        "shasum" : "b646f69be3942dabcecc9d6639c80dc105efaa66"
+      },
+      "devDependencies" : {
+        "colortape" : "^0.1.2",
+        "coveralls" : "^3.0.1",
+        "nyc" : "^10.2.0",
+        "standard" : "^10.0.1",
+        "tape" : "^4.6.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && nyc tape test/*.js | colortape"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "ryanzim",
+        "email" : "opensrc@ryanzim.com"
+      },
+      "_id" : "universalify@0.1.2",
+      "gitHead" : "ab4b5cd7e962c4915da68bdf0e5b8f9aa677f8f6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/universalify_0.1.2_1529493431283_0.2533941036533853"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "1.0.0" : {
+      "name" : "universalify",
+      "description" : "Make a callback- or promise-based function support both promises and callbacks.",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/RyanZim/universalify.git"
+      },
+      "engines" : {
+        "node" : ">= 10.0.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/universalify/-/universalify-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Funiversalify%2F-%2Funiversalify-1.0.0.tgz",
+        "shasum" : "b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
+      },
+      "devDependencies" : {
+        "colortape" : "^0.1.2",
+        "coveralls" : "^3.0.1",
+        "nyc" : "^15.0.0",
+        "standard" : "^14.3.1",
+        "tape" : "^4.6.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && nyc tape test/*.js | colortape"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "ryanzim",
+        "email" : "opensrc@ryanzim.com"
+      },
+      "_id" : "universalify@1.0.0",
+      "gitHead" : "17c5efbc1bc96c201d8b0b116d43f7b5e2cad297",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/universalify_1.0.0_1583530796485_0.383723721188459"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "0.0.1" : {
+      "name" : "universalify",
+      "description" : "Make a callback- or promise-based function support both promises and callbacks.",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/RyanZim/universalify.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/universalify/-/universalify-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Funiversalify%2F-%2Funiversalify-0.0.1.tgz",
+        "shasum" : "937b1b69cecc2f27e27395428eb7952bc7939617"
+      },
+      "devDependencies" : {
+        "colortape" : "^0.1.2",
+        "nyc" : "^10.2.0",
+        "standard" : "^10.0.1",
+        "tape" : "^4.6.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && nyc tape test/*.js | colortape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "ryanzim",
+        "email" : "opensrc@ryanzim.com"
+      },
+      "_id" : "universalify@0.0.1",
+      "gitHead" : "131e6f2b86511f880e04e5995e7a8db468e5bc24",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/universalify-0.0.1.tgz_1491672518379_0.970205559860915"
+      },
+      "_shasum" : "937b1b69cecc2f27e27395428eb7952bc7939617",
+      "_nodeVersion" : "7.8.0"
+    },
+    "0.1.0" : {
+      "name" : "universalify",
+      "description" : "Make a callback- or promise-based function support both promises and callbacks.",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/RyanZim/universalify.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/universalify/-/universalify-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Funiversalify%2F-%2Funiversalify-0.1.0.tgz",
+        "shasum" : "9eb1c4651debcc670cc94f1a75762332bb967778"
+      },
+      "devDependencies" : {
+        "colortape" : "^0.1.2",
+        "nyc" : "^10.2.0",
+        "standard" : "^10.0.1",
+        "tape" : "^4.6.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && nyc tape test/*.js | colortape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "ryanzim",
+        "email" : "opensrc@ryanzim.com"
+      },
+      "_id" : "universalify@0.1.0",
+      "gitHead" : "003666ace34712273c8dfb27b7a92b1112573f15",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/universalify-0.1.0.tgz_1492871560174_0.5206800866872072"
+      },
+      "_shasum" : "9eb1c4651debcc670cc94f1a75762332bb967778",
+      "_nodeVersion" : "7.8.0"
+    }
+  },
+  "readme" : "# universalify\n\n[![Travis branch](https://img.shields.io/travis/RyanZim/universalify/master.svg)](https://travis-ci.org/RyanZim/universalify)\n![Coveralls github branch](https://img.shields.io/coveralls/github/RyanZim/universalify/master.svg)\n![npm](https://img.shields.io/npm/dm/universalify.svg)\n![npm](https://img.shields.io/npm/l/universalify.svg)\n\nMake a callback- or promise-based function support both promises and callbacks.\n\nUses the native promise implementation.\n\n## Installation\n\n```bash\nnpm install universalify\n```\n\n## API\n\n### `universalify.fromCallback(fn)`\n\nTakes a callback-based function to universalify, and returns the universalified  function.\n\nFunction must take a callback as the last parameter that will be called with the signature `(error, result)`. `universalify` does not support calling the callback with three or more arguments, and does not ensure that the callback is only called once.\n\n```js\nfunction callbackFn (n, cb) {\n  setTimeout(() => cb(null, n), 15)\n}\n\nconst fn = universalify.fromCallback(callbackFn)\n\n// Works with Promises:\nfn('Hello World!')\n.then(result => console.log(result)) // -> Hello World!\n.catch(error => console.error(error))\n\n// Works with Callbacks:\nfn('Hi!', (error, result) => {\n  if (error) return console.error(error)\n  console.log(result)\n  // -> Hi!\n})\n```\n\n### `universalify.fromPromise(fn)`\n\nTakes a promise-based function to universalify, and returns the universalified  function.\n\nFunction must return a valid JS promise. `universalify` does not ensure that a valid promise is returned.\n\n```js\nfunction promiseFn (n) {\n  return new Promise(resolve => {\n    setTimeout(() => resolve(n), 15)\n  })\n}\n\nconst fn = universalify.fromPromise(promiseFn)\n\n// Works with Promises:\nfn('Hello World!')\n.then(result => console.log(result)) // -> Hello World!\n.catch(error => console.error(error))\n\n// Works with Callbacks:\nfn('Hi!', (error, result) => {\n  if (error) return console.error(error)\n  console.log(result)\n  // -> Hi!\n})\n```\n\n## License\n\nMIT\n",
+  "time" : {
+    "2.0.0" : "2020-07-25T13:35:08.897Z",
+    "created" : "2017-04-08T17:28:40.301Z",
+    "modified" : "2020-07-25T13:35:11.089Z",
+    "0.1.1" : "2017-07-20T14:41:09.194Z",
+    "0.2.0" : "2020-02-19T16:24:46.080Z",
+    "0.1.2" : "2018-06-20T11:17:11.369Z",
+    "1.0.0" : "2020-03-06T21:39:56.588Z",
+    "0.0.1" : "2017-04-08T17:28:40.301Z",
+    "0.1.0" : "2017-04-22T14:32:41.242Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/RyanZim/universalify.git"
+  },
+  "users" : {
+    "heartnett" : true,
+    "larrychen" : true,
+    "arniu" : true,
+    "xiatian" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

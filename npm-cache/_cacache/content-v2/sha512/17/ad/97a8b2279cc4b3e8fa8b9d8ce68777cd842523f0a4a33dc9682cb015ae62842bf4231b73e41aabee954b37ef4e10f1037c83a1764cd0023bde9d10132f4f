@@ -1,0 +1,735 @@
+{
+  "_id" : "@babel/compat-data",
+  "_rev" : "14-2df5522b6ef523fe11cb9162fb4c9237",
+  "name" : "@babel/compat-data",
+  "dist-tags" : {
+    "latest" : "7.11.0"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.10.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.10.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.10.1.tgz",
+        "shasum" : "b1085ffe72cd17bf2c0ee790fc09f9626011b2db"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.10.1",
+        "caniuse-db" : "1.0.30001035",
+        "electron-to-chromium" : "1.3.377",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-bugfixes-targets.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.10.1",
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json",
+        "./plugin-bugfixes" : "./data/plugin-bugfixes.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.10.1_1590617211243_0.8466794879832402"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.11.0" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.11.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.11.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.11.0.tgz",
+        "shasum" : "e9f73efe09af1355b723a7f39b11bad637d7c99c"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.10.4",
+        "electron-to-chromium" : "1.3.513",
+        "lodash" : "^4.17.19",
+        "mdn-browser-compat-data" : "1.0.31"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh && node ./scripts/build-data.js && node ./scripts/build-modules-support.js && node ./scripts/build-bugfixes-targets.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.6.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/compat-data@7.11.0",
+      "gitHead" : "38dda069eeac2e31bce3f56290998d30bee1ed6b",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json",
+        "./plugin-bugfixes" : "./data/plugin-bugfixes.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.11.0_1596142603402_0.2381080068533139"
+      },
+      "_nodeVersion" : "14.6.0"
+    },
+    "7.10.0" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.10.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.10.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.10.0.tgz",
+        "shasum" : "1e9129ec36bc7cc5ec202801d8af9529699b8d5e"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.10.0",
+        "caniuse-db" : "1.0.30001035",
+        "electron-to-chromium" : "1.3.377",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-bugfixes-targets.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.3.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.10.0",
+      "gitHead" : "5da2440adff6f25579fb6e9a018062291c89416f",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json",
+        "./plugin-bugfixes" : "./data/plugin-bugfixes.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.10.0_1590529393807_0.25487045125883134"
+      },
+      "_nodeVersion" : "14.3.0"
+    },
+    "7.10.3" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.10.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.10.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.10.3.tgz",
+        "shasum" : "9af3e033f36e8e2d6e47570db91e64a846f5d382"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.10.1",
+        "caniuse-db" : "1.0.30001035",
+        "electron-to-chromium" : "1.3.377",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-bugfixes-targets.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/compat-data@7.10.3",
+      "gitHead" : "2787ee2f967b6d8e1121fca00a8d578d75449a53",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json",
+        "./plugin-bugfixes" : "./data/plugin-bugfixes.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.10.3_1592600047714_0.16143699336237893"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.10.5" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.10.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.10.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.10.5.tgz",
+        "shasum" : "d38425e67ea96b1480a3f50404d1bf85676301a6"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.10.4",
+        "caniuse-db" : "1.0.30001035",
+        "electron-to-chromium" : "1.3.377",
+        "lodash" : "^4.17.19"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-bugfixes-targets.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.5.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/compat-data@7.10.5",
+      "gitHead" : "f7964a9ac51356f7df6404a25b27ba1cffba1ba7",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json",
+        "./plugin-bugfixes" : "./data/plugin-bugfixes.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.10.5_1594750661636_0.5815778312177902"
+      },
+      "_nodeVersion" : "14.5.0"
+    },
+    "7.10.4" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.10.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.10.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.10.4.tgz",
+        "shasum" : "706a6484ee6f910b719b696a9194f8da7d7ac241"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.10.4",
+        "caniuse-db" : "1.0.30001035",
+        "electron-to-chromium" : "1.3.377",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-bugfixes-targets.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/compat-data@7.10.4",
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json",
+        "./plugin-bugfixes" : "./data/plugin-bugfixes.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.10.4_1593522678827_0.6424157207972885"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.8.5" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.8.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.8.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.8.5.tgz",
+        "shasum" : "d28ce872778c23551cbb9432fc68d28495b613b9"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.8.5",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.8.4",
+        "caniuse-db" : "1.0.30001023",
+        "electron-to-chromium" : "1.3.113",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-overlapping-plugins.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.7.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.8.5",
+      "gitHead" : "11641b5f70d8f4cb0b165f46c10a961f54b01863",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.8.5_1580496698714_0.2190311580885702"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "7.8.6" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.8.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.8.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.8.6.tgz",
+        "shasum" : "7eeaa0dfa17e50c7d9c0832515eee09b56f04e35"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.8.5",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.8.6",
+        "caniuse-db" : "1.0.30001023",
+        "electron-to-chromium" : "1.3.113",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-overlapping-plugins.js; node ./scripts/build-corejs3-proposals.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.7.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.8.6",
+      "gitHead" : "750d3dde3bd2d390819820fd22c05441da78751b",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.8.6_1582806081364_0.7288649664811546"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "7.9.6" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.9.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.9.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.9.6.tgz",
+        "shasum" : "3f604c40e420131affe6f2c8052e9a275ae2049b"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.11.1",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.9.6",
+        "caniuse-db" : "1.0.30001035",
+        "electron-to-chromium" : "1.3.377",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-bugfixes-targets.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.0.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.9.6",
+      "gitHead" : "9c2846bcacc75aa931ea9d556950c2113765d43d",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json",
+        "./plugin-bugfixes" : "./data/plugin-bugfixes.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.9.6_1588185477438_0.2144351474139219"
+      },
+      "_nodeVersion" : "14.0.0"
+    },
+    "7.8.1" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.8.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.8.1.tgz",
+        "shasum" : "fc0bbbb7991e4fb2b47e168e60f2cc2c41680be9"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.8.2",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.8.1",
+        "caniuse-db" : "1.0.30000969",
+        "electron-to-chromium" : "1.3.113",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-overlapping-plugins.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.8.1",
+      "gitHead" : "575eeb370efd1a234bd7f124dc6b1f9161f0c161",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.8.1_1578834163698_0.010993395842945786"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.9.0" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.9.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.9.0.tgz",
+        "shasum" : "04815556fc90b0c174abd2c0c1bb966faa036a6c"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.9.1",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.8.6",
+        "caniuse-db" : "1.0.30001035",
+        "electron-to-chromium" : "1.3.377",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-bugfixes-targets.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.11.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.9.0",
+      "gitHead" : "8d5e422be27251cfaadf8dd2536b31b4a5024b02",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./corejs3-shipped-proposals" : "./data/corejs3-shipped-proposals.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json",
+        "./plugin-bugfixes" : "./data/plugin-bugfixes.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.9.0_1584718748030_0.682137205914306"
+      },
+      "_nodeVersion" : "13.11.0"
+    },
+    "7.8.4" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.8.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.8.4.tgz",
+        "shasum" : "bbe65d05a291667a8394fe8a0e0e277ef22b0d2a"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.8.5",
+        "invariant" : "^2.2.4",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.8.4",
+        "caniuse-db" : "1.0.30001023",
+        "electron-to-chromium" : "1.3.113",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-overlapping-plugins.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.7.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.8.4",
+      "gitHead" : "5c2e6bc07fed3d28801d93168622c99ae622653a",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.8.4_1580387846415_0.8349317887524972"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "7.8.0" : {
+      "name" : "@babel/compat-data",
+      "description" : "",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-compat-data"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/compat-data/-/compat-data-7.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcompat-data%2F-%2Fcompat-data-7.8.0.tgz",
+        "shasum" : "1d3a9fbda3c58774395cd617d263a196dfa45d92"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.8.2",
+        "invariant" : "^2.2.4",
+        "semver" : "^7.1.1"
+      },
+      "devDependencies" : {
+        "@babel/helper-compilation-targets" : "^7.8.0",
+        "caniuse-db" : "1.0.30000969",
+        "electron-to-chromium" : "1.3.113",
+        "lodash" : "^4.17.15"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build-data" : "./scripts/download-compat-table.sh; node ./scripts/build-data.js; node ./scripts/build-modules-support.js; node ./scripts/build-overlapping-plugins.js"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/compat-data@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "exports" : {
+        "./plugins" : "./data/plugins.json",
+        "./native-modules" : "./data/native-modules.json",
+        "./corejs2-built-ins" : "./data/corejs2-built-ins.json",
+        "./overlapping-plugins" : "./data/overlapping-plugins.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compat-data_7.8.0_1578788155674_0.15603541915049468"
+      },
+      "_nodeVersion" : "13.6.0"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "time" : {
+    "7.10.1" : "2020-05-27T22:06:51.409Z",
+    "7.11.0" : "2020-07-30T20:56:43.498Z",
+    "7.10.0" : "2020-05-26T21:43:13.941Z",
+    "7.10.3" : "2020-06-19T20:54:07.902Z",
+    "7.10.5" : "2020-07-14T18:17:41.747Z",
+    "7.10.4" : "2020-06-30T13:11:18.926Z",
+    "created" : "2020-01-12T00:15:55.066Z",
+    "7.8.5" : "2020-01-31T18:51:38.838Z",
+    "7.8.6" : "2020-02-27T12:21:21.461Z",
+    "7.9.6" : "2020-04-29T18:37:57.554Z",
+    "7.8.1" : "2020-01-12T13:02:43.824Z",
+    "7.9.0" : "2020-03-20T15:39:08.599Z",
+    "modified" : "2020-07-30T20:56:45.728Z",
+    "7.8.4" : "2020-01-30T12:37:26.657Z",
+    "7.8.0" : "2020-01-12T00:15:55.817Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/babel/babel.git",
+    "directory" : "packages/babel-compat-data"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}
