@@ -1,0 +1,286 @@
+{
+  "_id" : "@babel/plugin-syntax-top-level-await",
+  "_rev" : "10-7968e41cda7fcc62bc9c10cf35d7f0ef",
+  "name" : "@babel/plugin-syntax-top-level-await",
+  "description" : "Allow parsing of top-level await in modules",
+  "dist-tags" : {
+    "latest" : "7.10.4"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/plugin-syntax-top-level-await",
+      "description" : "Allow parsing of top-level await in modules",
+      "version" : "7.10.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-syntax-top-level-await"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.10.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-top-level-await%2F-%2Fplugin-syntax-top-level-await-7.10.1.tgz",
+        "shasum" : "8b8733f8c57397b3eaa47ddba8841586dcaef362"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.10.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-top-level-await@7.10.1",
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-top-level-await_7.10.1_1590617238963_0.6952949724660364"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.10.4" : {
+      "name" : "@babel/plugin-syntax-top-level-await",
+      "description" : "Allow parsing of top-level await in modules",
+      "version" : "7.10.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-syntax-top-level-await"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.10.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-top-level-await%2F-%2Fplugin-syntax-top-level-await-7.10.4.tgz",
+        "shasum" : "4bbeb8917b54fcf768364e0a81f560e33a3ef57d"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.10.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/plugin-syntax-top-level-await@7.10.4",
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-top-level-await_7.10.4_1593522713457_0.48597385939477755"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.7.4" : {
+      "name" : "@babel/plugin-syntax-top-level-await",
+      "description" : "Allow parsing of top-level await in modules",
+      "version" : "7.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-top-level-await"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.7.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-top-level-await%2F-%2Fplugin-syntax-top-level-await-7.7.4.tgz",
+        "shasum" : "bd7d8fa7b9fee793a36e4027fd6dd1aa32f946da"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-top-level-await@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-top-level-await_7.7.4_1574465524475_0.009674089701156907"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/plugin-syntax-top-level-await",
+      "description" : "Allow parsing of top-level await in modules",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-top-level-await"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.8.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-top-level-await%2F-%2Fplugin-syntax-top-level-await-7.8.3.tgz",
+        "shasum" : "3acdece695e6b13aaf57fc291d1a800950c71391"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.8.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-top-level-await@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-top-level-await_7.8.3_1578951691109_0.4390098536956253"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.7.0" : {
+      "name" : "@babel/plugin-syntax-top-level-await",
+      "description" : "Allow parsing of top-level await in modules",
+      "version" : "7.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-top-level-await"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-top-level-await%2F-%2Fplugin-syntax-top-level-await-7.7.0.tgz",
+        "shasum" : "f5699549f50bbe8d12b1843a4e82f0a37bb65f4d"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v13.0.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-top-level-await@7.7.0",
+      "gitHead" : "97faa83953cb87e332554fa559a4956d202343ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-top-level-await_7.7.0_1572951192640_0.7573864120197906"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "7.8.0" : {
+      "name" : "@babel/plugin-syntax-top-level-await",
+      "description" : "Allow parsing of top-level await in modules",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-top-level-await"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-top-level-await%2F-%2Fplugin-syntax-top-level-await-7.8.0.tgz",
+        "shasum" : "8d45e3d68a1e26bce79c51b08dd9126290686207"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.8.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-top-level-await@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-top-level-await_7.8.0_1578788183856_0.8978083585955379"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    }
+  },
+  "readme" : "# @babel/plugin-syntax-top-level-await\n\n> Allow parsing of top-level await in modules\n\nSee our website [@babel/plugin-syntax-top-level-await](https://babeljs.io/docs/en/next/babel-plugin-syntax-top-level-await.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-syntax-top-level-await\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-syntax-top-level-await --dev\n```\n",
+  "time" : {
+    "7.10.1" : "2020-05-27T22:07:19.068Z",
+    "7.10.4" : "2020-06-30T13:11:53.636Z",
+    "created" : "2019-11-05T10:53:12.178Z",
+    "modified" : "2020-06-30T13:11:59.009Z",
+    "7.7.4" : "2019-11-22T23:32:04.616Z",
+    "7.8.3" : "2020-01-13T21:41:31.257Z",
+    "7.7.0" : "2019-11-05T10:53:12.798Z",
+    "7.8.0" : "2020-01-12T00:16:23.974Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/babel/babel.git",
+    "directory" : "packages/babel-plugin-syntax-top-level-await"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

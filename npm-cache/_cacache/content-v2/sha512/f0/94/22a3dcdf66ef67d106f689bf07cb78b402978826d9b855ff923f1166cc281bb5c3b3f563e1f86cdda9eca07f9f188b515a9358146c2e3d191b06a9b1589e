@@ -1,0 +1,1263 @@
+{
+  "_id" : "@types/react-transition-group",
+  "_rev" : "437-683f098b907bbb35464a9f5d0c644e4d",
+  "name" : "@types/react-transition-group",
+  "description" : "TypeScript definitions for react-transition-group",
+  "dist-tags" : {
+    "ts2.2" : "1.1.0",
+    "ts3.1" : "4.4.0",
+    "ts4.0" : "4.4.0",
+    "ts2.1" : "1.1.0",
+    "ts3.0" : "4.4.0",
+    "ts3.9" : "4.4.0",
+    "ts2.9" : "4.2.4",
+    "ts3.8" : "4.4.0",
+    "ts2.8" : "4.2.4",
+    "ts3.7" : "4.4.0",
+    "ts2.7" : "2.0.12",
+    "ts3.6" : "4.4.0",
+    "ts2.6" : "2.0.12",
+    "ts3.5" : "4.4.0",
+    "ts2.5" : "2.0.6",
+    "ts3.4" : "4.4.0",
+    "ts2.4" : "2.0.6",
+    "ts3.3" : "4.4.0",
+    "ts2.3" : "2.0.6",
+    "ts3.2" : "4.4.0",
+    "ts4.1" : "4.4.0",
+    "latest" : "4.4.0"
+  },
+  "versions" : {
+    "4.2.0" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "4.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-4.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-4.2.0.tgz",
+        "shasum" : "86ddb509ce3de27341c7cb7797abb99b1c4676bf"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@4.2.0",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "a05e10c647fdd5d5163890713146f1657db2fcdf2883b6f99e3b03b3289e56de",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_4.2.0_1563910834894_0.19521033057537807"
+      }
+    },
+    "4.2.1" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "4.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-4.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-4.2.1.tgz",
+        "shasum" : "a1e0c984c8d8bac7b02ed01a9c2029d5223806c8"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@4.2.1",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "edf50e097ec6b821d4708cd757aabe1a0e87178ea1ad878dff70a3beeb296eb7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_4.2.1_1565107528631_0.2647661140442623"
+      }
+    },
+    "4.2.4" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "4.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-4.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-4.2.4.tgz",
+        "shasum" : "c7416225987ccdb719262766c1483da8f826838d"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@4.2.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "42bf95a265b584d80686cf96d9d9c9c8c36ea87dfc123f96da634f02a040e6bb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_4.2.4_1582589883729_0.18331917299155887"
+      }
+    },
+    "4.2.2" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "4.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-4.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-4.2.2.tgz",
+        "shasum" : "8c851c4598a23a3a34173069fb4c5c9e41c02e3f"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@4.2.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "4949dd3ccc6a0b720f3a7f28b3be73145ada8db72c317d0419b404b235af4dcb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_4.2.2_1565213622380_0.8942849005793221"
+      }
+    },
+    "4.4.0" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "4.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-4.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-4.4.0.tgz",
+        "shasum" : "882839db465df1320e4753e6e9f70ca7e9b4d46d"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@4.4.0",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "9ed7259c4d4647549ff4348ac51fd30f6073ced32efc3aeb4d52ac9f6179850f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_4.4.0_1590087782239_0.19198987437740134"
+      }
+    },
+    "4.2.3" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "4.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-4.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-4.2.3.tgz",
+        "shasum" : "4924133f7268694058e415bf7aea2d4c21131470"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@4.2.3",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "4d410a6d1cb49621ed7d7da30ac2a26dec3812efd6f37393234eba0d6b961dc0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_4.2.3_1570055553178_0.5278012369343721"
+      }
+    },
+    "2.9.1" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.9.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.9.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.9.1.tgz",
+        "shasum" : "66c9ca5d0b20bae72fe6b797e0d362b996d55e9f"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.9.1",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "6ba20250bf42aa3f8566049aa458aa836835897fb0a1ac00f2177dd464252098",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.9.1_1556642746634_0.2337333378051667"
+      }
+    },
+    "2.9.2" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.9.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.9.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.9.2.tgz",
+        "shasum" : "c48cf2a11977c8b4ff539a1c91d259eaa627028d"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.9.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "c7825602dd7da6e392a52b3cead5930c66b2c16e9e8cba4af6c86deceb43b546",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.9.2_1559932251037_0.5562050897306812"
+      }
+    },
+    "2.0.0" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.0.tgz",
+        "shasum" : "8a6fd304f291935d8aa46d86a69904f87961dadc"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.0",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "0f5662d6085268aff26a63aa4fd98f1f826109217992705036140539e69d45e8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-2.0.0.tgz_1500041968431_0.5529459407553077"
+      }
+    },
+    "2.0.1" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.1.tgz",
+        "shasum" : "e8bb4b7138271e24b542c3f51f316a48d4f1dbe7"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.1",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "38e61dc5d405889a2b133b9b948fce37377458e471fe2005a30d28bfd0026b30",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-2.0.1.tgz_1500388872480_0.5211241184733808"
+      }
+    },
+    "2.0.8" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.8.tgz",
+        "shasum" : "1ea86f6d8288e4bba8d743317ba9cc61cdacc1ad"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.8",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "20f432807adbc4741edf70924991c4d638395d70e5367ffdbff612977e49c1e1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.8_1523296744765_0.7590798184414482"
+      }
+    },
+    "2.0.10" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.10.tgz",
+        "shasum" : "d8a44eaa865022b4c73140a449a16ede5b0fdf45"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.10",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "4370071fb0c5ea2dd8ceb2e82643e052dedb5d29c40480905cea740d05ace53e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.10_1527798336789_0.67175025495818"
+      }
+    },
+    "2.8.0" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.8.0.tgz",
+        "shasum" : "0e30ced3ad695ac053f715675467162b19bbe539"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.8.0",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ed2eaf516fb6273dc89e0102f519c376fa1501512e3f4087dfe6f87426edf268",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.8.0_1554410521310_0.9214402902227905"
+      }
+    },
+    "2.0.9" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.9.tgz",
+        "shasum" : "ed6a71fb711e524345844defec2a861c1a222a03"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.9",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "76441b239a2175b22728e29a746ffbc461c1618c902ceaa820727613f0ac6b90",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.9_1524807591870_0.5605690336786304"
+      }
+    },
+    "2.9.0" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.9.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-transition-group"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.9.0.tgz",
+        "shasum" : "2a74a885432d673a93a2c93c34ce5dbf9f1426f8"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.9.0",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "739b040c6a9d41a1c5a9288d7b9e181ab0151562debc3074f1e2817fe1cec450",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.9.0_1554915684170_0.881827031163082"
+      }
+    },
+    "2.0.6" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.6.tgz",
+        "shasum" : "8903fa2cf540ba454461590bff811a787889617c"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.6",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "60d47d40f03421245d685921bb6d9f4cb1f70478cdfdeee9f4d5931d1f247b1c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-2.0.6.tgz_1506449952011_0.1678935184609145"
+      }
+    },
+    "2.0.12" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.12.tgz",
+        "shasum" : "ee2dc2abe8930d888ea3d88d759518f739b740c9"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.12",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "69e49b0c4184685cf4a2441f972471ddb9c62615300acbecf3eed8ef4d657190",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.12_1533173914676_0.7541485090660891"
+      }
+    },
+    "2.0.7" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.7.tgz",
+        "shasum" : "2847292d54c5685d982ae5a3ecb6960946689d87"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.7",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "87e80d887938ff7cc982303830a0cbeed180c9c52d4ecb5f579ba2304914948c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.7_1518469818859_0.4072519873154026"
+      }
+    },
+    "2.0.11" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.11.tgz",
+        "shasum" : "feb274676a39383fffaa0dff710958d2251abefb"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.11",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "a8b7ac29b564b9aee836e28c016f337ac2e47609e81273b34392109f86ea844f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.11_1527870669924_0.4509241098278447"
+      }
+    },
+    "2.0.4" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.4.tgz",
+        "shasum" : "b959c7f80441be4b4b34e3d11c34ae0499a3ffca"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.4",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "18938ee6ada474430dd284dada5af9f637db709082e8e46e7e145fb8d15c47d8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-2.0.4.tgz_1502921359561_0.11219349899329245"
+      }
+    },
+    "2.0.14" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.14.tgz",
+        "shasum" : "afd0cd785a97f070b55765e9f9d76ff568269001"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.14",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "db27ebdbb50ebe1eed782cde0586d1b8e46f960432dfe71d4e80c5506ca3960b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.14_1536279909622_0.8721362734754317"
+      }
+    },
+    "2.0.5" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.5.tgz",
+        "shasum" : "29c85c07b7ed4a4a166404b667022f49515d1728"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.5",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "7ac32b05bbaa5dd2727f44520e0bc4b3ec518f211b4e3a5d3850b5baf9efe68c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-2.0.5.tgz_1505945318618_0.2591345354449004"
+      }
+    },
+    "2.0.13" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.13.tgz",
+        "shasum" : "7769fb61eb71d64d087a713956f086a42c3ee171"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.13",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "3bef67ba91f8ee291b11d18d8d9e2cfc916a338340d6a192bcd10388487c824f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.13_1533595231763_0.917915323549686"
+      }
+    },
+    "2.0.2" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.2.tgz",
+        "shasum" : "8b3b84467dd7233c5151dca9bb8c3247224b56e8"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.2",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "0f5662d6085268aff26a63aa4fd98f1f826109217992705036140539e69d45e8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-2.0.2.tgz_1500406036584_0.00724812806583941"
+      }
+    },
+    "2.0.16" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.16.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.16.tgz",
+        "shasum" : "2dcb9e396ab385ee19c4af1c9caa469a14cd042f"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.16",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "9f5ead69258f2620c98cd08cd620ca2b3a6a8ef8398ce111fb08c6f065cb3d43",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.16_1550097280336_0.12220967821910222"
+      }
+    },
+    "2.0.3" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.3.tgz",
+        "shasum" : "a527af73b46165f31fe4d0ac1489fb417ff8f467"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.3",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "93b28e299bbaa0462ac028a57b5587abc07987ed9e38c6b2b424284795bc0b05",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-2.0.3.tgz_1502820720772_0.43848937144503"
+      }
+    },
+    "2.0.15" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "2.0.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-2.0.15.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.0.15.tgz",
+        "shasum" : "e5ee3fe558832e141cc6041bdd54caea7b787af8"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@2.0.15",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "033ca49c7482026917c2b5f7be7f2930f4ba990e2cb1e409c29b9add49254944",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_2.0.15_1545244198720_0.43195569952814616"
+      }
+    },
+    "1.1.2" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "1.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-1.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-1.1.2.tgz",
+        "shasum" : "a349e70788a6dc723a5f439217011ef926c27b4f"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@1.1.2",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "5fde9c76327d7ff347551ffbadb324412bf15642f4030c294cb61828a9afa67e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-1.1.2.tgz_1500041781017_0.5414885971695185"
+      }
+    },
+    "1.1.3" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "1.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-1.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-1.1.3.tgz",
+        "shasum" : "5fd836a5525d05f198c28d3b6fc672e3a1ff6154"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@1.1.3",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "b9ddb4631912b5b0e0626084c7e68b655b9aac5ea241525e81457e3668337740",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_1.1.3_1518469786330_0.5846470776805182"
+      }
+    },
+    "1.1.4" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "1.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-1.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-1.1.4.tgz",
+        "shasum" : "519825511b56f93a9173d8fe63e5a42a5c438722"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@1.1.4",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "26b8805358c44dd5564dc1307322a0dcd91f1ccd5dc93f5ebbaf0693f26d8551",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_1.1.4_1524781166429_0.7249655152965242"
+      }
+    },
+    "1.1.5" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "1.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-1.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-1.1.5.tgz",
+        "shasum" : "9023b0af51df4a384045e21ce00b44f4ce85334c"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@1.1.5",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "0a54cb10f6ac66f5d848ca0ca6c40665fc8b7481e845b4a43aad5d6c63cc7d80",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_1.1.5_1533595219748_0.7651119899145125"
+      }
+    },
+    "1.1.6" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "1.1.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-1.1.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-1.1.6.tgz",
+        "shasum" : "871079e586ba346edae3b2a1cd0614e9f4363bf7"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@1.1.6",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "e8e69eaa87d21d5d0dcc78ab57a781cd69a9bdd39b533b509a9384ab63e9b4bf",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group_1.1.6_1550097298033_0.552918462265708"
+      }
+    },
+    "1.1.0" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-1.1.0.tgz",
+        "shasum" : "19ec4bfa1cb1809ecbc4599d0c38d2e9ffb19bfe"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@1.1.0",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "1bf6213da99a42924a5791335ad08c0ac085b496a4c6293b1daba48ded9854dd",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/react-transition-group-1.1.0.tgz_1493305222627_0.4626653101295233"
+      }
+    },
+    "1.1.1" : {
+      "name" : "@types/react-transition-group",
+      "description" : "TypeScript definitions for react-transition-group",
+      "version" : "1.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-transition-group/-/react-transition-group-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-1.1.1.tgz",
+        "shasum" : "372fd2b4777b96aa983ac15fb5cc0ce150550aeb"
+      },
+      "dependencies" : {
+        "@types/react" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-transition-group@1.1.1",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "0ee89c17c94175e1d9c8e7846bd16c2b1e9c672ca82d080db9607de708cbf1c6",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-transition-group-1.1.1.tgz_1498239510210_0.8016156416852027"
+      }
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/react-transition-group`\r\n\r\n# Summary\r\nThis package contains type definitions for react-transition-group (https://github.com/reactjs/react-transition-group).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-transition-group.\r\n\r\n### Additional Details\r\n * Last updated: Thu, 21 May 2020 19:01:42 GMT\r\n * Dependencies: [@types/react](https://npmjs.com/package/@types/react)\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [Karol Janyst](https://github.com/LKay), [Epskampie](https://github.com/Epskampie), [Masafumi Koba](https://github.com/ybiquitous), [tu4mo](https://github.com/tu4mo), and [Ben Grynhaus](https://github.com/bengry).\r\n",
+  "time" : {
+    "4.2.0" : "2019-07-23T19:40:35.086Z",
+    "4.2.1" : "2019-08-06T16:05:28.753Z",
+    "4.2.4" : "2020-02-25T00:18:03.860Z",
+    "4.2.2" : "2019-08-07T21:33:42.536Z",
+    "4.4.0" : "2020-05-21T19:03:02.421Z",
+    "4.2.3" : "2019-10-02T22:32:33.313Z",
+    "2.9.1" : "2019-04-30T16:45:46.753Z",
+    "2.9.2" : "2019-06-07T18:30:51.282Z",
+    "modified" : "2020-08-07T22:35:36.257Z",
+    "2.0.0" : "2017-07-14T14:19:28.540Z",
+    "2.0.1" : "2017-07-18T14:41:13.511Z",
+    "created" : "2017-04-27T15:00:23.067Z",
+    "2.0.8" : "2018-04-09T17:59:04.847Z",
+    "2.0.10" : "2018-05-31T20:25:36.869Z",
+    "2.8.0" : "2019-04-04T20:42:01.414Z",
+    "2.0.9" : "2018-04-27T05:39:51.959Z",
+    "2.9.0" : "2019-04-10T17:01:24.346Z",
+    "2.0.6" : "2017-09-26T18:19:12.078Z",
+    "2.0.12" : "2018-08-02T01:38:34.784Z",
+    "2.0.7" : "2018-02-12T21:10:18.908Z",
+    "2.0.11" : "2018-06-01T16:31:09.998Z",
+    "2.0.4" : "2017-08-16T22:09:19.684Z",
+    "2.0.14" : "2018-09-07T00:25:09.713Z",
+    "2.0.5" : "2017-09-20T22:08:38.714Z",
+    "2.0.13" : "2018-08-06T22:40:31.843Z",
+    "2.0.2" : "2017-07-18T19:27:16.653Z",
+    "2.0.16" : "2019-02-13T22:34:40.489Z",
+    "2.0.3" : "2017-08-15T18:12:00.855Z",
+    "2.0.15" : "2018-12-19T18:29:58.899Z",
+    "1.1.2" : "2017-07-14T14:16:21.229Z",
+    "1.1.3" : "2018-02-12T21:09:46.751Z",
+    "1.1.4" : "2018-04-26T22:19:26.498Z",
+    "1.1.5" : "2018-08-06T22:40:19.838Z",
+    "1.1.6" : "2019-02-13T22:34:58.182Z",
+    "1.1.0" : "2017-04-27T15:00:23.067Z",
+    "1.1.1" : "2017-06-23T17:38:30.295Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/react-transition-group"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

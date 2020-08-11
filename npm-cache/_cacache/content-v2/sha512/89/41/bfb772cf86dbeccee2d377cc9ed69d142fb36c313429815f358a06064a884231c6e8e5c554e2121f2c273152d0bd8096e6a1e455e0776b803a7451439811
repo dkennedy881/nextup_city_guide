@@ -1,0 +1,527 @@
+{
+  "_id" : "postcss-normalize-positions",
+  "_rev" : "15-8b2a38eba19c54360133c989b96ac183",
+  "name" : "postcss-normalize-positions",
+  "description" : "Normalize keyword values for position into length values.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "nightly" : "4.0.0-nightly.2020.8.10",
+    "latest" : "4.0.2"
+  },
+  "versions" : {
+    "4.0.0-nightly.2020.7.31" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0-nightly.2020.7.31",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0-nightly.2020.7.31.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0-nightly.2020.7.31.tgz",
+        "shasum" : "a5c8a1c0c3fde31cf4c465cba661949f56a4c15a"
+      },
+      "dependencies" : {
+        "has" : "^1.0.3",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0-nightly.2020.7.31",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.0-nightly.2020.7.31_1596215740852_0.27587520398355503"
+      },
+      "readme" : "# [postcss][postcss]-normalize-positions\n\n> Normalize positions with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-positions) do:\n\n```\nnpm install postcss-normalize-positions --save\n```\n\n## Example\n\n### Input\n\n```css\ndiv {\n    background-position: bottom left;\n}\n```\n\n### Output\n\n```css\ndiv {\n    background-position:0 100%;\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.8.10" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0-nightly.2020.8.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0-nightly.2020.8.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0-nightly.2020.8.10.tgz",
+        "shasum" : "92d653f1ea13387bd05abd9c33997ee83ce6904e"
+      },
+      "dependencies" : {
+        "has" : "^1.0.3",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0-nightly.2020.8.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.0-nightly.2020.8.10_1597079776819_0.43471029942950223"
+      },
+      "readme" : "# [postcss][postcss]-normalize-positions\n\n> Normalize positions with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-positions) do:\n\n```\nnpm install postcss-normalize-positions --save\n```\n\n## Example\n\n### Input\n\n```css\ndiv {\n    background-position: bottom left;\n}\n```\n\n### Output\n\n```css\ndiv {\n    background-position:0 100%;\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.8.1" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0-nightly.2020.8.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0-nightly.2020.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0-nightly.2020.8.1.tgz",
+        "shasum" : "35e0aecd0b7b95beb228b786e7908c5cc6cfe49d"
+      },
+      "dependencies" : {
+        "has" : "^1.0.3",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0-nightly.2020.8.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.0-nightly.2020.8.1_1596302142285_0.36733117107482416"
+      },
+      "readme" : "# [postcss][postcss]-normalize-positions\n\n> Normalize positions with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-positions) do:\n\n```\nnpm install postcss-normalize-positions --save\n```\n\n## Example\n\n### Input\n\n```css\ndiv {\n    background-position: bottom left;\n}\n```\n\n### Output\n\n```css\ndiv {\n    background-position:0 100%;\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.7.25" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0-nightly.2020.7.25",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0-nightly.2020.7.25.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0-nightly.2020.7.25.tgz",
+        "shasum" : "8440493580c7ecb62ac0baed2e5c5ff1eda098c4"
+      },
+      "dependencies" : {
+        "has" : "^1.0.3",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0-nightly.2020.7.25",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.0-nightly.2020.7.25_1595697248463_0.38831500386120954"
+      },
+      "readme" : "# [postcss][postcss]-normalize-positions\n\n> Normalize positions with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-positions) do:\n\n```\nnpm install postcss-normalize-positions --save\n```\n\n## Example\n\n### Input\n\n```css\ndiv {\n    background-position: bottom left;\n}\n```\n\n### Output\n\n```css\ndiv {\n    background-position:0 100%;\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.21.0"
+    },
+    "4.0.0-nightly.2020.7.24" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0-nightly.2020.7.24",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0-nightly.2020.7.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0-nightly.2020.7.24.tgz",
+        "shasum" : "5ce5723afcf246b574c77072213e516c72d726cb"
+      },
+      "dependencies" : {
+        "has" : "^1.0.3",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0-nightly.2020.7.24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.0-nightly.2020.7.24_1595578380372_0.9399268257332072"
+      },
+      "readme" : "# [postcss][postcss]-normalize-positions\n\n> Normalize positions with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-positions) do:\n\n```\nnpm install postcss-normalize-positions --save\n```\n\n## Example\n\n### Input\n\n```css\ndiv {\n    background-position: bottom left;\n}\n```\n\n### Output\n\n```css\ndiv {\n    background-position:0 100%;\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.21.0"
+    },
+    "4.0.2" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.2.tgz",
+        "shasum" : "05f757f84f260437378368a91f8932d4b102917f"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.2_1549994135158_0.4497899599958597"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-nightly.2020.8.4" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0-nightly.2020.8.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0-nightly.2020.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0-nightly.2020.8.4.tgz",
+        "shasum" : "09c3ffb17070afe33415f096b43f88d0ea9f8cd9"
+      },
+      "dependencies" : {
+        "has" : "^1.0.3",
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0-nightly.2020.8.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.0-nightly.2020.8.4_1596545468114_0.9895003600902892"
+      },
+      "readme" : "# [postcss][postcss]-normalize-positions\n\n> Normalize positions with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-positions) do:\n\n```\nnpm install postcss-normalize-positions --save\n```\n\n## Example\n\n### Input\n\n```css\ndiv {\n    background-position: bottom left;\n}\n```\n\n### Output\n\n```css\ndiv {\n    background-position:0 100%;\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0.tgz",
+        "shasum" : "ee9343ab981b822c63ab72615ecccd08564445a3"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.0_1530702670268_0.6359350660446228"
+      }
+    },
+    "4.0.1" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.1.tgz",
+        "shasum" : "ee2d4b67818c961964c6be09d179894b94fd6ba1"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "postcss-normalize-positions@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions_4.0.1_1537822267165_0.7717084041433071"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0-rc.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0-rc.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0-rc.2.tgz",
+        "shasum" : "f12cb691438e8cb91abe914052ac2381e563da32"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0-rc.2",
+        "has" : "^1.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions-4.0.0-rc.2.tgz_1502049221658_0.926888155285269"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "postcss-normalize-positions",
+      "description" : "Normalize keyword values for position into length values.",
+      "version" : "4.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-positions/-/postcss-normalize-positions-4.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-positions%2F-%2Fpostcss-normalize-positions-4.0.0-rc.0.tgz",
+        "shasum" : "6f095a558bf98f7c4f4483f2bc1c39b25f3fa54f"
+      },
+      "dependencies" : {
+        "cssnano-util-get-arguments" : "^4.0.0-rc.0",
+        "has" : "^1.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-normalize-positions@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-positions-4.0.0-rc.0.tgz_1496311207102_0.43456855369731784"
+      },
+      "_shasum" : "6f095a558bf98f7c4f4483f2bc1c39b25f3fa54f",
+      "_nodeVersion" : "6.9.1"
+    }
+  },
+  "readme" : "",
+  "time" : {
+    "4.0.0-nightly.2020.8.1" : "2020-08-01T17:15:42.396Z",
+    "created" : "2017-06-01T10:00:07.978Z",
+    "4.0.2" : "2019-02-12T17:55:35.272Z",
+    "4.0.0-nightly.2020.8.4" : "2020-08-04T12:51:08.207Z",
+    "4.0.0" : "2018-07-04T11:11:10.351Z",
+    "4.0.1" : "2018-09-24T20:51:07.308Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:42.557Z",
+    "4.0.0-rc.0" : "2017-06-01T10:00:07.978Z",
+    "4.0.0-nightly.2020.7.31" : "2020-07-31T17:15:41.089Z",
+    "4.0.0-nightly.2020.8.10" : "2020-08-10T17:16:16.911Z",
+    "4.0.0-nightly.2020.7.25" : "2020-07-25T17:14:08.559Z",
+    "4.0.0-nightly.2020.7.24" : "2020-07-24T08:13:00.466Z",
+    "modified" : "2020-08-10T17:16:19.463Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

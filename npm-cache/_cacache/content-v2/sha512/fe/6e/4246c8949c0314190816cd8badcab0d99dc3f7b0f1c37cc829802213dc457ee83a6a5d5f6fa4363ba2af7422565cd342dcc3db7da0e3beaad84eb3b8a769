@@ -1,0 +1,585 @@
+{
+  "_id" : "@babel/helper-compilation-targets",
+  "_rev" : "12-e88bb02a93aa4c66bc29374a8b88d41c",
+  "name" : "@babel/helper-compilation-targets",
+  "description" : "Engine compat data used in @babel/preset-env",
+  "dist-tags" : {
+    "latest" : "7.10.4"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.10.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.10.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.10.1.tgz",
+        "shasum" : "ad6f69b4c3bae955081ef914a84e5878ffcaca63"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.10.1",
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.1",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.1",
+        "@babel/helper-plugin-test-runner" : "^7.10.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.10.1",
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.10.1_1590617220028_0.043029109119161024"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.10.0" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.10.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.10.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.10.0.tgz",
+        "shasum" : "c2734604ddfaa616479759a0cc2593d1928304bd"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.10.0",
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.1",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.0",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.3.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.10.0",
+      "gitHead" : "5da2440adff6f25579fb6e9a018062291c89416f",
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.10.0_1590529403215_0.9301077547113896"
+      },
+      "_nodeVersion" : "14.3.0"
+    },
+    "7.10.2" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.10.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.10.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.10.2.tgz",
+        "shasum" : "a17d9723b6e2c750299d2a14d4637c76936d8285"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.10.1",
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.1",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.2",
+        "@babel/helper-plugin-test-runner" : "^7.10.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.17.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.10.2",
+      "gitHead" : "b0350e5b1e86bd2d53b4a25705e39eb380ec65a2",
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.10.2_1590866710602_0.16112127958102174"
+      },
+      "_nodeVersion" : "12.17.0"
+    },
+    "7.8.6" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.8.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.8.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.8.6.tgz",
+        "shasum" : "015b85db69e3a34240d5c2b761fc53eb9695f09c"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.8.6",
+        "browserslist" : "^4.8.5",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.1",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.6",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.7.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.8.6",
+      "gitHead" : "750d3dde3bd2d390819820fd22c05441da78751b",
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.8.6_1582806085869_0.8077167705814341"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "7.10.4" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.10.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.10.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.10.4.tgz",
+        "shasum" : "804ae8e3f04376607cc791b9d47d540276332bd2"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.10.4",
+        "browserslist" : "^4.12.0",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.1",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.4",
+        "@babel/helper-plugin-test-runner" : "^7.10.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.10.4",
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.10.4_1593522693202_0.9918065327507486"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.8.7" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.8.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.8.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.8.7.tgz",
+        "shasum" : "dac1eea159c0e4bd46e309b5a1b04a66b53c1dde"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.8.6",
+        "browserslist" : "^4.9.1",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.1",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.7",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.7.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.8.7",
+      "gitHead" : "595f65f33b8e948e34d12be83f700cf8d070c790",
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.8.7_1583373361111_0.9416845315035198"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "7.9.6" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.9.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.9.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.9.6.tgz",
+        "shasum" : "1e05b7ccc9d38d2f8b40b458b380a04dcfadd38a"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.9.6",
+        "browserslist" : "^4.11.1",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.1",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.9.6",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.0.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.9.6",
+      "gitHead" : "9c2846bcacc75aa931ea9d556950c2113765d43d",
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.9.6_1588185484730_0.36012289872988834"
+      },
+      "_nodeVersion" : "14.0.0"
+    },
+    "7.8.1" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.8.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.8.1.tgz",
+        "shasum" : "309da97e93e6ca74896393d0c8da7af39cb4cea8"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.8.1",
+        "browserslist" : "^4.8.2",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.0",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.0",
+        "@babel/helper-plugin-test-runner" : "^7.8.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.8.1",
+      "gitHead" : "575eeb370efd1a234bd7f124dc6b1f9161f0c161",
+      "exports" : false,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.8.1_1578834167494_0.9605025350445473"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.8.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.8.3.tgz",
+        "shasum" : "2deedc816fd41dca7355ef39fd40c9ea69f0719a"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.8.1",
+        "browserslist" : "^4.8.2",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.0",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.3",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "exports" : false,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.8.3_1578951656598_0.11689359320991066"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.8.4" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.8.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.8.4.tgz",
+        "shasum" : "03d7ecd454b7ebe19a254f76617e61770aed2c88"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.8.4",
+        "browserslist" : "^4.8.5",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.1",
+        "semver" : "^5.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.4",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.7.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.8.4",
+      "gitHead" : "5c2e6bc07fed3d28801d93168622c99ae622653a",
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.8.4_1580387851527_0.14066725089017296"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "7.8.0" : {
+      "name" : "@babel/helper-compilation-targets",
+      "description" : "Engine compat data used in @babel/preset-env",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-compilation-targets"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-compilation-targets/-/helper-compilation-targets-7.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.8.0.tgz",
+        "shasum" : "63d3924bc04b68b2d24d25b8cc452ee86dcb3a59"
+      },
+      "dependencies" : {
+        "@babel/compat-data" : "^7.8.0",
+        "browserslist" : "^4.8.2",
+        "invariant" : "^2.2.4",
+        "levenary" : "^1.1.0",
+        "semver" : "^7.1.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.0",
+        "@babel/helper-plugin-test-runner" : "^7.8.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-compilation-targets@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "exports" : false,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-compilation-targets_7.8.0_1578788202854_0.024554826096487403"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "time" : {
+    "7.10.1" : "2020-05-27T22:07:00.147Z",
+    "7.10.0" : "2020-05-26T21:43:23.366Z",
+    "7.10.2" : "2020-05-30T19:25:10.741Z",
+    "7.10.4" : "2020-06-30T13:11:33.341Z",
+    "created" : "2020-01-12T00:16:42.602Z",
+    "7.8.6" : "2020-02-27T12:21:25.967Z",
+    "7.8.7" : "2020-03-05T01:56:01.294Z",
+    "7.9.6" : "2020-04-29T18:38:04.921Z",
+    "7.8.1" : "2020-01-12T13:02:47.625Z",
+    "modified" : "2020-06-30T13:11:38.035Z",
+    "7.8.3" : "2020-01-13T21:40:56.733Z",
+    "7.8.4" : "2020-01-30T12:37:31.618Z",
+    "7.8.0" : "2020-01-12T00:16:43.020Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/babel/babel.git",
+    "directory" : "packages/babel-helper-compilation-targets"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

@@ -1,0 +1,472 @@
+{
+  "_id" : "dom-serializer",
+  "_rev" : "16-bd276c6218a4f99aee71c770b633f340",
+  "name" : "dom-serializer",
+  "description" : "render dom nodes to string",
+  "dist-tags" : {
+    "latest" : "1.0.1"
+  },
+  "versions" : {
+    "0.2.2" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "0.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-0.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-0.2.2.tgz",
+        "shasum" : "1afb81f533717175d478655debc5e332d9f9bb51"
+      },
+      "dependencies" : {
+        "domelementtype" : "^2.0.1",
+        "entities" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "cheerio" : "^1.0.0-rc.2",
+        "expect.js" : "~0.3.1",
+        "htmlparser2" : "^3.10.0",
+        "lodash" : "^4.17.11",
+        "mocha" : "^6.2.0",
+        "xyz" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test.js"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@0.2.2",
+      "gitHead" : "1451bf260586d612314820be41b2b89528f01155",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/dom-serializer_0.2.2_1573339774440_0.8054830648355711"
+      },
+      "prettier" : {
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "0.1.1" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-0.1.1.tgz",
+        "shasum" : "1ec4059e284babed36eec2941d4a970a189ce7c0"
+      },
+      "dependencies" : {
+        "domelementtype" : "^1.3.0",
+        "entities" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "cheerio" : "*",
+        "expect.js" : "^0.3.1",
+        "jshint" : "^2.9.1-rc1",
+        "lodash" : "^4.17.11",
+        "mocha" : "^5.2.0",
+        "xyz" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test.js"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@0.1.1",
+      "gitHead" : "1b9eb87c621a184b97467b03600b50d08e5a5086",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/dom-serializer_0.1.1_1550169324395_0.510742122552571"
+      },
+      "_nodeVersion" : "11.4.0"
+    },
+    "0.2.0" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-0.2.0.tgz",
+        "shasum" : "fd7beb2e6356ae93c7b5a41754d9e42c6ef00d4a"
+      },
+      "dependencies" : {
+        "domelementtype" : "^2.0.1",
+        "entities" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "cheerio" : "^1.0.0-rc.2",
+        "expect.js" : "~0.3.1",
+        "htmlparser2" : "^3.10.0",
+        "lodash" : "^4.17.11",
+        "mocha" : "^6.2.0",
+        "xyz" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test.js"
+      },
+      "_npmVersion" : "6.10.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@0.2.0",
+      "gitHead" : "985d6f91c53ed8b9ed9bf20b4468e328212b523f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/dom-serializer_0.2.0_1564710568096_0.5451040558312688"
+      },
+      "prettier" : {
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "0.2.1" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "0.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-0.2.1.tgz",
+        "shasum" : "13650c850daffea35d8b626a4cfc4d3a17643fdb"
+      },
+      "dependencies" : {
+        "domelementtype" : "^2.0.1",
+        "entities" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "cheerio" : "^1.0.0-rc.2",
+        "expect.js" : "~0.3.1",
+        "htmlparser2" : "^3.10.0",
+        "lodash" : "^4.17.11",
+        "mocha" : "^6.2.0",
+        "xyz" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test.js"
+      },
+      "_npmVersion" : "6.10.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@0.2.1",
+      "gitHead" : "321eebeb82abbd34c29ce8f877e8e74c64fe36ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/dom-serializer_0.2.1_1564710953041_0.9348214874583851"
+      },
+      "prettier" : {
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.0.0" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-1.0.0.tgz",
+        "shasum" : "7ad5031be731a95673787e94567d216b83973eab"
+      },
+      "dependencies" : {
+        "domelementtype" : "^2.0.1",
+        "domhandler" : "^3.0.0",
+        "entities" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/cheerio" : "^0.22.18",
+        "@types/jest" : "^25.1.4",
+        "@types/node" : "^13.9.1",
+        "@typescript-eslint/eslint-plugin" : "^2.31.0",
+        "@typescript-eslint/parser" : "^2.31.0",
+        "cheerio" : "^1.0.0-rc.2",
+        "coveralls" : "^3.0.5",
+        "eslint" : "^7.0.0",
+        "eslint-config-prettier" : "^6.0.0",
+        "htmlparser2" : "~4.1.0",
+        "jest" : "^26.0.1",
+        "prettier" : "^2.0.5",
+        "ts-jest" : "^25.3.1",
+        "typescript" : "^3.5.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest --coverage && npm run lint",
+        "coverage" : "cat coverage/lcov.info | coveralls",
+        "lint" : "eslint --ext=js,ts src",
+        "format" : "prettier --write '**/*.{ts,md,json}'",
+        "build" : "tsc",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@1.0.0",
+      "gitHead" : "7f406252f413566972175318ab8f46b1549f51ef",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/dom-serializer_1.0.0_1589064670820_0.9231405736157936"
+      },
+      "jest" : {
+        "preset" : "ts-jest",
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.0.0" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "0.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-0.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-0.0.0.tgz",
+        "shasum" : "2a207dcae76ce52fbb1793f34f5df202fd1bdc4c"
+      },
+      "dependencies" : {
+        "domelementtype" : "~1.1.1",
+        "entities" : "~1.1.1"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "~0.3.1",
+        "lodash" : "~2.4.1",
+        "jshint" : "~2.3.0",
+        "cheerio" : "*"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.10",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@0.0.0",
+      "_shasum" : "2a207dcae76ce52fbb1793f34f5df202fd1bdc4c"
+    },
+    "1.0.1" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-1.0.1.tgz",
+        "shasum" : "79695eb49af3cd8abc8d93a73da382deb1ca0795"
+      },
+      "dependencies" : {
+        "domelementtype" : "^2.0.1",
+        "domhandler" : "^3.0.0",
+        "entities" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/cheerio" : "^0.22.18",
+        "@types/jest" : "^25.1.4",
+        "@types/node" : "^13.9.1",
+        "@typescript-eslint/eslint-plugin" : "^2.31.0",
+        "@typescript-eslint/parser" : "^2.31.0",
+        "cheerio" : "^1.0.0-rc.2",
+        "coveralls" : "^3.0.5",
+        "eslint" : "^7.0.0",
+        "eslint-config-prettier" : "^6.0.0",
+        "htmlparser2" : "~4.1.0",
+        "jest" : "^26.0.1",
+        "prettier" : "^2.0.5",
+        "ts-jest" : "^25.3.1",
+        "typescript" : "^3.5.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest --coverage && npm run lint",
+        "coverage" : "cat coverage/lcov.info | coveralls",
+        "lint" : "eslint --ext=js,ts src",
+        "format" : "prettier --write '**/*.{ts,md,json}'",
+        "build" : "tsc",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@1.0.1",
+      "gitHead" : "06b0a79d224fdea75c2485e9930d1e7bcfdb94a1",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/dom-serializer_1.0.1_1589066571854_0.8762503221850786"
+      },
+      "jest" : {
+        "preset" : "ts-jest",
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.0.1" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-0.0.1.tgz",
+        "shasum" : "9589827f1e32d22c37c829adabd59b3247af8eaf"
+      },
+      "dependencies" : {
+        "domelementtype" : "~1.1.1",
+        "entities" : "~1.1.1"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "~0.3.1",
+        "lodash" : "~2.4.1",
+        "jshint" : "~2.3.0",
+        "cheerio" : "*"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.13",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@0.0.1",
+      "gitHead" : "d678d0face5a3eb6d338da949a29ce9b70cf901a",
+      "_shasum" : "9589827f1e32d22c37c829adabd59b3247af8eaf"
+    },
+    "0.1.0" : {
+      "name" : "dom-serializer",
+      "description" : "render dom nodes to string",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/cheeriojs/dom-renderer.git"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/dom-serializer/-/dom-serializer-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-serializer%2F-%2Fdom-serializer-0.1.0.tgz",
+        "shasum" : "073c697546ce0780ce23be4a28e293e40bc30c82"
+      },
+      "dependencies" : {
+        "domelementtype" : "~1.1.1",
+        "entities" : "~1.1.1"
+      },
+      "devDependencies" : {
+        "cheerio" : "*",
+        "expect.js" : "~0.3.1",
+        "jshint" : "~2.3.0",
+        "lodash" : "~2.4.1",
+        "mocha" : "*",
+        "xyz" : "0.4.x"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "dom-serializer@0.1.0",
+      "gitHead" : "249b9a921e6ba318c52b87de21e8475bcb4050e5",
+      "_shasum" : "073c697546ce0780ce23be4a28e293e40bc30c82",
+      "_nodeVersion" : "1.2.0"
+    }
+  },
+  "readme" : "Renders a DOM node or an array of DOM nodes to a string.\n",
+  "time" : {
+    "0.2.2" : "2019-11-09T22:49:34.548Z",
+    "created" : "2014-05-20T13:20:43.000Z",
+    "modified" : "2020-05-09T23:22:54.349Z",
+    "0.1.1" : "2019-02-14T18:35:24.541Z",
+    "0.2.0" : "2019-08-02T01:49:28.252Z",
+    "0.2.1" : "2019-08-02T01:55:53.155Z",
+    "1.0.0" : "2020-05-09T22:51:10.992Z",
+    "0.0.0" : "2014-05-20T13:20:43.000Z",
+    "1.0.1" : "2020-05-09T23:22:52.025Z",
+    "0.0.1" : "2014-06-03T17:14:23.674Z",
+    "0.1.0" : "2015-02-11T22:37:38.358Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/cheeriojs/dom-renderer.git"
+  },
+  "users" : {
+    "shuoshubao" : true,
+    "mojaray2k" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

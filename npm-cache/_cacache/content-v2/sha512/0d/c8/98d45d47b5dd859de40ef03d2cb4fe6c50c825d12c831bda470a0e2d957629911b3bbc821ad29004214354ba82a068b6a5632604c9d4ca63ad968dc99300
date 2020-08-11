@@ -1,0 +1,69 @@
+{
+  "_id" : "@babel/helper-skip-transparent-expression-wrappers",
+  "_rev" : "1-0",
+  "name" : "@babel/helper-skip-transparent-expression-wrappers",
+  "description" : "Helper which skips types and parentheses",
+  "dist-tags" : {
+    "latest" : "7.11.0"
+  },
+  "versions" : {
+    "7.11.0" : {
+      "name" : "@babel/helper-skip-transparent-expression-wrappers",
+      "description" : "Helper which skips types and parentheses",
+      "version" : "7.11.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-skip-transparent-expression-wrappers"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.11.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-skip-transparent-expression-wrappers%2F-%2Fhelper-skip-transparent-expression-wrappers-7.11.0.tgz",
+        "shasum" : "eec162f112c2f58d3af0af125e3bb57665146729"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.11.0"
+      },
+      "devDependencies" : {
+        "@babel/traverse" : "^7.11.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/helper-skip-transparent-expression-wrappers@7.11.0",
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-skip-transparent-expression-wrappers_7.11.0_1596144439346_0.4443770267811984"
+      },
+      "_nodeVersion" : "14.6.0"
+    }
+  },
+  "readme" : "# @babel/helper-skip-transparent-expression-wrappers\n\n> Helper which skips types and parentheses\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-skip-transparent-expression-wrappers\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-skip-transparent-expression-wrappers --dev\n```\n",
+  "time" : {
+    "7.11.0" : "2020-07-30T21:27:19.508Z",
+    "created" : "2020-07-30T21:27:19.099Z",
+    "modified" : "2020-07-30T21:27:22.008Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/babel/babel.git",
+    "directory" : "packages/babel-helper-skip-transparent-expression-wrappers"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

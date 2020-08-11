@@ -1,0 +1,142 @@
+{
+  "_id" : "is-regexp",
+  "_rev" : "5-fb2f1ed376ead1db3f0af18e9bc4a4c0",
+  "name" : "is-regexp",
+  "description" : "Check if a value is a regular expression",
+  "dist-tags" : {
+    "latest" : "2.1.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "is-regexp",
+      "description" : "Check if a value is a regular expression",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/is-regexp.git"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-regexp/-/is-regexp-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-regexp%2F-%2Fis-regexp-2.0.0.tgz",
+        "shasum" : "d669511d64a620c7a8dffa9a1e00710f9275ace0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "is-regexp@2.0.0",
+      "gitHead" : "c3cc127e38b11a2b3c720582f32b31cfd9adc1ee",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-regexp_2.0.0_1521730815430_0.674212659134924"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "2.1.0" : {
+      "name" : "is-regexp",
+      "description" : "Check if a value is a regular expression",
+      "version" : "2.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/is-regexp.git"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-regexp/-/is-regexp-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-regexp%2F-%2Fis-regexp-2.1.0.tgz",
+        "shasum" : "cd734a56864e23b956bf4e7c66c396a4c0b22c2d"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "is-regexp@2.1.0",
+      "gitHead" : "49e4f007cb9ff3661f37a18aaa7578bebcae3270",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-regexp_2.1.0_1555435196431_0.9120120436081753"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "1.0.0" : {
+      "name" : "is-regexp",
+      "description" : "Check whether a variable is a regular expression",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/is-regexp"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-regexp/-/is-regexp-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-regexp%2F-%2Fis-regexp-1.0.0.tgz",
+        "shasum" : "fd2d883545c46bac5a633e7b9a09e87fa2cb5069"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "is-regexp@1.0.0",
+      "_shasum" : "fd2d883545c46bac5a633e7b9a09e87fa2cb5069"
+    }
+  },
+  "readme" : "# is-regexp [![Build Status](https://travis-ci.org/sindresorhus/is-regexp.svg?branch=master)](https://travis-ci.org/sindresorhus/is-regexp)\n\n> Check if a value is a regular expression\n\n\n## Install\n\n```\n$ npm install is-regexp\n```\n\n\n## Usage\n\n```js\nconst isRegexp = require('is-regexp');\n\nisRegexp('unicorn');\n//=> false\n\nisRegexp(/unicorn/);\n//=> true\n\nisRegexp(new RegExp('unicorn'));\n//=> true\n```\n\n\n## Related\n\n- [is](https://github.com/sindresorhus/is) - Type check values\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "time" : {
+    "2.0.0" : "2018-03-22T15:00:15.514Z",
+    "2.1.0" : "2019-04-16T17:19:56.556Z",
+    "created" : "2014-06-11T09:12:27.882Z",
+    "modified" : "2019-04-16T17:20:01.049Z",
+    "1.0.0" : "2014-06-11T09:12:27.882Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/is-regexp.git"
+  },
+  "users" : {
+    "rocket0191" : true
+  },
+  "readmeFilename" : "readme.md",
+  "license" : "MIT"
+}

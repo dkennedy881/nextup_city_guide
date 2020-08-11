@@ -1,0 +1,1317 @@
+{
+  "_id" : "@babel/plugin-syntax-export-namespace-from",
+  "_rev" : "55-86e159db28e7020705f484283f0e1e3f",
+  "name" : "@babel/plugin-syntax-export-namespace-from",
+  "description" : "Allow parsing of export namespace from",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.0.0-rc.1" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-rc.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-rc.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-rc.1.tgz",
+        "shasum" : "907af14aeba94df928eddac287bab5c9d750fdd2"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-rc.1_1533845234458_0.7911655617538151"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-rc.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-rc.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-rc.2.tgz",
+        "shasum" : "a70ac4b9db6113eaab8c9bfbc5e4eba963c6b4aa"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.2"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-rc.2_1534879391724_0.7971617464059588"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-rc.0.tgz",
+        "shasum" : "e74fcbfc23ec91190651bdd49053c76b0a2a732f"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-rc.0_1533830249424_0.3209323568121547"
+      }
+    },
+    "7.0.0-beta.39" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.39",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.39.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.39.tgz",
+        "shasum" : "aa7b0b60c1c20250f89d09204c03fc67e3f9806c"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.39"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.39"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.39",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from-7.0.0-beta.39.tgz_1517344044846_0.186058365739882"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.38" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.38",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.38.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.38.tgz",
+        "shasum" : "48ef9441928e8a58e8457b779e7660befe1c3e0d"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.38"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.38"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.38",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from-7.0.0-beta.38.tgz_1516206700618_0.8375762361101806"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-rc.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-rc.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-rc.3.tgz",
+        "shasum" : "d4b63effe5e5a80e9c0dadb9fe9216e9e62d9e18"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-rc.3_1535134026377_0.5602816130145518"
+      }
+    },
+    "7.0.0-beta.37" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.37",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.37.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.37.tgz",
+        "shasum" : "5accac4222716d39f62fb3f4dab7cc30d057c2dc"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.37"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.37"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.37",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from-7.0.0-beta.37.tgz_1515427341062_0.7358308713883162"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-rc.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-rc.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-rc.4.tgz",
+        "shasum" : "60381ebde1d6af7a1e51353ffc0473b5b06bf3d7"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0-rc.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-rc.4_1535388203359_0.7863903234276373"
+      }
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.54",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.54.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.54.tgz",
+        "shasum" : "fbe44261b46d388e10def932203eaf05d12dcdb7"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.54"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.54"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.54_1531763998045_0.7474032926577134"
+      }
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.53",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.53.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.53.tgz",
+        "shasum" : "31f47f38d697bc2bfeba89509a81447a6090a9df"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.53"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.53"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.53_1531316407767_0.9261601533418284"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.52",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.52.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.52.tgz",
+        "shasum" : "e14c7f138f265f9e26e533cacfae0ef46170cfa9"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.52"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.52"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.52_1530838757804_0.7364444465345958"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.51",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.51.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.51.tgz",
+        "shasum" : "c8f2b9a8058d1493ba93d1495aaa1d007e6a598b"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.51"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.51"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.51_1528838370995_0.8645110852245388"
+      }
+    },
+    "7.0.0-beta.36" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.36",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.36.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.36.tgz",
+        "shasum" : "1b18fe72b0c704b6817412ed40698e0ed231c68a"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.36"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.36"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.36",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from-7.0.0-beta.36.tgz_1514228660553_0.3485404155217111"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.35" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.35",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.35.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.35.tgz",
+        "shasum" : "5b04afeba86712d311871011b1b1b87232721a0a"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.35"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.35"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.35",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from-7.0.0-beta.35.tgz_1513288053934_0.8571398104541004"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.34" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.34",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.34.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.34.tgz",
+        "shasum" : "dccd9beb907422ef7ef958e9b7e66c5b0ba618a0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.34"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.34"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.34",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from-7.0.0-beta.34.tgz_1512225543153_0.5069271773099899"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.56",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.56.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.56.tgz",
+        "shasum" : "a5773a4c058934537045103a913d996938934f66"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.56"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.56"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.56_1533344660985_0.5174069365482066"
+      }
+    },
+    "7.0.0-beta.33" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.33",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.33.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.33.tgz",
+        "shasum" : "a2635f4af1ebd770667c572816a2e7d3aa3fd83f"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.33"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.33"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.33",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from-7.0.0-beta.33.tgz_1512138484694_0.5873924987390637"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.55",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.55.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.55.tgz",
+        "shasum" : "1542c60754390da81e6e02f03c265e0d445f8b69"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.55"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.55"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.55_1532815654828_0.15354432115339556"
+      }
+    },
+    "7.7.4" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.7.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.7.4.tgz",
+        "shasum" : "116c3e5db0d3e41018665528a468bc0f336044c3"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.7.4_1574465506888_0.11773224218872169"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.8.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.8.3.tgz",
+        "shasum" : "028964a9ba80dbc094c915c487ad7c4e7a66465a"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.8.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.8.3_1578951678209_0.1990269378040812"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.50",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.50.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.50.tgz",
+        "shasum" : "438e6a38020a1ac3c20f54ee5716ca4490e765be"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.50"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.50"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.49"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.50_1528832822985_0.20210475660269456"
+      }
+    },
+    "7.8.0" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.8.0.tgz",
+        "shasum" : "5656c84d27a7795fd75b966716be766869994790"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.8.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.8.0_1578788171886_0.5211993101603838"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.2.0" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.2.0.tgz",
+        "shasum" : "8d257838c6b3b779db52c0224443459bd27fb039"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.2.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.2.0_1543863647634_0.660016094862343"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0.tgz",
+        "shasum" : "17a7389a1d2571ac4d9b77ea2defa74a930edf5d"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0_1535406151112_0.46850646556098674"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/plugin-syntax-export-namespace-from\n\n> Allow parsing of export namespace from\n\nSee our website [@babel/plugin-syntax-export-namespace-from](https://babeljs.io/docs/en/next/babel-plugin-syntax-export-namespace-from.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-syntax-export-namespace-from\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-syntax-export-namespace-from --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.49",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.49.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.49.tgz",
+        "shasum" : "e3efe5e85627d28ec83835a75cf9c27a954d7045"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.49"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.49"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.49"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.49_1527264069078_0.015201731267258767"
+      },
+      "_shasum" : "e3efe5e85627d28ec83835a75cf9c27a954d7045",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.48",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.48.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.48.tgz",
+        "shasum" : "4aca7ec9127e84c3fe171815105a4acd6f98515f"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.48"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.48"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.48"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.48_1527189693885_0.6853472788181552"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.43",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.43.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.43.tgz",
+        "shasum" : "ec2f095a057a1f0f1685043886911f2b59600ac3"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.43"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.43"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.43"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.43_1522687694451_0.07241554677188633"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.42",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.42.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.42.tgz",
+        "shasum" : "41f40461d2ac34a2fcfddd5fdf5813275c31ca23"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.42"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.42"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.42"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.42",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.42_1521147027346_0.3514708446242194"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.41",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.41.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.41.tgz",
+        "shasum" : "79a22db141438f4cbb6707e010d6cc6bc67cb28c"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.41"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.41"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.41"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.41",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.41_1521044752122_0.7109894298482258"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.40" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.40",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.40.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.40.tgz",
+        "shasum" : "c1622252e7059f16cd4ed0c8d6353ff73684fc86"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.40"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.40"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.40",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.40_1518453681062_0.19331436337111474"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.47",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.47.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.47.tgz",
+        "shasum" : "fd446c76c59849f15e6cde235b5b8e153413f21e"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.47"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.47"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.47"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.47_1526342893453_0.19990242500819777"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.46",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.46.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.46.tgz",
+        "shasum" : "aba4fcb34a0afec4f5b3c526ff693708b72a2fd0"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.46"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.46"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.46"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.46_1524457835108_0.7890769178305812"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.45",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.45.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.45.tgz",
+        "shasum" : "41b0387752023150fce163e9eaefd4131671bcbf"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.45"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.45"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.45"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.45_1524448569092_0.6766877228411732"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/plugin-syntax-export-namespace-from",
+      "description" : "Allow parsing of export namespace from",
+      "version" : "7.0.0-beta.44",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.0.0-beta.44.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-syntax-export-namespace-from%2F-%2Fplugin-syntax-export-namespace-from-7.0.0-beta.44.tgz",
+        "shasum" : "c75a1607a453b74fe83d3bccf442931a7021209b"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.44"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.44"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.44"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.44",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-syntax-export-namespace-from_7.0.0-beta.44_1522707595742_0.06591457150017432"
+      },
+      "_nodeVersion" : "8.10.0"
+    }
+  },
+  "readme" : "# @babel/plugin-syntax-export-namespace-from\n\n> Allow parsing of export namespace from\n\nSee our website [@babel/plugin-syntax-export-namespace-from](https://babeljs.io/docs/en/next/babel-plugin-syntax-export-namespace-from.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-syntax-export-namespace-from\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-syntax-export-namespace-from --dev\n```\n",
+  "time" : {
+    "7.0.0-rc.1" : "2018-08-09T20:07:14.536Z",
+    "7.0.0-rc.2" : "2018-08-21T19:23:11.776Z",
+    "7.0.0-rc.0" : "2018-08-09T15:57:29.496Z",
+    "7.0.0-beta.39" : "2018-01-30T20:27:24.985Z",
+    "7.0.0-beta.38" : "2018-01-17T16:31:40.698Z",
+    "7.0.0-rc.3" : "2018-08-24T18:07:07.089Z",
+    "7.0.0-beta.37" : "2018-01-08T16:02:21.168Z",
+    "7.0.0-rc.4" : "2018-08-27T16:43:23.435Z",
+    "7.0.0-beta.54" : "2018-07-16T17:59:58.102Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:07.860Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:17.848Z",
+    "7.0.0-beta.51" : "2018-06-12T21:19:31.131Z",
+    "7.0.0-beta.36" : "2017-12-25T19:04:21.460Z",
+    "7.0.0-beta.35" : "2017-12-14T21:47:34.093Z",
+    "7.0.0-beta.34" : "2017-12-02T14:39:04.032Z",
+    "7.0.0-beta.56" : "2018-08-04T01:04:21.066Z",
+    "7.0.0-beta.33" : "2017-12-01T14:28:05.455Z",
+    "7.0.0-beta.55" : "2018-07-28T22:07:34.887Z",
+    "modified" : "2020-06-19T20:36:37.842Z",
+    "7.7.4" : "2019-11-22T23:31:46.995Z",
+    "7.8.3" : "2020-01-13T21:41:18.342Z",
+    "7.0.0-beta.50" : "2018-06-12T19:47:03.041Z",
+    "7.8.0" : "2020-01-12T00:16:11.991Z",
+    "7.2.0" : "2018-12-03T19:00:47.788Z",
+    "created" : "2017-12-01T14:28:05.455Z",
+    "7.0.0" : "2018-08-27T21:42:31.203Z",
+    "7.0.0-beta.49" : "2018-05-25T16:01:09.148Z",
+    "7.0.0-beta.48" : "2018-05-24T19:21:34.057Z",
+    "7.0.0-beta.43" : "2018-04-02T16:48:14.704Z",
+    "7.0.0-beta.42" : "2018-03-15T20:50:27.516Z",
+    "7.0.0-beta.41" : "2018-03-14T16:25:52.170Z",
+    "7.0.0-beta.40" : "2018-02-12T16:41:21.105Z",
+    "7.0.0-beta.47" : "2018-05-15T00:08:13.514Z",
+    "7.0.0-beta.46" : "2018-04-23T04:30:35.184Z",
+    "7.0.0-beta.45" : "2018-04-23T01:56:09.188Z",
+    "7.0.0-beta.44" : "2018-04-02T22:19:56.659Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}
