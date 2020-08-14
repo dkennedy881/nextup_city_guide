@@ -1,0 +1,41 @@
+@media screen and (max-width: 825px) /* phone */ {
+  #GreetingContainer {
+    height: 75vh;
+  }
+  #GreetingTextContainer {
+    width: 75%;
+  }
+  #GraphContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Section {
+    margin: 25px 0px;
+  }
+
+  #Section1Title {
+    margin: 25px 0px;
+  }
+  #Section1Sub {
+    line-height: 50px;
+  }
+}
+
+#GreetingContainer {
+  background-color: turquoise;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+}
+
+#GreetingTitle {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+#GreetingSubTitle {
+  text-align: center;
+  color: yellow;
+  font-weight: 300;
+}
