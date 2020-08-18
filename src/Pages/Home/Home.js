@@ -4,6 +4,8 @@ import React from "react";
 import { Greeting } from "./Components/Greeting";
 import { Section1 } from "./Components/Section1";
 import { Section2 } from "./Components/Section2";
+import { Section3 } from "./Components/Section3";
+import { Footer } from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Greeting />
       <Section1 />
       <Section2 />
+      <Section3 />
+      <Footer />
     </>
   );
 };

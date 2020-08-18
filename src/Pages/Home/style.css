@@ -1,6 +1,6 @@
 @media screen and (max-width: 825px) /* phone */ {
   #GreetingContainer {
-    height: 75vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -14,7 +14,7 @@
   }
 
   .Section {
-    margin: 25px 0px;
+    margin: 60px 0px 85px 0px;
   }
 
   #Section1Title {
@@ -36,12 +36,29 @@
   }
   .appStoreImg {
     width: 120px;
+    height: 45px;
   }
   .dividerLine {
     width: 100%;
     height: 5px;
     background-color: yellow;
     margin: 30px 40px 0px 40px;
+  }
+  #Section3Title {
+    text-align: center;
+    margin: 25px 0px;
+  }
+
+  #messageFormContainer {
+    margin-top: 50px;
+  }
+  #formSubmitBtnContainer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #formSubmitBtn {
+    background-color: turquoise;
+    color: yellow;
   }
 }
 
@@ -71,7 +88,7 @@
 
 .Section2Sub {
   text-align: center;
-  margin: 25px 0px 50px 0px;
+  margin: 25px 0px 30px 0px;
 }
 #Section2Container {
   background-color: turquoise;
@@ -80,5 +97,6 @@
   border-bottom-color: red;
   border-top-color: red;
   color: white;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
+  padding-top: 45px;
 }
