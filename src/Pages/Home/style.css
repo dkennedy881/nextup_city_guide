@@ -1,6 +1,6 @@
 @media screen and (max-width: 825px) /* phone */ {
   #GreetingContainer {
-    height: 70vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -57,13 +57,13 @@
     flex-direction: row-reverse;
   }
   #formSubmitBtn {
-    background-color: turquoise;
+    background-color: #5dbecb;
     color: yellow;
   }
 }
 
 #GreetingContainer {
-  background-color: turquoise;
+  background-color: #5dbecb;
   border-bottom-style: solid;
   border-bottom-color: red;
 }
@@ -91,7 +91,7 @@
   margin: 25px 0px 30px 0px;
 }
 #Section2Container {
-  background-color: turquoise;
+  background-color: #5dbecb;
   border-bottom-style: solid;
   border-top-style: solid;
   border-bottom-color: red;

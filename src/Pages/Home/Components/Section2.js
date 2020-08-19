@@ -11,7 +11,7 @@ const Section2 = () => {
           <h2 className="Section2Title">Become a Partner</h2>
           <h5 className="Section2Sub" id="Section2Sub1">
             We're in this together. We look to provide a family oriented
-            relationship with each business
+            relationship with each business.
           </h5>
           <div className="appStoreContainer">
             <img alt="headerImage" src={appStoreImg} className="appStoreImg" />
@@ -22,7 +22,7 @@ const Section2 = () => {
           <h2 className="Section2Title">Tour the City</h2>
           <h5 className="Section2Sub" id="Section2Sub2">
             Stay up to date with the status of live local business in Austin,
-            Houston and Seattle.ß
+            Houston and Seattle.
           </h5>
           <div className="appStoreContainer">
             <img

@@ -7,4 +7,12 @@
     text-align: center;
     color: red;
   }
+  #footerIconContainer {
+    display: flex;
+    justify-content: center;
+  }
+  #footerIconImg {
+    height: 20px;
+    width: 20px;
+  }
 }
