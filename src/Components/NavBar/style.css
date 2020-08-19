@@ -1,0 +1,25 @@
+@media screen and (max-width: 825px) /* phone */ {
+  #navIconImg {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+  }
+  #navLogoImg {
+    height: 40px;
+    width: 120px;
+    position: relative;
+    left: -5px;
+  }
+  .navbar {
+    height: 60px !important;
+    padding: 10px 15px 15px 15px !important;
+    background-color: white !important;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+    box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+  }
+  .navFlex {
+    flex: 1;
+  }
+}

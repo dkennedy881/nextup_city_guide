@@ -1,0 +1,18 @@
+@media screen and (max-width: 825px) /* phone */ {
+  #footerContainer {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  #footerText {
+    text-align: center;
+    color: red;
+  }
+  #footerIconContainer {
+    display: flex;
+    justify-content: center;
+  }
+  #footerIconImg {
+    height: 20px;
+    width: 20px;
+  }
+}
