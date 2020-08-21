@@ -1,4 +1,18 @@
-@media screen and (max-width: 825px) /* phone */ {
+@media (min-width: 760px) and (max-width: 1025px) {
+  /*iPad*/
+  body {
+    overflow-x: hidden;
+  }
+  .App {
+    overflow-x: hidden;
+  }
+  .padded {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+}
+@media (max-width: 759px) {
+  /*iphone */
   .padded {
     margin-left: 10px !important;
     margin-right: 10px !important;

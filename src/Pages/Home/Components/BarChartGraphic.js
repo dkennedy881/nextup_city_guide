@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BarChart, Bar } from "recharts";
 
 const data = [
@@ -89,11 +89,35 @@ const data = [
 ];
 
 const BarChartGraphic = () => {
-  return (
-    <BarChart width={window.innerWidth - 60} height={100} data={data}>
-      <Bar dataKey="uv" fill="white" />
-    </BarChart>
-  );
+  const [doShow, setDoShow] = useState(false);
+  const [graphHeight, setGraphHeight] = useState(100);
+  const [graphWidthSub, setGraphWidthSub] = useState(60);
+
+  useEffect(() => {
+    if (!doShow) {
+      setTimeout(() => {
+        if (window.innerWidth >= 768) {
+          setGraphHeight(200);
+          setGraphWidthSub(150);
+        }
+        setDoShow(true);
+      }, 600);
+    }
+  }, []);
+
+  if (doShow) {
+    return (
+      <BarChart
+        width={window.innerWidth - graphWidthSub}
+        height={graphHeight}
+        data={data}
+      >
+        <Bar dataKey="uv" fill="white" />
+      </BarChart>
+    );
+  } else {
+    return <></>;
+  }
 };
 
 export { BarChartGraphic };
