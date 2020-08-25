@@ -1,0 +1,38 @@
+@media (min-width: 760px) and (max-width: 1025px) {
+  /*iPad*/
+  #footerContainer {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  #footerText {
+    text-align: center;
+    color: red;
+  }
+  #footerIconContainer {
+    display: flex;
+    justify-content: center;
+  }
+  #footerIconImg {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (max-width: 759px) {
+  /*iphone */
+  #footerContainer {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  #footerText {
+    text-align: center;
+    color: red;
+  }
+  #footerIconContainer {
+    display: flex;
+    justify-content: center;
+  }
+  #footerIconImg {
+    height: 20px;
+    width: 20px;
+  }
+}

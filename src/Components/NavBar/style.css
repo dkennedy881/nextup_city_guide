@@ -1,0 +1,48 @@
+@media (min-width: 760px) and (max-width: 1025px) {
+  /*iPad*/
+  #navIconImg {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+  }
+  #navLogoImg {
+    height: 40px;
+    width: 120px;
+    position: relative;
+    left: -5px;
+  }
+  .navbar {
+    height: 64px !important;
+    padding: 10px 15px 15px 15px !important;
+  }
+}
+@media (max-width: 759px) {
+  /*iphone */
+  #navIconImg {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+  }
+  #navLogoImg {
+    height: 40px;
+    width: 120px;
+    position: relative;
+    left: -5px;
+  }
+  .navbar {
+    height: 60px !important;
+    padding: 10px 15px 15px 15px !important;
+  }
+}
+.navFlex {
+  flex: 1;
+}
+
+.navbar {
+  background-color: white !important;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+  box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+}
