@@ -1,3 +1,95 @@
+#GreetingContainer {
+  height: 85vh;
+}
+
+#GreetingTextContainer {
+  width: 100%;
+}
+
+#GraphContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 275px;
+  left: -175px;
+}
+
+#GreetingRow {
+  position: relative;
+  top: 125px;
+}
+
+.Section {
+  margin: 120px 0px 170px 0px;
+}
+
+#Section1Title {
+  margin: 50px 0px;
+}
+#Section1Sub {
+  line-height: 100px;
+}
+#Section2TextContainer1 {
+  margin: 50px 0px 20px 0px;
+}
+#Section2TextContainer2 {
+  margin: 50px 0px 20px 0px;
+}
+
+.appStoreContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.appStoreImg {
+  width: 150px;
+  height: 50px;
+}
+.dividerLine {
+  width: 100%;
+  height: 5px;
+  background-color: yellow;
+  margin-top: 30px;
+  padding: 0px 40px 0px 40px;
+}
+#Section3Title {
+  text-align: center;
+  margin: 25px 0px;
+}
+
+#messageFormContainer {
+  margin-top: 50px;
+}
+#formSubmitBtnContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#formSubmitBtn {
+  background-color: #5dbecb;
+  color: yellow;
+}
+
+.Section2Sub {
+  line-height: 50px;
+}
+#GreetingSubTitle {
+  text-align: right;
+}
+
+#GreetingTitle {
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 70px;
+}
+h5 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 3.3em;
+}
 @media (min-width: 760px) and (max-width: 1025px) {
   /*iPad*/
   #GreetingContainer {
