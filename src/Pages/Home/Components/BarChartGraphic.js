@@ -97,8 +97,13 @@ const BarChartGraphic = () => {
     if (!doShow) {
       setTimeout(() => {
         if (window.innerWidth >= 768) {
-          setGraphHeight(200);
-          setGraphWidthSub(150);
+          if (window.innerWidth >= 1025) {
+            setGraphHeight(180);
+            setGraphWidthSub(650);
+          } else {
+            setGraphHeight(200);
+            setGraphWidthSub(150);
+          }
         }
         setDoShow(true);
       }, 600);
