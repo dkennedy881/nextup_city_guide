@@ -20,6 +20,11 @@ app.use(cookieParser()); //created on init
 // app.use(express.static(path.join(__dirname, 'public'))); //created on init
 app.use(express.static(path.join(__dirname, "client/build/")));
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/build/index.html"));
+  // res.sendFile(path.join(__dirname + "/index.html"))
+});
+
 // app.use('/', indexRouter); //created on init
 // app.use('/users', usersRouter); //created on init
 
