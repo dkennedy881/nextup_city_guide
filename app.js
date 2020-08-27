@@ -18,11 +18,11 @@ app.use(express.json()); //created on init
 app.use(express.urlencoded({ extended: false })); //created on init
 app.use(cookieParser()); //created on init
 // app.use(express.static(path.join(__dirname, 'public'))); //created on init
-app.use(express.static(path.join(__dirname, "client/build/")));
+app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("*", (req, res) => {
   // res.sendFile("index1.html", { root: path.join(__dirname, "../client/build") });
-  res.sendFile("/client/build/index.html", { root: __dirname });
+  res.sendFile("client/build/index.html", { root: __dirname });
 });
 
 // app.use('/', indexRouter); //created on init
