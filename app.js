@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("*", (req, res) => {
   // res.sendFile("index1.html", { root: path.join(__dirname, "../client/build") });
-  res.sendFile("client/build/index.html", { root: __dirname });
+  res.sendFile("./client/build/index.html", { root: __dirname });
 });
 
 // app.use('/', indexRouter); //created on init
