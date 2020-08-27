@@ -1,3 +1,13 @@
+body {
+  overflow-x: hidden;
+}
+.App {
+  overflow-x: hidden;
+}
+.padded {
+  margin-left: 250px !important;
+  margin-right: 250px !important;
+}
 @media (min-width: 760px) and (max-width: 1025px) {
   /*iPad*/
   body {
