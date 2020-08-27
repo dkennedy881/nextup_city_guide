@@ -1,6 +1,5 @@
 {
   "name": "nextup_city_guide",
-  "_homepage": "http://dkennedy881.github.io/nextup_city_guide",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
