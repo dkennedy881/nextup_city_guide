@@ -21,8 +21,8 @@ app.use(cookieParser()); //created on init
 app.use(express.static(path.join(__dirname, "client/build/")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/client/build/index.html"));
-  // res.sendFile(path.join(__dirname + "/index.html"))
+  // res.sendFile("index1.html", { root: path.join(__dirname, "../client/build") });
+  res.sendFile("/client/build/index.html", { root: __dirname });
 });
 
 // app.use('/', indexRouter); //created on init
