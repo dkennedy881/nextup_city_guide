@@ -17,21 +17,23 @@ app.use(logger("dev")); //created on init
 app.use(express.json()); //created on init
 app.use(express.urlencoded({ extended: false })); //created on init
 app.use(cookieParser()); //created on init
-// app.use(express.static(path.join(__dirname, 'public'))); //created on init
+
+/* need to add - start */
 app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("*", (req, res) => {
-  // res.sendFile("index1.html", { root: path.join(__dirname, "../client/build") });
   res.sendFile("client/build/index.html", { root: __dirname });
 });
+/* need to add - end */
 
-// app.use('/', indexRouter); //created on init
-// app.use('/users', usersRouter); //created on init
+app.use("/", indexRouter); //created on init
+app.use("/users", usersRouter); //created on init
 
+//created on init below
 // catch 404 and forward to error handler
-// app.use(function (req, res, next) {
-//   next(createError(404));
-// }); //created on init
+app.use(function (req, res, next) {
+  next(createError(404));
+});
 
 // error handler
 //created on init below
