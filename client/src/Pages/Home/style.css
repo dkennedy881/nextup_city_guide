@@ -1,4 +1,44 @@
-@media (min-width: 1026x) {
+
+#GreetingContainer {
+  background-color: #5dbecb;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+}
+
+#GreetingTitle {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+#GreetingSubTitle {
+  color: yellow;
+  font-weight: 300;
+}
+
+.Section2Title {
+  font-weight: 600;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.Section2Sub {
+  text-align: center;
+  margin: 25px 0px 30px 0px;
+}
+#Section2Container {
+  background-color: #5dbecb;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-bottom-color: red;
+  border-top-color: red;
+  color: white;
+  padding-bottom: 90px;
+  padding-top: 45px;
+}
+
+/* @media (max-width: 1025px)  {  */
+@media screen  {
   #GreetingContainer {
     height: 85vh;
   }
@@ -17,7 +57,7 @@
 
   #GreetingRow {
     position: relative;
-    top: 125px;
+    top: 175px;
   }
 
   .Section {
@@ -106,12 +146,13 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 10px;
+    top: 320px;
+    left: -220px;
   }
 
   #GreetingRow {
     position: relative;
-    top: 175px;
+    top: 225px;
   }
 
   .Section {
@@ -199,12 +240,14 @@
     text-align: center;
   }
   #GreetingTextContainer {
-    width: 75%;
+    width: 80%;
   }
   #GraphContainer {
     display: flex;
     justify-content: center;
-    height: 110px;
+    position: relative;
+    top: 10px !important;
+    left: -0px !important;
   }
 
   .Section {
@@ -243,6 +286,11 @@
     margin: 25px 0px;
   }
 
+  #GreetingRow {
+    position: relative;
+    top: 0px;
+  }
+
   #messageFormContainer {
     margin-top: 50px;
   }
@@ -256,43 +304,15 @@
   }
   #GreetingTitle {
     font-weight: 600;
+    line-height: 35px; 
   }
-}
-
-#GreetingContainer {
-  background-color: #5dbecb;
-  border-bottom-style: solid;
-  border-bottom-color: red;
-}
-
-#GreetingTitle {
-  color: white;
-  font-weight: 600;
-  letter-spacing: 3px;
-}
-
-#GreetingSubTitle {
-  color: yellow;
-  font-weight: 300;
-}
-
-.Section2Title {
-  font-weight: 600;
-  margin: 10px 0px;
-  text-align: center;
-}
-
-.Section2Sub {
-  text-align: center;
-  margin: 25px 0px 30px 0px;
-}
-#Section2Container {
-  background-color: #5dbecb;
-  border-bottom-style: solid;
-  border-top-style: solid;
-  border-bottom-color: red;
-  border-top-color: red;
-  color: white;
-  padding-bottom: 90px;
-  padding-top: 45px;
+  h5 {
+    font-size: 1.2em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 2.0em;
+  }
 }
