@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/nextup_city_guide/static/css/main.29f8665f.chunk.css",
-    "main.js": "/nextup_city_guide/static/js/main.477500e5.chunk.js",
-    "main.js.map": "/nextup_city_guide/static/js/main.477500e5.chunk.js.map",
+    "main.css": "/nextup_city_guide/static/css/main.3cf982e4.chunk.css",
+    "main.js": "/nextup_city_guide/static/js/main.3d2d3f25.chunk.js",
+    "main.js.map": "/nextup_city_guide/static/js/main.3d2d3f25.chunk.js.map",
     "runtime-main.js": "/nextup_city_guide/static/js/runtime-main.a3a73418.js",
     "runtime-main.js.map": "/nextup_city_guide/static/js/runtime-main.a3a73418.js.map",
     "static/css/2.11829350.chunk.css": "/nextup_city_guide/static/css/2.11829350.chunk.css",
-    "static/js/2.1c01901f.chunk.js": "/nextup_city_guide/static/js/2.1c01901f.chunk.js",
-    "static/js/2.1c01901f.chunk.js.map": "/nextup_city_guide/static/js/2.1c01901f.chunk.js.map",
+    "static/js/2.e6d0ca69.chunk.js": "/nextup_city_guide/static/js/2.e6d0ca69.chunk.js",
+    "static/js/2.e6d0ca69.chunk.js.map": "/nextup_city_guide/static/js/2.e6d0ca69.chunk.js.map",
     "index.html": "/nextup_city_guide/index.html",
-    "precache-manifest.8cec3f39d999eed9ac72df35afa2dc50.js": "/nextup_city_guide/precache-manifest.8cec3f39d999eed9ac72df35afa2dc50.js",
+    "precache-manifest.127aba48f48aef30803a673812984c8a.js": "/nextup_city_guide/precache-manifest.127aba48f48aef30803a673812984c8a.js",
     "service-worker.js": "/nextup_city_guide/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/nextup_city_guide/static/css/2.11829350.chunk.css.map",
-    "static/css/main.29f8665f.chunk.css.map": "/nextup_city_guide/static/css/main.29f8665f.chunk.css.map",
-    "static/js/2.1c01901f.chunk.js.LICENSE.txt": "/nextup_city_guide/static/js/2.1c01901f.chunk.js.LICENSE.txt",
+    "static/css/main.3cf982e4.chunk.css.map": "/nextup_city_guide/static/css/main.3cf982e4.chunk.css.map",
+    "static/js/2.e6d0ca69.chunk.js.LICENSE.txt": "/nextup_city_guide/static/js/2.e6d0ca69.chunk.js.LICENSE.txt",
     "static/media/icon.jpeg": "/nextup_city_guide/static/media/icon.4d70629f.jpeg",
     "static/media/next-up.png": "/nextup_city_guide/static/media/next-up.ce39437b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a3a73418.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.1c01901f.chunk.js",
-    "static/css/main.29f8665f.chunk.css",
-    "static/js/main.477500e5.chunk.js"
+    "static/js/2.e6d0ca69.chunk.js",
+    "static/css/main.3cf982e4.chunk.css",
+    "static/js/main.3d2d3f25.chunk.js"
   ]
 }
