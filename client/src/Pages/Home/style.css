@@ -132,8 +132,19 @@
     font-size: 3.3em;
   }
 }
-@media (min-width: 760px) and (max-width: 1025px) {
-  /*iPad*/
+@media (min-width: 760px) and (max-width: 1000px) {
+  /*iPad small*/
+  #GraphContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px !important;
+    left: -0px !important;
+  }
+
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+  /*iPad Pro*/
   #GreetingContainer {
     height: 75vh;
   }
