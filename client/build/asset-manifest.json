@@ -1,6 +1,11 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/nextup_city_guide/static/css/main.c41df46b.chunk.css",
+=======
+
+    "main.css": "/nextup_city_guide/static/css/main.c4250b62.chunk.css",
+>>>>>>> 5919734649b930154a71fbcf0a90acee8ac6a7f0
     "main.js": "/nextup_city_guide/static/js/main.2a4d81fd.chunk.js",
     "main.js.map": "/nextup_city_guide/static/js/main.2a4d81fd.chunk.js.map",
     "runtime-main.js": "/nextup_city_guide/static/js/runtime-main.a3a73418.js",
@@ -18,7 +23,7 @@
     "static/media/next-up.png": "/nextup_city_guide/static/media/next-up.ce39437b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3a73418.js",
+    "static/js/runtime-main.f4e8807e.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.5f675745.chunk.js",
     "static/css/main.c41df46b.chunk.css",
