@@ -30,7 +30,10 @@ const Queues = () => {
 
   const [queueItems, setQueueItems] = useState([]);
 
-  //TODO need async render
+  //TODO need async render with pending / error state involved
+
+  //TODO build map functionality
+
   //TODO if queue selected (show details)
 
   const ToggleContentBtn = doShowList ? (
@@ -75,7 +78,7 @@ const Queues = () => {
                 <span className="queueListItemCount">
                   {cur.count["$numberLong"]}
                 </span>
-                <span className="queueListItemCountInLine">In Line</span>
+                <p className="queueListItemCountInLine">In Line</p>
               </div>
             </div>
           </div>
