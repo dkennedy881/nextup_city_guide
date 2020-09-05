@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nextup_city_guide/static/css/main.c4250b62.chunk.css",
+    "main.css": "/nextup_city_guide/static/css/main.c41df46b.chunk.css",
     "main.js": "/nextup_city_guide/static/js/main.2a4d81fd.chunk.js",
     "main.js.map": "/nextup_city_guide/static/js/main.2a4d81fd.chunk.js.map",
     "runtime-main.js": "/nextup_city_guide/static/js/runtime-main.a3a73418.js",
@@ -9,10 +9,10 @@
     "static/js/2.5f675745.chunk.js": "/nextup_city_guide/static/js/2.5f675745.chunk.js",
     "static/js/2.5f675745.chunk.js.map": "/nextup_city_guide/static/js/2.5f675745.chunk.js.map",
     "index.html": "/nextup_city_guide/index.html",
-    "precache-manifest.ee5b84e3745b9fa0598131c15fe187fe.js": "/nextup_city_guide/precache-manifest.ee5b84e3745b9fa0598131c15fe187fe.js",
+    "precache-manifest.e80a931c4315d52be4eba7b5e7136317.js": "/nextup_city_guide/precache-manifest.e80a931c4315d52be4eba7b5e7136317.js",
     "service-worker.js": "/nextup_city_guide/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/nextup_city_guide/static/css/2.11829350.chunk.css.map",
-    "static/css/main.c4250b62.chunk.css.map": "/nextup_city_guide/static/css/main.c4250b62.chunk.css.map",
+    "static/css/main.c41df46b.chunk.css.map": "/nextup_city_guide/static/css/main.c41df46b.chunk.css.map",
     "static/js/2.5f675745.chunk.js.LICENSE.txt": "/nextup_city_guide/static/js/2.5f675745.chunk.js.LICENSE.txt",
     "static/media/icon.jpeg": "/nextup_city_guide/static/media/icon.4d70629f.jpeg",
     "static/media/next-up.png": "/nextup_city_guide/static/media/next-up.ce39437b.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.a3a73418.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.5f675745.chunk.js",
-    "static/css/main.c4250b62.chunk.css",
+    "static/css/main.c41df46b.chunk.css",
     "static/js/main.2a4d81fd.chunk.js"
   ]
 }
