@@ -104,8 +104,21 @@
     flex-direction: row-reverse;
     z-index: 1;
   }
+  #QueueListContainer.hide {
+    position: fixed;
+    top: 1250px;
+    transition: top 0.8s;
+  }
   #QueueListContainer {
-    /* margin: 5px 0px; */
+    padding-top: 25px;
+    padding-bottom: 20px;
+    opacity: 1;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 125px;
+    transition: top 0.8s;
+    max-height: 85vh;
+    overflow: scroll;
   }
   .queueListItem {
     margin-bottom: 20px;
