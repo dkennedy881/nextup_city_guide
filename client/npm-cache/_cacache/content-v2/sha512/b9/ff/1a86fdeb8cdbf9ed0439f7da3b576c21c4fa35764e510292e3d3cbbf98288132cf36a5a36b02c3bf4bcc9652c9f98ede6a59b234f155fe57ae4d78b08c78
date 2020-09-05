@@ -1,0 +1,491 @@
+{
+  "_id" : "react-geocode",
+  "_rev" : "15-9e7f15928cf3e3cfd211fc5459040700",
+  "name" : "react-geocode",
+  "description" : "A module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+  "dist-tags" : {
+    "latest" : "0.2.1"
+  },
+  "versions" : {
+    "0.0.6" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.6.tgz",
+        "shasum" : "b7ae911053abd6ea3690453f84581c628b6e6ebe"
+      },
+      "devDependencies" : {
+        "babel-cli" : "6",
+        "babel-preset-es2015" : "6"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src --presets babel-preset-es2015 --out-dir lib",
+        "prepublish" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.6",
+      "gitHead" : "37d7bcf0597583ccf9b4a04f3770e6b908497d32",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.0.6_1520032037471_0.6470752977220127"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "0.0.7" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.7.tgz",
+        "shasum" : "68d4703b4c921b40182e2918c180c77e4044df3a"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-preset-stage-3" : "^6.24.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src --presets stage-3 --out-dir lib",
+        "prepublish" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.7",
+      "gitHead" : "57a6d7f8481fc7ec0f29eb694577ca9adede7dd9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.0.7_1520036234015_0.969041347045072"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "0.0.4" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.4.tgz",
+        "shasum" : "b0e3cd39a834c61a4c4fc1daeb5e0abf5a62716d"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.4",
+      "gitHead" : "c8f4c67d49b9d467a5b9c45feddc2c0b201ba64a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.0.4_1519840356331_0.5668041331290521"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "0.0.5" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.5.tgz",
+        "shasum" : "9271ebdf55996ac89631fc813b8c28b9d8bb8da3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.5",
+      "gitHead" : "d9c1e94f4c9476fd986d82a3dd5f7cc39b5ba7ab",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.0.5_1520030859148_0.044480848137088635"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "0.0.8" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.8.tgz",
+        "shasum" : "07e23f064f7e13fe5b803665037b4ed99b63e1a9"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.8",
+      "gitHead" : "9971a91ef29e2b82be62c9356a1144ba9db08e98",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.0.8_1526374795735_0.653891139795516"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "0.0.9" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.9.tgz",
+        "shasum" : "e2c805a680e6809330715aa506c8a2bcf411a41c"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.9",
+      "gitHead" : "7dccd0308db1f15714b003f58b72c163bd2e8742",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.0.9_1526531711444_0.7863968553304941"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "0.0.2" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.2.tgz",
+        "shasum" : "1edf511e6b593c69cadb94b4023d9748cae7158e"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.2",
+      "gitHead" : "531d513cbff0d4723e7fbd00911c5a84e00baa24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.0.2_1519548771395_0.4633001347477448"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "0.1.1" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.1.1.tgz",
+        "shasum" : "b81da88a4dfa15e2920fb6292103510d219481cc"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.1.1",
+      "gitHead" : "8edfc5bb158ca814ecad5dd98b773e6874768414",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.1.1_1531981738468_0.4402366054549889"
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "0.2.0" : {
+      "name" : "react-geocode",
+      "description" : "A module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.2.0.tgz",
+        "shasum" : "73830655571915c533df4a2c893ef01361e35c95"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.2.0",
+      "gitHead" : "a95b69b72fa8139b276a3035b7a7032c2795158e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.2.0_1569147706824_0.9711199371689323"
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "0.0.3" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.3.tgz",
+        "shasum" : "9609c6bf028a977980cdf5aeda69444fc7fdeea7"
+      },
+      "devDependencies" : {
+        "babel-cli" : "6",
+        "babel-preset-es2015" : "6"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src --presets babel-preset-es2015 --out-dir lib",
+        "prepublish" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.3",
+      "gitHead" : "735671c13148c34c3e19004c57f489aee23953f6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.0.3_1519826357204_0.3903241279864038"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "0.1.2" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.1.2.tgz",
+        "shasum" : "9e7c8114fbd66550d32a417cf95d36fa4f1cd45f"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.1.2",
+      "gitHead" : "8edfc5bb158ca814ecad5dd98b773e6874768414",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.1.2_1531982930373_0.8049953986668936"
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "0.2.1" : {
+      "name" : "react-geocode",
+      "description" : "A module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.2.1.tgz",
+        "shasum" : "c9f58d979097272831a01ef0ebd89add8e15725a"
+      },
+      "dependencies" : {
+        "regenerator-runtime" : "^0.13.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.2.1",
+      "gitHead" : "49eeda3e50e4caef048f745245a7b29ae420ed6f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.2.1_1572857563950_0.5040555090146446"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "0.0.1" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.0.1.tgz",
+        "shasum" : "785eab132987c252a33438eabe6efb3633372fe4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.0.1",
+      "gitHead" : "4336090e47c21ca84f0325482efabbd10af39ba1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode-0.0.1.tgz_1514984464063_0.30306717474013567"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "0.1.0" : {
+      "name" : "react-geocode",
+      "description" : "A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shukerullah/react-geocode.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-geocode/-/react-geocode-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-geocode%2F-%2Freact-geocode-0.1.0.tgz",
+        "shasum" : "fa636514a642c5a21418565ec5b35a3de17c30f9"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "shukerullah",
+        "email" : "shuker_rashdi@yahoo.com"
+      },
+      "_id" : "react-geocode@0.1.0",
+      "gitHead" : "8edfc5bb158ca814ecad5dd98b773e6874768414",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-geocode_0.1.0_1531980978612_0.08625973717599078"
+      },
+      "_nodeVersion" : "10.3.0"
+    }
+  },
+  "readme" : "# react-geocode\n\nDespite its name, this project\n\n```\n _    ,          _ __                                                           _ __\n' )  /          ' )  )   _/_ /                _/_        /             _/_ /   ' )  )           _/_\n /--/ __.  _     /  / __ /  /_  o ____  _,    /  __   __/ __   , , , o /  /_    /--' _  __.  _. /\n/  (_(_/|_/_)_  /  (_(_)<__/ /_<_/ / <_(_)_  <__(_)  (_/_(_)  (_(_/_<_<__/ /_  /  \\_</_(_/|_(__<__\n                                        /|\n                                       |/\n```\n\nA module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.\n\nThis module uses [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro) and requires an API key for purposes of quota management. Please check [this link](https://developers.google.com/maps/documentation/geocoding/get-api-key) out to obtain your API key.\n\n### Install\n\n```shell\nnpm install --save react-geocode\n```\n\nor\n\n```shell\nyarn add react-geocode\n```\n\n### Example\n\n```js\nimport Geocode from \"react-geocode\";\n\n// set Google Maps Geocoding API for purposes of quota management. Its optional but recommended.\nGeocode.setApiKey(\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\");\n\n// set response language. Defaults to english.\nGeocode.setLanguage(\"en\");\n\n// set response region. Its optional.\n// A Geocoding request with region=es (Spain) will return the Spanish city.\nGeocode.setRegion(\"es\");\n\n// Enable or disable logs. Its optional.\nGeocode.enableDebug();\n\n// Get address from latidude & longitude.\nGeocode.fromLatLng(\"48.8583701\", \"2.2922926\").then(\n  response => {\n    const address = response.results[0].formatted_address;\n    console.log(address);\n  },\n  error => {\n    console.error(error);\n  }\n);\n\n// Get latidude & longitude from address.\nGeocode.fromAddress(\"Eiffel Tower\").then(\n  response => {\n    const { lat, lng } = response.results[0].geometry.location;\n    console.log(lat, lng);\n  },\n  error => {\n    console.error(error);\n  }\n);\n```\n\n#### Methods\n\n| Method      | Arguments                                                  |   Params   |    Type    | Description                                                                                                                                                      |\n| :---------- | :--------------------------------------------------------- | :--------: | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| setApiKey   | `api_key`                                                  |     -      | `function` | set [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro) for purposes of quota management. Its optional but recommended |\n| setLanguage | `language`                                                 |     -      | `function` | Specify language of the parsed address. [List of the available language codes](https://developers.google.com/maps/faq#languagesupport). Defaults to english      |\n| setRegion   | `region`                                                   |     -      | `function` | Specify region of the parsed address.                                                                                                                            |\n| enableDebug | `true` or `false`                                          |     -      | `function` | Enable or disable logs. Its optional.                                                                                                                            |\n| fromLatLng  | `latitude`, `longitude`, `*apiKey`, `*language`, `*region` | `response` | `function` | Get address from latidude & longitude. \\* Optional arguments                                                                                                     |\n| fromAddress | `address`, `*apiKey`, `*language`, `*region`               | `response` | `function` | Get latidude & longitude from address. \\* Optional arguments                                                                                                     |\n\n### Follow me on Twitter: [@shukerullah](https://twitter.com/shukerullah)\n\n<a href=\"https://www.buymeacoffee.com/shukerullah\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>\n",
+  "time" : {
+    "0.0.6" : "2018-03-02T23:07:18.304Z",
+    "0.0.7" : "2018-03-03T00:17:14.196Z",
+    "0.0.4" : "2018-02-28T17:52:36.396Z",
+    "0.0.5" : "2018-03-02T22:47:39.265Z",
+    "created" : "2018-01-03T13:01:04.179Z",
+    "0.0.8" : "2018-05-15T08:59:55.803Z",
+    "0.0.9" : "2018-05-17T04:35:11.510Z",
+    "0.0.2" : "2018-02-25T08:52:52.015Z",
+    "0.1.1" : "2018-07-19T06:28:58.552Z",
+    "0.2.0" : "2019-09-22T10:21:46.975Z",
+    "0.0.3" : "2018-02-28T13:59:17.311Z",
+    "0.1.2" : "2018-07-19T06:48:50.450Z",
+    "0.2.1" : "2019-11-04T08:52:44.061Z",
+    "0.0.1" : "2018-01-03T13:01:04.179Z",
+    "0.1.0" : "2018-07-19T06:16:18.686Z",
+    "modified" : "2019-11-04T08:52:46.393Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/shukerullah/react-geocode.git"
+  },
+  "users" : {
+    "shukerullah" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}
