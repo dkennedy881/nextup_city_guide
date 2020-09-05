@@ -15,6 +15,7 @@
   color: yellow;
 }
 #QueueContainer {
+  min-height: 93vh;
   margin-top: 60px;
   background-color: #f8f8f8;
 }
@@ -83,6 +84,9 @@
   color: red;
   font-weight: 500;
 }
+#QueueContainerRow {
+  margin-bottom: -70px;
+}
 /* @media (max-width: 1025px)  {  */
 @media screen {
 }
@@ -95,9 +99,6 @@
 
 @media (max-width: 759px) {
   /*iphone*/
-  #QueueContainer {
-    min-height: 85vh;
-  }
   #toggleQueueContent {
     display: flex;
     flex-direction: row-reverse;

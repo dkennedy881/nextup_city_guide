@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nextup_city_guide/precache-manifest.a9cf8f008cd5fb4656b638b53f8e397f.js"
+  "/nextup_city_guide/precache-manifest.fe25f37bcb4f099f39ccc60e79fc232d.js"
 );
 
 self.addEventListener('message', (event) => {
