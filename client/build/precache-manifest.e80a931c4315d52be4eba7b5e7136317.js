@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65aacb296bc7e3389b432350de872a99",
+    "revision": "cb9c698a3b1c2712c7b2384839cb19c3",
     "url": "/nextup_city_guide/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nextup_city_guide/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "e99f65f715fb4878a639",
-    "url": "/nextup_city_guide/static/css/main.c4250b62.chunk.css"
+    "revision": "930c2c24bd59b9be7bee",
+    "url": "/nextup_city_guide/static/css/main.c41df46b.chunk.css"
   },
   {
     "revision": "7262ec5419bc06660eaa",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nextup_city_guide/static/js/2.5f675745.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e99f65f715fb4878a639",
+    "revision": "930c2c24bd59b9be7bee",
     "url": "/nextup_city_guide/static/js/main.2a4d81fd.chunk.js"
   },
   {
