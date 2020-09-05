@@ -15,6 +15,7 @@
   color: yellow;
 }
 #QueueContainer {
+  min-height: 93vh;
   margin-top: 60px;
   background-color: #f8f8f8;
 }
@@ -28,6 +29,63 @@
   -moz-box-shadow: 0px 1px 5px 0px rgb(199, 199, 199);
   box-shadow: 0px 1px 5px 0px rgb(199, 199, 199);
   border-radius: 9px;
+  padding: 10px;
+}
+.queueListItemMeta {
+  display: flex;
+}
+.queueListItemMetaLeft {
+  padding-right: 10px;
+  font-weight: 300;
+  font-size: 0.8em;
+  flex: 1;
+}
+.queueListItemTitleContainer {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.queueListItemTitle {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.queueListItemMetaRight {
+  min-width: 22%;
+  text-align: center;
+}
+.queueListItemCountContaier {
+  background-color: #5dbecb;
+  width: auto;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+}
+.queueListItemCount {
+  font-weight: 900;
+  color: white;
+  font-size: 1.2em;
+  flex: 1;
+  margin-top: 11px;
+}
+.queueListItemCountInLine {
+  font-weight: 300;
+  color: yellow;
+  font-size: 0.8em;
+}
+.queueListItemMessage {
+  margin-bottom: 20px;
+}
+.queueListItemAddressContainer {
+  padding-bottom: 5px;
+}
+.queueListItemOOO {
+  color: red;
+  font-weight: 500;
+}
+#QueueContainerRow {
+  margin-bottom: -70px;
 }
 /* @media (max-width: 1025px)  {  */
 @media screen {
@@ -41,9 +99,6 @@
 
 @media (max-width: 759px) {
   /*iphone*/
-  #QueueContainer {
-    min-height: 85vh;
-  }
   #toggleQueueContent {
     display: flex;
     flex-direction: row-reverse;
