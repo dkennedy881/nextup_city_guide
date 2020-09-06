@@ -7,12 +7,16 @@ import Axios from "axios";
 import { QueuePlot } from "../Components/QueuePlot";
 
 import "../style.css";
+const refs = {
+  map: undefined,
+};
 
 class QueueMap extends Component {
   constructor(props) {
     super(props);
     this.state = {
       queueItems: [],
+      showPlotTitles: false,
     };
   }
 
@@ -40,16 +44,31 @@ class QueueMap extends Component {
     return promiseData;
   };
 
+  setPlotTitles = (zoom) => {
+    if (zoom >= 9 && !this.state.showPlotTitles) {
+      this.setState({
+        ...this.state,
+        showPlotTitles: true,
+      });
+    } else if (zoom < 9 && this.state.showPlotTitles) {
+      this.setState({
+        ...this.state,
+        showPlotTitles: false,
+      });
+    }
+    console.log(zoom);
+    console.log(this.state.showPlotTitles);
+  };
+
   async componentWillReceiveProps(newProps) {
     if (newProps.queueItems !== this.props.queueItems) {
       let { queueItems } = newProps;
       queueItems = await this.addQueueCoords(queueItems);
-      console.log(queueItems);
       this.setState({ ...this.state, queueItems });
     }
   }
   render() {
-    const { queueItems } = this.state;
+    const { queueItems, showPlotTitles } = this.state;
     return (
       <div
         style={{
@@ -61,12 +80,21 @@ class QueueMap extends Component {
       >
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyDl4Fg7fPNuqn0fd2RV-LkXp7bLTuE0HxI" }}
-          options={{ fullscreenControl: false }}
+          options={{
+            fullscreenControl: false,
+            zoom_changed: () => {},
+            gestureHandling: "greedy",
+            clickableIcons: false,
+          }}
           defaultCenter={{
             lat: 38.95,
             lng: -108.3,
           }}
           defaultZoom={4.1}
+          zoom={4.1}
+          onChange={({ center, zoom, bounds, marginBounds }) => {
+            this.setPlotTitles(zoom);
+          }}
         >
           {queueItems.map((queueItem) => {
             return (
@@ -74,7 +102,8 @@ class QueueMap extends Component {
                 key={queueItem.id["$numberLong"]}
                 lat={queueItem.locationInfo.geometry.location.lat}
                 lng={queueItem.locationInfo.geometry.location.lng}
-                text="My Marker"
+                data={queueItem}
+                showPlotTitles={showPlotTitles}
               />
             );
           })}

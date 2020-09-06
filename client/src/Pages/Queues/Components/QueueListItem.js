@@ -2,7 +2,7 @@ import React from "react";
 
 import "../style.css";
 
-const QueueListItem = ({ queueItem }) => {
+const QueueListItem = ({ queueItem, onMap = false }) => {
   const getOpen = () => {
     switch (new Date().getDay()) {
       case 1:
@@ -95,36 +95,69 @@ const QueueListItem = ({ queueItem }) => {
         }
     }
   };
-  return (
-    <div className="queueListItem">
-      <div className="queueListItemTitleContainer">
-        <span className="queueListItemTitle">{queueItem.title}</span>
-      </div>
-      <div className="queueListItemMeta">
-        <div className="queueListItemMetaLeft">
-          <p className="queueListItemMessage">{queueItem.message}</p>
-          <div className="queueListItemAddressContainer">
-            <span>{`${queueItem.address}, ${queueItem.zipCode}`}</span>
-            <br />
-            <span>{`${queueItem.city}, ${queueItem.state}`}</span>
-          </div>
-          <span className="queueListItemOOO">
-            {queueItem.active === true && getOpen() !== "Closed"
-              ? `${getOpen()} - ${getClose()}`
-              : "Clsoed"}
-          </span>
+
+  if (onMap) {
+    return (
+      <div className="queueListItem">
+        <div className="queueListItemTitleContainerMap">
+          <span className="queueListItemTitle">{queueItem.title}</span>
         </div>
-        <div className="queueListItemMetaRight">
-          <div className="queueListItemCountContaier">
-            <span className="queueListItemCount">
-              {queueItem.count["$numberLong"]}
+        <div className="queueListItemMeta">
+          <div className="queueListItemMetaLeft">
+            <div className="queueListItemAddressContainer">
+              <span>{`${queueItem.address}, ${queueItem.zipCode}`}</span>
+              <br />
+              <span>{`${queueItem.city}, ${queueItem.state}`}</span>
+            </div>
+            <span className="queueListItemOOO">
+              {queueItem.active === true && getOpen() !== "Closed"
+                ? `${getOpen()} ${getClose()}`
+                : "Closed"}
             </span>
-            <p className="queueListItemCountInLine">In Line</p>
+          </div>
+          <div className="queueListItemMetaRightMap">
+            <div className="queueListItemCountContaierMap">
+              <span className="queueListItemCountMap">
+                {queueItem.count["$numberLong"]}
+              </span>
+              <p className="queueListItemCountInLine">In Line</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className="queueListItem">
+        <div className="queueListItemTitleContainer">
+          <span className="queueListItemTitle">{queueItem.title}</span>
+        </div>
+        <div className="queueListItemMeta">
+          <div className="queueListItemMetaLeft">
+            <p className="queueListItemMessage">{queueItem.message}</p>
+            <div className="queueListItemAddressContainer">
+              <span>{`${queueItem.address}, ${queueItem.zipCode}`}</span>
+              <br />
+              <span>{`${queueItem.city}, ${queueItem.state}`}</span>
+            </div>
+            <span className="queueListItemOOO">
+              {queueItem.active === true && getOpen() !== "Closed"
+                ? `${getOpen()} ${getClose()}`
+                : "Closed"}
+            </span>
+          </div>
+          <div className="queueListItemMetaRight">
+            <div className="queueListItemCountContaier">
+              <span className="queueListItemCount">
+                {queueItem.count["$numberLong"]}
+              </span>
+              <p className="queueListItemCountInLine">In Line</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 };
 
 export { QueueListItem };

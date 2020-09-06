@@ -33,67 +33,68 @@ const Queues = () => {
     },
   });
 
+  // init queue fetch
   useEffect(() => {
     fetchQueueController.run();
   }, []);
 
+  // locks body scroll and scrolls queue list to the top
   useEffect(() => {
     if (doShowList) {
       window.scrollTo(0, 0);
       document.querySelector("body").style.overflow = "hidden";
     } else {
       document.querySelector("body").style.overflow = "visible";
-      document.querySelector("#QueueListContainer").scrollTo(0, 0);
+      if (document.querySelector("#QueueListContainer")) {
+        document.querySelector("#QueueListContainer").scrollTo(0, 0);
+      }
     }
   }, [doShowList]);
 
-  const ToggleContentBtnRow = doShowList ? (
-    <Button
-      variant="light"
-      onClick={() => setDoShowList(!doShowList)}
-      className="queueToggleBtn"
-    >
-      Show Map
-    </Button>
-  ) : (
-    <Button
-      variant="light"
-      onClick={() => setDoShowList(!doShowList)}
-      className="queueToggleBtn"
-    >
-      Show List
-    </Button>
-  );
+  const ToggleContentBtnContainer = ({ doShowList }) => {
+    return (
+      <div className="col-lg-12" id="toggleQueueContent">
+        {doShowList ? (
+          <Button
+            variant="light"
+            onClick={() => setDoShowList(!doShowList)}
+            className="queueToggleBtn"
+          >
+            Show Map
+          </Button>
+        ) : (
+          <Button
+            variant="light"
+            onClick={() => setDoShowList(!doShowList)}
+            className="queueToggleBtn"
+          >
+            Show List
+          </Button>
+        )}
+      </div>
+    );
+  };
 
-  const ContentToDisplay = doShowList ? (
-    <div className="col-lg-12" id="QueueListContainer">
-      {queueItems.reduce((acc, cur) => {
-        acc.push(<QueueListItem queueItem={cur} key={cur.id["$numberLong"]} />);
-        return acc;
-      }, [])}
+  const QueueListContainer = (
+    <div
+      className={`col-lg-12 ${doShowList ? "" : "hide"}`}
+      id="QueueListContainer"
+    >
+      {queueItems.map((queueItem) => (
+        <QueueListItem
+          queueItem={queueItem}
+          key={queueItem.id["$numberLong"]}
+        />
+      ))}
     </div>
-  ) : (
-    <QueueMap queueItems={queueItems} />
   );
 
   return (
     <div className="container-fluid" id="QueueContainer">
       <div className="row" id="QueueContainerRow">
-        <div className="col-lg-12" id="toggleQueueContent">
-          {ToggleContentBtnRow}
-        </div>
+        <ToggleContentBtnContainer doShowList={doShowList} />
         <QueueMap queueItems={queueItems} />
-        <div
-          className={`col-lg-12 ${doShowList ? "" : "hide"}`}
-          id="QueueListContainer"
-        >
-          {queueItems.map((queueItem) => (
-            <QueueListItem
-              queueItem={queueItem}
-              key={queueItem.id["$numberLong"]}
-            />
-          ))}
-        </div>
+        {QueueListContainer}
       </div>
     </div>
   );
