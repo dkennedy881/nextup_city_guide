@@ -6,7 +6,10 @@ const Footer = () => {
     <div className="container-fluid" id="footerContainer">
       <div className="row padded">
         <div className="col-sm-12">
-          <h6 id="footerText">admin@nextup.city | private policy</h6>
+          <h6 id="footerText">
+            © 2020 Well-Travelled Explorations, LLC | privacy policy | private
+            policy
+          </h6>
         </div>
         <div className="col-sm-12">
           <div id="footerIconContainer">

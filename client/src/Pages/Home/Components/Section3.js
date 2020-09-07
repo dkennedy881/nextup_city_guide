@@ -12,17 +12,17 @@ const Section3 = () => {
           </h2>
           <Form id="messageFormContainer">
             <Form.Group controlId="formBusinessName">
-              <Form.Control type="text" placeholder="Business Name" />
+              <Form.Control type="text" placeholder="Name" />
             </Form.Group>
             <Form.Group controlId="formBusinessEmail">
-              <Form.Control type="email" placeholder="Business Email" />
+              <Form.Control type="email" placeholder="Email" />
             </Form.Group>
             <Form.Group controlId="formBusinessMessage">
               <Form.Control type="text" as={"textarea"} />
             </Form.Group>
             <Form.Group id="formSubmitBtnContainer">
               <Button variant="light" id="formSubmitBtn">
-                Get Started
+                Send
               </Button>
             </Form.Group>
           </Form>
