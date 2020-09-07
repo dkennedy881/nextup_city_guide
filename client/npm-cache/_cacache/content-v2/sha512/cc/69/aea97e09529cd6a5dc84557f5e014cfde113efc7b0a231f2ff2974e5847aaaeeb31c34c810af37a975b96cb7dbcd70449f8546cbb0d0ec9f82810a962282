@@ -1,0 +1,1171 @@
+{
+  "_id" : "postcss-normalize-whitespace",
+  "_rev" : "21-7de63f3962a63ffbb9212e31249d1c83",
+  "name" : "postcss-normalize-whitespace",
+  "description" : "Trim whitespace inside and around CSS rules & declarations.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "nightly" : "4.0.0-nightly.2020.9.3",
+    "latest" : "4.0.2"
+  },
+  "versions" : {
+    "4.0.0-nightly.2020.8.1" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.8.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.8.1.tgz",
+        "shasum" : "8bb27c5ce07d89b070927b615d9f368230ad5ef9"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.8.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.8.1_1596302164382_0.6654741888666236"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.2" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.2.tgz",
+        "shasum" : "bf1d4070fe4fcea87d1348e825d8cc0c5faa7d82"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.2_1549993942630_0.4991229846208769"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-nightly.2020.8.4" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.8.4",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.8.4.tgz",
+        "shasum" : "410e80936b5b94552d2d19b3030d42d869a40773"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.8.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.8.4_1596545490684_0.9897086071227845"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.9.3" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.9.3",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.9.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.9.3.tgz",
+        "shasum" : "0b555dc1df727061f04f094b41faf1d31c8f0e54"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.9.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.9.3_1599153563716_0.5361913564113439"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0.tgz",
+        "shasum" : "1da7e76b10ae63c11827fa04fc3bb4a1efe99cc0"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0_1530702585274_0.44704142299804195"
+      }
+    },
+    "4.0.0-nightly.2020.8.29" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.8.29",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.8.29.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.8.29.tgz",
+        "shasum" : "4fb7750c5ba369234fbbc3df857dc3d871952d0d"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.8.29",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.8.29_1598721027006_0.9523401078842049"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.1" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.1.tgz",
+        "shasum" : "d14cb639b61238418ac8bc8d3b7bdd65fc86575e"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.1_1537822889199_0.2072417518009011"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-nightly.2020.8.17" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.8.17",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.8.17.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.8.17.tgz",
+        "shasum" : "74e9b015056ab92d4c48b6e8c455f161262a96c5"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.8.17",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.8.17_1597684632779_0.8700865932974442"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.9.1" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.9.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.9.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.9.1.tgz",
+        "shasum" : "e1801103c2026edca8e4e530804416211ac0f8c3"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.9.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.9.1_1598980734359_0.6238954779509689"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-rc.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-rc.2.tgz",
+        "shasum" : "d8df79a51bab0003d009226be0cb1af87f308f43"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace-4.0.0-rc.2.tgz_1502049206205_0.9170322907157242"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-rc.0.tgz",
+        "shasum" : "824e25fa793c5a75f1ae4bae4c8fa8e35f250658"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace-4.0.0-rc.0.tgz_1496311190768_0.1088378787972033"
+      },
+      "_shasum" : "824e25fa793c5a75f1ae4bae4c8fa8e35f250658",
+      "_nodeVersion" : "6.9.1"
+    },
+    "4.0.0-nightly.2020.7.31" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.7.31",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.7.31.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.7.31.tgz",
+        "shasum" : "906fd878b496e2fa2ad2aba33aa0c3e5f69e007b"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.7.31",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.7.31_1596215761654_0.7246709164616612"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.8.10" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.8.10",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.8.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.8.10.tgz",
+        "shasum" : "d8a0b0b58ebebc3988fe0ad59bbaf0eb01cc3b6f"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.8.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.8.10_1597079801125_0.3847709981796692"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.7.25" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.7.25",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.7.25.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.7.25.tgz",
+        "shasum" : "68753e54a5764267ef1340446c6258b75e0d3617"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.7.25",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.7.25_1595697269631_0.5356131981978038"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.21.0"
+    },
+    "4.0.0-nightly.2020.7.24" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.7.24",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.7.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.7.24.tgz",
+        "shasum" : "b37feb024dc75750e6cae14b600b28772f54d77d"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.7.24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.7.24_1595578401242_0.5088933791998267"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.21.0"
+    },
+    "4.0.0-nightly.2020.8.25" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.8.25",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.8.25.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.8.25.tgz",
+        "shasum" : "51bd6f7838457a9f680a46e02bad5705119efdac"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.8.25",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.8.25_1598375831476_0.9365538981362824"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.8.24" : {
+      "name" : "postcss-normalize-whitespace",
+      "description" : "Trim whitespace inside and around CSS rules & declarations.",
+      "version" : "4.0.0-nightly.2020.8.24",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.0-nightly.2020.8.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-normalize-whitespace%2F-%2Fpostcss-normalize-whitespace-4.0.0-nightly.2020.8.24.tgz",
+        "shasum" : "b69eda09c92959b42db908f637efcd97db213e92"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16",
+        "postcss-value-parser" : "^3.3.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-normalize-whitespace@4.0.0-nightly.2020.8.24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-whitespace_4.0.0-nightly.2020.8.24_1598289459745_0.9758930014144813"
+      },
+      "readme" : "# [postcss][postcss]-normalize-whitespace\n\n> Normalize whitespace with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-whitespace) do:\n\n```\nnpm install postcss-normalize-whitespace --save\n```\n\n## Example\n\n### Input\n\n```css\nh1{\n    width: calc(10px - ( 100px / var(--test) )) \n}\n```\n\n### Output\n\n```css\nh1{\n    width: calc(10px - 100px / var(--test))\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "email" : "andrey@sitnik.ru",
+    "name" : "ai"
+  }, {
+    "email" : "beneb.info@gmail.com",
+    "name" : "beneb"
+  }, {
+    "email" : "chris@eppsteins.net",
+    "name" : "chriseppstein"
+  }, {
+    "email" : "sheo13666q@gmail.com",
+    "name" : "evilebottnawi"
+  } ],
+  "author" : {
+    "name" : "Ben Briggs",
+    "email" : "beneb.info@gmail.com",
+    "url" : "http://beneb.info"
+  },
+  "time" : {
+    "4.0.0-nightly.2020.8.1" : "2020-08-01T17:16:04.524Z",
+    "created" : "2017-06-01T09:59:51.717Z",
+    "4.0.2" : "2019-02-12T17:52:22.750Z",
+    "4.0.0-nightly.2020.8.4" : "2020-08-04T12:51:30.778Z",
+    "4.0.0-nightly.2020.9.3" : "2020-09-03T17:19:23.835Z",
+    "4.0.0" : "2018-07-04T11:09:45.333Z",
+    "4.0.0-nightly.2020.8.29" : "2020-08-29T17:10:27.111Z",
+    "4.0.1" : "2018-09-24T21:01:29.326Z",
+    "4.0.0-nightly.2020.8.17" : "2020-08-17T17:17:12.974Z",
+    "4.0.0-nightly.2020.9.1" : "2020-09-01T17:18:54.476Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:27.219Z",
+    "4.0.0-rc.0" : "2017-06-01T09:59:51.717Z",
+    "4.0.0-nightly.2020.7.31" : "2020-07-31T17:16:01.766Z",
+    "4.0.0-nightly.2020.8.10" : "2020-08-10T17:16:41.231Z",
+    "4.0.0-nightly.2020.7.25" : "2020-07-25T17:14:29.787Z",
+    "4.0.0-nightly.2020.7.24" : "2020-07-24T08:13:21.378Z",
+    "4.0.0-nightly.2020.8.25" : "2020-08-25T17:17:11.590Z",
+    "4.0.0-nightly.2020.8.24" : "2020-08-24T17:17:39.863Z",
+    "modified" : "2020-09-03T17:19:27.141Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/cssnano/cssnano",
+  "keywords" : [ "css", "postcss", "postcss-plugin" ],
+  "bugs" : {
+    "url" : "https://github.com/cssnano/cssnano/issues"
+  },
+  "license" : "MIT"
+}

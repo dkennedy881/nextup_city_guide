@@ -1,0 +1,281 @@
+{
+  "_id" : "side-channel",
+  "_rev" : "4-27c9ff208c379b115afd28edccd2c9b7",
+  "name" : "side-channel",
+  "description" : "Store information about any JS value in a side channel. Uses WeakMap if available.",
+  "dist-tags" : {
+    "latest" : "1.0.3"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "side-channel",
+      "description" : "Store information about any JS value in a side channel. Uses WeakMap if available.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/ljharb/side-channel#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ljharb/side-channel.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/side-channel/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/side-channel/-/side-channel-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fside-channel%2F-%2Fside-channel-1.0.3.tgz",
+        "shasum" : "cdc46b057550bbab63706210838df5d4c19519c3"
+      },
+      "dependencies" : {
+        "es-abstract" : "^1.18.0-next.0",
+        "object-inspect" : "^1.8.0"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^17.2.0",
+        "aud" : "^1.1.2",
+        "auto-changelog" : "^2.2.0",
+        "eslint" : "^7.7.0",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.0.1"
+      },
+      "keywords" : [ "weakmap", "map", "side", "channel", "metadata" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "node test",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud --production",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "side-channel@1.0.3",
+      "gitHead" : "22f79686135bc418165ff05d066518fe6c7d7ba1",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "./package.json" : "./package.json",
+        "." : [ {
+          "default" : "./index.js"
+        }, "./index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/side-channel_1.0.3_1598214016718_0.07108655703290734"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "14.8.0"
+    },
+    "1.0.1" : {
+      "name" : "side-channel",
+      "description" : "Store information about any JS value in a side channel. Uses WeakMap if available.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/ljharb/side-channel#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ljharb/side-channel.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/side-channel/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/side-channel/-/side-channel-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fside-channel%2F-%2Fside-channel-1.0.1.tgz",
+        "shasum" : "4fb6c60e13bf4a69baf1b219c50b7feb87cf5c30"
+      },
+      "dependencies" : {
+        "es-abstract" : "^1.16.2",
+        "object-inspect" : "^1.7.0"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^15.0.2",
+        "auto-changelog" : "^1.16.2",
+        "eslint" : "^6.7.2",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "weakmap", "map", "side", "channel", "metadata" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "node test",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "side-channel@1.0.1",
+      "gitHead" : "eeb5be33213cf47dc88c426bb5f2ab22bd8537df",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "default" : "./index.js"
+        }, "./index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/side-channel_1.0.1_1575272751876_0.5565220906335961"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false
+      },
+      "_nodeVersion" : "13.2.0"
+    },
+    "1.0.2" : {
+      "name" : "side-channel",
+      "description" : "Store information about any JS value in a side channel. Uses WeakMap if available.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/ljharb/side-channel#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ljharb/side-channel.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/side-channel/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/side-channel/-/side-channel-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fside-channel%2F-%2Fside-channel-1.0.2.tgz",
+        "shasum" : "df5d1abadb4e4bf4af1cd8852bf132d2f7876947"
+      },
+      "dependencies" : {
+        "es-abstract" : "^1.17.0-next.1",
+        "object-inspect" : "^1.7.0"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^15.1.0",
+        "auto-changelog" : "^1.16.2",
+        "eslint" : "^6.7.2",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^4.12.0"
+      },
+      "keywords" : [ "weakmap", "map", "side", "channel", "metadata" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "node test",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "side-channel@1.0.2",
+      "gitHead" : "f68d532990cdd2e4e7542241787ea3d103340765",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "default" : "./index.js"
+        }, "./index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/side-channel_1.0.2_1576871141427_0.82681961516941"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false
+      },
+      "_nodeVersion" : "13.5.0"
+    }
+  },
+  "readme" : "# side-channel\nStore information about any JS value in a side channel. Uses WeakMap if available.\n",
+  "maintainers" : [ {
+    "name" : "ljharb",
+    "email" : "ljharb@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com"
+  },
+  "time" : {
+    "1.0.3" : "2020-08-23T20:20:16.888Z",
+    "created" : "2019-12-02T07:41:11.448Z",
+    "modified" : "2020-08-23T20:20:19.134Z",
+    "1.0.0" : "2019-12-02T07:41:11.607Z",
+    "1.0.1" : "2019-12-02T07:45:52.012Z",
+    "1.0.2" : "2019-12-20T19:45:41.557Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/ljharb/side-channel.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/ljharb/side-channel#readme",
+  "keywords" : [ "weakmap", "map", "side", "channel", "metadata" ],
+  "bugs" : {
+    "url" : "https://github.com/ljharb/side-channel/issues"
+  },
+  "license" : "MIT"
+}

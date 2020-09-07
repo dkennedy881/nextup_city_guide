@@ -1,0 +1,142 @@
+{
+  "_id" : "strip-url-auth",
+  "_rev" : "3-31c415bbd03f43912d2e6d5a32f70973",
+  "name" : "strip-url-auth",
+  "description" : "Strip the authentication part of a URL",
+  "dist-tags" : {
+    "latest" : "1.0.1"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "strip-url-auth",
+      "description" : "Strip the authentication part of a URL",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/strip-url-auth",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/strip-url-auth"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/strip-url-auth/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/strip-url-auth/-/strip-url-auth-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-url-auth%2F-%2Fstrip-url-auth-1.0.0.tgz",
+        "shasum" : "5c3df1868ce5c4af02fb0e3ed3c398d0efa7e894"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "string", "str", "url", "uri", "address", "auth", "authentication", "user", "username", "pass", "password", "basic" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.16",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "strip-url-auth@1.0.0",
+      "gitHead" : "0e3a6f23deeb0c87564990c4335066debfe8da98",
+      "_shasum" : "5c3df1868ce5c4af02fb0e3ed3c398d0efa7e894",
+      "_nodeVersion" : "0.10.32"
+    },
+    "1.0.1" : {
+      "name" : "strip-url-auth",
+      "description" : "Strip the authentication part of a URL",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/strip-url-auth#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/strip-url-auth.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/strip-url-auth/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/strip-url-auth/-/strip-url-auth-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-url-auth%2F-%2Fstrip-url-auth-1.0.1.tgz",
+        "shasum" : "22b0fa3a41385b33be3f331551bbb837fa0cd7ae"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "string", "str", "url", "uri", "address", "auth", "authentication", "user", "username", "pass", "password", "basic" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.0.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "strip-url-auth@1.0.1",
+      "gitHead" : "84d6c732cf7e4b5787ed19d90a7df7df8b977a01",
+      "_shasum" : "22b0fa3a41385b33be3f331551bbb837fa0cd7ae",
+      "_nodeVersion" : "2.3.0"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# strip-url-auth [![Build Status](https://travis-ci.org/sindresorhus/strip-url-auth.svg?branch=master)](https://travis-ci.org/sindresorhus/strip-url-auth)\n\n> Strip the [authentication](http://en.wikipedia.org/wiki/Basic_access_authentication) part of a URL\n\n\n## Install\n\n```\n$ npm install --save strip-url-auth\n```\n\n\n## Usage\n\n```js\nvar stripUrlAuth = require('strip-url-auth');\n\nstripUrlAuth('https://user:pass@sindresorhus.com');\n//=> 'https://sindresorhus.com'\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "created" : "2015-01-14T03:46:18.961Z",
+    "modified" : "2015-07-02T12:25:47.102Z",
+    "1.0.0" : "2015-01-14T03:46:18.961Z",
+    "1.0.1" : "2015-07-02T12:25:47.102Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/strip-url-auth.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/strip-url-auth#readme",
+  "keywords" : [ "string", "str", "url", "uri", "address", "auth", "authentication", "user", "username", "pass", "password", "basic" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/strip-url-auth/issues"
+  },
+  "license" : "MIT"
+}

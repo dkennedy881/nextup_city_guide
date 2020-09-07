@@ -1,0 +1,2052 @@
+{
+  "_id" : "postcss-discard-duplicates",
+  "_rev" : "40-ae34706c2e0d1b8c2f4aa7c01f336bbe",
+  "name" : "postcss-discard-duplicates",
+  "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "nightly" : "4.0.0-nightly.2020.9.3",
+    "latest" : "4.0.2"
+  },
+  "versions" : {
+    "4.0.0-nightly.2020.8.1" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.8.1.tgz",
+        "shasum" : "7cc426085a1ae5d0545f3c2259f39571b5a8bc64"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.8.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.8.1_1596302092668_0.7947799350763485"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.2" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.2.tgz",
+        "shasum" : "3fe133cd3c82282e550fc9b239176a9207b784eb"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.2_1537883766777_0.303025425384154"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0-nightly.2020.8.4" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.4",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.8.4.tgz",
+        "shasum" : "62b6fbad3e037b87932fb7daacd395555824dc1b"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.8.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.8.4_1596545420915_0.3581907570704548"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.9.3" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.9.3",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.9.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.9.3.tgz",
+        "shasum" : "5eded9dd2044108f5b2511c6cb22ddaaf31bf3fe"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.9.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.9.3_1599153476478_0.09782295629060145"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0.tgz",
+        "shasum" : "42f3c267f85fa909e042c35767ecfd65cb2bd72c"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0_1530702843157_0.5148596499308031"
+      }
+    },
+    "4.0.0-nightly.2020.8.29" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.29",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.8.29.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.8.29.tgz",
+        "shasum" : "ea96e1d6d6654d13bea9e9b8bd7f348482db9dd5"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.8.29",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.8.29_1598720955889_0.35766228030181835"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.1" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.1.tgz",
+        "shasum" : "3e46e504144b41a94fa22886cfefb4edaa3d84f0"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.1_1537822820703_0.5211956105611608"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-nightly.2020.9.1" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.9.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.9.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.9.1.tgz",
+        "shasum" : "6d21e0b2223fb33c49d0bc5a17ed28bc35a1e6d6"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.9.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.9.1_1598980641317_0.8299211001716649"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-rc.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-rc.2.tgz",
+        "shasum" : "6218b98f65862dfc1dd35525ab954fc4bb78188d"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates-4.0.0-rc.2.tgz_1502049189256_0.5497790367808193"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-rc.0.tgz",
+        "shasum" : "4e07528569ef83521b188b1ab13685f8318384b6"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates-4.0.0-rc.0.tgz_1496311176813_0.6779908062890172"
+      },
+      "_shasum" : "4e07528569ef83521b188b1ab13685f8318384b6",
+      "_nodeVersion" : "6.9.1"
+    },
+    "4.0.0-nightly.2020.7.31" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.7.31",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.7.31.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.7.31.tgz",
+        "shasum" : "e6b3060a90cc319a24dcd10b7a08336bb3a96838"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.7.31",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.7.31_1596215692393_0.9605251363778275"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.8.25" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.25",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.8.25.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.8.25.tgz",
+        "shasum" : "90ddca1a746a962366b8b55943147bbdd949442f"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.8.25",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.8.25_1598375749172_0.5327760694234212"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "4.0.0-nightly.2020.8.24" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.24",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.8.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.8.24.tgz",
+        "shasum" : "ac9c33268cdb15c2732446465ef84ed0705c7adc"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.8.24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.8.24_1598289375782_0.5283070414905784"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "2.0.0" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-2.0.0.tgz",
+        "shasum" : "16a1901e5d791947b198e4a6b29d7e123814dd12"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@2.0.0",
+      "gitHead" : "de369f95696288e983146956f407c9441fc29f18",
+      "_shasum" : "16a1901e5d791947b198e4a6b29d7e123814dd12",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.0.1" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-2.0.1.tgz",
+        "shasum" : "5fae3f1a71df3e19cffb37309d1a7dba56c4589c"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "ava" : "^0.11.0",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-preset-es2015-loose" : "^6.1.4",
+        "babel-preset-stage-0" : "^6.3.13",
+        "del-cli" : "^0.1.2",
+        "eslint" : "^1.10.3",
+        "eslint-config-cssnano" : "^1.0.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint src",
+        "prepublish" : "de dist && babel src --out-dir dist --ignore /__tests__/",
+        "test" : "ava src/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@2.0.1",
+      "gitHead" : "89111abc1df21c3ffb56ead76ad43456b1bb32b4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-6-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-discard-duplicates-2.0.1.tgz_1454800311832_0.8795879932586104"
+      },
+      "_shasum" : "5fae3f1a71df3e19cffb37309d1a7dba56c4589c",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "ava" : {
+        "require" : "babel-core/register"
+      },
+      "_nodeVersion" : "5.4.1"
+    },
+    "2.1.0" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-2.1.0.tgz",
+        "shasum" : "b9abf27b88ac188158a5eb12abcae20263b91932"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^3.0.5",
+        "ava" : "^0.17.0",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.2.0",
+        "babel-preset-es2015" : "^6.5.0",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "babel-register" : "^6.9.0",
+        "del-cli" : "^0.2.0",
+        "eslint" : "^3.0.0",
+        "eslint-config-cssnano" : "^3.0.0",
+        "eslint-plugin-babel" : "^3.3.0",
+        "eslint-plugin-import" : "^2.0.1"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "contributorAdd" : "all-contributors add",
+        "contributorGenerate" : "all-contributors generate",
+        "pretest" : "eslint src",
+        "prepublish" : "del-cli dist && babel src --out-dir dist --ignore /__tests__/",
+        "test" : "ava src/__tests__",
+        "test-012" : "ava src/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@2.1.0",
+      "gitHead" : "c80d008a5dfd20a9c6274f501bf979d9e40eb00d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-discard-duplicates-2.1.0.tgz_1488136857665_0.212149751605466"
+      },
+      "_shasum" : "b9abf27b88ac188158a5eb12abcae20263b91932",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "ava" : {
+        "require" : "babel-register"
+      },
+      "_nodeVersion" : "6.9.1"
+    },
+    "4.0.0-nightly.2020.8.17" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.17",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.8.17.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.8.17.tgz",
+        "shasum" : "6a09376c9840a74d833fb51533f3e06de07db53d"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.8.17",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.8.17_1597684556639_0.4706350790185405"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "2.0.2" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-2.0.2.tgz",
+        "shasum" : "02be520e91571ffb10738766a981d5770989bb32"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^3.0.5",
+        "ava" : "^0.16.0",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.2.0",
+        "babel-preset-es2015" : "^6.5.0",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "babel-register" : "^6.9.0",
+        "del-cli" : "^0.2.0",
+        "eslint" : "^3.0.0",
+        "eslint-config-cssnano" : "^3.0.0",
+        "eslint-plugin-babel" : "^3.3.0",
+        "eslint-plugin-import" : "^2.0.1"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "contributorAdd" : "all-contributors add",
+        "contributorGenerate" : "all-contributors generate",
+        "pretest" : "eslint src",
+        "prepublish" : "del-cli dist && babel src --out-dir dist --ignore /__tests__/",
+        "test" : "ava src/__tests__",
+        "test-012" : "ava src/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@2.0.2",
+      "gitHead" : "c1ce1fa0aef97843fc8feb914572cd1b52d0078c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-discard-duplicates-2.0.2.tgz_1479050585968_0.12487076316028833"
+      },
+      "_shasum" : "02be520e91571ffb10738766a981d5770989bb32",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "ava" : {
+        "require" : "babel-register"
+      },
+      "_nodeVersion" : "6.9.1"
+    },
+    "1.1.2" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.1.2.tgz",
+        "shasum" : "b56939528954eabfc62a9770a59f04bf3dc8932c"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.1.2",
+      "gitHead" : "723bb5f65b065aca750d378440e39afce439f336",
+      "_shasum" : "b56939528954eabfc62a9770a59f04bf3dc8932c",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.2.1" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.2.1.tgz",
+        "shasum" : "49bb33b4d3477105b00d048395f73a2902bc9a25"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.16"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.1.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.2.1",
+      "gitHead" : "2eb062170d74a32fe9cbd68768b9a5c612ead7cf",
+      "_shasum" : "49bb33b4d3477105b00d048395f73a2902bc9a25",
+      "_nodeVersion" : "2.3.4"
+    },
+    "1.1.3" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.1.3.tgz",
+        "shasum" : "a20ee645304170bcbe1a39d1dc92192242673e23"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.10"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.1.3",
+      "gitHead" : "3179c647d095307d4c2801953065462d3291fa47",
+      "_shasum" : "a20ee645304170bcbe1a39d1dc92192242673e23",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.1.4" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.1.4.tgz",
+        "shasum" : "7907df4928800a574871e4201640cdadeb5069f2"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.16"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.1.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.1.4",
+      "gitHead" : "fc6271693e9a1f72f7fd29d65596d12c78d62422",
+      "_shasum" : "7907df4928800a574871e4201640cdadeb5069f2",
+      "_nodeVersion" : "2.3.4"
+    },
+    "4.0.0-nightly.2020.8.10" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.8.10",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.8.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.8.10.tgz",
+        "shasum" : "f540854f0999f09fef3f0db214f5d7d197e5388c"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.8.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.8.10_1597079722674_0.8043318455591915"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.22.0"
+    },
+    "1.1.5" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.1.5",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.1.5.tgz",
+        "shasum" : "0f617ba0f32235116810a95ecedc90ba21a63612"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.16"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.1.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.1.5",
+      "gitHead" : "9e471041a110f6d485093f093c3eee295a9c3f96",
+      "_shasum" : "0f617ba0f32235116810a95ecedc90ba21a63612",
+      "_nodeVersion" : "2.3.4"
+    },
+    "1.1.6" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.1.6",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.1.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.1.6.tgz",
+        "shasum" : "3109dac0fd69e5a7ff9a78e66c607e9cdd48746c"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.16"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.1.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.1.6",
+      "gitHead" : "2ad646db8f9f1b5b427085f77e80217495f3f7c4",
+      "_shasum" : "3109dac0fd69e5a7ff9a78e66c607e9cdd48746c",
+      "_nodeVersion" : "2.3.4"
+    },
+    "4.0.0-nightly.2020.7.25" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.7.25",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.7.25.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.7.25.tgz",
+        "shasum" : "4bc7b4d8250e1764c0f1144a3cecb62f2b333847"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.7.25",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.7.25_1595697201794_0.41607783345641103"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.21.0"
+    },
+    "4.0.0-nightly.2020.7.24" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "4.0.0-nightly.2020.7.24",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.0-nightly.2020.7.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-4.0.0-nightly.2020.7.24.tgz",
+        "shasum" : "fe285e32aec945d6c9394bb566aec4ea856757f2"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.16"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "",
+        "build" : "cross-env BABEL_ENV=publish babel src --config-file ../../babel.config.js --out-dir dist --ignore \"**/__tests__/\"",
+        "prepublish" : ""
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "cssnano-bot",
+        "email" : "sahaaniketh@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@4.0.0-nightly.2020.7.24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-discard-duplicates_4.0.0-nightly.2020.7.24_1595578330388_0.16313538911740566"
+      },
+      "readme" : "# [postcss][postcss]-discard-duplicates\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-discard-duplicates) do:\n\n```\nnpm install postcss-discard-duplicates --save\n```\n\n## Example\n\nThis module will remove all duplicate rules from your stylesheets. It works on\nat rules, normal rules and declarations. Note that this module does not have any\nresponsibility for normalising declarations, selectors or whitespace, so that it\nconsiders these two rules to be different:\n\n```css\nh1, h2 {\n    color: blue;\n}\n\nh2, h1 {\n    color: blue;\n}\n```\n\nIt has to assume that your rules have already been transformed by another\nprocessor, otherwise it would be responsible for too many things.\n\n### Input\n\n```css\nh1 {\n    margin: 0 auto;\n    margin: 0 auto\n}\n\nh1 {\n    margin: 0 auto\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 0 auto\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.21.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.0.0.tgz",
+        "shasum" : "7568f07d1faf1a726b64eb1cad3ee480d1f754bd"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "postcss" : "^4.0.6",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.0.0",
+      "gitHead" : "78c70e00b4f2145c56ad69588af455b2c6e46dbb",
+      "_shasum" : "7568f07d1faf1a726b64eb1cad3ee480d1f754bd",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.1.0" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.1.0.tgz",
+        "shasum" : "318e0a42862b27b21cabf1198587528bef0909a5"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.1.0",
+      "gitHead" : "8bfdad9b19cad37491f163b8c30676a412701a5f",
+      "_shasum" : "318e0a42862b27b21cabf1198587528bef0909a5",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.1.1" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.1.1.tgz",
+        "shasum" : "89ba9ba3327526920bcb2b9752d1f433a66654a3"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.1.1",
+      "gitHead" : "a293d0e7d34d51b6ad15a125e873754e4a7ac2c4",
+      "_shasum" : "89ba9ba3327526920bcb2b9752d1f433a66654a3",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.2.0" : {
+      "name" : "postcss-discard-duplicates",
+      "description" : "Discard duplicate rules in your CSS files with PostCSS.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-discard-duplicates",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-discard-duplicates.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-discard-duplicates/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/postcss-discard-duplicates/-/postcss-discard-duplicates-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-discard-duplicates%2F-%2Fpostcss-discard-duplicates-1.2.0.tgz",
+        "shasum" : "ff0b423853c06f9f965ba00a572eed97cbb8589d"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.16"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.1.0"
+      },
+      "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-discard-duplicates@1.2.0",
+      "gitHead" : "6399de7ff89e31c74762ff121f82fdf15cd6f5f5",
+      "_shasum" : "ff0b423853c06f9f965ba00a572eed97cbb8589d",
+      "_nodeVersion" : "2.3.4"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "email" : "andrey@sitnik.ru",
+    "name" : "ai"
+  }, {
+    "email" : "beneb.info@gmail.com",
+    "name" : "beneb"
+  }, {
+    "email" : "chris@eppsteins.net",
+    "name" : "chriseppstein"
+  }, {
+    "email" : "sheo13666q@gmail.com",
+    "name" : "evilebottnawi"
+  }, {
+    "email" : "trysound@yandex.ru",
+    "name" : "trysound"
+  } ],
+  "author" : {
+    "name" : "Ben Briggs",
+    "email" : "beneb.info@gmail.com",
+    "url" : "http://beneb.info"
+  },
+  "time" : {
+    "4.0.0-nightly.2020.8.1" : "2020-08-01T17:14:52.785Z",
+    "4.0.2" : "2018-09-25T13:56:06.965Z",
+    "4.0.0-nightly.2020.8.4" : "2020-08-04T12:50:21.038Z",
+    "4.0.0-nightly.2020.9.3" : "2020-09-03T17:17:56.610Z",
+    "4.0.0" : "2018-07-04T11:14:03.205Z",
+    "4.0.0-nightly.2020.8.29" : "2020-08-29T17:09:16.004Z",
+    "4.0.1" : "2018-09-24T21:00:20.970Z",
+    "4.0.0-nightly.2020.9.1" : "2020-09-01T17:17:21.440Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:10.199Z",
+    "4.0.0-rc.0" : "2017-06-01T09:59:37.903Z",
+    "4.0.0-nightly.2020.7.31" : "2020-07-31T17:14:52.524Z",
+    "4.0.0-nightly.2020.8.25" : "2020-08-25T17:15:49.273Z",
+    "4.0.0-nightly.2020.8.24" : "2020-08-24T17:16:15.914Z",
+    "modified" : "2020-09-03T17:17:58.852Z",
+    "2.0.0" : "2015-09-04T22:59:07.104Z",
+    "2.0.1" : "2016-02-06T23:11:54.926Z",
+    "2.1.0" : "2017-02-26T19:20:58.214Z",
+    "created" : "2015-03-26T10:38:27.797Z",
+    "4.0.0-nightly.2020.8.17" : "2020-08-17T17:15:56.772Z",
+    "2.0.2" : "2016-11-13T15:23:07.996Z",
+    "1.1.2" : "2015-04-08T14:19:34.452Z",
+    "1.2.1" : "2015-09-03T08:38:00.615Z",
+    "1.1.3" : "2015-05-16T17:04:14.153Z",
+    "1.1.4" : "2015-08-13T15:00:49.218Z",
+    "4.0.0-nightly.2020.8.10" : "2020-08-10T17:15:22.824Z",
+    "1.1.5" : "2015-08-13T17:36:54.165Z",
+    "1.1.6" : "2015-09-01T09:47:19.233Z",
+    "4.0.0-nightly.2020.7.25" : "2020-07-25T17:13:21.903Z",
+    "4.0.0-nightly.2020.7.24" : "2020-07-24T08:12:10.529Z",
+    "1.0.0" : "2015-03-26T10:38:27.797Z",
+    "1.1.0" : "2015-04-02T11:44:02.545Z",
+    "1.1.1" : "2015-04-07T10:02:48.342Z",
+    "1.2.0" : "2015-09-01T13:08:05.113Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/cssnano/cssnano",
+  "keywords" : [ "css", "dedupe", "optimise", "postcss", "postcss-plugin" ],
+  "bugs" : {
+    "url" : "https://github.com/cssnano/cssnano/issues"
+  },
+  "license" : "MIT"
+}

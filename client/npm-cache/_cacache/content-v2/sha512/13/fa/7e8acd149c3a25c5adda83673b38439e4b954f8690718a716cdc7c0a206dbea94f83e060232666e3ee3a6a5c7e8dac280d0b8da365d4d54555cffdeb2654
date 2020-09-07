@@ -1,0 +1,4592 @@
+{
+  "_id" : "@jest/core",
+  "_rev" : "49-80bb39b4b30889a4dbd927fe33100d7f",
+  "name" : "@jest/core",
+  "description" : "Delightful JavaScript Testing.",
+  "dist-tags" : {
+    "next" : "26.0.1-alpha.0",
+    "canary" : "25.2.1-alpha.2",
+    "beta" : "24.2.0-alpha.0",
+    "latest" : "26.4.2"
+  },
+  "versions" : {
+    "25.2.7" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.7",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.7.tgz",
+        "shasum" : "58d697687e94ee644273d15e4eed6a20e27187cd"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.6",
+        "@jest/reporters" : "^25.2.6",
+        "@jest/test-result" : "^25.2.6",
+        "@jest/transform" : "^25.2.6",
+        "@jest/types" : "^25.2.6",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.6",
+        "jest-config" : "^25.2.7",
+        "jest-haste-map" : "^25.2.6",
+        "jest-message-util" : "^25.2.6",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.2.6",
+        "jest-resolve-dependencies" : "^25.2.7",
+        "jest-runner" : "^25.2.7",
+        "jest-runtime" : "^25.2.7",
+        "jest-snapshot" : "^25.2.7",
+        "jest-util" : "^25.2.6",
+        "jest-validate" : "^25.2.6",
+        "jest-watcher" : "^25.2.7",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.7",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.7",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "3c2fa9347b86460b5dfc558f033b8d4eec0ff8e1",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.7_1585900293117_0.6573758802470253"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.5.4" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.5.4",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.5.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.5.4.tgz",
+        "shasum" : "3ef7412f7339210f003cdf36646bbca786efe7b4"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.5.0",
+        "@jest/reporters" : "^25.5.1",
+        "@jest/test-result" : "^25.5.0",
+        "@jest/transform" : "^25.5.1",
+        "@jest/types" : "^25.5.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^25.5.0",
+        "jest-config" : "^25.5.4",
+        "jest-haste-map" : "^25.5.1",
+        "jest-message-util" : "^25.5.0",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.5.1",
+        "jest-resolve-dependencies" : "^25.5.4",
+        "jest-runner" : "^25.5.4",
+        "jest-runtime" : "^25.5.4",
+        "jest-snapshot" : "^25.5.1",
+        "jest-util" : "^25.5.0",
+        "jest-validate" : "^25.5.0",
+        "jest-watcher" : "^25.5.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.5.4",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.5.4",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "389d13724bbf6bb64dcde9700a6ecea3333942db",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.5.4_1588407412669_0.9110463529919379"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "24.6.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.6.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.6.0.tgz",
+        "shasum" : "148c2dc60be7daef1e148bf8c0a01bb1391609df"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.6.0",
+        "@jest/reporters" : "^24.6.0",
+        "@jest/test-result" : "^24.6.0",
+        "@jest/transform" : "^24.6.0",
+        "@jest/types" : "^24.6.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.6.0",
+        "jest-config" : "^24.6.0",
+        "jest-haste-map" : "^24.6.0",
+        "jest-message-util" : "^24.6.0",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve-dependencies" : "^24.6.0",
+        "jest-runner" : "^24.6.0",
+        "jest-runtime" : "^24.6.0",
+        "jest-snapshot" : "^24.6.0",
+        "jest-util" : "^24.6.0",
+        "jest-validate" : "^24.6.0",
+        "jest-watcher" : "^24.6.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/ansi-escapes" : "^3.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/core@24.6.0",
+      "gitHead" : "04e6a66d2ba8b18bee080bb28547db74a255d2c7",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.6.0_1554157619762_0.6732336749315877"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.7.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.7.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.7.0.tgz",
+        "shasum" : "7fd599fa89e7fcd0109a9f6d33fcce2da17a7f98"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.6.0",
+        "@jest/reporters" : "^24.7.0",
+        "@jest/test-result" : "^24.7.0",
+        "@jest/transform" : "^24.7.0",
+        "@jest/types" : "^24.7.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.7.0",
+        "jest-config" : "^24.7.0",
+        "jest-haste-map" : "^24.7.0",
+        "jest-message-util" : "^24.7.0",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve-dependencies" : "^24.7.0",
+        "jest-runner" : "^24.7.0",
+        "jest-runtime" : "^24.7.0",
+        "jest-snapshot" : "^24.7.0",
+        "jest-util" : "^24.7.0",
+        "jest-validate" : "^24.7.0",
+        "jest-watcher" : "^24.7.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^24.7.0",
+        "@types/ansi-escapes" : "^3.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/core@24.7.0",
+      "gitHead" : "eb0413622542bc0f70c32950d9daeeab9f6802ac",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.7.0_1554263753962_0.7474403593436485"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.7.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.7.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.7.1.tgz",
+        "shasum" : "6707f50db238d0c5988860680e2e414df0032024"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.7.1",
+        "@jest/reporters" : "^24.7.1",
+        "@jest/test-result" : "^24.7.1",
+        "@jest/transform" : "^24.7.1",
+        "@jest/types" : "^24.7.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.7.0",
+        "jest-config" : "^24.7.1",
+        "jest-haste-map" : "^24.7.1",
+        "jest-message-util" : "^24.7.1",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve-dependencies" : "^24.7.1",
+        "jest-runner" : "^24.7.1",
+        "jest-runtime" : "^24.7.1",
+        "jest-snapshot" : "^24.7.1",
+        "jest-util" : "^24.7.1",
+        "jest-validate" : "^24.7.0",
+        "jest-watcher" : "^24.7.1",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^24.7.1",
+        "@types/ansi-escapes" : "^3.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/core@24.7.1",
+      "gitHead" : "0efb1d7809cb96ae87a7601e7802f1dab3774280",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.7.1_1554340749560_0.3380942311215758"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.8.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.8.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.8.0.tgz",
+        "shasum" : "fbbdcd42a41d0d39cddbc9f520c8bab0c33eed5b"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.7.1",
+        "@jest/reporters" : "^24.8.0",
+        "@jest/test-result" : "^24.8.0",
+        "@jest/transform" : "^24.8.0",
+        "@jest/types" : "^24.8.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.8.0",
+        "jest-config" : "^24.8.0",
+        "jest-haste-map" : "^24.8.0",
+        "jest-message-util" : "^24.8.0",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve-dependencies" : "^24.8.0",
+        "jest-runner" : "^24.8.0",
+        "jest-runtime" : "^24.8.0",
+        "jest-snapshot" : "^24.8.0",
+        "jest-util" : "^24.8.0",
+        "jest-validate" : "^24.8.0",
+        "jest-watcher" : "^24.8.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^24.8.0",
+        "@types/ansi-escapes" : "^3.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/core@24.8.0",
+      "gitHead" : "845728f24b3ef41e450595c384e9b5c9fdf248a4",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.8.0_1557021772328_0.7316649327237397"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.9.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.9.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/facebook/jest",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.9.0.tgz",
+        "shasum" : "2ceccd0b93181f9c4850e74f2a9ad43d351369c4"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.7.1",
+        "@jest/reporters" : "^24.9.0",
+        "@jest/test-result" : "^24.9.0",
+        "@jest/transform" : "^24.9.0",
+        "@jest/types" : "^24.9.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.9.0",
+        "jest-config" : "^24.9.0",
+        "jest-haste-map" : "^24.9.0",
+        "jest-message-util" : "^24.9.0",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve" : "^24.9.0",
+        "jest-resolve-dependencies" : "^24.9.0",
+        "jest-runner" : "^24.9.0",
+        "jest-runtime" : "^24.9.0",
+        "jest-snapshot" : "^24.9.0",
+        "jest-util" : "^24.9.0",
+        "jest-validate" : "^24.9.0",
+        "jest-watcher" : "^24.9.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "slash" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^24.9.0",
+        "@types/ansi-escapes" : "^3.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/slash" : "^2.0.0",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/core@24.9.0",
+      "gitHead" : "9ad0f4bc6b8bdd94989804226c28c9960d9da7d1",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.9.0_1565936036546_0.7903660299702111"
+      }
+    },
+    "24.3.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.3.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.3.0.tgz",
+        "shasum" : "ae5732af96567205d79ed97dc0b9b9033acea298"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.3.0",
+        "@jest/reporters" : "^24.3.0",
+        "@jest/test-result" : "^24.3.0",
+        "@jest/transform" : "^24.3.0",
+        "@jest/types" : "^24.3.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.3.0",
+        "jest-config" : "^24.3.0",
+        "jest-haste-map" : "^24.3.0",
+        "jest-message-util" : "^24.3.0",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve-dependencies" : "^24.3.0",
+        "jest-runner" : "^24.3.0",
+        "jest-runtime" : "^24.3.0",
+        "jest-snapshot" : "^24.3.0",
+        "jest-util" : "^24.3.0",
+        "jest-validate" : "^24.3.0",
+        "jest-watcher" : "^24.3.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/ansi-escapes" : "^3.0.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/core@24.3.0",
+      "gitHead" : "3a7a4f3a3f5489ac8e07dcddf76bb949c482ec87",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.3.0_1551963617151_0.04985248014964805"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.0-alpha.86" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.0-alpha.86",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.0-alpha.86.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.0-alpha.86.tgz",
+        "shasum" : "a07fbc7d5492e12f6e2ed3d66ce99efae2367fac"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.0-alpha.86+cd98198c9",
+        "@jest/reporters" : "^25.2.0-alpha.86+cd98198c9",
+        "@jest/test-result" : "^25.2.0-alpha.86+cd98198c9",
+        "@jest/transform" : "^25.2.0-alpha.86+cd98198c9",
+        "@jest/types" : "^25.2.0-alpha.86+cd98198c9",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-config" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-haste-map" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-message-util" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-regex-util" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-resolve" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-resolve-dependencies" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-runner" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-runtime" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-snapshot" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-util" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-validate" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-watcher" : "^25.2.0-alpha.86+cd98198c9",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.0-alpha.86+cd98198c9",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.0-alpha.86",
+      "gitHead" : "cd98198c9397d8b69c55155d7b224d62ef117a90",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.0-alpha.86_1585156632275_0.5698232720124505"
+      },
+      "readme" : "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported.\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.14.1"
+    },
+    "24.3.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.3.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.3.1.tgz",
+        "shasum" : "9811596d9fcc6dbb3d4062c67e4c4867bc061585"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.3.0",
+        "@jest/reporters" : "^24.3.1",
+        "@jest/test-result" : "^24.3.0",
+        "@jest/transform" : "^24.3.1",
+        "@jest/types" : "^24.3.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.3.0",
+        "jest-config" : "^24.3.1",
+        "jest-haste-map" : "^24.3.1",
+        "jest-message-util" : "^24.3.0",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve-dependencies" : "^24.3.1",
+        "jest-runner" : "^24.3.1",
+        "jest-runtime" : "^24.3.1",
+        "jest-snapshot" : "^24.3.1",
+        "jest-util" : "^24.3.0",
+        "jest-validate" : "^24.3.1",
+        "jest-watcher" : "^24.3.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/ansi-escapes" : "^3.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/core@24.3.1",
+      "gitHead" : "65c6e9d5e398711c011078bb72648c77fc8a8cb3",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.3.1_1552000375925_0.04138802201448599"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.4.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.4.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.4.0.tgz",
+        "shasum" : "ec53510f19dde5aaf4e9e28a3c3426fc0f2a41d6"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.3.0",
+        "@jest/reporters" : "^24.4.0",
+        "@jest/test-result" : "^24.3.0",
+        "@jest/transform" : "^24.4.0",
+        "@jest/types" : "^24.3.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.3.0",
+        "jest-config" : "^24.4.0",
+        "jest-haste-map" : "^24.4.0",
+        "jest-message-util" : "^24.3.0",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve-dependencies" : "^24.4.0",
+        "jest-runner" : "^24.4.0",
+        "jest-runtime" : "^24.4.0",
+        "jest-snapshot" : "^24.4.0",
+        "jest-util" : "^24.3.0",
+        "jest-validate" : "^24.4.0",
+        "jest-watcher" : "^24.3.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/ansi-escapes" : "^3.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/core@24.4.0",
+      "gitHead" : "a018000fc162db3cfd0ebf9f23fdb734f05821a6",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.4.0_1552316304076_0.3119372124570754"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.5.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.5.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.5.0.tgz",
+        "shasum" : "2cefc6a69e9ebcae1da8f7c75f8a257152ba1ec0"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.3.0",
+        "@jest/reporters" : "^24.5.0",
+        "@jest/test-result" : "^24.5.0",
+        "@jest/transform" : "^24.5.0",
+        "@jest/types" : "^24.5.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.5.0",
+        "jest-config" : "^24.5.0",
+        "jest-haste-map" : "^24.5.0",
+        "jest-message-util" : "^24.5.0",
+        "jest-regex-util" : "^24.3.0",
+        "jest-resolve-dependencies" : "^24.5.0",
+        "jest-runner" : "^24.5.0",
+        "jest-runtime" : "^24.5.0",
+        "jest-snapshot" : "^24.5.0",
+        "jest-util" : "^24.5.0",
+        "jest-validate" : "^24.5.0",
+        "jest-watcher" : "^24.5.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/ansi-escapes" : "^3.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/core@24.5.0",
+      "gitHead" : "800533020f5b2f153615c821ed7cb12fd868fa6f",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.5.0_1552408651405_0.739397318540757"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.1-alpha.2" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.1-alpha.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.1-alpha.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.1-alpha.2.tgz",
+        "shasum" : "948e1f8b4b14b9c51a01d8e34ed8f08c44051d21"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.1-alpha.2+79b7ab67c",
+        "@jest/reporters" : "^25.2.1-alpha.2+79b7ab67c",
+        "@jest/test-result" : "^25.2.1-alpha.2+79b7ab67c",
+        "@jest/transform" : "^25.2.1-alpha.2+79b7ab67c",
+        "@jest/types" : "^25.2.1-alpha.2+79b7ab67c",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-config" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-haste-map" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-message-util" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-regex-util" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-resolve" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-resolve-dependencies" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-runner" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-runtime" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-snapshot" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-util" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-validate" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-watcher" : "^25.2.1-alpha.2+79b7ab67c",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.1-alpha.2+79b7ab67c",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.1-alpha.2",
+      "gitHead" : "79b7ab67c63d3708f9689e25fbc0e8b0094bd019",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.1-alpha.2_1585210272722_0.37664395230587"
+      },
+      "readme" : "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported.\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.0.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.0.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.0.0.tgz",
+        "shasum" : "caefa93d0d13ef7b1301bfd5bde3dd49b6db8bbd"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.0.0",
+        "@jest/reporters" : "^25.0.0",
+        "@jest/test-result" : "^25.0.0",
+        "@jest/transform" : "^25.0.0",
+        "@jest/types" : "^25.0.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^25.0.0",
+        "jest-config" : "^25.0.0",
+        "jest-haste-map" : "^25.0.0",
+        "jest-message-util" : "^25.0.0",
+        "jest-regex-util" : "^25.0.0",
+        "jest-resolve" : "^25.0.0",
+        "jest-resolve-dependencies" : "^25.0.0",
+        "jest-runner" : "^25.0.0",
+        "jest-runtime" : "^25.0.0",
+        "jest-snapshot" : "^25.0.0",
+        "jest-util" : "^25.0.0",
+        "jest-validate" : "^25.0.0",
+        "jest-watcher" : "^25.0.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.0.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/rimraf" : "^2.0.2"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/core@25.0.0",
+      "gitHead" : "ff9269be05fd8316e95232198fce3463bf2f270e",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.0.0_1566444291039_0.45740297561239274"
+      },
+      "readme" : "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported.\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "11.12.0"
+    },
+    "25.2.1-alpha.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.1-alpha.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.1-alpha.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.1-alpha.1.tgz",
+        "shasum" : "5dd8c9bfe5e8008034da89837df830d003d4112d"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.1-alpha.1+5cc2ccdac",
+        "@jest/reporters" : "^25.2.1-alpha.1+5cc2ccdac",
+        "@jest/test-result" : "^25.2.1-alpha.1+5cc2ccdac",
+        "@jest/transform" : "^25.2.1-alpha.1+5cc2ccdac",
+        "@jest/types" : "^25.2.1-alpha.1+5cc2ccdac",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-config" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-haste-map" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-message-util" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-regex-util" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-resolve" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-resolve-dependencies" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-runner" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-runtime" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-snapshot" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-util" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-validate" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-watcher" : "^25.2.1-alpha.1+5cc2ccdac",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.1-alpha.1+5cc2ccdac",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.1-alpha.1",
+      "gitHead" : "5cc2ccdacb1b2433581222252e43cb5a1f6861a9",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.1-alpha.1_1585209300218_0.830774785165993"
+      },
+      "readme" : "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported.\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.2.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.1.tgz",
+        "shasum" : "05191bada9ec5d322775454342cbd7b13dd3a691"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.1",
+        "@jest/reporters" : "^25.2.1",
+        "@jest/test-result" : "^25.2.1",
+        "@jest/transform" : "^25.2.1",
+        "@jest/types" : "^25.2.1",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.1",
+        "jest-config" : "^25.2.1",
+        "jest-haste-map" : "^25.2.1",
+        "jest-message-util" : "^25.2.1",
+        "jest-regex-util" : "^25.2.1",
+        "jest-resolve" : "^25.2.1",
+        "jest-resolve-dependencies" : "^25.2.1",
+        "jest-runner" : "^25.2.1",
+        "jest-runtime" : "^25.2.1",
+        "jest-snapshot" : "^25.2.1",
+        "jest-util" : "^25.2.1",
+        "jest-validate" : "^25.2.1",
+        "jest-watcher" : "^25.2.1",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.1",
+      "gitHead" : "a679390828b6c30aeaa547d8c4dc9aed6531e357",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.1_1585213317814_0.9704526430917135"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.3.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.3.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.3.0.tgz",
+        "shasum" : "80f97a7a8b59dde741a24f30871cc26d0197d426"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.3.0",
+        "@jest/reporters" : "^25.3.0",
+        "@jest/test-result" : "^25.3.0",
+        "@jest/transform" : "^25.3.0",
+        "@jest/types" : "^25.3.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.3.0",
+        "jest-config" : "^25.3.0",
+        "jest-haste-map" : "^25.3.0",
+        "jest-message-util" : "^25.3.0",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.3.0",
+        "jest-resolve-dependencies" : "^25.3.0",
+        "jest-runner" : "^25.3.0",
+        "jest-runtime" : "^25.3.0",
+        "jest-snapshot" : "^25.3.0",
+        "jest-util" : "^25.3.0",
+        "jest-validate" : "^25.3.0",
+        "jest-watcher" : "^25.3.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.3.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.3.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "45a4936d96d74cdee6b91122a51a556e3ebe6dc8",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.3.0_1586352124362_0.7351202832192107"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "25.2.2" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.2.tgz",
+        "shasum" : "089742101b5963eed72bd4140e4dfab05f60c385"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.1",
+        "@jest/reporters" : "^25.2.1",
+        "@jest/test-result" : "^25.2.1",
+        "@jest/transform" : "^25.2.1",
+        "@jest/types" : "^25.2.1",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.1",
+        "jest-config" : "^25.2.2",
+        "jest-haste-map" : "^25.2.1",
+        "jest-message-util" : "^25.2.1",
+        "jest-regex-util" : "^25.2.1",
+        "jest-resolve" : "^25.2.1",
+        "jest-resolve-dependencies" : "^25.2.2",
+        "jest-runner" : "^25.2.2",
+        "jest-runtime" : "^25.2.2",
+        "jest-snapshot" : "^25.2.1",
+        "jest-util" : "^25.2.1",
+        "jest-validate" : "^25.2.1",
+        "jest-watcher" : "^25.2.1",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.2",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.2",
+      "gitHead" : "96aaf892bb90ac5054b6e57a7661c35ff9ab6873",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.2_1585238174168_0.07486555936676575"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.4.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.4.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.4.0.tgz",
+        "shasum" : "cc1fe078df69b8f0fbb023bb0bcee23ef3b89411"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.4.0",
+        "@jest/reporters" : "^25.4.0",
+        "@jest/test-result" : "^25.4.0",
+        "@jest/transform" : "^25.4.0",
+        "@jest/types" : "^25.4.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.4.0",
+        "jest-config" : "^25.4.0",
+        "jest-haste-map" : "^25.4.0",
+        "jest-message-util" : "^25.4.0",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.4.0",
+        "jest-resolve-dependencies" : "^25.4.0",
+        "jest-runner" : "^25.4.0",
+        "jest-runtime" : "^25.4.0",
+        "jest-snapshot" : "^25.4.0",
+        "jest-util" : "^25.4.0",
+        "jest-validate" : "^25.4.0",
+        "jest-watcher" : "^25.4.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.4.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.4.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "5b129d714cadb818be28afbe313cbeae8fbb1dde",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.4.0_1587333063360_0.5888860436443506"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "26.0.1-alpha.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.0.1-alpha.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.0.1-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.0.1-alpha.0.tgz",
+        "shasum" : "deb2e1303577ddbc78ea5d29e67ed7f1c85a9bbb"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.0.1-alpha.0",
+        "@jest/reporters" : "^26.0.1-alpha.0",
+        "@jest/test-result" : "^26.0.1-alpha.0",
+        "@jest/transform" : "^26.0.1-alpha.0",
+        "@jest/types" : "^26.0.1-alpha.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.0.1-alpha.0",
+        "jest-config" : "^26.0.1-alpha.0",
+        "jest-haste-map" : "^26.0.1-alpha.0",
+        "jest-message-util" : "^26.0.1-alpha.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.0.1-alpha.0",
+        "jest-resolve-dependencies" : "^26.0.1-alpha.0",
+        "jest-runner" : "^26.0.1-alpha.0",
+        "jest-runtime" : "^26.0.1-alpha.0",
+        "jest-snapshot" : "^26.0.1-alpha.0",
+        "jest-util" : "^26.0.1-alpha.0",
+        "jest-validate" : "^26.0.1-alpha.0",
+        "jest-watcher" : "^26.0.1-alpha.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.0.1-alpha.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.0.1-alpha.0",
+      "gitHead" : "fb04716adb223ce2da1e6bb2b4ce7c011bad1807",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.0.1-alpha.0_1588630589468_0.7286510612378283"
+      },
+      "readme" : "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported.\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.1.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.1.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.1.0.tgz",
+        "shasum" : "3d4634fc3348bb2d7532915d67781cdac0869e47"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.1.0",
+        "@jest/reporters" : "^25.1.0",
+        "@jest/test-result" : "^25.1.0",
+        "@jest/transform" : "^25.1.0",
+        "@jest/types" : "^25.1.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.1.0",
+        "jest-config" : "^25.1.0",
+        "jest-haste-map" : "^25.1.0",
+        "jest-message-util" : "^25.1.0",
+        "jest-regex-util" : "^25.1.0",
+        "jest-resolve" : "^25.1.0",
+        "jest-resolve-dependencies" : "^25.1.0",
+        "jest-runner" : "^25.1.0",
+        "jest-runtime" : "^25.1.0",
+        "jest-snapshot" : "^25.1.0",
+        "jest-util" : "^25.1.0",
+        "jest-validate" : "^25.1.0",
+        "jest-watcher" : "^25.1.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.1.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/rimraf" : "^2.0.2"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v10.16.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "davidzilburg",
+        "email" : "davidzilburg@gmail.com"
+      },
+      "_id" : "@jest/core@25.1.0",
+      "gitHead" : "170eee11d03b0ed5c60077982fdbc3bafd403638",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.1.0_1579654846669_0.15103036402512227"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "25.2.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.0.tgz",
+        "shasum" : "c1d65a7a2e4339b815dc0fe16d447f5eea7ed591"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.0",
+        "@jest/reporters" : "^25.2.0",
+        "@jest/test-result" : "^25.2.0",
+        "@jest/transform" : "^25.2.0",
+        "@jest/types" : "^25.2.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.0",
+        "jest-config" : "^25.2.0",
+        "jest-haste-map" : "^25.2.0",
+        "jest-message-util" : "^25.2.0",
+        "jest-regex-util" : "^25.2.0",
+        "jest-resolve" : "^25.2.0",
+        "jest-resolve-dependencies" : "^25.2.0",
+        "jest-runner" : "^25.2.0",
+        "jest-runtime" : "^25.2.0",
+        "jest-snapshot" : "^25.2.0",
+        "jest-util" : "^25.2.0",
+        "jest-validate" : "^25.2.0",
+        "jest-watcher" : "^25.2.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.0",
+      "gitHead" : "9f0339c1c762e39f869f7df63e88470287728b93",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.0_1585159141992_0.9912738161879704"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "26.0.0-alpha.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.0.0-alpha.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.0.0-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.0.0-alpha.0.tgz",
+        "shasum" : "fc15b5f390ef4203aa03dc74e95f96969e47d4cc"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.0.0-alpha.0",
+        "@jest/reporters" : "^26.0.0-alpha.0",
+        "@jest/test-result" : "^26.0.0-alpha.0",
+        "@jest/transform" : "^26.0.0-alpha.0",
+        "@jest/types" : "^26.0.0-alpha.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.0.0-alpha.0",
+        "jest-config" : "^26.0.0-alpha.0",
+        "jest-haste-map" : "^26.0.0-alpha.0",
+        "jest-message-util" : "^26.0.0-alpha.0",
+        "jest-regex-util" : "^26.0.0-alpha.0",
+        "jest-resolve" : "^26.0.0-alpha.0",
+        "jest-resolve-dependencies" : "^26.0.0-alpha.0",
+        "jest-runner" : "^26.0.0-alpha.0",
+        "jest-runtime" : "^26.0.0-alpha.0",
+        "jest-snapshot" : "^26.0.0-alpha.0",
+        "jest-util" : "^26.0.0-alpha.0",
+        "jest-validate" : "^26.0.0-alpha.0",
+        "jest-watcher" : "^26.0.0-alpha.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.0.0-alpha.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.0.0-alpha.0",
+      "gitHead" : "ba962e7e9669a4a2f723c2536c97462c8ddfff2d",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.0.0-alpha.0_1588421618825_0.1091150984821696"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.5.2" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.5.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.5.2.tgz",
+        "shasum" : "d3f49782ad5c09478214ddd45249e5b7663a0328"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.5.0",
+        "@jest/reporters" : "^25.5.1",
+        "@jest/test-result" : "^25.5.0",
+        "@jest/transform" : "^25.5.1",
+        "@jest/types" : "^25.5.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^25.5.0",
+        "jest-config" : "^25.5.2",
+        "jest-haste-map" : "^25.5.1",
+        "jest-message-util" : "^25.5.0",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.5.1",
+        "jest-resolve-dependencies" : "^25.5.2",
+        "jest-runner" : "^25.5.2",
+        "jest-runtime" : "^25.5.2",
+        "jest-snapshot" : "^25.5.1",
+        "jest-util" : "^25.5.0",
+        "jest-validate" : "^25.5.0",
+        "jest-watcher" : "^25.5.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.5.2",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.5.2",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "ad1b9dc090922a8ed5632ec7382ac999e6b8cac1",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.5.2_1588197023035_0.46172709847255633"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "26.0.0-alpha.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.0.0-alpha.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.0.0-alpha.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.0.0-alpha.1.tgz",
+        "shasum" : "66d66c4589486b52c6717b9bcfc5ba1eda8f7d60"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.0.0-alpha.1",
+        "@jest/reporters" : "^26.0.0-alpha.1",
+        "@jest/test-result" : "^26.0.0-alpha.1",
+        "@jest/transform" : "^26.0.0-alpha.1",
+        "@jest/types" : "^26.0.0-alpha.1",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.0.0-alpha.1",
+        "jest-config" : "^26.0.0-alpha.1",
+        "jest-haste-map" : "^26.0.0-alpha.1",
+        "jest-message-util" : "^26.0.0-alpha.1",
+        "jest-regex-util" : "^26.0.0-alpha.1",
+        "jest-resolve" : "^26.0.0-alpha.1",
+        "jest-resolve-dependencies" : "^26.0.0-alpha.1",
+        "jest-runner" : "^26.0.0-alpha.1",
+        "jest-runtime" : "^26.0.0-alpha.1",
+        "jest-snapshot" : "^26.0.0-alpha.1",
+        "jest-util" : "^26.0.0-alpha.1",
+        "jest-validate" : "^26.0.0-alpha.1",
+        "jest-watcher" : "^26.0.0-alpha.1",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.0.0-alpha.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.0.0-alpha.1",
+      "gitHead" : "2bac04ffb8e533d12a072998da5c3751a41b796f",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.0.0-alpha.1_1588531724840_0.7980649640339381"
+      },
+      "readme" : "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported.\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.2.6" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.6",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.6.tgz",
+        "shasum" : "4bcb2919268d92c3813e1ff7c97443cde7a2873a"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.6",
+        "@jest/reporters" : "^25.2.6",
+        "@jest/test-result" : "^25.2.6",
+        "@jest/transform" : "^25.2.6",
+        "@jest/types" : "^25.2.6",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.6",
+        "jest-config" : "^25.2.6",
+        "jest-haste-map" : "^25.2.6",
+        "jest-message-util" : "^25.2.6",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.2.6",
+        "jest-resolve-dependencies" : "^25.2.6",
+        "jest-runner" : "^25.2.6",
+        "jest-runtime" : "^25.2.6",
+        "jest-snapshot" : "^25.2.6",
+        "jest-util" : "^25.2.6",
+        "jest-validate" : "^25.2.6",
+        "jest-watcher" : "^25.2.6",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.6",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.6",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "43207b743df164e9e58bd483dd9167b9084da18b",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.6_1585823400618_0.8764099819535291"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.5.3" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.5.3",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.5.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.5.3.tgz",
+        "shasum" : "0cfd7ad602e587d5adebfbc47f983c0b360c5269"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.5.0",
+        "@jest/reporters" : "^25.5.1",
+        "@jest/test-result" : "^25.5.0",
+        "@jest/transform" : "^25.5.1",
+        "@jest/types" : "^25.5.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^25.5.0",
+        "jest-config" : "^25.5.3",
+        "jest-haste-map" : "^25.5.1",
+        "jest-message-util" : "^25.5.0",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.5.1",
+        "jest-resolve-dependencies" : "^25.5.2",
+        "jest-runner" : "^25.5.3",
+        "jest-runtime" : "^25.5.3",
+        "jest-snapshot" : "^25.5.1",
+        "jest-util" : "^25.5.0",
+        "jest-validate" : "^25.5.0",
+        "jest-watcher" : "^25.5.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.5.3",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.5.3",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "80b69051271602aa62ed8de896ba80ca3150f4a5",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.5.3_1588284817197_0.6138253487245537"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "26.0.0-alpha.2" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.0.0-alpha.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.0.0-alpha.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.0.0-alpha.2.tgz",
+        "shasum" : "b7b1c8659e0a8a3df6ffaac15a428d917d75e21f"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.0.0-alpha.2",
+        "@jest/reporters" : "^26.0.0-alpha.2",
+        "@jest/test-result" : "^26.0.0-alpha.2",
+        "@jest/transform" : "^26.0.0-alpha.2",
+        "@jest/types" : "^26.0.0-alpha.2",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.0.0-alpha.2",
+        "jest-config" : "^26.0.0-alpha.2",
+        "jest-haste-map" : "^26.0.0-alpha.2",
+        "jest-message-util" : "^26.0.0-alpha.2",
+        "jest-regex-util" : "^26.0.0-alpha.1",
+        "jest-resolve" : "^26.0.0-alpha.2",
+        "jest-resolve-dependencies" : "^26.0.0-alpha.2",
+        "jest-runner" : "^26.0.0-alpha.2",
+        "jest-runtime" : "^26.0.0-alpha.2",
+        "jest-snapshot" : "^26.0.0-alpha.2",
+        "jest-util" : "^26.0.0-alpha.2",
+        "jest-validate" : "^26.0.0-alpha.2",
+        "jest-watcher" : "^26.0.0-alpha.2",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.0.0-alpha.2",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.0.0-alpha.2",
+      "gitHead" : "68b65afc97688bd5b0b433f8f585da57dcd1d418",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.0.0-alpha.2_1588608369974_0.176373158643093"
+      },
+      "readme" : "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported.\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.2.3" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.3",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.3.tgz",
+        "shasum" : "2fd37ce0e6ad845e058dcd8245f2745490df1bc0"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.3",
+        "@jest/reporters" : "^25.2.3",
+        "@jest/test-result" : "^25.2.3",
+        "@jest/transform" : "^25.2.3",
+        "@jest/types" : "^25.2.3",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.3",
+        "jest-config" : "^25.2.3",
+        "jest-haste-map" : "^25.2.3",
+        "jest-message-util" : "^25.2.3",
+        "jest-regex-util" : "^25.2.1",
+        "jest-resolve" : "^25.2.3",
+        "jest-resolve-dependencies" : "^25.2.3",
+        "jest-runner" : "^25.2.3",
+        "jest-runtime" : "^25.2.3",
+        "jest-snapshot" : "^25.2.3",
+        "jest-util" : "^25.2.3",
+        "jest-validate" : "^25.2.3",
+        "jest-watcher" : "^25.2.3",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.3",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.3",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "6f8bf80c38567ba076ae979af2dedb42b285b2d5",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.3_1585254333211_0.665959617600258"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.5.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.5.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.5.0.tgz",
+        "shasum" : "e71ddcac282e965081688cac5e9f100b237a7b32"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.5.0",
+        "@jest/reporters" : "^25.5.0",
+        "@jest/test-result" : "^25.5.0",
+        "@jest/transform" : "^25.5.0",
+        "@jest/types" : "^25.5.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^25.5.0",
+        "jest-config" : "^25.5.0",
+        "jest-haste-map" : "^25.5.0",
+        "jest-message-util" : "^25.5.0",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.5.0",
+        "jest-resolve-dependencies" : "^25.5.0",
+        "jest-runner" : "^25.5.0",
+        "jest-runtime" : "^25.5.0",
+        "jest-snapshot" : "^25.5.0",
+        "jest-util" : "^25.5.0",
+        "jest-validate" : "^25.5.0",
+        "jest-watcher" : "^25.5.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.5.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.5.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "ddd73d18adfb982b9b0d94bad7d41c9f78567ca7",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.5.0_1588103160079_0.6960774971369894"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "24.2.0-alpha.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "24.2.0-alpha.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-24.2.0-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-24.2.0-alpha.0.tgz",
+        "shasum" : "2331ac36d3049f35af11032636f320ebc93ded8f"
+      },
+      "dependencies" : {
+        "@jest/console" : "^24.2.0-alpha.0",
+        "@jest/reporters" : "^24.2.0-alpha.0",
+        "@jest/test-result" : "^24.2.0-alpha.0",
+        "@jest/transform" : "^24.2.0-alpha.0",
+        "@jest/types" : "^24.2.0-alpha.0",
+        "ansi-escapes" : "^3.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.1.15",
+        "jest-changed-files" : "^24.2.0-alpha.0",
+        "jest-config" : "^24.2.0-alpha.0",
+        "jest-haste-map" : "^24.2.0-alpha.0",
+        "jest-message-util" : "^24.2.0-alpha.0",
+        "jest-regex-util" : "^24.2.0-alpha.0",
+        "jest-resolve-dependencies" : "^24.2.0-alpha.0",
+        "jest-runner" : "^24.2.0-alpha.0",
+        "jest-runtime" : "^24.2.0-alpha.0",
+        "jest-snapshot" : "^24.2.0-alpha.0",
+        "jest-util" : "^24.2.0-alpha.0",
+        "jest-validate" : "^24.2.0-alpha.0",
+        "jest-watcher" : "^24.2.0-alpha.0",
+        "micromatch" : "^3.1.10",
+        "p-each-series" : "^1.0.0",
+        "pirates" : "^4.0.1",
+        "realpath-native" : "^1.1.0",
+        "rimraf" : "^2.5.4",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/ansi-escapes" : "^3.0.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^3.1.0",
+        "@types/p-each-series" : "^1.0.0",
+        "@types/rimraf" : "^2.0.2",
+        "@types/strip-ansi" : "^3.0.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/core@24.2.0-alpha.0",
+      "gitHead" : "800f2f803d01c8ae194d71b251e4965dd70e5bf2",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_24.2.0-alpha.0_1551797950687_0.28120560088659663"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.4" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.2.4",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.2.4.tgz",
+        "shasum" : "382ef80369d3311f1df79db1ee19e958ae95cdad"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.2.3",
+        "@jest/reporters" : "^25.2.4",
+        "@jest/test-result" : "^25.2.4",
+        "@jest/transform" : "^25.2.4",
+        "@jest/types" : "^25.2.3",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.3",
+        "jest-changed-files" : "^25.2.3",
+        "jest-config" : "^25.2.4",
+        "jest-haste-map" : "^25.2.3",
+        "jest-message-util" : "^25.2.4",
+        "jest-regex-util" : "^25.2.1",
+        "jest-resolve" : "^25.2.3",
+        "jest-resolve-dependencies" : "^25.2.4",
+        "jest-runner" : "^25.2.4",
+        "jest-runtime" : "^25.2.4",
+        "jest-snapshot" : "^25.2.4",
+        "jest-util" : "^25.2.3",
+        "jest-validate" : "^25.2.3",
+        "jest-watcher" : "^25.2.4",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.2.4",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.2.4",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "324938561c608e0e9dddc008e5dde1589d7abc68",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.2.4_1585510743816_0.6324162493278105"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.5.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "25.5.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-25.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-25.5.1.tgz",
+        "shasum" : "8279008b8a4e460adddea243c2262d539e7b0d0c"
+      },
+      "dependencies" : {
+        "@jest/console" : "^25.5.0",
+        "@jest/reporters" : "^25.5.1",
+        "@jest/test-result" : "^25.5.0",
+        "@jest/transform" : "^25.5.1",
+        "@jest/types" : "^25.5.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^3.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^25.5.0",
+        "jest-config" : "^25.5.1",
+        "jest-haste-map" : "^25.5.1",
+        "jest-message-util" : "^25.5.0",
+        "jest-regex-util" : "^25.2.6",
+        "jest-resolve" : "^25.5.1",
+        "jest-resolve-dependencies" : "^25.5.1",
+        "jest-runner" : "^25.5.1",
+        "jest-runtime" : "^25.5.1",
+        "jest-snapshot" : "^25.5.1",
+        "jest-util" : "^25.5.0",
+        "jest-validate" : "^25.5.0",
+        "jest-watcher" : "^25.5.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "realpath-native" : "^2.0.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^25.5.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@25.5.1",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "c5f2fd756331895b8177a19304feb49657687e22",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_25.5.1_1588157726026_0.7383010072164706"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "26.0.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.0.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.0.0.tgz",
+        "shasum" : "e051380891e81932ddc169345a6506c9dfb5db83"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.0.0",
+        "@jest/reporters" : "^26.0.0",
+        "@jest/test-result" : "^26.0.0",
+        "@jest/transform" : "^26.0.0",
+        "@jest/types" : "^26.0.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.0.0",
+        "jest-config" : "^26.0.0",
+        "jest-haste-map" : "^26.0.0",
+        "jest-message-util" : "^26.0.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.0.0",
+        "jest-resolve-dependencies" : "^26.0.0",
+        "jest-runner" : "^26.0.0",
+        "jest-runtime" : "^26.0.0",
+        "jest-snapshot" : "^26.0.0",
+        "jest-util" : "^26.0.0",
+        "jest-validate" : "^26.0.0",
+        "jest-watcher" : "^26.0.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.0.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.0.0",
+      "gitHead" : "343532a21f640ac2709c4076eef57e52279542e1",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.0.0_1588614843270_0.8449028083414065"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "26.0.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.0.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.0.1.tgz",
+        "shasum" : "aa538d52497dfab56735efb00e506be83d841fae"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.0.1",
+        "@jest/reporters" : "^26.0.1",
+        "@jest/test-result" : "^26.0.1",
+        "@jest/transform" : "^26.0.1",
+        "@jest/types" : "^26.0.1",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.0.1",
+        "jest-config" : "^26.0.1",
+        "jest-haste-map" : "^26.0.1",
+        "jest-message-util" : "^26.0.1",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.0.1",
+        "jest-resolve-dependencies" : "^26.0.1",
+        "jest-runner" : "^26.0.1",
+        "jest-runtime" : "^26.0.1",
+        "jest-snapshot" : "^26.0.1",
+        "jest-util" : "^26.0.1",
+        "jest-validate" : "^26.0.1",
+        "jest-watcher" : "^26.0.1",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.0.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.0.1",
+      "gitHead" : "40b8e1e157c9981dda5a68d73fff647e80fc9f5c",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.0.1_1588675300168_0.36291706128599244"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "26.1.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.1.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.1.0.tgz",
+        "shasum" : "4580555b522de412a7998b3938c851e4f9da1c18"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.1.0",
+        "@jest/reporters" : "^26.1.0",
+        "@jest/test-result" : "^26.1.0",
+        "@jest/transform" : "^26.1.0",
+        "@jest/types" : "^26.1.0",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.1.0",
+        "jest-config" : "^26.1.0",
+        "jest-haste-map" : "^26.1.0",
+        "jest-message-util" : "^26.1.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.1.0",
+        "jest-resolve-dependencies" : "^26.1.0",
+        "jest-runner" : "^26.1.0",
+        "jest-runtime" : "^26.1.0",
+        "jest-snapshot" : "^26.1.0",
+        "jest-util" : "^26.1.0",
+        "jest-validate" : "^26.1.0",
+        "jest-watcher" : "^26.1.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.1.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/node" : "*",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.1.0",
+      "gitHead" : "817d8b6aca845dd4fcfd7f8316293e69f3a116c5",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.1.0_1592925357211_0.02877933838314184"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.2.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.2.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.2.0.tgz",
+        "shasum" : "1549f891a461724a759d4ecdb4bb5ea4183bed1e"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.2.0",
+        "@jest/reporters" : "^26.2.0",
+        "@jest/test-result" : "^26.2.0",
+        "@jest/transform" : "^26.2.0",
+        "@jest/types" : "^26.2.0",
+        "@types/node" : "*",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.2.0",
+        "jest-config" : "^26.2.0",
+        "jest-haste-map" : "^26.2.0",
+        "jest-message-util" : "^26.2.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.2.0",
+        "jest-resolve-dependencies" : "^26.2.0",
+        "jest-runner" : "^26.2.0",
+        "jest-runtime" : "^26.2.0",
+        "jest-snapshot" : "^26.2.0",
+        "jest-util" : "^26.2.0",
+        "jest-validate" : "^26.2.0",
+        "jest-watcher" : "^26.2.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.2.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.2.0",
+      "gitHead" : "4a716811a309dae135b780a87dc1647b285800eb",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.2.0_1596103941528_0.1120749215150556"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.2.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.2.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.2.1.tgz",
+        "shasum" : "f45d861f1ab783a116ae0f23944a32086034ac68"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.2.0",
+        "@jest/reporters" : "^26.2.1",
+        "@jest/test-result" : "^26.2.0",
+        "@jest/transform" : "^26.2.1",
+        "@jest/types" : "^26.2.0",
+        "@types/node" : "*",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.2.0",
+        "jest-config" : "^26.2.1",
+        "jest-haste-map" : "^26.2.1",
+        "jest-message-util" : "^26.2.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.2.1",
+        "jest-resolve-dependencies" : "^26.2.1",
+        "jest-runner" : "^26.2.1",
+        "jest-runtime" : "^26.2.1",
+        "jest-snapshot" : "^26.2.1",
+        "jest-util" : "^26.2.0",
+        "jest-validate" : "^26.2.0",
+        "jest-watcher" : "^26.2.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.2.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.2.1",
+      "gitHead" : "da61421faee6fdbf2a2b355b10d4e6eb1a842233",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.2.1_1596108958128_0.11540867336609617"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.3.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.3.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.3.0.tgz",
+        "shasum" : "da496913ce7385b5e597b527078bf4ca12d2b627"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.3.0",
+        "@jest/reporters" : "^26.3.0",
+        "@jest/test-result" : "^26.3.0",
+        "@jest/transform" : "^26.3.0",
+        "@jest/types" : "^26.3.0",
+        "@types/node" : "*",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.3.0",
+        "jest-config" : "^26.3.0",
+        "jest-haste-map" : "^26.3.0",
+        "jest-message-util" : "^26.3.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.3.0",
+        "jest-resolve-dependencies" : "^26.3.0",
+        "jest-runner" : "^26.3.0",
+        "jest-runtime" : "^26.3.0",
+        "jest-snapshot" : "^26.3.0",
+        "jest-util" : "^26.3.0",
+        "jest-validate" : "^26.3.0",
+        "jest-watcher" : "^26.3.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.3.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.3.0",
+      "gitHead" : "3a7e06fe855515a848241bb06a6f6e117847443d",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.3.0_1597059147488_0.6412299486967521"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.2.2" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.2.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.2.2.tgz",
+        "shasum" : "63de01ffce967618003dd7a0164b05c8041b81a9"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.2.0",
+        "@jest/reporters" : "^26.2.2",
+        "@jest/test-result" : "^26.2.0",
+        "@jest/transform" : "^26.2.2",
+        "@jest/types" : "^26.2.0",
+        "@types/node" : "*",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.2.0",
+        "jest-config" : "^26.2.2",
+        "jest-haste-map" : "^26.2.2",
+        "jest-message-util" : "^26.2.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.2.2",
+        "jest-resolve-dependencies" : "^26.2.2",
+        "jest-runner" : "^26.2.2",
+        "jest-runtime" : "^26.2.2",
+        "jest-snapshot" : "^26.2.2",
+        "jest-util" : "^26.2.0",
+        "jest-validate" : "^26.2.0",
+        "jest-watcher" : "^26.2.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.2.2",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.2.2",
+      "gitHead" : "a6a5abb7ef47ed2c31bf8987771a79f97ae65430",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.2.2_1596192850855_0.03906497081164195"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.4.0" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.4.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.4.0.tgz",
+        "shasum" : "8f42ae45640b46b4f8ffee134dcd408c210ab1ef"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.3.0",
+        "@jest/reporters" : "^26.4.0",
+        "@jest/test-result" : "^26.3.0",
+        "@jest/transform" : "^26.3.0",
+        "@jest/types" : "^26.3.0",
+        "@types/node" : "*",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.3.0",
+        "jest-config" : "^26.4.0",
+        "jest-haste-map" : "^26.3.0",
+        "jest-message-util" : "^26.3.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.4.0",
+        "jest-resolve-dependencies" : "^26.4.0",
+        "jest-runner" : "^26.4.0",
+        "jest-runtime" : "^26.4.0",
+        "jest-snapshot" : "^26.4.0",
+        "jest-util" : "^26.3.0",
+        "jest-validate" : "^26.4.0",
+        "jest-watcher" : "^26.3.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.4.0",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.4.0",
+      "gitHead" : "0b1e41d1d93ce4d15646f4a39fd5a7ffae5f43c3",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.4.0_1597266054592_0.8090379306208684"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.4.1" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.4.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.4.1.tgz",
+        "shasum" : "04af2e4d985e035e13ef94d61d302a8458f587e9"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.3.0",
+        "@jest/reporters" : "^26.4.1",
+        "@jest/test-result" : "^26.3.0",
+        "@jest/transform" : "^26.3.0",
+        "@jest/types" : "^26.3.0",
+        "@types/node" : "*",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.3.0",
+        "jest-config" : "^26.4.1",
+        "jest-haste-map" : "^26.3.0",
+        "jest-message-util" : "^26.3.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.4.0",
+        "jest-resolve-dependencies" : "^26.4.1",
+        "jest-runner" : "^26.4.1",
+        "jest-runtime" : "^26.4.1",
+        "jest-snapshot" : "^26.4.1",
+        "jest-util" : "^26.3.0",
+        "jest-validate" : "^26.4.0",
+        "jest-watcher" : "^26.3.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.4.1",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.4.1",
+      "gitHead" : "e1d51deea8d089a06f28b4dbe9287a4428508610",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.4.1_1597912315664_0.15940121071997204"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.4.2" : {
+      "name" : "@jest/core",
+      "description" : "Delightful JavaScript Testing.",
+      "version" : "26.4.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-core"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/jest.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/core/-/core-26.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Fcore%2F-%2Fcore-26.4.2.tgz",
+        "shasum" : "85d0894f31ac29b5bab07aa86806d03dd3d33edc"
+      },
+      "dependencies" : {
+        "@jest/console" : "^26.3.0",
+        "@jest/reporters" : "^26.4.1",
+        "@jest/test-result" : "^26.3.0",
+        "@jest/transform" : "^26.3.0",
+        "@jest/types" : "^26.3.0",
+        "@types/node" : "*",
+        "ansi-escapes" : "^4.2.1",
+        "chalk" : "^4.0.0",
+        "exit" : "^0.1.2",
+        "graceful-fs" : "^4.2.4",
+        "jest-changed-files" : "^26.3.0",
+        "jest-config" : "^26.4.2",
+        "jest-haste-map" : "^26.3.0",
+        "jest-message-util" : "^26.3.0",
+        "jest-regex-util" : "^26.0.0",
+        "jest-resolve" : "^26.4.0",
+        "jest-resolve-dependencies" : "^26.4.2",
+        "jest-runner" : "^26.4.2",
+        "jest-runtime" : "^26.4.2",
+        "jest-snapshot" : "^26.4.2",
+        "jest-util" : "^26.3.0",
+        "jest-validate" : "^26.4.2",
+        "jest-watcher" : "^26.3.0",
+        "micromatch" : "^4.0.2",
+        "p-each-series" : "^2.1.0",
+        "rimraf" : "^3.0.0",
+        "slash" : "^3.0.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@jest/test-sequencer" : "^26.4.2",
+        "@types/exit" : "^0.1.30",
+        "@types/graceful-fs" : "^4.1.2",
+        "@types/micromatch" : "^4.0.0",
+        "@types/rimraf" : "^3.0.0",
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/core@26.4.2",
+      "gitHead" : "2586a798260886c28b6d28256cdfe354e039d5d1",
+      "types" : "build/jest.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_26.4.2_1598098226286_0.5595077943415616"
+      },
+      "_nodeVersion" : "12.18.1"
+    }
+  },
+  "readme" : "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported.\n",
+  "maintainers" : [ {
+    "email" : "aaron@abramov.io",
+    "name" : "aaronabramov"
+  }, {
+    "email" : "christoph.pojer@gmail.com",
+    "name" : "cpojer"
+  }, {
+    "email" : "davidzilburg@gmail.com",
+    "name" : "davidzilburg"
+  }, {
+    "email" : "opensource+npm@fb.com",
+    "name" : "fb"
+  }, {
+    "email" : "rubennorte@gmail.com",
+    "name" : "rubennorte"
+  }, {
+    "email" : "scott.hovestadt@gmail.com",
+    "name" : "scotthovestadt"
+  }, {
+    "email" : "sbekkhus91@gmail.com",
+    "name" : "simenb"
+  } ],
+  "time" : {
+    "25.2.7" : "2020-04-03T07:51:33.282Z",
+    "25.5.4" : "2020-05-02T08:16:52.782Z",
+    "24.6.0" : "2019-04-01T22:26:59.928Z",
+    "24.7.0" : "2019-04-03T03:55:54.093Z",
+    "24.7.1" : "2019-04-04T01:19:09.749Z",
+    "24.8.0" : "2019-05-05T02:02:52.489Z",
+    "24.9.0" : "2019-08-16T06:13:56.690Z",
+    "24.3.0" : "2019-03-07T13:00:17.304Z",
+    "25.2.0-alpha.86" : "2020-03-25T17:17:12.430Z",
+    "24.3.1" : "2019-03-07T23:12:56.080Z",
+    "24.4.0" : "2019-03-11T14:58:24.248Z",
+    "24.5.0" : "2019-03-12T16:37:31.604Z",
+    "25.2.1-alpha.2" : "2020-03-26T08:11:12.887Z",
+    "25.0.0" : "2019-08-22T03:24:51.235Z",
+    "25.2.1-alpha.1" : "2020-03-26T07:55:00.309Z",
+    "25.2.1" : "2020-03-26T09:01:58.015Z",
+    "25.3.0" : "2020-04-08T13:22:04.470Z",
+    "modified" : "2020-08-22T12:10:31.832Z",
+    "25.2.2" : "2020-03-26T15:56:14.325Z",
+    "25.4.0" : "2020-04-19T21:51:03.456Z",
+    "26.0.1-alpha.0" : "2020-05-04T22:16:29.563Z",
+    "25.1.0" : "2020-01-22T01:00:46.906Z",
+    "25.2.0" : "2020-03-25T17:59:02.142Z",
+    "26.0.0-alpha.0" : "2020-05-02T12:13:39.240Z",
+    "25.5.2" : "2020-04-29T21:50:23.151Z",
+    "26.0.0-alpha.1" : "2020-05-03T18:48:44.935Z",
+    "25.2.6" : "2020-04-02T10:30:00.863Z",
+    "25.5.3" : "2020-04-30T22:13:37.378Z",
+    "26.0.0-alpha.2" : "2020-05-04T16:06:10.102Z",
+    "25.2.3" : "2020-03-26T20:25:33.317Z",
+    "25.5.0" : "2020-04-28T19:46:00.228Z",
+    "24.2.0-alpha.0" : "2019-03-05T14:59:10.858Z",
+    "25.2.4" : "2020-03-29T19:39:04.066Z",
+    "25.5.1" : "2020-04-29T10:55:26.213Z",
+    "created" : "2019-03-05T14:59:10.507Z",
+    "26.0.0" : "2020-05-04T17:54:03.360Z",
+    "26.0.1" : "2020-05-05T10:41:40.289Z",
+    "26.1.0" : "2020-06-23T15:15:57.356Z",
+    "26.2.0" : "2020-07-30T10:12:21.621Z",
+    "26.2.1" : "2020-07-30T11:35:58.281Z",
+    "26.3.0" : "2020-08-10T11:32:27.596Z",
+    "26.2.2" : "2020-07-31T10:54:10.947Z",
+    "26.4.0" : "2020-08-12T21:00:54.776Z",
+    "26.4.1" : "2020-08-20T08:31:55.781Z",
+    "26.4.2" : "2020-08-22T12:10:26.445Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/facebook/jest.git",
+    "directory" : "packages/jest-core"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://jestjs.io/",
+  "keywords" : [ "ava", "babel", "coverage", "easy", "expect", "facebook", "immersive", "instant", "jasmine", "jest", "jsdom", "mocha", "mocking", "painless", "qunit", "runner", "sandboxed", "snapshot", "tap", "tape", "test", "testing", "typescript", "watch" ],
+  "bugs" : {
+    "url" : "https://github.com/facebook/jest/issues"
+  },
+  "license" : "MIT"
+}

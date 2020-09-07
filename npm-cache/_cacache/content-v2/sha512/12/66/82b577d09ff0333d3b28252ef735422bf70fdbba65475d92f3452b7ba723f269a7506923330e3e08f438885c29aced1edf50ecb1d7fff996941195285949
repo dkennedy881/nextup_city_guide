@@ -1,0 +1,891 @@
+{
+  "_id" : "pug-load",
+  "_rev" : "31-17cfcad07bf0aae8a27fc1c758d22b75",
+  "name" : "pug-load",
+  "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+  "dist-tags" : {
+    "canary" : "3.0.0-canary-2",
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "pug-load",
+      "description" : "The pug loader is responsible for loading the depenendencies of a given pug file.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.0.tgz",
+        "shasum" : "148e372c75f82a4b0b234ae8327891cfe1484b30"
+      },
+      "dependencies" : {
+        "pug-walk" : "0.0.3"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^2.0.0",
+        "pug-parser" : "^2.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.0",
+      "gitHead" : "ab666ce8999913363465e7d6c0ea2eb4b486631d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/pug-load-2.0.0.tgz_1463313532216_0.18240029201842844"
+      },
+      "_shasum" : "148e372c75f82a4b0b234ae8327891cfe1484b30",
+      "_nodeVersion" : "5.10.1"
+    },
+    "2.0.1" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.1.tgz",
+        "shasum" : "772201533b216bf8bde616a4b0e50d627c2e44c0"
+      },
+      "dependencies" : {
+        "pug-walk" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^2.0.0",
+        "pug-parser" : "^2.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.5",
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "pug-load@2.0.1",
+      "gitHead" : "6ded7dd14b57be0ffc45e99a28e6acb667468a1d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/pug-load-2.0.1.tgz_1472001720909_0.9535167668946087"
+      },
+      "_shasum" : "772201533b216bf8bde616a4b0e50d627c2e44c0",
+      "_nodeVersion" : "6.3.1"
+    },
+    "2.0.8" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.8",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.8.tgz",
+        "shasum" : "1df1c1716f3e68c70d71699cff9458472dc38b9b"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.4"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^3.1.0",
+        "pug-parser" : "^3.0.1"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load-2.0.8.tgz_1501602824841_0.35884543345309794"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.0.10" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.10",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug-load.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.10.tgz",
+        "shasum" : "cb990d642fa4f7ed7ca3543368a86152c6509208"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.6"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^4.0.0",
+        "pug-parser" : "^4.0.1"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.10",
+      "licenseText" : "Copyright (c) 2015 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load_2.0.10_1520341955553_0.045907532377506666"
+      }
+    },
+    "2.0.9" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.9",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.9.tgz",
+        "shasum" : "ee217c914cc1d9324d44b86c32d1df241d36de7a"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.5"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^3.1.0",
+        "pug-parser" : "^4.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load-2.0.9.tgz_1504711687492_0.863124281167984"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.0.6" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.6",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.6.tgz",
+        "shasum" : "86da4b31c4f76fd9a471982b9b3d00e6c8a3f945"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.2"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^3.1.0",
+        "pug-parser" : "^2.0.2"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/pug-load-2.0.6.tgz_1492475785723_0.4679482819046825"
+      },
+      "_shasum" : "86da4b31c4f76fd9a471982b9b3d00e6c8a3f945",
+      "_nodeVersion" : "6.4.0"
+    },
+    "2.0.12" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.12",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-load"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.12.tgz",
+        "shasum" : "d38c85eb85f6e2f704dea14dcca94144d35d3e7b"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.8"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^4.1.0",
+        "pug-parser" : "^5.0.1"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "lerna/3.10.8/node@v11.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.12",
+      "gitHead" : "1bdf628a70fda7a0d840c52f3abce54b1c6b0130",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load_2.0.12_1560851104047_0.055118436165160656"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "2.0.7" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.7",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.7.tgz",
+        "shasum" : "531d0c6e11546010e984630d03df406367d2de77"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.3"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^3.1.0",
+        "pug-parser" : "^3.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load-2.0.7.tgz_1496406810617_0.01900506322272122"
+      },
+      "_shasum" : "531d0c6e11546010e984630d03df406367d2de77",
+      "_nodeVersion" : "6.4.0"
+    },
+    "2.0.11" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.11",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug-load.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.11.tgz",
+        "shasum" : "e648e57ed113fe2c1f45d57858ea2bad6bc01527"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.7"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^4.0.0",
+        "pug-parser" : "^5.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.11",
+      "licenseText" : "Copyright (c) 2015 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load_2.0.11_1520526756168_0.10694919367776734"
+      }
+    },
+    "2.0.4" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.4.tgz",
+        "shasum" : "51beb5c9af10269ea533d0a881223c3d8ccc0fd9"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^2.3.1",
+        "pug-parser" : "^2.0.2"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/pug-load-2.0.4.tgz_1485220035932_0.648466271115467"
+      },
+      "_shasum" : "51beb5c9af10269ea533d0a881223c3d8ccc0fd9",
+      "_nodeVersion" : "6.4.0"
+    },
+    "2.0.5" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.5",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.5.tgz",
+        "shasum" : "eaaf46ccace8aff7461e0fad1e2b67305514f2c6"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^3.0.0",
+        "pug-parser" : "^2.0.2"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-load@2.0.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/pug-load-2.0.5.tgz_1486212033300_0.24348127795383334"
+      },
+      "_shasum" : "eaaf46ccace8aff7461e0fad1e2b67305514f2c6",
+      "_nodeVersion" : "6.4.0"
+    },
+    "2.0.2" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.2.tgz",
+        "shasum" : "754bdbbdd662bbb0e9377e066996c42a0cb27003"
+      },
+      "dependencies" : {
+        "pug-walk" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^2.0.0",
+        "pug-parser" : "^2.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.5",
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "pug-load@2.0.2",
+      "gitHead" : "59499030b94e99d24dc7b3b550e7ff016f5f206f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/pug-load-2.0.2.tgz_1472001945408_0.2995877689681947"
+      },
+      "_shasum" : "754bdbbdd662bbb0e9377e066996c42a0cb27003",
+      "_nodeVersion" : "6.3.1"
+    },
+    "2.0.3" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-2.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-2.0.3.tgz",
+        "shasum" : "fe8cf838f79c9a1249785774d52ba1d7ea43df37"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "pug-walk" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^2.0.0",
+        "pug-parser" : "^2.0.0",
+        "istanbul" : "*"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "pug-load@2.0.3",
+      "gitHead" : "ffe0a4f391a14c49cdba19b8fd9937d0c79e1c2c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/pug-load-2.0.3.tgz_1472065089337_0.1966741350479424"
+      },
+      "_shasum" : "fe8cf838f79c9a1249785774d52ba1d7ea43df37",
+      "_nodeVersion" : "6.3.1"
+    },
+    "1.0.3" : {
+      "name" : "pug-load",
+      "description" : "The pug loader is responsible for loading the depenendencies of a given pug file.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-load#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-load.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-load/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-1.0.3.tgz",
+        "shasum" : "68ee917bf6a5f9fe15f72757b6c0f7e8c4aa4b1a"
+      },
+      "dependencies" : {
+        "pug-walk" : "0.0.3"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^1.0.0",
+        "pug-parser" : "^1.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "pug-load@1.0.3",
+      "gitHead" : "88b98b40477693ef2428f9134b4e24718969e3d3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/pug-load-1.0.3.tgz_1462325934213_0.1631606761366129"
+      },
+      "_shasum" : "68ee917bf6a5f9fe15f72757b6c0f7e8c4aa4b1a",
+      "_nodeVersion" : "6.0.0"
+    },
+    "3.0.0-canary-1" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "3.0.0-canary-1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-load"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-3.0.0-canary-1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-3.0.0-canary-1.tgz",
+        "shasum" : "6b9234e269aee947482fe4bd4c76458729dd64b8"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.1",
+        "pug-walk" : "2.0.0-canary-1"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "5.0.0-canary-1",
+        "pug-parser" : "6.0.0-canary-1"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-load@3.0.0-canary-1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load_3.0.0-canary-1_1590361687332_0.737382693086406"
+      },
+      "readme" : "# pug-load\n\nThe pug loader is responsible for loading the depenendencies of a given pug file.  It adds `fullPath` and `str` properties to every `Include` and `Extends` node.  It also adds an `ast` property to any `Include` nodes that are loading pug and any `Extends` nodes.  It then recursively loads the dependencies of any of those included files.\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-load/master.svg)](https://travis-ci.org/pugjs/pug-load)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-load)](https://david-dm.org/pugjs/pug?path=packages/pug-load)\n[![DevDependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-load)](https://david-dm.org/pugjs/pug?path=packages/pug-load&type=dev)\n[![NPM version](https://img.shields.io/npm/v/pug-load.svg)](https://www.npmjs.org/package/pug-load)\n[![Coverage Status](https://img.shields.io/codecov/c/github/pugjs/pug-load.svg)](https://codecov.io/gh/pugjs/pug-load)\n\n## Installation\n\n    npm install pug-load\n\n## Usage\n\n```js\nvar load = require('pug-load');\n```\n\n### `load(ast, options)`\n### `load.string(str, filename, options)`\n### `load.file(filename, options)`\n\nLoads all dependencies of the Pug AST. `load.string` and `load.file` are syntactic sugar that parses the string or file instead of you doing it yourself.\n\n`options` may contain the following properties:\n\n- `lex` (function): **(required)** the lexer used\n- `parse` (function): **(required)** the parser used\n- `resolve` (function): a function used to override `load.resolve`. Defaults to `load.resolve`.\n- `read` (function): a function used to override `load.read`. Defaults to `load.read`.\n- `basedir` (string): the base directory of absolute inclusion. This is **required** when absolute inclusion (file name starts with `'/'`) is used. Defaults to undefined.\n\nThe `options` object is passed to `load.resolve` and `load.read`, or equivalently `options.resolve` and `options.read`.\n\n### `load.resolve(filename, source, options)`\n\nCallback used by `pug-load` to resolve the full path of an included or extended file given the path of the source file.\n\n`filename` is the included file. `source` is the name of the parent file that includes `filename`.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### `load.read(filename, options)`\n\nCallback used by `pug-load` to return the contents of a file.\n\n`filename` is the file to read.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### `load.validateOptions(options)`\n\nCallback used `pug-load` to ensure the options object is valid. If your overridden `load.resolve` or `load.read` uses a different `options` scheme, you will need to override this function as well.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### Example\n\n```js\nvar fs = require('fs');\nvar lex = require('pug-lexer');\nvar parse = require('pug-parser');\nvar load = require('pug-load');\n\n// you can do everything very manually\n\nvar str = fs.readFileSync('bar.pug', 'utf8');\nvar ast = load(parse(lex(str, 'bar.pug'), 'bar.pug'), {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n\n// or you can do all that in just two steps\n\nvar str = fs.readFileSync('bar.pug', 'utf8');\nvar ast = load.string(str, 'bar.pug', {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n\n// or you can do all that in only one step\n\nvar ast = load.file('bar.pug', {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n```\n\n## License\n\n  MIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "3.0.0-canary-2" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "3.0.0-canary-2",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-load"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-3.0.0-canary-2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-3.0.0-canary-2.tgz",
+        "shasum" : "d9a159a35c08b9abb965d8dc39a6f3d1d7f69332"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.1",
+        "pug-walk" : "2.0.0-canary-2"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "5.0.0-canary-2",
+        "pug-parser" : "6.0.0-canary-2"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-load@3.0.0-canary-2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load_3.0.0-canary-2_1590409146843_0.7100370710127495"
+      },
+      "readme" : "# pug-load\n\nThe pug loader is responsible for loading the depenendencies of a given pug file.  It adds `fullPath` and `str` properties to every `Include` and `Extends` node.  It also adds an `ast` property to any `Include` nodes that are loading pug and any `Extends` nodes.  It then recursively loads the dependencies of any of those included files.\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-load/master.svg)](https://travis-ci.org/pugjs/pug-load)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-load)](https://david-dm.org/pugjs/pug?path=packages/pug-load)\n[![DevDependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-load)](https://david-dm.org/pugjs/pug?path=packages/pug-load&type=dev)\n[![NPM version](https://img.shields.io/npm/v/pug-load.svg)](https://www.npmjs.org/package/pug-load)\n[![Coverage Status](https://img.shields.io/codecov/c/github/pugjs/pug-load.svg)](https://codecov.io/gh/pugjs/pug-load)\n\n## Installation\n\n    npm install pug-load\n\n## Usage\n\n```js\nvar load = require('pug-load');\n```\n\n### `load(ast, options)`\n### `load.string(str, filename, options)`\n### `load.file(filename, options)`\n\nLoads all dependencies of the Pug AST. `load.string` and `load.file` are syntactic sugar that parses the string or file instead of you doing it yourself.\n\n`options` may contain the following properties:\n\n- `lex` (function): **(required)** the lexer used\n- `parse` (function): **(required)** the parser used\n- `resolve` (function): a function used to override `load.resolve`. Defaults to `load.resolve`.\n- `read` (function): a function used to override `load.read`. Defaults to `load.read`.\n- `basedir` (string): the base directory of absolute inclusion. This is **required** when absolute inclusion (file name starts with `'/'`) is used. Defaults to undefined.\n\nThe `options` object is passed to `load.resolve` and `load.read`, or equivalently `options.resolve` and `options.read`.\n\n### `load.resolve(filename, source, options)`\n\nCallback used by `pug-load` to resolve the full path of an included or extended file given the path of the source file.\n\n`filename` is the included file. `source` is the name of the parent file that includes `filename`.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### `load.read(filename, options)`\n\nCallback used by `pug-load` to return the contents of a file.\n\n`filename` is the file to read.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### `load.validateOptions(options)`\n\nCallback used `pug-load` to ensure the options object is valid. If your overridden `load.resolve` or `load.read` uses a different `options` scheme, you will need to override this function as well.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### Example\n\n```js\nvar fs = require('fs');\nvar lex = require('pug-lexer');\nvar parse = require('pug-parser');\nvar load = require('pug-load');\n\n// you can do everything very manually\n\nvar str = fs.readFileSync('bar.pug', 'utf8');\nvar ast = load(parse(lex(str, 'bar.pug'), 'bar.pug'), {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n\n// or you can do all that in just two steps\n\nvar str = fs.readFileSync('bar.pug', 'utf8');\nvar ast = load.string(str, 'bar.pug', {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n\n// or you can do all that in only one step\n\nvar ast = load.file('bar.pug', {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n```\n\n## License\n\n  MIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "3.0.0" : {
+      "name" : "pug-load",
+      "description" : "The Pug loader is responsible for loading the depenendencies of a given Pug file.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-load"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-load/-/pug-load-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-load%2F-%2Fpug-load-3.0.0.tgz",
+        "shasum" : "9fd9cda52202b08adb11d25681fb9f34bd41b662"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.1",
+        "pug-walk" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "pug-lexer" : "^5.0.0",
+        "pug-parser" : "^6.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-load@3.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-load_3.0.0_1590409181319_0.43892744292876706"
+      },
+      "_nodeVersion" : "12.16.3"
+    }
+  },
+  "readme" : "# pug-load\n\nThe pug loader is responsible for loading the depenendencies of a given pug file.  It adds `fullPath` and `str` properties to every `Include` and `Extends` node.  It also adds an `ast` property to any `Include` nodes that are loading pug and any `Extends` nodes.  It then recursively loads the dependencies of any of those included files.\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-load/master.svg)](https://travis-ci.org/pugjs/pug-load)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-load)](https://david-dm.org/pugjs/pug?path=packages/pug-load)\n[![DevDependencies Status](https://david-dm.org/pugjs/pug/dev-status.svg?path=packages/pug-load)](https://david-dm.org/pugjs/pug?path=packages/pug-load&type=dev)\n[![NPM version](https://img.shields.io/npm/v/pug-load.svg)](https://www.npmjs.org/package/pug-load)\n[![Coverage Status](https://img.shields.io/codecov/c/github/pugjs/pug-load.svg)](https://codecov.io/gh/pugjs/pug-load)\n\n## Installation\n\n    npm install pug-load\n\n## Usage\n\n```js\nvar load = require('pug-load');\n```\n\n### `load(ast, options)`\n### `load.string(str, filename, options)`\n### `load.file(filename, options)`\n\nLoads all dependencies of the Pug AST. `load.string` and `load.file` are syntactic sugar that parses the string or file instead of you doing it yourself.\n\n`options` may contain the following properties:\n\n- `lex` (function): **(required)** the lexer used\n- `parse` (function): **(required)** the parser used\n- `resolve` (function): a function used to override `load.resolve`. Defaults to `load.resolve`.\n- `read` (function): a function used to override `load.read`. Defaults to `load.read`.\n- `basedir` (string): the base directory of absolute inclusion. This is **required** when absolute inclusion (file name starts with `'/'`) is used. Defaults to undefined.\n\nThe `options` object is passed to `load.resolve` and `load.read`, or equivalently `options.resolve` and `options.read`.\n\n### `load.resolve(filename, source, options)`\n\nCallback used by `pug-load` to resolve the full path of an included or extended file given the path of the source file.\n\n`filename` is the included file. `source` is the name of the parent file that includes `filename`.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### `load.read(filename, options)`\n\nCallback used by `pug-load` to return the contents of a file.\n\n`filename` is the file to read.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### `load.validateOptions(options)`\n\nCallback used `pug-load` to ensure the options object is valid. If your overridden `load.resolve` or `load.read` uses a different `options` scheme, you will need to override this function as well.\n\nThis function is not meant to be called from outside of `pug-load`, but rather for you to override.\n\n### Example\n\n```js\nvar fs = require('fs');\nvar lex = require('pug-lexer');\nvar parse = require('pug-parser');\nvar load = require('pug-load');\n\n// you can do everything very manually\n\nvar str = fs.readFileSync('bar.pug', 'utf8');\nvar ast = load(parse(lex(str, 'bar.pug'), 'bar.pug'), {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n\n// or you can do all that in just two steps\n\nvar str = fs.readFileSync('bar.pug', 'utf8');\nvar ast = load.string(str, 'bar.pug', {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n\n// or you can do all that in only one step\n\nvar ast = load.file('bar.pug', {\n  lex: lex,\n  parse: parse,\n  resolve: function (filename, source, options) {\n    console.log('\"' + filename + '\" file requested from \"' + source + '\".');\n    return load.resolve(filename, source, options);\n  }\n});\n```\n\n## License\n\n  MIT\n",
+  "maintainers" : [ {
+    "email" : "pug-bot@rollingversions.com",
+    "name" : "pug-bot"
+  }, {
+    "email" : "timothygu99@gmail.com",
+    "name" : "timothygu"
+  } ],
+  "author" : {
+    "name" : "ForbesLindesay"
+  },
+  "time" : {
+    "2.0.0" : "2016-05-15T11:58:54.672Z",
+    "2.0.1" : "2016-08-24T01:22:02.737Z",
+    "created" : "2016-05-04T01:38:54.632Z",
+    "2.0.8" : "2017-08-01T15:53:45.749Z",
+    "2.0.10" : "2018-03-06T13:12:35.622Z",
+    "2.0.9" : "2017-09-06T15:28:08.370Z",
+    "2.0.6" : "2017-04-18T00:36:26.399Z",
+    "2.0.12" : "2019-06-18T09:45:04.144Z",
+    "2.0.7" : "2017-06-02T12:33:31.512Z",
+    "2.0.11" : "2018-03-08T16:32:36.405Z",
+    "2.0.4" : "2017-01-24T01:07:16.614Z",
+    "2.0.5" : "2017-02-04T12:40:35.045Z",
+    "2.0.2" : "2016-08-24T01:25:45.690Z",
+    "2.0.3" : "2016-08-24T18:58:13.015Z",
+    "1.0.3" : "2016-05-04T01:38:54.632Z",
+    "3.0.0-canary-1" : "2020-05-24T23:08:07.431Z",
+    "3.0.0-canary-2" : "2020-05-25T12:19:06.969Z",
+    "3.0.0" : "2020-05-25T12:19:41.532Z",
+    "modified" : "2020-05-25T12:19:43.926Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-load"
+  },
+  "users" : {
+    "paulkolesnyk" : true
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "pug" ],
+  "license" : "MIT"
+}

@@ -1,0 +1,3947 @@
+{
+  "_id" : "@jest/reporters",
+  "_rev" : "43-a8b7497f1b03088b6ea9ffbc1a5a3d03",
+  "name" : "@jest/reporters",
+  "description" : "Jest's reporters",
+  "dist-tags" : {
+    "next" : "26.0.1-alpha.0",
+    "canary" : "25.2.1-alpha.2",
+    "beta" : "24.2.0-alpha.0",
+    "latest" : "26.4.1"
+  },
+  "versions" : {
+    "24.6.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.6.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.6.0.tgz",
+        "shasum" : "2b4d75255743cbc448ba0a4890912e1e148417b4"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.6.0",
+        "@jest/test-result" : "^24.6.0",
+        "@jest/transform" : "^24.6.0",
+        "@jest/types" : "^24.6.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-api" : "^2.1.1",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "jest-haste-map" : "^24.6.0",
+        "jest-resolve" : "^24.6.0",
+        "jest-runtime" : "^24.6.0",
+        "jest-util" : "^24.6.0",
+        "jest-worker" : "^24.6.0",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/node-notifier" : "^5.4.0",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.6.0",
+      "gitHead" : "04e6a66d2ba8b18bee080bb28547db74a255d2c7",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.6.0_1554157639667_0.009245060871147626"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.7.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.7.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.7.0.tgz",
+        "shasum" : "f780e0811bd1de46ed78270eb622097387cbb442"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.7.0",
+        "@jest/test-result" : "^24.7.0",
+        "@jest/transform" : "^24.7.0",
+        "@jest/types" : "^24.7.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-api" : "^2.1.1",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "jest-haste-map" : "^24.7.0",
+        "jest-resolve" : "^24.7.0",
+        "jest-runtime" : "^24.7.0",
+        "jest-util" : "^24.7.0",
+        "jest-worker" : "^24.6.0",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/node-notifier" : "^5.4.0",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.7.0",
+      "gitHead" : "eb0413622542bc0f70c32950d9daeeab9f6802ac",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.7.0_1554263771904_0.44869051070643495"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.7.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.7.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.7.1.tgz",
+        "shasum" : "38ac0b096cd691bbbe3051ddc25988d42e37773a"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.7.1",
+        "@jest/test-result" : "^24.7.1",
+        "@jest/transform" : "^24.7.1",
+        "@jest/types" : "^24.7.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-api" : "^2.1.1",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "jest-haste-map" : "^24.7.1",
+        "jest-resolve" : "^24.7.1",
+        "jest-runtime" : "^24.7.1",
+        "jest-util" : "^24.7.1",
+        "jest-worker" : "^24.6.0",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/node-notifier" : "^5.4.0",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.7.1",
+      "gitHead" : "0efb1d7809cb96ae87a7601e7802f1dab3774280",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.7.1_1554340768526_0.42844508441035334"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.8.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.8.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.8.0.tgz",
+        "shasum" : "075169cd029bddec54b8f2c0fc489fd0b9e05729"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.8.0",
+        "@jest/test-result" : "^24.8.0",
+        "@jest/transform" : "^24.8.0",
+        "@jest/types" : "^24.8.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-report" : "^2.0.4",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "istanbul-reports" : "^2.1.1",
+        "jest-haste-map" : "^24.8.0",
+        "jest-resolve" : "^24.8.0",
+        "jest-runtime" : "^24.8.0",
+        "jest-util" : "^24.8.0",
+        "jest-worker" : "^24.6.0",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^1.1.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^5.4.0",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.8.0",
+      "gitHead" : "845728f24b3ef41e450595c384e9b5c9fdf248a4",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.8.0_1557021789665_0.9752707503750746"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.9.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.9.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/facebook/jest",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.9.0.tgz",
+        "shasum" : "86660eff8e2b9661d042a8e98a028b8d631a5b43"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.9.0",
+        "@jest/test-result" : "^24.9.0",
+        "@jest/transform" : "^24.9.0",
+        "@jest/types" : "^24.9.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-report" : "^2.0.4",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "istanbul-reports" : "^2.2.6",
+        "jest-haste-map" : "^24.9.0",
+        "jest-resolve" : "^24.9.0",
+        "jest-runtime" : "^24.9.0",
+        "jest-util" : "^24.9.0",
+        "jest-worker" : "^24.6.0",
+        "node-notifier" : "^5.4.2",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^1.1.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^5.4.0",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.9.0",
+      "gitHead" : "9ad0f4bc6b8bdd94989804226c28c9960d9da7d1",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.9.0_1565936121526_0.2063977067844498"
+      }
+    },
+    "24.3.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.3.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.3.0.tgz",
+        "shasum" : "beaa8b7d0148db8438a12102daf4d36268a150f5"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.3.0",
+        "@jest/test-result" : "^24.3.0",
+        "@jest/transform" : "^24.3.0",
+        "@jest/types" : "^24.3.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-api" : "^2.1.1",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "jest-haste-map" : "^24.3.0",
+        "jest-resolve" : "^24.3.0",
+        "jest-runtime" : "^24.3.0",
+        "jest-util" : "^24.3.0",
+        "jest-worker" : "^24.3.0",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.3.0",
+      "gitHead" : "3a7a4f3a3f5489ac8e07dcddf76bb949c482ec87",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.3.0_1551963900763_0.9923197647772959"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.0-alpha.86" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.2.0-alpha.86",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.2.0-alpha.86.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.2.0-alpha.86.tgz",
+        "shasum" : "fbf830b972db27bbd904c25d753ba510e5e95f52"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.2.0-alpha.86+cd98198c9",
+        "@jest/test-result" : "^25.2.0-alpha.86+cd98198c9",
+        "@jest/transform" : "^25.2.0-alpha.86+cd98198c9",
+        "@jest/types" : "^25.2.0-alpha.86+cd98198c9",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-resolve" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-util" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-worker" : "^25.2.0-alpha.86+cd98198c9",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.2.0-alpha.86",
+      "gitHead" : "cd98198c9397d8b69c55155d7b224d62ef117a90",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.2.0-alpha.86_1585156604331_0.5505986204557041"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.14.1"
+    },
+    "24.3.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.3.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.3.1.tgz",
+        "shasum" : "68e4abc8d4233acd0dd87287f3bd270d81066248"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.3.1",
+        "@jest/test-result" : "^24.3.0",
+        "@jest/transform" : "^24.3.1",
+        "@jest/types" : "^24.3.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-api" : "^2.1.1",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "jest-haste-map" : "^24.3.1",
+        "jest-resolve" : "^24.3.1",
+        "jest-runtime" : "^24.3.1",
+        "jest-util" : "^24.3.0",
+        "jest-worker" : "^24.3.1",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.3.1",
+      "gitHead" : "65c6e9d5e398711c011078bb72648c77fc8a8cb3",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.3.1_1552000396397_0.42163829725570756"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.4.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.4.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.4.0.tgz",
+        "shasum" : "e1e6ca29593f36088db76a380f04e93e71f09607"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.4.0",
+        "@jest/test-result" : "^24.3.0",
+        "@jest/transform" : "^24.4.0",
+        "@jest/types" : "^24.3.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-api" : "^2.1.1",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "jest-haste-map" : "^24.4.0",
+        "jest-resolve" : "^24.4.0",
+        "jest-runtime" : "^24.4.0",
+        "jest-util" : "^24.3.0",
+        "jest-worker" : "^24.4.0",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.4.0",
+      "gitHead" : "a018000fc162db3cfd0ebf9f23fdb734f05821a6",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.4.0_1552316321284_0.2218529896125334"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.5.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.5.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.5.0.tgz",
+        "shasum" : "9363a210d0daa74696886d9cb294eb8b3ad9b4d9"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.5.0",
+        "@jest/test-result" : "^24.5.0",
+        "@jest/transform" : "^24.5.0",
+        "@jest/types" : "^24.5.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-api" : "^2.1.1",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "jest-haste-map" : "^24.5.0",
+        "jest-resolve" : "^24.5.0",
+        "jest-runtime" : "^24.5.0",
+        "jest-util" : "^24.5.0",
+        "jest-worker" : "^24.4.0",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.5.0",
+      "gitHead" : "800533020f5b2f153615c821ed7cb12fd868fa6f",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.5.0_1552409341310_0.21531621896584707"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.1-alpha.2" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.2.1-alpha.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.2.1-alpha.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.2.1-alpha.2.tgz",
+        "shasum" : "044c51d58a7f56f832f3d7e29be774235c790025"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.2.1-alpha.2+79b7ab67c",
+        "@jest/test-result" : "^25.2.1-alpha.2+79b7ab67c",
+        "@jest/transform" : "^25.2.1-alpha.2+79b7ab67c",
+        "@jest/types" : "^25.2.1-alpha.2+79b7ab67c",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-resolve" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-util" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-worker" : "^25.2.1-alpha.2+79b7ab67c",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.2.1-alpha.2",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "79b7ab67c63d3708f9689e25fbc0e8b0094bd019",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.2.1-alpha.2_1585210244355_0.5909635374876594"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.0.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.0.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.0.0.tgz",
+        "shasum" : "a99dee0ec3201ba3ae0dfc49b10f26831380f9a2"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^25.0.0",
+        "@jest/test-result" : "^25.0.0",
+        "@jest/transform" : "^25.0.0",
+        "@jest/types" : "^25.0.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-report" : "^2.0.4",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "istanbul-reports" : "^2.2.6",
+        "jest-haste-map" : "^25.0.0",
+        "jest-resolve" : "^25.0.0",
+        "jest-runtime" : "^25.0.0",
+        "jest-util" : "^25.0.0",
+        "jest-worker" : "^25.0.0",
+        "node-notifier" : "^5.4.3",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^1.1.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^5.4.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.0.0",
+      "gitHead" : "ff9269be05fd8316e95232198fce3463bf2f270e",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.0.0_1566444286132_0.05472528010851585"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "11.12.0"
+    },
+    "25.2.1-alpha.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.2.1-alpha.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.2.1-alpha.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.2.1-alpha.1.tgz",
+        "shasum" : "e64cb6d6d163ca0dad3f27aad73341fa845b468a"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.2.1-alpha.1+5cc2ccdac",
+        "@jest/test-result" : "^25.2.1-alpha.1+5cc2ccdac",
+        "@jest/transform" : "^25.2.1-alpha.1+5cc2ccdac",
+        "@jest/types" : "^25.2.1-alpha.1+5cc2ccdac",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-resolve" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-util" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-worker" : "^25.2.1-alpha.1+5cc2ccdac",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.2.1-alpha.1",
+      "typesVersions" : {
+        "<3.8" : {
+          "*" : [ "ts3.4/*" ]
+        }
+      },
+      "gitHead" : "5cc2ccdacb1b2433581222252e43cb5a1f6861a9",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.2.1-alpha.1_1585209276601_0.3783964439368681"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.2.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.2.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.2.1.tgz",
+        "shasum" : "c5bc848393f48f3cf141957ba51fc4c1598ddb3a"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.2.1",
+        "@jest/test-result" : "^25.2.1",
+        "@jest/transform" : "^25.2.1",
+        "@jest/types" : "^25.2.1",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.2.1",
+        "jest-resolve" : "^25.2.1",
+        "jest-util" : "^25.2.1",
+        "jest-worker" : "^25.2.1",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.2.1",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "a679390828b6c30aeaa547d8c4dc9aed6531e357",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.2.1_1585213289567_0.37656552717873293"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.3.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.3.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.3.0.tgz",
+        "shasum" : "7f39f0e6911561cc5112a1b54656de18faee269b"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.3.0",
+        "@jest/test-result" : "^25.3.0",
+        "@jest/transform" : "^25.3.0",
+        "@jest/types" : "^25.3.0",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^25.3.0",
+        "jest-resolve" : "^25.3.0",
+        "jest-util" : "^25.3.0",
+        "jest-worker" : "^25.2.6",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.3.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "45a4936d96d74cdee6b91122a51a556e3ebe6dc8",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.3.0_1586352093295_0.6778917494436065"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "25.4.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.4.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.4.0.tgz",
+        "shasum" : "836093433b32ce4e866298af2d6fcf6ed351b0b0"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.4.0",
+        "@jest/test-result" : "^25.4.0",
+        "@jest/transform" : "^25.4.0",
+        "@jest/types" : "^25.4.0",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^25.4.0",
+        "jest-resolve" : "^25.4.0",
+        "jest-util" : "^25.4.0",
+        "jest-worker" : "^25.4.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.4.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "5b129d714cadb818be28afbe313cbeae8fbb1dde",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.4.0_1587333041517_0.23139719005272674"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "26.0.1-alpha.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.0.1-alpha.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.0.1-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.0.1-alpha.0.tgz",
+        "shasum" : "ee63e257600f10e3a603c7f54eb2240cbe6cafb5"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.0.1-alpha.0",
+        "@jest/test-result" : "^26.0.1-alpha.0",
+        "@jest/transform" : "^26.0.1-alpha.0",
+        "@jest/types" : "^26.0.1-alpha.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.0.1-alpha.0",
+        "jest-resolve" : "^26.0.1-alpha.0",
+        "jest-util" : "^26.0.1-alpha.0",
+        "jest-worker" : "^26.0.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.0.1-alpha.0",
+      "gitHead" : "fb04716adb223ce2da1e6bb2b4ce7c011bad1807",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.0.1-alpha.0_1588630576784_0.29543804697321163"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.1.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.1.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.1.0.tgz",
+        "shasum" : "9178ecf136c48f125674ac328f82ddea46e482b0"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.1.0",
+        "@jest/environment" : "^25.1.0",
+        "@jest/test-result" : "^25.1.0",
+        "@jest/transform" : "^25.1.0",
+        "@jest/types" : "^25.1.0",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.1.0",
+        "jest-resolve" : "^25.1.0",
+        "jest-runtime" : "^25.1.0",
+        "jest-util" : "^25.1.0",
+        "jest-worker" : "^25.1.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^1.1.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^5.4.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v10.16.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "davidzilburg",
+        "email" : "davidzilburg@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.1.0",
+      "gitHead" : "170eee11d03b0ed5c60077982fdbc3bafd403638",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.1.0_1579654843123_0.6245569477101212"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "25.2.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.2.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.2.0.tgz",
+        "shasum" : "828dc217cb7480cdb138e5ff91174deaae80624a"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.2.0",
+        "@jest/test-result" : "^25.2.0",
+        "@jest/transform" : "^25.2.0",
+        "@jest/types" : "^25.2.0",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.2.0",
+        "jest-resolve" : "^25.2.0",
+        "jest-util" : "^25.2.0",
+        "jest-worker" : "^25.2.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.2.0",
+      "gitHead" : "9f0339c1c762e39f869f7df63e88470287728b93",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.2.0_1585159115205_0.9309064422083031"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "26.0.0-alpha.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.0.0-alpha.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.0.0-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.0.0-alpha.0.tgz",
+        "shasum" : "d39810be49732465d92d513b42ffd04f6115b12f"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.0.0-alpha.0",
+        "@jest/test-result" : "^26.0.0-alpha.0",
+        "@jest/transform" : "^26.0.0-alpha.0",
+        "@jest/types" : "^26.0.0-alpha.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.0.0-alpha.0",
+        "jest-resolve" : "^26.0.0-alpha.0",
+        "jest-util" : "^26.0.0-alpha.0",
+        "jest-worker" : "^26.0.0-alpha.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.0.0-alpha.0",
+      "gitHead" : "ba962e7e9669a4a2f723c2536c97462c8ddfff2d",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.0.0-alpha.0_1588421601286_0.6452164136231611"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "26.0.0-alpha.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.0.0-alpha.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.0.0-alpha.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.0.0-alpha.1.tgz",
+        "shasum" : "99403609eeb76668f1c761cbc9ee72f401d10eee"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.0.0-alpha.1",
+        "@jest/test-result" : "^26.0.0-alpha.1",
+        "@jest/transform" : "^26.0.0-alpha.1",
+        "@jest/types" : "^26.0.0-alpha.1",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.0.0-alpha.1",
+        "jest-resolve" : "^26.0.0-alpha.1",
+        "jest-util" : "^26.0.0-alpha.1",
+        "jest-worker" : "^26.0.0-alpha.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.0.0-alpha.1",
+      "gitHead" : "2bac04ffb8e533d12a072998da5c3751a41b796f",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.0.0-alpha.1_1588531698975_0.9737041375744369"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.2.6" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.2.6",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.2.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.2.6.tgz",
+        "shasum" : "6d87e40fb15adb69e22bb83aa02a4d88b2253b5f"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.2.6",
+        "@jest/test-result" : "^25.2.6",
+        "@jest/transform" : "^25.2.6",
+        "@jest/types" : "^25.2.6",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.2.6",
+        "jest-resolve" : "^25.2.6",
+        "jest-util" : "^25.2.6",
+        "jest-worker" : "^25.2.6",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.2.6",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "43207b743df164e9e58bd483dd9167b9084da18b",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.2.6_1585823378063_0.3824123635639878"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "26.0.0-alpha.2" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.0.0-alpha.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.0.0-alpha.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.0.0-alpha.2.tgz",
+        "shasum" : "5f684ae187717032da8ed56130310e53d110934b"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.0.0-alpha.2",
+        "@jest/test-result" : "^26.0.0-alpha.2",
+        "@jest/transform" : "^26.0.0-alpha.2",
+        "@jest/types" : "^26.0.0-alpha.2",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.0.0-alpha.2",
+        "jest-resolve" : "^26.0.0-alpha.2",
+        "jest-util" : "^26.0.0-alpha.2",
+        "jest-worker" : "^26.0.0-alpha.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.0.0-alpha.2",
+      "gitHead" : "68b65afc97688bd5b0b433f8f585da57dcd1d418",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.0.0-alpha.2_1588608352190_0.6043616959442262"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.2.3" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.2.3",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.2.3.tgz",
+        "shasum" : "824e922ea56686d0243c910559c36adacdd2081c"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.2.3",
+        "@jest/test-result" : "^25.2.3",
+        "@jest/transform" : "^25.2.3",
+        "@jest/types" : "^25.2.3",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.2.3",
+        "jest-resolve" : "^25.2.3",
+        "jest-util" : "^25.2.3",
+        "jest-worker" : "^25.2.1",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.2.3",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "6f8bf80c38567ba076ae979af2dedb42b285b2d5",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.2.3_1585254307059_0.9455152990665274"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.5.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.5.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.5.0.tgz",
+        "shasum" : "749e035119ec22c76af9bb587108a27c15dfe40d"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.5.0",
+        "@jest/test-result" : "^25.5.0",
+        "@jest/transform" : "^25.5.0",
+        "@jest/types" : "^25.5.0",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^25.5.0",
+        "jest-resolve" : "^25.5.0",
+        "jest-util" : "^25.5.0",
+        "jest-worker" : "^25.5.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.5.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "ddd73d18adfb982b9b0d94bad7d41c9f78567ca7",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.5.0_1588103141017_0.10163639674749714"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "24.2.0-alpha.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "24.2.0-alpha.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-24.2.0-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-24.2.0-alpha.0.tgz",
+        "shasum" : "5ca66150507dfaf4e5336252828d72333ee8560b"
+      },
+      "dependencies" : {
+        "@jest/environment" : "^24.2.0-alpha.0",
+        "@jest/test-result" : "^24.2.0-alpha.0",
+        "@jest/transform" : "^24.2.0-alpha.0",
+        "@jest/types" : "^24.2.0-alpha.0",
+        "chalk" : "^2.0.1",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-api" : "^2.1.1",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-instrument" : "^3.0.1",
+        "istanbul-lib-source-maps" : "^3.0.1",
+        "jest-haste-map" : "^24.2.0-alpha.0",
+        "jest-resolve" : "^24.2.0-alpha.0",
+        "jest-runtime" : "^24.2.0-alpha.0",
+        "jest-util" : "^24.2.0-alpha.0",
+        "jest-worker" : "^24.2.0-alpha.0",
+        "node-notifier" : "^5.2.1",
+        "slash" : "^2.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/slash" : "^2.0.0",
+        "@types/string-length" : "^2.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/reporters@24.2.0-alpha.0",
+      "gitHead" : "800f2f803d01c8ae194d71b251e4965dd70e5bf2",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_24.2.0-alpha.0_1551798136198_0.49935800386764817"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.4" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.2.4",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.2.4.tgz",
+        "shasum" : "aa01c20aab217150d3a6080d5c98ce0bf34b17ed"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.2.3",
+        "@jest/test-result" : "^25.2.4",
+        "@jest/transform" : "^25.2.4",
+        "@jest/types" : "^25.2.3",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.0",
+        "jest-haste-map" : "^25.2.3",
+        "jest-resolve" : "^25.2.3",
+        "jest-util" : "^25.2.3",
+        "jest-worker" : "^25.2.1",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.0.1",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^1.2.1",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.2.4",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "324938561c608e0e9dddc008e5dde1589d7abc68",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.2.4_1585510719917_0.7240528585576962"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.5.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "25.5.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-25.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-25.5.1.tgz",
+        "shasum" : "cb686bcc680f664c2dbaf7ed873e93aa6811538b"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^25.5.0",
+        "@jest/test-result" : "^25.5.0",
+        "@jest/transform" : "^25.5.1",
+        "@jest/types" : "^25.5.0",
+        "chalk" : "^3.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^25.5.1",
+        "jest-resolve" : "^25.5.1",
+        "jest-util" : "^25.5.0",
+        "jest-worker" : "^25.5.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^3.1.0",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^6.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@25.5.1",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "c5f2fd756331895b8177a19304feb49657687e22",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_25.5.1_1588157714144_0.5408435590978218"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "26.0.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.0.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.0.0.tgz",
+        "shasum" : "fe463d06943ac8ad43c0eb841cdb84953b10bdf6"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.0.0",
+        "@jest/test-result" : "^26.0.0",
+        "@jest/transform" : "^26.0.0",
+        "@jest/types" : "^26.0.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.0.0",
+        "jest-resolve" : "^26.0.0",
+        "jest-util" : "^26.0.0",
+        "jest-worker" : "^26.0.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.0.0",
+      "gitHead" : "343532a21f640ac2709c4076eef57e52279542e1",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.0.0_1588614809183_0.30390647215048294"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "26.0.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.0.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.0.1.tgz",
+        "shasum" : "14ae00e7a93e498cec35b0c00ab21c375d9b078f"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.0.1",
+        "@jest/test-result" : "^26.0.1",
+        "@jest/transform" : "^26.0.1",
+        "@jest/types" : "^26.0.1",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.0",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.0.1",
+        "jest-resolve" : "^26.0.1",
+        "jest-util" : "^26.0.1",
+        "jest-worker" : "^26.0.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.0.1",
+      "gitHead" : "40b8e1e157c9981dda5a68d73fff647e80fc9f5c",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.0.1_1588675267586_0.1984611333516999"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "26.1.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.1.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.1.0.tgz",
+        "shasum" : "08952e90c90282e14ff49e927bdf1873617dae78"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.1.0",
+        "@jest/test-result" : "^26.1.0",
+        "@jest/transform" : "^26.1.0",
+        "@jest/types" : "^26.1.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.3",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.1.0",
+        "jest-resolve" : "^26.1.0",
+        "jest-util" : "^26.1.0",
+        "jest-worker" : "^26.1.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.1.0",
+      "gitHead" : "817d8b6aca845dd4fcfd7f8316293e69f3a116c5",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.1.0_1592925332433_0.735000884246255"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.2.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.2.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.2.0.tgz",
+        "shasum" : "653328594876ef90f50bb4ec4986c6e892720ca3"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.2.0",
+        "@jest/test-result" : "^26.2.0",
+        "@jest/transform" : "^26.2.0",
+        "@jest/types" : "^26.2.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.3",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.2.0",
+        "jest-resolve" : "^26.2.0",
+        "jest-util" : "^26.2.0",
+        "jest-worker" : "^26.2.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.2.0",
+      "gitHead" : "4a716811a309dae135b780a87dc1647b285800eb",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.2.0_1596103918672_0.9902702056782136"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.2.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.2.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.2.1.tgz",
+        "shasum" : "c973a8a27817bb1a5768eb1568a52598fea30810"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.2.0",
+        "@jest/test-result" : "^26.2.0",
+        "@jest/transform" : "^26.2.1",
+        "@jest/types" : "^26.2.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.3",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.2.1",
+        "jest-resolve" : "^26.2.1",
+        "jest-util" : "^26.2.0",
+        "jest-worker" : "^26.2.1",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.2.1",
+      "gitHead" : "da61421faee6fdbf2a2b355b10d4e6eb1a842233",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.2.1_1596108944916_0.24459574732110556"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.3.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.3.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.3.0.tgz",
+        "shasum" : "12112cc0a073a92e7205d7ceee4de7cfac232105"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.3.0",
+        "@jest/test-result" : "^26.3.0",
+        "@jest/transform" : "^26.3.0",
+        "@jest/types" : "^26.3.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.3",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.3.0",
+        "jest-resolve" : "^26.3.0",
+        "jest-util" : "^26.3.0",
+        "jest-worker" : "^26.3.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^5.0.1",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^3.0.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.3.0",
+      "gitHead" : "3a7e06fe855515a848241bb06a6f6e117847443d",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.3.0_1597059125855_0.9834935736744785"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.2.2" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.2.2",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.2.2.tgz",
+        "shasum" : "5a8632ab410f4fc57782bc05dcf115e91818e869"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.2.0",
+        "@jest/test-result" : "^26.2.0",
+        "@jest/transform" : "^26.2.2",
+        "@jest/types" : "^26.2.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.3",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.2.2",
+        "jest-resolve" : "^26.2.2",
+        "jest-util" : "^26.2.0",
+        "jest-worker" : "^26.2.1",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^4.1.3",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^1.1.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.2.2",
+      "gitHead" : "a6a5abb7ef47ed2c31bf8987771a79f97ae65430",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.2.2_1596192839069_0.3002609889742871"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.4.0" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.4.0",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.4.0.tgz",
+        "shasum" : "dd3f03979170dd25dc6a9b746c693b591056d753"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.3.0",
+        "@jest/test-result" : "^26.3.0",
+        "@jest/transform" : "^26.3.0",
+        "@jest/types" : "^26.3.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.3",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.3.0",
+        "jest-resolve" : "^26.4.0",
+        "jest-util" : "^26.3.0",
+        "jest-worker" : "^26.3.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^5.0.1",
+        "node-notifier" : "^7.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^3.0.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.4.0",
+      "gitHead" : "0b1e41d1d93ce4d15646f4a39fd5a7ffae5f43c3",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.4.0_1597266021825_0.22126689843544378"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.4.1" : {
+      "name" : "@jest/reporters",
+      "description" : "Jest's reporters",
+      "version" : "26.4.1",
+      "homepage" : "https://jestjs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-reporters"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/reporters/-/reporters-26.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Freporters%2F-%2Freporters-26.4.1.tgz",
+        "shasum" : "3b4d6faf28650f3965f8b97bc3d114077fb71795"
+      },
+      "dependencies" : {
+        "@bcoe/v8-coverage" : "^0.2.3",
+        "@jest/console" : "^26.3.0",
+        "@jest/test-result" : "^26.3.0",
+        "@jest/transform" : "^26.3.0",
+        "@jest/types" : "^26.3.0",
+        "chalk" : "^4.0.0",
+        "collect-v8-coverage" : "^1.0.0",
+        "exit" : "^0.1.2",
+        "glob" : "^7.1.2",
+        "graceful-fs" : "^4.2.4",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "istanbul-lib-instrument" : "^4.0.3",
+        "istanbul-lib-report" : "^3.0.0",
+        "istanbul-lib-source-maps" : "^4.0.0",
+        "istanbul-reports" : "^3.0.2",
+        "jest-haste-map" : "^26.3.0",
+        "jest-resolve" : "^26.4.0",
+        "jest-util" : "^26.3.0",
+        "jest-worker" : "^26.3.0",
+        "slash" : "^3.0.0",
+        "source-map" : "^0.6.0",
+        "string-length" : "^4.0.1",
+        "terminal-link" : "^2.0.0",
+        "v8-to-istanbul" : "^5.0.1",
+        "node-notifier" : "^8.0.0"
+      },
+      "optionalDependencies" : {
+        "node-notifier" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "@types/exit" : "^0.1.30",
+        "@types/glob" : "^7.1.1",
+        "@types/graceful-fs" : "^4.1.3",
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-lib-instrument" : "^1.7.2",
+        "@types/istanbul-lib-report" : "^3.0.0",
+        "@types/istanbul-lib-source-maps" : "^4.0.0",
+        "@types/istanbul-reports" : "^3.0.0",
+        "@types/node-notifier" : "^6.0.0",
+        "mock-fs" : "^4.4.1",
+        "strip-ansi" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/reporters@26.4.1",
+      "gitHead" : "e1d51deea8d089a06f28b4dbe9287a4428508610",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reporters_26.4.1_1597912293256_0.5620789953222973"
+      },
+      "_nodeVersion" : "12.18.1"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "maintainers" : [ {
+    "email" : "aaron@abramov.io",
+    "name" : "aaronabramov"
+  }, {
+    "email" : "christoph.pojer@gmail.com",
+    "name" : "cpojer"
+  }, {
+    "email" : "davidzilburg@gmail.com",
+    "name" : "davidzilburg"
+  }, {
+    "email" : "opensource+npm@fb.com",
+    "name" : "fb"
+  }, {
+    "email" : "rubennorte@gmail.com",
+    "name" : "rubennorte"
+  }, {
+    "email" : "scott.hovestadt@gmail.com",
+    "name" : "scotthovestadt"
+  }, {
+    "email" : "sbekkhus91@gmail.com",
+    "name" : "simenb"
+  } ],
+  "time" : {
+    "24.6.0" : "2019-04-01T22:27:19.791Z",
+    "24.7.0" : "2019-04-03T03:56:12.160Z",
+    "24.7.1" : "2019-04-04T01:19:28.646Z",
+    "24.8.0" : "2019-05-05T02:03:10.055Z",
+    "24.9.0" : "2019-08-16T06:15:21.652Z",
+    "24.3.0" : "2019-03-07T13:05:00.887Z",
+    "25.2.0-alpha.86" : "2020-03-25T17:16:44.501Z",
+    "24.3.1" : "2019-03-07T23:13:16.787Z",
+    "24.4.0" : "2019-03-11T14:58:41.420Z",
+    "24.5.0" : "2019-03-12T16:49:01.477Z",
+    "25.2.1-alpha.2" : "2020-03-26T08:10:44.514Z",
+    "25.0.0" : "2019-08-22T03:24:46.238Z",
+    "25.2.1-alpha.1" : "2020-03-26T07:54:36.798Z",
+    "25.2.1" : "2020-03-26T09:01:29.688Z",
+    "25.3.0" : "2020-04-08T13:21:33.434Z",
+    "modified" : "2020-08-20T08:31:37.661Z",
+    "25.4.0" : "2020-04-19T21:50:41.655Z",
+    "26.0.1-alpha.0" : "2020-05-04T22:16:16.908Z",
+    "25.1.0" : "2020-01-22T01:00:43.260Z",
+    "25.2.0" : "2020-03-25T17:58:35.330Z",
+    "26.0.0-alpha.0" : "2020-05-02T12:13:21.410Z",
+    "26.0.0-alpha.1" : "2020-05-03T18:48:19.083Z",
+    "25.2.6" : "2020-04-02T10:29:38.208Z",
+    "26.0.0-alpha.2" : "2020-05-04T16:05:52.288Z",
+    "25.2.3" : "2020-03-26T20:25:07.165Z",
+    "25.5.0" : "2020-04-28T19:45:41.153Z",
+    "24.2.0-alpha.0" : "2019-03-05T15:02:16.382Z",
+    "25.2.4" : "2020-03-29T19:38:40.085Z",
+    "25.5.1" : "2020-04-29T10:55:14.284Z",
+    "created" : "2019-03-05T15:02:16.027Z",
+    "26.0.0" : "2020-05-04T17:53:29.284Z",
+    "26.0.1" : "2020-05-05T10:41:07.694Z",
+    "26.1.0" : "2020-06-23T15:15:32.607Z",
+    "26.2.0" : "2020-07-30T10:11:58.773Z",
+    "26.2.1" : "2020-07-30T11:35:45.035Z",
+    "26.3.0" : "2020-08-10T11:32:06.054Z",
+    "26.2.2" : "2020-07-31T10:53:59.211Z",
+    "26.4.0" : "2020-08-12T21:00:21.928Z",
+    "26.4.1" : "2020-08-20T08:31:33.422Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/facebook/jest.git",
+    "directory" : "packages/jest-reporters"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://jestjs.io/",
+  "bugs" : {
+    "url" : "https://github.com/facebook/jest/issues"
+  },
+  "license" : "MIT"
+}

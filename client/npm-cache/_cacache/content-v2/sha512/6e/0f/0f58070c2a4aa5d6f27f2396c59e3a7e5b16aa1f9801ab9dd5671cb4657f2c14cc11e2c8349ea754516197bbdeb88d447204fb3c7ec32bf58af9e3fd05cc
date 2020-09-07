@@ -1,0 +1,325 @@
+{
+  "_id" : "@babel/plugin-transform-react-jsx-development",
+  "_rev" : "5-ca3a975d3fd2e7ac6fd92f224297269e",
+  "name" : "@babel/plugin-transform-react-jsx-development",
+  "description" : "Turn JSX into React function calls in development",
+  "dist-tags" : {
+    "latest" : "7.11.5"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/plugin-transform-react-jsx-development",
+      "description" : "Turn JSX into React function calls in development",
+      "version" : "7.10.1",
+      "homepage" : "https://github.com/babel/babel#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-transform-react-jsx-development"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-transform-react-jsx-development/-/plugin-transform-react-jsx-development-7.10.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-transform-react-jsx-development%2F-%2Fplugin-transform-react-jsx-development-7.10.1.tgz",
+        "shasum" : "1ac6300d8b28ef381ee48e6fec430cc38047b7f3"
+      },
+      "dependencies" : {
+        "@babel/helper-builder-react-jsx-experimental" : "^7.10.1",
+        "@babel/helper-plugin-utils" : "^7.10.1",
+        "@babel/plugin-syntax-jsx" : "^7.10.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.1",
+        "@babel/helper-plugin-test-runner" : "^7.10.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-transform-react-jsx-development@7.10.1",
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-transform-react-jsx-development_7.10.1_1590617291145_0.08778433665024021"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.10.4" : {
+      "name" : "@babel/plugin-transform-react-jsx-development",
+      "description" : "Turn JSX into React function calls in development",
+      "version" : "7.10.4",
+      "homepage" : "https://github.com/babel/babel#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-transform-react-jsx-development"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-transform-react-jsx-development/-/plugin-transform-react-jsx-development-7.10.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-transform-react-jsx-development%2F-%2Fplugin-transform-react-jsx-development-7.10.4.tgz",
+        "shasum" : "6ec90f244394604623880e15ebc3c34c356258ba"
+      },
+      "dependencies" : {
+        "@babel/helper-builder-react-jsx-experimental" : "^7.10.4",
+        "@babel/helper-plugin-utils" : "^7.10.4",
+        "@babel/plugin-syntax-jsx" : "^7.10.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.10.4",
+        "@babel/helper-plugin-test-runner" : "^7.10.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "i@jhuang.me",
+        "name" : "jlhwung"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/plugin-transform-react-jsx-development@7.10.4",
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-transform-react-jsx-development_7.10.4_1593522780282_0.22533152897417708"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.11.5" : {
+      "name" : "@babel/plugin-transform-react-jsx-development",
+      "description" : "Turn JSX into React function calls in development",
+      "version" : "7.11.5",
+      "homepage" : "https://github.com/babel/babel#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-plugin-transform-react-jsx-development"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-transform-react-jsx-development/-/plugin-transform-react-jsx-development-7.11.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-transform-react-jsx-development%2F-%2Fplugin-transform-react-jsx-development-7.11.5.tgz",
+        "shasum" : "e1439e6a57ee3d43e9f54ace363fb29cefe5d7b6"
+      },
+      "dependencies" : {
+        "@babel/helper-builder-react-jsx-experimental" : "^7.11.5",
+        "@babel/helper-plugin-utils" : "^7.10.4",
+        "@babel/plugin-syntax-jsx" : "^7.10.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.11.5",
+        "@babel/helper-plugin-test-runner" : "^7.10.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "i@jhuang.me",
+        "name" : "jlhwung"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.9.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/plugin-transform-react-jsx-development@7.11.5",
+      "gitHead" : "af64ccb2b00bc7574943674996c2f0507cdbfb6f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-transform-react-jsx-development_7.11.5_1598904149523_0.8520021620191096"
+      },
+      "_nodeVersion" : "14.9.0"
+    },
+    "7.9.0" : {
+      "name" : "@babel/plugin-transform-react-jsx-development",
+      "description" : "Turn JSX into React function calls in development",
+      "version" : "7.9.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx-development"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@babel/plugin-transform-react-jsx-development/-/plugin-transform-react-jsx-development-7.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-transform-react-jsx-development%2F-%2Fplugin-transform-react-jsx-development-7.9.0.tgz",
+        "shasum" : "3c2a130727caf00c2a293f0aed24520825dbf754"
+      },
+      "dependencies" : {
+        "@babel/helper-builder-react-jsx-experimental" : "^7.9.0",
+        "@babel/helper-plugin-utils" : "^7.8.3",
+        "@babel/plugin-syntax-jsx" : "^7.8.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.9.0",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.11.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-transform-react-jsx-development@7.9.0",
+      "gitHead" : "8d5e422be27251cfaadf8dd2536b31b4a5024b02",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-transform-react-jsx-development_7.9.0_1584718793894_0.36013334094693583"
+      },
+      "_nodeVersion" : "13.11.0"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "i@jhuang.me",
+    "name" : "jlhwung"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "time" : {
+    "7.10.1" : "2020-05-27T22:08:11.282Z",
+    "7.10.4" : "2020-06-30T13:13:00.386Z",
+    "created" : "2020-03-20T15:39:53.526Z",
+    "7.11.5" : "2020-08-31T20:02:29.626Z",
+    "7.9.0" : "2020-03-20T15:39:54.363Z",
+    "modified" : "2020-08-31T20:02:31.891Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/babel/babel.git",
+    "directory" : "packages/babel-plugin-transform-react-jsx-development"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/babel/babel#readme",
+  "keywords" : [ "babel-plugin" ],
+  "bugs" : {
+    "url" : "https://github.com/babel/babel/issues"
+  },
+  "license" : "MIT"
+}
