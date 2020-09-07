@@ -1,4 +1,5 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/476c5050-f54a-401b-947e-861e5fc72918/resourceGroups/nextupcityguideprod/providers/Microsoft.Web/sites/nextupcityguideprod",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "git.ignoreLimitWarning": true
 }
