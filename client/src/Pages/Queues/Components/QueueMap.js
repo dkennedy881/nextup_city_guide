@@ -72,7 +72,7 @@ const QueueMap = ({ queueItems }) => {
         options={{
           fullscreenControl: false,
           zoom_changed: () => {},
-          gestureHandling: "greedy",
+          // gestureHandling: "greedy",
           clickableIcons: false,
         }}
         defaultCenter={{
