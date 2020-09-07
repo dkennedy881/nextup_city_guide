@@ -1,0 +1,467 @@
+{
+  "_id" : "escalade",
+  "_rev" : "5-9525fd7c61f763aec3b2230c02640beb",
+  "name" : "escalade",
+  "description" : "A tiny (183B to 210B) and fast utility to ascend parent directories",
+  "dist-tags" : {
+    "latest" : "3.0.2"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "escalade",
+      "description" : "A tiny (196B to 224B) and fast utility to ascend parent directories",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Luke Edwards",
+        "email" : "luke.edwards05@gmail.com",
+        "url" : "https://lukeed.com"
+      },
+      "homepage" : "https://github.com/lukeed/escalade#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lukeed/escalade.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lukeed/escalade/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escalade/-/escalade-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescalade%2F-%2Fescalade-2.0.0.tgz",
+        "shasum" : "0a526670b38a29dd68cf82a019ac0e19599a4bd8"
+      },
+      "devDependencies" : {
+        "bundt" : "1.0.1",
+        "esm" : "3.2.25",
+        "uvu" : "0.0.11"
+      },
+      "keywords" : [ "find", "parent", "parents", "directory", "search", "walk" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "bundt",
+        "pretest" : "npm run build",
+        "test" : "uvu -r esm test -i fixtures"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      },
+      "_id" : "escalade@2.0.0",
+      "gitHead" : "fafa75c0978b608d50c4dec271be4fefeb1be411",
+      "types" : "index.d.ts",
+      "modes" : {
+        "sync" : "src/sync.js",
+        "default" : "src/async.js"
+      },
+      "exports" : {
+        "./" : {
+          "import" : "./dist/index.mjs",
+          "require" : "./dist/index.js"
+        },
+        "./sync" : {
+          "import" : "./sync/index.mjs",
+          "require" : "./sync/index.js"
+        }
+      },
+      "module" : "dist/index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/escalade_2.0.0_1592617007996_0.4323706808823915"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.0" : {
+      "name" : "escalade",
+      "description" : "A tiny (183B to 210B) and fast utility to ascend parent directories",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Luke Edwards",
+        "email" : "luke.edwards05@gmail.com",
+        "url" : "https://lukeed.com"
+      },
+      "homepage" : "https://github.com/lukeed/escalade#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lukeed/escalade.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lukeed/escalade/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escalade/-/escalade-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescalade%2F-%2Fescalade-3.0.0.tgz",
+        "shasum" : "79b81f3c4bebb9c1727f0adba4b0f9d0ff050ca9"
+      },
+      "devDependencies" : {
+        "bundt" : "1.0.1",
+        "esm" : "3.2.25",
+        "uvu" : "0.0.11"
+      },
+      "keywords" : [ "find", "parent", "parents", "directory", "search", "walk" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "bundt",
+        "pretest" : "npm run build",
+        "test" : "uvu -r esm test -i fixtures"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      },
+      "_id" : "escalade@3.0.0",
+      "gitHead" : "aac99f4eb8fb8ce98b5143029dc328c83cdfc4d8",
+      "types" : "index.d.ts",
+      "modes" : {
+        "sync" : "src/sync.js",
+        "default" : "src/async.js"
+      },
+      "exports" : {
+        "./" : {
+          "import" : "./dist/index.mjs",
+          "require" : "./dist/index.js"
+        },
+        "./sync" : {
+          "import" : "./sync/index.mjs",
+          "require" : "./sync/index.js"
+        }
+      },
+      "module" : "dist/index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/escalade_3.0.0_1592627069201_0.6863596103425054"
+      },
+      "_nodeVersion" : "12.18.0"
+    },
+    "3.0.1" : {
+      "name" : "escalade",
+      "description" : "A tiny (183B to 210B) and fast utility to ascend parent directories",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Luke Edwards",
+        "email" : "luke.edwards05@gmail.com",
+        "url" : "https://lukeed.com"
+      },
+      "homepage" : "https://github.com/lukeed/escalade#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lukeed/escalade.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lukeed/escalade/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escalade/-/escalade-3.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescalade%2F-%2Fescalade-3.0.1.tgz",
+        "shasum" : "52568a77443f6927cd0ab9c73129137533c965ed"
+      },
+      "devDependencies" : {
+        "bundt" : "1.0.1",
+        "esm" : "3.2.25",
+        "uvu" : "0.0.11"
+      },
+      "keywords" : [ "find", "parent", "parents", "directory", "search", "walk" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "bundt",
+        "pretest" : "npm run build",
+        "test" : "uvu -r esm test -i fixtures"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      },
+      "_id" : "escalade@3.0.1",
+      "gitHead" : "9a40c76dbb54c4df6eb3468473b3cf6cf3f903de",
+      "types" : "index.d.ts",
+      "modes" : {
+        "sync" : "src/sync.js",
+        "default" : "src/async.js"
+      },
+      "exports" : {
+        "." : {
+          "import" : "./dist/index.mjs",
+          "require" : "./dist/index.js"
+        },
+        "./sync" : {
+          "import" : "./sync/index.mjs",
+          "require" : "./sync/index.js"
+        }
+      },
+      "module" : "dist/index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/escalade_3.0.1_1592721601176_0.3074567859393793"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "1.0.0" : {
+      "name" : "escalade",
+      "description" : "A tiny (186B to 214B) and fast utility to ascend parent directories",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Luke Edwards",
+        "email" : "luke.edwards05@gmail.com",
+        "url" : "https://lukeed.com"
+      },
+      "homepage" : "https://github.com/lukeed/escalade#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lukeed/escalade.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lukeed/escalade/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escalade/-/escalade-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescalade%2F-%2Fescalade-1.0.0.tgz",
+        "shasum" : "eba62cba84324dd46dc2ae4fbc15dd5088813e13"
+      },
+      "devDependencies" : {
+        "bundt" : "1.0.1",
+        "esm" : "3.2.25",
+        "uvu" : "0.0.11"
+      },
+      "keywords" : [ "find", "parent", "parents", "directory", "search", "walk" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "bundt",
+        "pretest" : "npm run build",
+        "test" : "uvu -r esm test -i fixtures"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      },
+      "_id" : "escalade@1.0.0",
+      "gitHead" : "97381e2b163b3ba3617eea146844dc74c491e25d",
+      "types" : "index.d.ts",
+      "modes" : {
+        "sync" : "src/sync.js",
+        "default" : "src/async.js"
+      },
+      "exports" : {
+        "./" : {
+          "import" : "./dist/index.mjs",
+          "require" : "./dist/index.js"
+        },
+        "./sync" : {
+          "import" : "./sync/index.mjs",
+          "require" : "./sync/index.js"
+        }
+      },
+      "module" : "dist/index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/escalade_1.0.0_1592594320131_0.3712813635301244"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.2" : {
+      "name" : "escalade",
+      "description" : "A tiny (183B to 210B) and fast utility to ascend parent directories",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Luke Edwards",
+        "email" : "luke.edwards05@gmail.com",
+        "url" : "https://lukeed.com"
+      },
+      "homepage" : "https://github.com/lukeed/escalade#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lukeed/escalade.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lukeed/escalade/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escalade/-/escalade-3.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescalade%2F-%2Fescalade-3.0.2.tgz",
+        "shasum" : "6a580d70edb87880f22b4c91d0d56078df6962c4"
+      },
+      "devDependencies" : {
+        "bundt" : "1.0.1",
+        "esm" : "3.2.25",
+        "uvu" : "0.0.11"
+      },
+      "keywords" : [ "find", "parent", "parents", "directory", "search", "walk" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "bundt",
+        "pretest" : "npm run build",
+        "test" : "uvu -r esm test -i fixtures"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      },
+      "_id" : "escalade@3.0.2",
+      "gitHead" : "00e5a242da88a09034d7784df686d14f246cd28e",
+      "types" : "index.d.ts",
+      "modes" : {
+        "sync" : "src/sync.js",
+        "default" : "src/async.js"
+      },
+      "exports" : {
+        "." : {
+          "import" : "./dist/index.mjs",
+          "require" : "./dist/index.js"
+        },
+        "./sync" : {
+          "import" : "./sync/index.mjs",
+          "require" : "./sync/index.js"
+        }
+      },
+      "module" : "dist/index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/escalade_3.0.2_1594744284416_0.41136776208533954"
+      },
+      "_nodeVersion" : "12.18.2"
+    },
+    "0.0.0" : {
+      "name" : "escalade",
+      "description" : "Scale parent directories",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Luke Edwards",
+        "email" : "luke.edwards05@gmail.com",
+        "url" : "https://lukeed.com"
+      },
+      "homepage" : "https://github.com/lukeed/escalade#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lukeed/escalade.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lukeed/escalade/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escalade/-/escalade-0.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescalade%2F-%2Fescalade-0.0.0.tgz",
+        "shasum" : "6417618198af1c944a48940b06c19a58d6df2dd4"
+      },
+      "devDependencies" : {
+        "bundt" : "1.0.1",
+        "esm" : "3.2.25",
+        "uvu" : "0.0.11"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "bundt",
+        "pretest" : "npm run build",
+        "test" : "uvu -r esm test -i fixtures"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "lukeed",
+        "email" : "luke@lukeed.com"
+      },
+      "_id" : "escalade@0.0.0",
+      "types" : "index.d.ts",
+      "module" : "dist/index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/escalade_0.0.0_1592544817862_0.7997921389561231"
+      },
+      "_nodeVersion" : "12.18.0"
+    }
+  },
+  "readme" : "# escalade [![CI](https://github.com/lukeed/escalade/workflows/CI/badge.svg)](https://github.com/lukeed/escalade/actions) [![codecov](https://badgen.now.sh/codecov/c/github/lukeed/escalade)](https://codecov.io/gh/lukeed/escalade)\n\n> A tiny (183B to 210B) and [fast](#benchmarks) utility to ascend parent directories\n\nWith [escalade](https://en.wikipedia.org/wiki/Escalade), you can scale parent directories until you've found what you're looking for.<br>Given an input file or directory, `escalade` will continue executing your callback function until either:\n\n1) the callback returns a truthy value\n2) `escalade` has reached the system root directory (eg, `/`)\n\n> **Important:**<br>Please note that `escalade` only deals with direct ancestry – it will not dive into parents' sibling directories.\n\n## Install\n\n```\n$ npm install --save escalade\n```\n\n\n## Modes\n\nThere are two \"versions\" of `escalade` available:\n\n#### \"async\"\n> **Node.js:** >= 8.x<br>\n> **Size (gzip):** 210 bytes<br>\n> **Availability:** [CommonJS](https://unpkg.com/escalade/dist/index.js), [ES Module](https://unpkg.com/escalade/dist/index.mjs)\n\nThis is the primary/default mode. It makes use of `async`/`await` and [`util.promisify`](https://nodejs.org/api/util.html#util_util_promisify_original).\n\n#### \"sync\"\n> **Node.js:** >= 6.x<br>\n> **Size (gzip):** 183 bytes<br>\n> **Availability:** [CommonJS](https://unpkg.com/escalade/sync/index.js), [ES Module](https://unpkg.com/escalade/sync/index.mjs)\n\nThis is the opt-in mode, ideal for scenarios where `async` usage cannot be supported.\n\n\n## Usage\n\n***Example Structure***\n\n```\n/Users/lukeed\n  └── oss\n    ├── license\n    └── escalade\n      ├── package.json\n      └── test\n        └── fixtures\n          ├── index.js\n          └── foobar\n            └── demo.js\n```\n\n***Example Usage***\n\n```js\n//~> demo.js\nimport { join } from 'path';\nimport escalade from 'escalade';\n\nconst input = join(__dirname, 'demo.js');\n// or: const input = __dirname;\n\nconst pkg = await escalade(input, (dir, names) => {\n  console.log('~> dir:', dir);\n  console.log('~> names:', names);\n  console.log('---');\n\n  if (names.includes('package.json')) {\n    // will be resolved into absolute\n    return 'package.json';\n  }\n});\n\n//~> dir: /Users/lukeed/oss/escalade/test/fixtures/foobar\n//~> names: ['demo.js']\n//---\n//~> dir: /Users/lukeed/oss/escalade/test/fixtures\n//~> names: ['index.js', 'foobar']\n//---\n//~> dir: /Users/lukeed/oss/escalade/test\n//~> names: ['fixtures']\n//---\n//~> dir: /Users/lukeed/oss/escalade\n//~> names: ['package.json', 'test']\n//---\n\nconsole.log(pkg);\n//=> /Users/lukeed/oss/escalade/package.json\n\n// Now search for \"missing123.txt\"\n// (Assume it doesn't exist anywhere!)\nconst missing = await escalade(input, (dir, names) => {\n  console.log('~> dir:', dir);\n  return names.includes('missing123.txt') && 'missing123.txt';\n});\n\n//~> dir: /Users/lukeed/oss/escalade/test/fixtures/foobar\n//~> dir: /Users/lukeed/oss/escalade/test/fixtures\n//~> dir: /Users/lukeed/oss/escalade/test\n//~> dir: /Users/lukeed/oss/escalade\n//~> dir: /Users/lukeed/oss\n//~> dir: /Users/lukeed\n//~> dir: /Users\n//~> dir: /\n\nconsole.log(missing);\n//=> undefined\n```\n\n> **Note:** To run the above example with \"sync\" mode, import from `escalade/sync` and remove the `await` keyword.\n\n\n## API\n\n### escalade(input, callback)\nReturns: `string|void` or `Promise<string|void>`\n\nWhen your `callback` locates a file, `escalade` will resolve/return with an absolute path.<br>\nIf your `callback` was never satisfied, then `escalade` will resolve/return with nothing (undefined).\n\n> **Important:**<br>The `sync` and `async` versions share the same API.<br>The **only** difference is that `sync` is not Promise-based.\n\n#### input\nType: `string`\n\nThe path from which to start ascending.\n\nThis may be a file or a directory path.<br>However, when `input` is a file, `escalade` will begin with its parent directory.\n\n> **Important:** Unless given an absolute path, `input` will be resolved from `process.cwd()` location.\n\n#### callback\nType: `Function`\n\nThe callback to execute for each ancestry level. It always is given two arguments:\n\n1) `dir` - an absolute path of the current parent directory\n2) `names` - a list (`string[]`) of contents _relative to_ the `dir` parent\n\n> **Note:** The `names` list can contain names of files _and_ directories.\n\nWhen your callback returns a _falsey_ value, then `escalade` will continue with `dir`'s parent directory, re-invoking your callback with new argument values.\n\nWhen your callback returns a string, then `escalade` stops iteration immediately.<br>\nIf the string is an absolute path, then it's left as is. Otherwise, the string is resolved into an absolute path _from_ the `dir` that housed the satisfying condition.\n\n> **Important:** Your `callback` can be a `Promise/AsyncFunction` when using the \"async\" version of `escalade`.\n\n## Benchmarks\n\n> Running on Node.js v10.13.0\n\n```\n# Load Time\n  find-up         3.891ms\n  escalade        0.485ms\n  escalade/sync   0.309ms\n\n# Levels: 6 (target = \"foo.txt\"):\n  find-up          x 24,856 ops/sec ±6.46% (55 runs sampled)\n  escalade         x 73,084 ops/sec ±4.23% (73 runs sampled)\n  find-up.sync     x  3,663 ops/sec ±1.12% (83 runs sampled)\n  escalade/sync    x  9,360 ops/sec ±0.62% (88 runs sampled)\n\n# Levels: 12 (target = \"package.json\"):\n  find-up          x 29,300 ops/sec ±10.68% (70 runs sampled)\n  escalade         x 73,685 ops/sec ± 5.66% (66 runs sampled)\n  find-up.sync     x  1,707 ops/sec ± 0.58% (91 runs sampled)\n  escalade/sync    x  4,667 ops/sec ± 0.68% (94 runs sampled)\n\n# Levels: 18 (target = \"missing123.txt\"):\n  find-up          x 21,818 ops/sec ±17.37% (14 runs sampled)\n  escalade         x 67,101 ops/sec ±21.60% (20 runs sampled)\n  find-up.sync     x  1,037 ops/sec ± 2.86% (88 runs sampled)\n  escalade/sync    x  1,248 ops/sec ± 0.50% (93 runs sampled)\n```\n\n\n## Related\n\n- [premove](https://github.com/lukeed/premove) - A tiny (247B) utility to remove items recursively\n- [totalist](https://github.com/lukeed/totalist) - A tiny (195B to 224B) utility to recursively list all (total) files in a directory\n- [mk-dirs](https://github.com/lukeed/mk-dirs) - A tiny (420B) utility to make a directory and its parents, recursively\n\n## License\n\nMIT © [Luke Edwards](https://lukeed.com)\n",
+  "maintainers" : [ {
+    "name" : "lukeed",
+    "email" : "luke@lukeed.com"
+  } ],
+  "author" : {
+    "name" : "Luke Edwards",
+    "email" : "luke.edwards05@gmail.com",
+    "url" : "https://lukeed.com"
+  },
+  "time" : {
+    "2.0.0" : "2020-06-20T01:36:48.148Z",
+    "3.0.0" : "2020-06-20T04:24:29.337Z",
+    "created" : "2020-06-19T05:33:37.862Z",
+    "modified" : "2020-07-14T16:31:26.933Z",
+    "3.0.1" : "2020-06-21T06:40:01.316Z",
+    "1.0.0" : "2020-06-19T19:18:40.240Z",
+    "3.0.2" : "2020-07-14T16:31:24.535Z",
+    "0.0.0" : "2020-06-19T05:33:38.006Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/lukeed/escalade.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/lukeed/escalade#readme",
+  "keywords" : [ "find", "parent", "parents", "directory", "search", "walk" ],
+  "bugs" : {
+    "url" : "https://github.com/lukeed/escalade/issues"
+  },
+  "license" : "MIT"
+}

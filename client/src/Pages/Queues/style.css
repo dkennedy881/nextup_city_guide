@@ -1,0 +1,152 @@
+.queueToggleBtn {
+  background-color: #5dbecb;
+  color: yellow;
+}
+.queueToggleBtn:hover {
+  background-color: #5dbecb;
+  color: yellow;
+}
+.queueToggleBtn:focus {
+  background-color: #5dbecb;
+  color: yellow;
+}
+.queueToggleBtn:active {
+  background-color: #5dbecb;
+  color: yellow;
+}
+#QueueContainer {
+  min-height: 93vh;
+  margin-top: 60px;
+  background-color: #f8f8f8;
+}
+#toggleQueueContent {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.queueListItem {
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 5px 0px rgb(199, 199, 199);
+  -moz-box-shadow: 0px 1px 5px 0px rgb(199, 199, 199);
+  box-shadow: 0px 1px 5px 0px rgb(199, 199, 199);
+  border-radius: 9px;
+  padding: 10px;
+}
+.queueListItemMeta {
+  display: flex;
+}
+.queueListItemMetaLeft {
+  padding-right: 10px;
+  font-weight: 300;
+  font-size: 0.8em;
+  flex: 1;
+}
+.queueListItemTitleContainer {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.queueListItemTitleContainerMap {
+  min-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.queueListItemTitle {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.queueListItemMetaRight {
+  min-width: 22%;
+  text-align: center;
+}
+.queueListItemMetaRightMap {
+  min-width: 25%;
+  text-align: center;
+}
+.queueListItemCountContaier {
+  background-color: #5dbecb;
+  width: auto;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+}
+.queueListItemCountContaierMap {
+  background-color: #5dbecb;
+  width: auto;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+}
+.queueListItemCount {
+  font-weight: 900;
+  color: white;
+  font-size: 1.2em;
+  flex: 1;
+  margin-top: 11px;
+}
+.queueListItemCountMap {
+  font-weight: 900;
+  color: white;
+  font-size: 1.2em;
+  flex: 1;
+  margin-top: 2px;
+}
+.queueListItemCountInLine {
+  font-weight: 300;
+  color: yellow;
+  font-size: 0.8em;
+}
+.queueListItemMessage {
+  margin-bottom: 20px;
+}
+.queueListItemAddressContainer {
+  padding-bottom: 5px;
+}
+.queueListItemOOO {
+  color: red;
+  font-weight: 500;
+}
+#QueueContainerRow {
+  margin-bottom: -70px;
+}
+/* @media (max-width: 1025px)  {  */
+@media screen {
+}
+@media (min-width: 760px) and (max-width: 1000px) {
+  /*iPad small*/
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+  /*iPad Pro*/
+}
+
+@media (max-width: 759px) {
+  /*iphone*/
+  #toggleQueueContent {
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 1;
+  }
+  #QueueListContainer.hide {
+    position: fixed;
+    top: 1250px;
+    transition: top 0.8s;
+  }
+  #QueueListContainer {
+    padding-top: 25px;
+    padding-bottom: 125px;
+    opacity: 1;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 125px;
+    transition: top 0.8s;
+    max-height: 85vh;
+    overflow: scroll;
+  }
+  .queueListItem {
+    margin-bottom: 20px;
+    min-height: 100px;
+  }
+}

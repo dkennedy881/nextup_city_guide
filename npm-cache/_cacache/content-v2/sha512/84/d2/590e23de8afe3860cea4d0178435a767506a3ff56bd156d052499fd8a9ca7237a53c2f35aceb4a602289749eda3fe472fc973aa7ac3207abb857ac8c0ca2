@@ -1,0 +1,1312 @@
+{
+  "_id" : "@types/babel-types",
+  "_rev" : "417-eed2125d311adabe624faaa50dbf9629",
+  "name" : "@types/babel-types",
+  "description" : "TypeScript definitions for babel-types",
+  "dist-tags" : {
+    "ts2.2" : "6.25.0",
+    "ts3.1" : "7.0.9",
+    "ts4.0" : "7.0.9",
+    "ts2.1" : "6.25.0",
+    "ts3.0" : "7.0.8",
+    "ts2.0" : "6.25.0",
+    "ts3.9" : "7.0.9",
+    "ts2.9" : "7.0.7",
+    "ts3.8" : "7.0.9",
+    "ts2.8" : "7.0.7",
+    "ts3.7" : "7.0.9",
+    "ts2.7" : "7.0.2",
+    "ts3.6" : "7.0.9",
+    "ts2.6" : "7.0.2",
+    "ts3.5" : "7.0.9",
+    "ts2.5" : "7.0.2",
+    "ts3.4" : "7.0.9",
+    "ts2.4" : "7.0.2",
+    "ts3.3" : "7.0.9",
+    "ts2.3" : "7.0.2",
+    "ts3.2" : "7.0.9",
+    "ts4.1" : "7.0.9",
+    "latest" : "7.0.9"
+  },
+  "versions" : {
+    "6.7.10-alpha" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types v6.7",
+      "version" : "6.7.10-alpha",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.10-alpha.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.10-alpha.tgz",
+        "shasum" : "3540e2f6e8ad01f161b3840a1c380a6112adb573"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.10-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.10-alpha.tgz_1467425101922_0.16420829785056412"
+      },
+      "_shasum" : "3540e2f6e8ad01f161b3840a1c380a6112adb573",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "6.2.1"
+    },
+    "6.7.12-alpha" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types v6.7",
+      "version" : "6.7.12-alpha",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.12-alpha.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.12-alpha.tgz",
+        "shasum" : "930e726395d49faf8451d9a21c6a1aafb5d10ceb"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.12-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.12-alpha.tgz_1468006584794_0.9504720561672002"
+      },
+      "_shasum" : "930e726395d49faf8451d9a21c6a1aafb5d10ceb",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "6.3.0"
+    },
+    "6.7.8-alpha" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types v6.7",
+      "version" : "6.7.8-alpha",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.8-alpha.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.8-alpha.tgz",
+        "shasum" : "ef0f19fd2b04fc767e9736847f00b239ced19d0a"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.8-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.8-alpha.tgz_1464150646259_0.04606033326126635"
+      },
+      "_shasum" : "ef0f19fd2b04fc767e9736847f00b239ced19d0a",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "5.5.0"
+    },
+    "7.0.9" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel-types"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.9.tgz",
+        "shasum" : "01d7b86949f455402a94c788883fe4ba574cad41"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.9",
+      "typesVersions" : {
+        "<=3.6" : {
+          "*" : [ "ts3.6/*" ]
+        }
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.1",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "0c71c2106ec387ae2bfd63b4429f2e5fe534b5416b903fdf463bae67f92d35a1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.9_1599061087568_0.3180742983658218"
+      }
+    },
+    "7.0.5" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.5.tgz",
+        "shasum" : "26f5bba8c58acd9b84d1a9135fb2789a1c191bc1"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.5",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "f3001e202a59f1b76bfe809ce40a35e806faf4961be3b6ac47ce48660ead160a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.5_1550075473521_0.9870985070092595"
+      }
+    },
+    "7.0.6" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel-types"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.6.tgz",
+        "shasum" : "a7cfaaeee96e90c4c54da0e580aaff3f4cffacac"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.6",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "9e7a6cf3b1caa610ec6b8f32d48a934031f342e1cd0be188e71666b9b9127b21",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.6_1551261380400_0.6152505512966417"
+      }
+    },
+    "7.0.7" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel-types"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.7.tgz",
+        "shasum" : "667eb1640e8039436028055737d2b9986ee336e3"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.7",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "c122ea7d3e140cb66493cf81db0d08d0d35d723c5a9fd0be9b29e7761609f366",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.7_1556127079286_0.020301330528352368"
+      }
+    },
+    "7.0.8" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel-types"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.8.tgz",
+        "shasum" : "267f405bda841ffae731e7714166b88254cc3e19"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.8",
+      "typesVersions" : {
+        ">=3.7.0-0" : {
+          "*" : [ "ts3.7/*" ]
+        }
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ef80d4ad7499879ec26b90d74873e6a9583c8bcd019412fcfaf33f2b6ca004bd",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.8_1594069581446_0.35615806243098747"
+      }
+    },
+    "7.0.1" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.1.tgz",
+        "shasum" : "1405e5396968c4302994b0161ce405b72b874257"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.1",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "a5de1a38d3cceab0881836704a5b7070940f5517f6e7265ba7b112b898b44d40",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.1_1519672096664_0.5280681047757523"
+      }
+    },
+    "7.0.2" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.2.tgz",
+        "shasum" : "63dc3e5e7f6367e1819d2bba5213783cd926c5d5"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.2",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "2fb27a0883383db8849c1e0ae8b63ef8dc0d0ba56059ada118e92839923e0f87",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.2_1525797359618_0.9243591726813281"
+      }
+    },
+    "6.7.11-alpha" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types v6.7",
+      "version" : "6.7.11-alpha",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.11-alpha.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.11-alpha.tgz",
+        "shasum" : "233bcef3f5ac8184802a03cc9711d7574030e502"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.11-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.11-alpha.tgz_1467590000667_0.6802304591983557"
+      },
+      "_shasum" : "233bcef3f5ac8184802a03cc9711d7574030e502",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "6.2.1"
+    },
+    "7.0.3" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.3.tgz",
+        "shasum" : "9dc5316090ad99cd2679051ab21a5676c90a2bcc"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.3",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "518dcb4a11a73fa3a4311ec521282c1dc678774118f3baacdad1cff7d8d8fafe",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.3_1528774656960_0.2374744334726977"
+      }
+    },
+    "7.0.4" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.4.tgz",
+        "shasum" : "bfd5b0d0d1ba13e351dff65b6e52783b816826c8"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.4",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "0a102fc2064d1a5c563ffd433025f8b2188823f86ee9169a7c240e3b01cf383f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types_7.0.4_1529362031829_0.652934061645781"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-7.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-7.0.0.tgz",
+        "shasum" : "4beb190e239fe05bac5e57e8d8376cab4f20c65c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@7.0.0",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "60ef29f79cd9bfb3d78ec931ac7c862d1d4a3f15ec88377de7738be46d0d1e39",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types-7.0.0.tgz_1513612005839_0.7073797213379294"
+      }
+    },
+    "6.7.9-alpha" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types v6.7",
+      "version" : "6.7.9-alpha",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.9-alpha.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.9-alpha.tgz",
+        "shasum" : "4f1a7cd7fcef7f3e000b539a56a482cc102f690f"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.9-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.9-alpha.tgz_1467411573032_0.6097998705226928"
+      },
+      "_shasum" : "4f1a7cd7fcef7f3e000b539a56a482cc102f690f",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "6.2.1"
+    },
+    "6.7.1-alpha" : {
+      "name" : "@types/babel-types",
+      "description" : "Type definitions for babel-types v6.7 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+      "version" : "6.7.1-alpha",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.1-alpha.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.1-alpha.tgz",
+        "shasum" : "f4a25504c94772266efceaf682f92ace3c3d868d"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.1-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.1-alpha.tgz_1463459356914_0.8236115924082696"
+      },
+      "_shasum" : "f4a25504c94772266efceaf682f92ace3c3d868d",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "5.5.0"
+    },
+    "6.7.2-alpha" : {
+      "name" : "@types/babel-types",
+      "description" : "Type definitions for babel-types v6.7 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+      "version" : "6.7.2-alpha",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.2-alpha.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.2-alpha.tgz",
+        "shasum" : "a50d6cf07f58fc0bf4b208fa51b76930e1fd207b"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.2-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.2-alpha.tgz_1463689124787_0.26658898615278304"
+      },
+      "_shasum" : "a50d6cf07f58fc0bf4b208fa51b76930e1fd207b",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "5.5.0"
+    },
+    "6.7.16" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "6.7.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.16.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.16.tgz",
+        "shasum" : "e2602896636858a0067971f7ca4bb8678038293f"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.16",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "882d982371195bfece2e446aa4b8d950d30382b15f19a20a9d55360c8e31a134",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.16.tgz_1493947134476_0.3866851271595806"
+      }
+    },
+    "6.7.15" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "6.7.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.15.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.15.tgz",
+        "shasum" : "7ef9ddeb9025a8f512b318100c9579c260c7aad4"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.15",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "231fb3c6d3b1db4f467e405199f02b19b28252c9ef0a02c9cf92f332640df015",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.15.tgz_1493946749584_0.38271794538013637"
+      }
+    },
+    "6.7.14" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types v6.7",
+      "version" : "6.7.14",
+      "author" : "Troy Gerwien <https://github.com/yortus>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.14.tgz",
+        "shasum" : "a8faeb55853724a854f845cfeb357a59fc76d5bf"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.14",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "b543140ae8d70491372bdafbfece4f6653f46e0a1b40246b2b158be13bf13afb",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.14.tgz_1474302047066_0.49114153860136867"
+      }
+    },
+    "6.7.13" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types v6.7",
+      "version" : "6.7.13",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.13.tgz",
+        "shasum" : "78a3af63490ba71b01570ae290ac318cce89a51c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.13",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.13.tgz_1468505197634_0.7031422646250576"
+      },
+      "_shasum" : "78a3af63490ba71b01570ae290ac318cce89a51c",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "6.3.0"
+    },
+    "6.25.0" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "6.25.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.25.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.25.0.tgz",
+        "shasum" : "34e3b018626f0141c4fdb534746916e093866d73"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.25.0",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "bff4dfb9976db6915610f345debbbc8279c588215ce4c490aef6f2110830c583",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types-6.25.0.tgz_1500406025248_0.47077725175768137"
+      }
+    },
+    "6.25.2" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "6.25.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa",
+        "githubUsername" : "baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.25.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.25.2.tgz",
+        "shasum" : "5c57f45973e4f13742dbc5273dd84cffe7373a9e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.25.2",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "aa2c35114bc67af9367adc8423519c56c34193256190c5e44728744b5b15dd51",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types-6.25.2.tgz_1511829704500_0.09907034109346569"
+      }
+    },
+    "6.25.1" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types",
+      "version" : "6.25.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus"
+      }, {
+        "name" : "Sam Baxter",
+        "url" : "https://github.com/baxtersa"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.25.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.25.1.tgz",
+        "shasum" : "ce8f126a4403e11e1b0033a424f11638afac7889"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.25.1",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "c63ea0b22f7f4c25417de9a386ac7394818a30a046a56a93cf49ac135d943992",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-types-6.25.1.tgz_1500558666771_0.3753478596918285"
+      }
+    },
+    "6.7.7-alpha" : {
+      "name" : "@types/babel-types",
+      "description" : "TypeScript definitions for babel-types v6.7",
+      "version" : "6.7.7-alpha",
+      "author" : {
+        "name" : "Troy Gerwien",
+        "email" : "https://github.com/yortus"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/babel-types/-/babel-types-6.7.7-alpha.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fbabel-types%2F-%2Fbabel-types-6.7.7-alpha.tgz",
+        "shasum" : "4e571f8fbb1d6cc3c16c429981586e6cfad51af8"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\babel-types",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/babel-types@6.7.7-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-types-6.7.7-alpha.tgz_1463771518595_0.10113112558610737"
+      },
+      "_shasum" : "4e571f8fbb1d6cc3c16c429981586e6cfad51af8",
+      "_resolved" : "file:output\\babel-types",
+      "_nodeVersion" : "5.5.0"
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/babel-types`\r\n\r\n# Summary\r\nThis package contains type definitions for babel-types (https://github.com/babel/babel/tree/master/packages/babel-types).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel-types.\r\n\r\n### Additional Details\r\n * Last updated: Wed, 02 Sep 2020 15:37:31 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [Troy Gerwien](https://github.com/yortus), [Sam Baxter](https://github.com/baxtersa), [Marvin Hagemeister](https://github.com/marvinhagemeister), [Boris Cherny](https://github.com/bcherny), and [ExE Boss](https://github.com/ExE-Boss).\r\n",
+  "maintainers" : [ {
+    "email" : "ts-npm-types@microsoft.com",
+    "name" : "types"
+  } ],
+  "time" : {
+    "6.7.10-alpha" : "2016-07-02T02:05:02.538Z",
+    "6.7.12-alpha" : "2016-07-08T19:36:27.379Z",
+    "6.7.8-alpha" : "2016-05-25T04:30:48.994Z",
+    "7.0.9" : "2020-09-02T15:38:07.698Z",
+    "modified" : "2020-09-02T15:38:18.952Z",
+    "7.0.5" : "2019-02-13T16:31:13.660Z",
+    "7.0.6" : "2019-02-27T09:56:20.569Z",
+    "7.0.7" : "2019-04-24T17:31:19.489Z",
+    "7.0.8" : "2020-07-06T21:06:21.552Z",
+    "7.0.1" : "2018-02-26T19:08:16.788Z",
+    "7.0.2" : "2018-05-08T16:35:59.714Z",
+    "6.7.11-alpha" : "2016-07-03T23:53:24.111Z",
+    "7.0.3" : "2018-06-12T03:37:37.075Z",
+    "7.0.4" : "2018-06-18T22:47:11.957Z",
+    "created" : "2016-05-17T04:29:17.494Z",
+    "7.0.0" : "2017-12-18T15:46:47.210Z",
+    "6.7.9-alpha" : "2016-07-01T22:19:35.079Z",
+    "6.7.1-alpha" : "2016-05-17T04:29:17.494Z",
+    "6.7.2-alpha" : "2016-05-19T20:18:49.310Z",
+    "6.7.16" : "2017-05-05T01:18:56.630Z",
+    "6.7.15" : "2017-05-05T01:12:31.799Z",
+    "6.7.14" : "2016-09-19T16:20:48.924Z",
+    "6.7.13" : "2016-07-14T14:06:39.819Z",
+    "6.25.0" : "2017-07-18T19:27:05.488Z",
+    "6.25.2" : "2017-11-28T00:41:44.563Z",
+    "6.25.1" : "2017-07-20T13:51:07.739Z",
+    "6.7.7-alpha" : "2016-05-20T19:12:00.702Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/babel-types"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "contributors" : [ {
+    "name" : "Troy Gerwien",
+    "url" : "https://github.com/yortus",
+    "githubUsername" : "yortus"
+  }, {
+    "name" : "Sam Baxter",
+    "url" : "https://github.com/baxtersa",
+    "githubUsername" : "baxtersa"
+  }, {
+    "name" : "Marvin Hagemeister",
+    "url" : "https://github.com/marvinhagemeister",
+    "githubUsername" : "marvinhagemeister"
+  }, {
+    "name" : "Boris Cherny",
+    "url" : "https://github.com/bcherny",
+    "githubUsername" : "bcherny"
+  }, {
+    "name" : "ExE Boss",
+    "url" : "https://github.com/ExE-Boss",
+    "githubUsername" : "ExE-Boss"
+  } ],
+  "license" : "MIT"
+}

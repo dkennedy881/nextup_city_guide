@@ -1,0 +1,142 @@
+{
+  "_id" : "@types/color-name",
+  "_rev" : "435-0ae5f03aae6b4687ef755bf392e00529",
+  "name" : "@types/color-name",
+  "description" : "TypeScript definitions for color-name",
+  "dist-tags" : {
+    "ts2.2" : "1.1.1",
+    "ts3.1" : "1.1.1",
+    "ts4.0" : "1.1.1",
+    "ts2.1" : "1.1.1",
+    "ts3.0" : "1.1.1",
+    "ts2.0" : "1.1.1",
+    "ts3.9" : "1.1.1",
+    "ts2.9" : "1.1.1",
+    "ts3.8" : "1.1.1",
+    "ts2.8" : "1.1.1",
+    "ts3.7" : "1.1.1",
+    "ts2.7" : "1.1.1",
+    "ts3.6" : "1.1.1",
+    "ts2.6" : "1.1.1",
+    "ts3.5" : "1.1.1",
+    "ts2.5" : "1.1.1",
+    "ts3.4" : "1.1.1",
+    "ts2.4" : "1.1.1",
+    "ts3.3" : "1.1.1",
+    "ts2.3" : "1.1.1",
+    "ts3.2" : "1.1.1",
+    "ts4.1" : "1.1.1",
+    "latest" : "1.1.1"
+  },
+  "versions" : {
+    "1.1.0" : {
+      "name" : "@types/color-name",
+      "description" : "TypeScript definitions for color-name",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Junyoung Clare Jang",
+        "url" : "https://github.com/Ailrun"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/color-name/-/color-name-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fcolor-name%2F-%2Fcolor-name-1.1.0.tgz",
+        "shasum" : "926f76f7e66f49cc59ad880bb15b030abbf0b66d"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/color-name@1.1.0",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "9b3dd49da5f77f3642d916c2f3fff5b86406451787c916c50a2a936abe3b30d2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/color-name-1.1.0.tgz_1500996158553_0.17375266877934337"
+      }
+    },
+    "1.1.1" : {
+      "name" : "@types/color-name",
+      "description" : "TypeScript definitions for color-name",
+      "version" : "1.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Junyoung Clare Jang",
+        "url" : "https://github.com/Ailrun",
+        "githubUsername" : "Ailrun"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/color-name/-/color-name-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fcolor-name%2F-%2Fcolor-name-1.1.1.tgz",
+        "shasum" : "1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/color-name@1.1.1",
+      "types" : "index",
+      "typeScriptVersion" : "2.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "e22c6881e2dcf766e32142cbb82d9acf9c08258bdf0da8e76c8a448d1be44ac7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/color-name_1.1.1_1550075907636_0.27445667614815705"
+      }
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/color-name`\r\n\r\n# Summary\r\nThis package contains type definitions for color-name ( https://github.com/colorjs/color-name ).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/color-name\r\n\r\nAdditional Details\r\n * Last updated: Wed, 13 Feb 2019 16:16:48 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Junyoung Clare Jang <https://github.com/Ailrun>.\r\n",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "created" : "2017-07-25T15:22:38.705Z",
+    "modified" : "2020-08-25T22:11:51.065Z",
+    "1.1.0" : "2017-07-25T15:22:38.705Z",
+    "1.1.1" : "2019-02-13T16:38:27.838Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "contributors" : [ {
+    "name" : "Junyoung Clare Jang",
+    "url" : "https://github.com/Ailrun",
+    "githubUsername" : "Ailrun"
+  } ],
+  "license" : "MIT"
+}

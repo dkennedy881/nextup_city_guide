@@ -1,0 +1,485 @@
+{
+  "_id" : "pug-attrs",
+  "_rev" : "14-aa8dab89f3d244be715e7222e87f9961",
+  "name" : "pug-attrs",
+  "description" : "Generate code for Pug attributes",
+  "dist-tags" : {
+    "canary" : "3.0.0-canary-2",
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "2.0.1" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for Pug attributes",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-attrs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-attrs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-attrs/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-2.0.1.tgz",
+        "shasum" : "8b5dd7c330730c09f62299e06b58fd0ebc4ebfd5"
+      },
+      "dependencies" : {
+        "constantinople" : "^3.0.1",
+        "pug-runtime" : "^2.0.0",
+        "js-stringify" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "*",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-attrs@2.0.1",
+      "gitHead" : "755a15f512c49fc10177ea0a0652ac92e1041552",
+      "_shasum" : "8b5dd7c330730c09f62299e06b58fd0ebc4ebfd5",
+      "_nodeVersion" : "5.3.0"
+    },
+    "3.0.0-canary-1" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for Pug attributes",
+      "version" : "3.0.0-canary-1",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-attrs"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-3.0.0-canary-1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-3.0.0-canary-1.tgz",
+        "shasum" : "4ee28029b8cbe237b68220bd1c84e20ec4998c30"
+      },
+      "dependencies" : {
+        "constantinople" : "^4.0.1",
+        "js-stringify" : "^1.0.2",
+        "pug-runtime" : "3.0.0-canary-1"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "forbes@lindesay.co.uk",
+        "name" : "forbeslindesay"
+      }, {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-attrs@3.0.0-canary-1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-attrs_3.0.0-canary-1_1590361667686_0.7871458757099956"
+      },
+      "readme" : "# pug-attrs\n\nGenerate code for Pug attributes\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-attrs/master.svg)](https://travis-ci.org/pugjs/pug-attrs)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-attrs)](https://david-dm.org/pugjs/pug?path=packages/pug-attrs)\n[![NPM version](https://img.shields.io/npm/v/pug-attrs.svg)](https://www.npmjs.org/package/pug-attrs)\n\n## Installation\n\n    npm install pug-attrs\n\n## Usage\n\n```js\nvar compileAttrs = require('pug-attrs');\n```\n\n### `compileAttrs(attrs, options)`\n\nCompile `attrs` to a JavaScript string that evaluates to the attributes in the desired format.\n\n`options` MUST include the following properties:\n\n- `terse`: whether or not to use HTML5-style terse boolean attributes\n- `runtime`: callback that takes a runtime function name and returns the source code that will evaluate to that function at runtime\n- `format`: output format; must be `html` or `object`\n\n`attrs` is an array of attributes, with each attribute having the form of `{ name, val, mustEscape }`. `val` represents a JavaScript string that evaluates to the value of the attribute, either statically or dynamically.\n\n```js\nvar compileAttrs = require('pug-attrs');\nvar pugRuntime = require('pug-runtime');\n\nfunction getBaz () { return 'baz<>'; }\n\nvar attrs = [\n  {name: 'foo',  val: '\"bar\"',    mustEscape: true },\n  {name: 'baz',  val: 'getBaz()', mustEscape: true },\n  {name: 'quux', val: true,       mustEscape: false}\n];\nvar result, finalResult;\n\n// HTML MODE\nresult = compileAttrs(attrs, {\n  terse:   true,\n  format:  'html',\n  runtime: function (name) { return 'pugRuntime.' + name; }\n});\n//=> '\" foo=\\\\\"bar\\\\\"\" + pugRuntime.attr(\"baz\", getBaz(), true, true) + \" quux\"'\n\nfinalResult = Function('pugRuntime, getBaz',\n  'return (' + result + ');'\n);\nfinalResult(pugRuntime, getBaz);\n// => ' foo=\"bar\" baz=\"baz&lt;&gt;\" quux'\n\n// OBJECT MODE\nresult = compileAttrs(attrs, {\n  terse:   true,\n  format:  'object',\n  runtime: function (name) { return 'pugRuntime.' + name; }\n});\n//=> '{\"foo\": \"bar\",\"baz\": pugRuntime.escape(getBaz()),\"quux\": true}'\n\nfinalResult = Function('pugRuntime, getBaz',\n  'return (' + result + ');'\n);\nfinalResult(pugRuntime, getBaz);\n//=> { foo: 'bar', baz: 'baz&lt;&gt;', quux: true }\n```\n\n## License\n\n  MIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "3.0.0-canary-2" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for Pug attributes",
+      "version" : "3.0.0-canary-2",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-attrs"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-3.0.0-canary-2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-3.0.0-canary-2.tgz",
+        "shasum" : "e9b434df3d103cdd041df4d26339b34defb6acfa"
+      },
+      "dependencies" : {
+        "constantinople" : "^4.0.1",
+        "js-stringify" : "^1.0.2",
+        "pug-runtime" : "3.0.0-canary-2"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "forbes@lindesay.co.uk",
+        "name" : "forbeslindesay"
+      }, {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-attrs@3.0.0-canary-2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-attrs_3.0.0-canary-2_1590409125609_0.010676606276645018"
+      },
+      "readme" : "# pug-attrs\n\nGenerate code for Pug attributes\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-attrs/master.svg)](https://travis-ci.org/pugjs/pug-attrs)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-attrs)](https://david-dm.org/pugjs/pug?path=packages/pug-attrs)\n[![NPM version](https://img.shields.io/npm/v/pug-attrs.svg)](https://www.npmjs.org/package/pug-attrs)\n\n## Installation\n\n    npm install pug-attrs\n\n## Usage\n\n```js\nvar compileAttrs = require('pug-attrs');\n```\n\n### `compileAttrs(attrs, options)`\n\nCompile `attrs` to a JavaScript string that evaluates to the attributes in the desired format.\n\n`options` MUST include the following properties:\n\n- `terse`: whether or not to use HTML5-style terse boolean attributes\n- `runtime`: callback that takes a runtime function name and returns the source code that will evaluate to that function at runtime\n- `format`: output format; must be `html` or `object`\n\n`attrs` is an array of attributes, with each attribute having the form of `{ name, val, mustEscape }`. `val` represents a JavaScript string that evaluates to the value of the attribute, either statically or dynamically.\n\n```js\nvar compileAttrs = require('pug-attrs');\nvar pugRuntime = require('pug-runtime');\n\nfunction getBaz () { return 'baz<>'; }\n\nvar attrs = [\n  {name: 'foo',  val: '\"bar\"',    mustEscape: true },\n  {name: 'baz',  val: 'getBaz()', mustEscape: true },\n  {name: 'quux', val: true,       mustEscape: false}\n];\nvar result, finalResult;\n\n// HTML MODE\nresult = compileAttrs(attrs, {\n  terse:   true,\n  format:  'html',\n  runtime: function (name) { return 'pugRuntime.' + name; }\n});\n//=> '\" foo=\\\\\"bar\\\\\"\" + pugRuntime.attr(\"baz\", getBaz(), true, true) + \" quux\"'\n\nfinalResult = Function('pugRuntime, getBaz',\n  'return (' + result + ');'\n);\nfinalResult(pugRuntime, getBaz);\n// => ' foo=\"bar\" baz=\"baz&lt;&gt;\" quux'\n\n// OBJECT MODE\nresult = compileAttrs(attrs, {\n  terse:   true,\n  format:  'object',\n  runtime: function (name) { return 'pugRuntime.' + name; }\n});\n//=> '{\"foo\": \"bar\",\"baz\": pugRuntime.escape(getBaz()),\"quux\": true}'\n\nfinalResult = Function('pugRuntime, getBaz',\n  'return (' + result + ');'\n);\nfinalResult(pugRuntime, getBaz);\n//=> { foo: 'bar', baz: 'baz&lt;&gt;', quux: true }\n```\n\n## License\n\n  MIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "3.0.0" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for Pug attributes",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-attrs"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-3.0.0.tgz",
+        "shasum" : "b10451e0348165e31fad1cc23ebddd9dc7347c41"
+      },
+      "dependencies" : {
+        "constantinople" : "^4.0.1",
+        "js-stringify" : "^1.0.2",
+        "pug-runtime" : "^3.0.0"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "forbes@lindesay.co.uk",
+        "name" : "forbeslindesay"
+      }, {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-attrs@3.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-attrs_3.0.0_1590409152602_0.6344248320140216"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "2.0.4" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for Pug attributes",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-attrs"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-2.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-2.0.4.tgz",
+        "shasum" : "b2f44c439e4eb4ad5d4ef25cac20d18ad28cc336"
+      },
+      "dependencies" : {
+        "constantinople" : "^3.0.1",
+        "js-stringify" : "^1.0.1",
+        "pug-runtime" : "^2.0.5"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "lerna/3.10.8/node@v11.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-attrs@2.0.4",
+      "gitHead" : "1bdf628a70fda7a0d840c52f3abce54b1c6b0130",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-attrs_2.0.4_1560851100790_0.9701860599370475"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "0.0.0" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for jade attributes",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "homepage" : "https://github.com/jadejs/jade-attrs",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jadejs/jade-attrs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jadejs/jade-attrs/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-0.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-0.0.0.tgz",
+        "shasum" : "9ffeab30be1723d1143f1b093140c8c3439ca0cb"
+      },
+      "dependencies" : {
+        "constantinople" : "^3.0.1",
+        "pug-runtime" : "^0.0.0",
+        "js-stringify" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "*",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "jade" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-attrs@0.0.0",
+      "gitHead" : "575ce538b73c6afa4d4641f158255a96c3e0fb1f",
+      "_shasum" : "9ffeab30be1723d1143f1b093140c8c3439ca0cb",
+      "_nodeVersion" : "1.6.2"
+    },
+    "2.0.2" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for Pug attributes",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-attrs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-attrs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-attrs/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-2.0.2.tgz",
+        "shasum" : "8be2b2225568ffa75d1b866982bff9f4111affcb"
+      },
+      "dependencies" : {
+        "constantinople" : "^3.0.1",
+        "pug-runtime" : "^2.0.3",
+        "js-stringify" : "^1.0.1"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-attrs@2.0.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/pug-attrs-2.0.2.tgz_1485220030858_0.5362752785440534"
+      },
+      "_shasum" : "8be2b2225568ffa75d1b866982bff9f4111affcb",
+      "_nodeVersion" : "6.4.0"
+    },
+    "0.0.1" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for jade attributes",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "homepage" : "https://github.com/jadejs/jade-attrs",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jadejs/jade-attrs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jadejs/jade-attrs/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-0.0.1.tgz",
+        "shasum" : "a50949e53935c153aec9748da092f9281dfc60cc"
+      },
+      "dependencies" : {
+        "constantinople" : "^3.0.1",
+        "pug-runtime" : "^0.0.0",
+        "js-stringify" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "*",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "jade" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-attrs@0.0.1",
+      "gitHead" : "575ce538b73c6afa4d4641f158255a96c3e0fb1f",
+      "_shasum" : "a50949e53935c153aec9748da092f9281dfc60cc",
+      "_nodeVersion" : "1.6.2"
+    },
+    "2.0.3" : {
+      "name" : "pug-attrs",
+      "description" : "Generate code for Pug attributes",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug-attrs.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-attrs/-/pug-attrs-2.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-attrs%2F-%2Fpug-attrs-2.0.3.tgz",
+        "shasum" : "a3095f970e64151f7bdad957eef55fb5d7905d15"
+      },
+      "dependencies" : {
+        "constantinople" : "^3.0.1",
+        "js-stringify" : "^1.0.1",
+        "pug-runtime" : "^2.0.4"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-attrs@2.0.3",
+      "licenseText" : "Copyright (c) 2015 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-attrs_2.0.3_1520341952877_0.9730649238830724"
+      }
+    }
+  },
+  "readme" : "# pug-attrs\n\nGenerate code for Pug attributes\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-attrs/master.svg)](https://travis-ci.org/pugjs/pug-attrs)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-attrs)](https://david-dm.org/pugjs/pug?path=packages/pug-attrs)\n[![NPM version](https://img.shields.io/npm/v/pug-attrs.svg)](https://www.npmjs.org/package/pug-attrs)\n\n## Installation\n\n    npm install pug-attrs\n\n## Usage\n\n```js\nvar compileAttrs = require('pug-attrs');\n```\n\n### `compileAttrs(attrs, options)`\n\nCompile `attrs` to a JavaScript string that evaluates to the attributes in the desired format.\n\n`options` MUST include the following properties:\n\n- `terse`: whether or not to use HTML5-style terse boolean attributes\n- `runtime`: callback that takes a runtime function name and returns the source code that will evaluate to that function at runtime\n- `format`: output format; must be `html` or `object`\n\n`attrs` is an array of attributes, with each attribute having the form of `{ name, val, mustEscape }`. `val` represents a JavaScript string that evaluates to the value of the attribute, either statically or dynamically.\n\n```js\nvar compileAttrs = require('pug-attrs');\nvar pugRuntime = require('pug-runtime');\n\nfunction getBaz () { return 'baz<>'; }\n\nvar attrs = [\n  {name: 'foo',  val: '\"bar\"',    mustEscape: true },\n  {name: 'baz',  val: 'getBaz()', mustEscape: true },\n  {name: 'quux', val: true,       mustEscape: false}\n];\nvar result, finalResult;\n\n// HTML MODE\nresult = compileAttrs(attrs, {\n  terse:   true,\n  format:  'html',\n  runtime: function (name) { return 'pugRuntime.' + name; }\n});\n//=> '\" foo=\\\\\"bar\\\\\"\" + pugRuntime.attr(\"baz\", getBaz(), true, true) + \" quux\"'\n\nfinalResult = Function('pugRuntime, getBaz',\n  'return (' + result + ');'\n);\nfinalResult(pugRuntime, getBaz);\n// => ' foo=\"bar\" baz=\"baz&lt;&gt;\" quux'\n\n// OBJECT MODE\nresult = compileAttrs(attrs, {\n  terse:   true,\n  format:  'object',\n  runtime: function (name) { return 'pugRuntime.' + name; }\n});\n//=> '{\"foo\": \"bar\",\"baz\": pugRuntime.escape(getBaz()),\"quux\": true}'\n\nfinalResult = Function('pugRuntime, getBaz',\n  'return (' + result + ');'\n);\nfinalResult(pugRuntime, getBaz);\n//=> { foo: 'bar', baz: 'baz&lt;&gt;', quux: true }\n```\n\n## License\n\n  MIT\n",
+  "maintainers" : [ {
+    "email" : "forbes@lindesay.co.uk",
+    "name" : "forbeslindesay"
+  }, {
+    "email" : "pug-bot@rollingversions.com",
+    "name" : "pug-bot"
+  } ],
+  "author" : {
+    "name" : "Forbes Lindesay"
+  },
+  "time" : {
+    "2.0.1" : "2016-01-08T12:41:56.066Z",
+    "3.0.0-canary-1" : "2020-05-24T23:07:47.777Z",
+    "3.0.0-canary-2" : "2020-05-25T12:18:45.720Z",
+    "3.0.0" : "2020-05-25T12:19:12.854Z",
+    "created" : "2015-12-12T00:11:09.966Z",
+    "modified" : "2020-05-25T22:42:30.858Z",
+    "2.0.4" : "2019-06-18T09:45:00.908Z",
+    "0.0.0" : "2015-12-12T00:11:09.966Z",
+    "2.0.2" : "2017-01-24T01:07:12.810Z",
+    "0.0.1" : "2015-12-12T00:16:21.473Z",
+    "2.0.3" : "2018-03-06T13:12:32.954Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-attrs"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "pug" ],
+  "license" : "MIT"
+}

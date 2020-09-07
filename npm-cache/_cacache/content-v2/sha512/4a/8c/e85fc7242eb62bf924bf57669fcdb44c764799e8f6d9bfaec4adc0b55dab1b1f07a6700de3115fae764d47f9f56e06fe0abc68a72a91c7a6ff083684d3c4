@@ -1,0 +1,410 @@
+{
+  "_id" : "pug-error",
+  "_rev" : "14-a3958c3ea5e17c9e2bc135088559741c",
+  "name" : "pug-error",
+  "description" : "Standard error objects for pug",
+  "dist-tags" : {
+    "canary" : "2.0.0-canary-2",
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "1.3.0" : {
+      "name" : "pug-error",
+      "description" : "Standard error objects for pug",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-error",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug-error.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-error/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-error/-/pug-error-1.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-error%2F-%2Fpug-error-1.3.0.tgz",
+        "shasum" : "20f5d6aa04208722acd37defb665565397f3c83e"
+      },
+      "devDependencies" : {
+        "istanbul" : "*",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-error@1.3.0",
+      "gitHead" : "f9da0bcd45dc733dba6451b84851b148ef3d1d98",
+      "_shasum" : "20f5d6aa04208722acd37defb665565397f3c83e",
+      "_nodeVersion" : "1.6.2"
+    },
+    "2.0.0" : {
+      "name" : "pug-error",
+      "description" : "Standard error objects for pug",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-error"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-error/-/pug-error-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-error%2F-%2Fpug-error-2.0.0.tgz",
+        "shasum" : "5c62173cb09c34de2a2ce04f17b8adfec74d8ca5"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "forbes@lindesay.co.uk",
+        "name" : "forbeslindesay"
+      }, {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-error@2.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-error_2.0.0_1590409156678_0.602371367853187"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "1.3.1" : {
+      "name" : "pug-error",
+      "description" : "Standard error objects for pug",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-error#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-error.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-error/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-error/-/pug-error-1.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-error%2F-%2Fpug-error-1.3.1.tgz",
+        "shasum" : "61627425c3f8b307b1c38b10a0b6d5c8e1a3581f"
+      },
+      "devDependencies" : {
+        "istanbul" : "*",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "pug-error@1.3.1",
+      "gitHead" : "70cff29dd32c2649668b51b95ce05c8c3f600aff",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/pug-error-1.3.1.tgz_1464886747080_0.833077079616487"
+      },
+      "_shasum" : "61627425c3f8b307b1c38b10a0b6d5c8e1a3581f",
+      "_nodeVersion" : "6.2.0"
+    },
+    "2.0.0-canary-1" : {
+      "name" : "pug-error",
+      "description" : "Standard error objects for pug",
+      "version" : "2.0.0-canary-1",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-error"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-error/-/pug-error-2.0.0-canary-1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-error%2F-%2Fpug-error-2.0.0-canary-1.tgz",
+        "shasum" : "9816f25b1deeeec7136930c6038af0c3a9911b1b"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "forbes@lindesay.co.uk",
+        "name" : "forbeslindesay"
+      }, {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-error@2.0.0-canary-1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-error_2.0.0-canary-1_1590361670795_0.6369212746171047"
+      },
+      "readme" : "# pug-error\n\nStandard error objects for pug.  This module is intended for use by the lexer, parser, loader, linker, code-generator and any plugins.\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-error/master.svg)](https://travis-ci.org/pugjs/pug-error)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-error)](https://david-dm.org/pugjs/pug?path=packages/pug-error)\n[![NPM version](https://img.shields.io/npm/v/pug-error.svg)](https://www.npmjs.org/package/pug-error)\n\n## Installation\n\n    npm install pug-error\n\n## Usage\n\n```js\nvar error = require('pug-error');\n```\n\n### `error(code, message, options)`\n\nCreate a Pug error object.\n\n`code` is a required unique code for the error type that can be used to pinpoint a certain error.\n\n`message` is a human-readable explanation of the error.\n\n`options` can contain any of the following properties:\n\n- `filename`: the name of the file causing the error\n- `line`: the offending line\n- `column`: the offending column\n- `src`: the Pug source, if available, for pretty-printing the error context\n\nThe resulting error object is a simple Error object with additional properties given in the arguments.\n\n**Caveat:** the `message` argument is stored in `err.msg`, not `err.message`, which is occupied with a better-formatted message.\n\n```js\nvar error = require('pug-error');\n\nvar err = error('MY_CODE', 'My message', {line: 3, filename: 'myfile', src: 'foo\\nbar\\nbaz\\nbash\\nbing'});\n// { code: 'PUG:MY_CODE',\n//   msg: 'My message',\n//   line: 3,\n//   column: undefined,\n//   filename: 'myfile',\n//   src: 'foo\\nbar\\nbaz\\nbash\\nbing',\n//   message: 'myfile:3\\n    1| foo\\n    2| bar\\n  > 3| baz\\n    4| bash\\n    5| bing\\n\\nMy message' }\n\nthrow err;\n```\n\n## License\n\n  MIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "1.3.2" : {
+      "name" : "pug-error",
+      "description" : "Standard error objects for pug",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "homepage" : "https://github.com/pugjs/pug-error#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/pugjs/pug-error.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/pugjs/pug-error/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-error/-/pug-error-1.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-error%2F-%2Fpug-error-1.3.2.tgz",
+        "shasum" : "53ae7d9d29bb03cf564493a026109f54c47f5f26"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-error@1.3.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/pug-error-1.3.2.tgz_1485220030717_0.1997411991469562"
+      },
+      "_shasum" : "53ae7d9d29bb03cf564493a026109f54c47f5f26",
+      "_nodeVersion" : "6.4.0"
+    },
+    "1.3.3" : {
+      "name" : "pug-error",
+      "description" : "Standard error objects for pug",
+      "version" : "1.3.3",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-error"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-error/-/pug-error-1.3.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-error%2F-%2Fpug-error-1.3.3.tgz",
+        "shasum" : "f342fb008752d58034c185de03602dd9ffe15fa6"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "lerna/3.10.8/node@v11.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-error@1.3.3",
+      "gitHead" : "1bdf628a70fda7a0d840c52f3abce54b1c6b0130",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-error_1.3.3_1560851095122_0.6161359800057267"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "2.0.0-canary-2" : {
+      "name" : "pug-error",
+      "description" : "Standard error objects for pug",
+      "version" : "2.0.0-canary-2",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-error"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-error/-/pug-error-2.0.0-canary-2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-error%2F-%2Fpug-error-2.0.0-canary-2.tgz",
+        "shasum" : "14d38061af3e87283dcde2a55677ddf378f9bd5a"
+      },
+      "keywords" : [ "pug" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "forbes@lindesay.co.uk",
+        "name" : "forbeslindesay"
+      }, {
+        "email" : "pug-bot@rollingversions.com",
+        "name" : "pug-bot"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "pug-bot",
+        "email" : "pug-bot@rollingversions.com"
+      },
+      "_id" : "pug-error@2.0.0-canary-2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pug-error_2.0.0-canary-2_1590409128871_0.30320186760523793"
+      },
+      "readme" : "# pug-error\n\nStandard error objects for pug.  This module is intended for use by the lexer, parser, loader, linker, code-generator and any plugins.\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-error/master.svg)](https://travis-ci.org/pugjs/pug-error)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-error)](https://david-dm.org/pugjs/pug?path=packages/pug-error)\n[![NPM version](https://img.shields.io/npm/v/pug-error.svg)](https://www.npmjs.org/package/pug-error)\n\n## Installation\n\n    npm install pug-error\n\n## Usage\n\n```js\nvar error = require('pug-error');\n```\n\n### `error(code, message, options)`\n\nCreate a Pug error object.\n\n`code` is a required unique code for the error type that can be used to pinpoint a certain error.\n\n`message` is a human-readable explanation of the error.\n\n`options` can contain any of the following properties:\n\n- `filename`: the name of the file causing the error\n- `line`: the offending line\n- `column`: the offending column\n- `src`: the Pug source, if available, for pretty-printing the error context\n\nThe resulting error object is a simple Error object with additional properties given in the arguments.\n\n**Caveat:** the `message` argument is stored in `err.msg`, not `err.message`, which is occupied with a better-formatted message.\n\n```js\nvar error = require('pug-error');\n\nvar err = error('MY_CODE', 'My message', {line: 3, filename: 'myfile', src: 'foo\\nbar\\nbaz\\nbash\\nbing'});\n// { code: 'PUG:MY_CODE',\n//   msg: 'My message',\n//   line: 3,\n//   column: undefined,\n//   filename: 'myfile',\n//   src: 'foo\\nbar\\nbaz\\nbash\\nbing',\n//   message: 'myfile:3\\n    1| foo\\n    2| bar\\n  > 3| baz\\n    4| bash\\n    5| bing\\n\\nMy message' }\n\nthrow err;\n```\n\n## License\n\n  MIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.16.3"
+    },
+    "0.0.0" : {
+      "name" : "pug-error",
+      "description" : "Standard error objects for jade",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Forbes Lindesay"
+      },
+      "homepage" : "https://github.com/jadejs/jade-error",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jadejs/jade-error.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jadejs/jade-error/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pug-error/-/pug-error-0.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpug-error%2F-%2Fpug-error-0.0.0.tgz",
+        "shasum" : "dd264a39c20d65487df85ff5663097862a16db78"
+      },
+      "devDependencies" : {
+        "istanbul" : "*",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "jade", "pug" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "pug-error@0.0.0",
+      "gitHead" : "14bafda70b502aeaaaea7c8c14b45d92aef53035",
+      "_shasum" : "dd264a39c20d65487df85ff5663097862a16db78",
+      "_nodeVersion" : "1.6.2"
+    }
+  },
+  "readme" : "# pug-error\n\nStandard error objects for pug.  This module is intended for use by the lexer, parser, loader, linker, code-generator and any plugins.\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-error/master.svg)](https://travis-ci.org/pugjs/pug-error)\n[![Dependencies Status](https://david-dm.org/pugjs/pug/status.svg?path=packages/pug-error)](https://david-dm.org/pugjs/pug?path=packages/pug-error)\n[![NPM version](https://img.shields.io/npm/v/pug-error.svg)](https://www.npmjs.org/package/pug-error)\n\n## Installation\n\n    npm install pug-error\n\n## Usage\n\n```js\nvar error = require('pug-error');\n```\n\n### `error(code, message, options)`\n\nCreate a Pug error object.\n\n`code` is a required unique code for the error type that can be used to pinpoint a certain error.\n\n`message` is a human-readable explanation of the error.\n\n`options` can contain any of the following properties:\n\n- `filename`: the name of the file causing the error\n- `line`: the offending line\n- `column`: the offending column\n- `src`: the Pug source, if available, for pretty-printing the error context\n\nThe resulting error object is a simple Error object with additional properties given in the arguments.\n\n**Caveat:** the `message` argument is stored in `err.msg`, not `err.message`, which is occupied with a better-formatted message.\n\n```js\nvar error = require('pug-error');\n\nvar err = error('MY_CODE', 'My message', {line: 3, filename: 'myfile', src: 'foo\\nbar\\nbaz\\nbash\\nbing'});\n// { code: 'PUG:MY_CODE',\n//   msg: 'My message',\n//   line: 3,\n//   column: undefined,\n//   filename: 'myfile',\n//   src: 'foo\\nbar\\nbaz\\nbash\\nbing',\n//   message: 'myfile:3\\n    1| foo\\n    2| bar\\n  > 3| baz\\n    4| bash\\n    5| bing\\n\\nMy message' }\n\nthrow err;\n```\n\n## License\n\n  MIT\n",
+  "maintainers" : [ {
+    "email" : "forbes@lindesay.co.uk",
+    "name" : "forbeslindesay"
+  }, {
+    "email" : "pug-bot@rollingversions.com",
+    "name" : "pug-bot"
+  } ],
+  "author" : {
+    "name" : "Forbes Lindesay"
+  },
+  "time" : {
+    "1.3.0" : "2015-12-23T03:20:25.297Z",
+    "2.0.0" : "2020-05-25T12:19:16.931Z",
+    "1.3.1" : "2016-06-02T16:59:07.512Z",
+    "2.0.0-canary-1" : "2020-05-24T23:07:50.916Z",
+    "1.3.2" : "2017-01-24T01:07:12.517Z",
+    "1.3.3" : "2019-06-18T09:44:55.239Z",
+    "created" : "2015-12-04T13:29:35.426Z",
+    "2.0.0-canary-2" : "2020-05-25T12:18:49.002Z",
+    "modified" : "2020-05-25T22:42:30.257Z",
+    "0.0.0" : "2015-12-04T13:29:35.426Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/pugjs/pug/tree/master/packages/pug-error"
+  },
+  "users" : {
+    "hyokosdeveloper" : true
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "pug" ],
+  "license" : "MIT"
+}

@@ -1,0 +1,2285 @@
+{
+  "_id" : "@jest/fake-timers",
+  "_rev" : "36-b6da867318ab5fe37135afbf0c2695a8",
+  "name" : "@jest/fake-timers",
+  "dist-tags" : {
+    "next" : "26.0.1-alpha.0",
+    "canary" : "25.2.1-alpha.2",
+    "beta" : "24.2.0-alpha.0",
+    "latest" : "26.3.0"
+  },
+  "versions" : {
+    "24.6.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "24.6.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-24.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-24.6.0.tgz",
+        "shasum" : "4eb0b47539883742e9f969e983770230f5a57d7b"
+      },
+      "dependencies" : {
+        "@jest/types" : "^24.6.0",
+        "jest-message-util" : "^24.6.0",
+        "jest-mock" : "^24.6.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@24.6.0",
+      "gitHead" : "04e6a66d2ba8b18bee080bb28547db74a255d2c7",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_24.6.0_1554157598973_0.038301784229627156"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.7.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "24.7.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-24.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-24.7.0.tgz",
+        "shasum" : "6735c6d88ee096a6303f369fa5fddef12f79779c"
+      },
+      "dependencies" : {
+        "@jest/types" : "^24.7.0",
+        "jest-message-util" : "^24.7.0",
+        "jest-mock" : "^24.7.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@24.7.0",
+      "gitHead" : "eb0413622542bc0f70c32950d9daeeab9f6802ac",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_24.7.0_1554263734822_0.3425294136046826"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.7.1" : {
+      "name" : "@jest/fake-timers",
+      "version" : "24.7.1",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-24.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-24.7.1.tgz",
+        "shasum" : "56e5d09bdec09ee81050eaff2794b26c71d19db2"
+      },
+      "dependencies" : {
+        "@jest/types" : "^24.7.0",
+        "jest-message-util" : "^24.7.1",
+        "jest-mock" : "^24.7.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@24.7.1",
+      "gitHead" : "0efb1d7809cb96ae87a7601e7802f1dab3774280",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_24.7.1_1554340733338_0.04944648758666759"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.8.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "24.8.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-24.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-24.8.0.tgz",
+        "shasum" : "2e5b80a4f78f284bcb4bd5714b8e10dd36a8d3d1"
+      },
+      "dependencies" : {
+        "@jest/types" : "^24.8.0",
+        "jest-message-util" : "^24.8.0",
+        "jest-mock" : "^24.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@24.8.0",
+      "gitHead" : "845728f24b3ef41e450595c384e9b5c9fdf248a4",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_24.8.0_1557021753441_0.8545235708453591"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.9.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "24.9.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-24.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-24.9.0.tgz",
+        "shasum" : "ba3e6bf0eecd09a636049896434d306636540c93"
+      },
+      "dependencies" : {
+        "@jest/types" : "^24.9.0",
+        "jest-message-util" : "^24.9.0",
+        "jest-mock" : "^24.9.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@24.9.0",
+      "gitHead" : "9ad0f4bc6b8bdd94989804226c28c9960d9da7d1",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_24.9.0_1565934970160_0.9042037707582158"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.3.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "24.3.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-24.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-24.3.0.tgz",
+        "shasum" : "0a7f8b877b78780c3fa5c3f8683cc0aaf9488331"
+      },
+      "dependencies" : {
+        "@jest/types" : "^24.3.0",
+        "@types/node" : "*",
+        "jest-message-util" : "^24.3.0",
+        "jest-mock" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@24.3.0",
+      "gitHead" : "3a7a4f3a3f5489ac8e07dcddf76bb949c482ec87",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_24.3.0_1551963598064_0.11045513850168209"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.0-alpha.86" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.2.0-alpha.86",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.2.0-alpha.86.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.2.0-alpha.86.tgz",
+        "shasum" : "1c90bc038c74018dbc1651debffa1604510b00d2"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-message-util" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-mock" : "^25.2.0-alpha.86+cd98198c9",
+        "jest-util" : "^25.2.0-alpha.86+cd98198c9",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.2.0-alpha.86",
+      "gitHead" : "cd98198c9397d8b69c55155d7b224d62ef117a90",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.2.0-alpha.86_1585156611566_0.7475040114132836"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.14.1"
+    },
+    "24.5.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "24.5.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-24.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-24.5.0.tgz",
+        "shasum" : "4a29678b91fd0876144a58f8d46e6c62de0266f0"
+      },
+      "dependencies" : {
+        "@jest/types" : "^24.5.0",
+        "@types/node" : "*",
+        "jest-message-util" : "^24.5.0",
+        "jest-mock" : "^24.5.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@24.5.0",
+      "gitHead" : "800533020f5b2f153615c821ed7cb12fd868fa6f",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_24.5.0_1552408604454_0.8603439844506309"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.1-alpha.2" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.2.1-alpha.2",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.2.1-alpha.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.2.1-alpha.2.tgz",
+        "shasum" : "118de731eaeda9dd44d9d659ef36232b057bd00d"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-message-util" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-mock" : "^25.2.1-alpha.2+79b7ab67c",
+        "jest-util" : "^25.2.1-alpha.2+79b7ab67c",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.2.1-alpha.2",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "79b7ab67c63d3708f9689e25fbc0e8b0094bd019",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.2.1-alpha.2_1585210249332_0.25480318908741295"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.0.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.0.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.0.0.tgz",
+        "shasum" : "fb408322ff0798ad6fae94b001e10c76d42d4a38"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.0.0",
+        "jest-message-util" : "^25.0.0",
+        "jest-mock" : "^25.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.0.0",
+      "gitHead" : "ff9269be05fd8316e95232198fce3463bf2f270e",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.0.0_1566444249200_0.04234976053198469"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "11.12.0"
+    },
+    "25.2.1-alpha.1" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.2.1-alpha.1",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.2.1-alpha.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.2.1-alpha.1.tgz",
+        "shasum" : "63f494935df9833718d461b8ee172d2f4abd56c7"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-message-util" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-mock" : "^25.2.1-alpha.1+5cc2ccdac",
+        "jest-util" : "^25.2.1-alpha.1+5cc2ccdac",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.2.1-alpha.1",
+      "typesVersions" : {
+        "<3.8" : {
+          "*" : [ "ts3.4/*" ]
+        }
+      },
+      "gitHead" : "5cc2ccdacb1b2433581222252e43cb5a1f6861a9",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.2.1-alpha.1_1585209281539_0.7457664329426121"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.2.1" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.2.1",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.2.1.tgz",
+        "shasum" : "caaaea22e810796d3538a77fdce6e554c864ae72"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.2.1",
+        "jest-message-util" : "^25.2.1",
+        "jest-mock" : "^25.2.1",
+        "jest-util" : "^25.2.1",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.2.1",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "a679390828b6c30aeaa547d8c4dc9aed6531e357",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.2.1_1585213295314_0.9532139685059393"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.3.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.3.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.3.0.tgz",
+        "shasum" : "995aad36d5c8984165ca5db12e740ab8dbf7042a"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.3.0",
+        "jest-message-util" : "^25.3.0",
+        "jest-mock" : "^25.3.0",
+        "jest-util" : "^25.3.0",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.3.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "45a4936d96d74cdee6b91122a51a556e3ebe6dc8",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.3.0_1586352077120_0.9817319839761347"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "25.4.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.4.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.4.0.tgz",
+        "shasum" : "3a9a4289ba836abd084953dca406389a57e00fbd"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.4.0",
+        "jest-message-util" : "^25.4.0",
+        "jest-mock" : "^25.4.0",
+        "jest-util" : "^25.4.0",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.4.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "5b129d714cadb818be28afbe313cbeae8fbb1dde",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.4.0_1587333032208_0.022896837614224674"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "26.0.1-alpha.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.0.1-alpha.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.0.1-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.0.1-alpha.0.tgz",
+        "shasum" : "9a3a2cb8f7565be023af3f2ba3dc76c317bb1b5d"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.0.1-alpha.0",
+        "@sinonjs/fake-timers" : "^6.0.1",
+        "jest-message-util" : "^26.0.1-alpha.0",
+        "jest-mock" : "^26.0.1-alpha.0",
+        "jest-util" : "^26.0.1-alpha.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "*",
+        "@types/sinonjs__fake-timers" : "^6.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.0.1-alpha.0",
+      "gitHead" : "fb04716adb223ce2da1e6bb2b4ce7c011bad1807",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.0.1-alpha.0_1588630564058_0.9379868033179823"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.1.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.1.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.1.0.tgz",
+        "shasum" : "a1e0eff51ffdbb13ee81f35b52e0c1c11a350ce8"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.1.0",
+        "jest-message-util" : "^25.1.0",
+        "jest-mock" : "^25.1.0",
+        "jest-util" : "^25.1.0",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v10.16.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "davidzilburg",
+        "email" : "davidzilburg@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.1.0",
+      "gitHead" : "170eee11d03b0ed5c60077982fdbc3bafd403638",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.1.0_1579654817111_0.5844864997211456"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "25.2.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.2.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.2.0.tgz",
+        "shasum" : "9410a2f4db59f09d661005193d1626df22b316bb"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.2.0",
+        "jest-message-util" : "^25.2.0",
+        "jest-mock" : "^25.2.0",
+        "jest-util" : "^25.2.0",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.2.0",
+      "gitHead" : "9f0339c1c762e39f869f7df63e88470287728b93",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.2.0_1585159121408_0.23440587727348694"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "26.0.0-alpha.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.0.0-alpha.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.0.0-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.0.0-alpha.0.tgz",
+        "shasum" : "542d3727cc1df55cac45dbcc5950a5a61c351abc"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.0.0-alpha.0",
+        "jest-message-util" : "^26.0.0-alpha.0",
+        "jest-mock" : "^26.0.0-alpha.0",
+        "jest-util" : "^26.0.0-alpha.0",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.0.0-alpha.0",
+      "gitHead" : "ba962e7e9669a4a2f723c2536c97462c8ddfff2d",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.0.0-alpha.0_1588421589549_0.16555499014793518"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "26.0.0-alpha.1" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.0.0-alpha.1",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.0.0-alpha.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.0.0-alpha.1.tgz",
+        "shasum" : "a3353099235d2df47d4b0203b35c84b094cc3535"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.0.0-alpha.1",
+        "@sinonjs/fake-timers" : "^6.0.1",
+        "jest-message-util" : "^26.0.0-alpha.1",
+        "jest-mock" : "^26.0.0-alpha.1",
+        "jest-util" : "^26.0.0-alpha.1"
+      },
+      "devDependencies" : {
+        "@types/node" : "*",
+        "@types/sinonjs__fake-timers" : "^6.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.0.0-alpha.1",
+      "gitHead" : "2bac04ffb8e533d12a072998da5c3751a41b796f",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.0.0-alpha.1_1588531685348_0.9851563764073652"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.2.6" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.2.6",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.2.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.2.6.tgz",
+        "shasum" : "239dbde3f56badf7d05bcf888f5d669296077cad"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.2.6",
+        "jest-message-util" : "^25.2.6",
+        "jest-mock" : "^25.2.6",
+        "jest-util" : "^25.2.6",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.2.6",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "43207b743df164e9e58bd483dd9167b9084da18b",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.2.6_1585823362714_0.9716850573866205"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "26.0.0-alpha.2" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.0.0-alpha.2",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.0.0-alpha.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.0.0-alpha.2.tgz",
+        "shasum" : "41bbe65490f621e706fe37edf5db23cca34bdfc0"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.0.0-alpha.2",
+        "@sinonjs/fake-timers" : "^6.0.1",
+        "jest-message-util" : "^26.0.0-alpha.2",
+        "jest-mock" : "^26.0.0-alpha.2",
+        "jest-util" : "^26.0.0-alpha.2"
+      },
+      "devDependencies" : {
+        "@types/node" : "*",
+        "@types/sinonjs__fake-timers" : "^6.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.0.0-alpha.2",
+      "gitHead" : "68b65afc97688bd5b0b433f8f585da57dcd1d418",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.0.0-alpha.2_1588608333886_0.5906717249490083"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "12.16.3"
+    },
+    "25.2.3" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.2.3",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.2.3.tgz",
+        "shasum" : "808a8a761be3baac719311f8bde1362bd1861e65"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.2.3",
+        "jest-message-util" : "^25.2.3",
+        "jest-mock" : "^25.2.3",
+        "jest-util" : "^25.2.3",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.2.3",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "6f8bf80c38567ba076ae979af2dedb42b285b2d5",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.2.3_1585254313444_0.654401100325618"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "25.5.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.5.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.5.0.tgz",
+        "shasum" : "46352e00533c024c90c2bc2ad9f2959f7f114185"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.5.0",
+        "jest-message-util" : "^25.5.0",
+        "jest-mock" : "^25.5.0",
+        "jest-util" : "^25.5.0",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.5.0",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "ddd73d18adfb982b9b0d94bad7d41c9f78567ca7",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.5.0_1588103127339_0.4705717849397393"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "24.2.0-alpha.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "24.2.0-alpha.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-24.2.0-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-24.2.0-alpha.0.tgz",
+        "shasum" : "6ba610c02319a39e91272373fb52ab0653290a38"
+      },
+      "dependencies" : {
+        "@jest/types" : "^24.2.0-alpha.0",
+        "@types/node" : "*",
+        "jest-message-util" : "^24.2.0-alpha.0",
+        "jest-mock" : "^24.2.0-alpha.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@24.2.0-alpha.0",
+      "gitHead" : "800f2f803d01c8ae194d71b251e4965dd70e5bf2",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_24.2.0-alpha.0_1551798019478_0.6925445895010915"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "25.2.4" : {
+      "name" : "@jest/fake-timers",
+      "version" : "25.2.4",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-25.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-25.2.4.tgz",
+        "shasum" : "6821b6edde74fda2a42467ae92cc93095d4c9527"
+      },
+      "dependencies" : {
+        "@jest/types" : "^25.2.3",
+        "jest-message-util" : "^25.2.4",
+        "jest-mock" : "^25.2.3",
+        "jest-util" : "^25.2.3",
+        "lolex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@types/lolex" : "^5.1.0",
+        "@types/node" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.14.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@25.2.4",
+      "typesVersions" : {
+        "<3.8" : {
+          "build/*" : [ "build/ts3.4/*" ]
+        }
+      },
+      "gitHead" : "324938561c608e0e9dddc008e5dde1589d7abc68",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_25.2.4_1585510726749_0.630777019301122"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "26.0.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.0.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.0.0.tgz",
+        "shasum" : "24a1e2d2f0c1b70c3f77cc3f21de812a5be73e53"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.0.0",
+        "@sinonjs/fake-timers" : "^6.0.1",
+        "jest-message-util" : "^26.0.0",
+        "jest-mock" : "^26.0.0",
+        "jest-util" : "^26.0.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "*",
+        "@types/sinonjs__fake-timers" : "^6.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.0.0",
+      "gitHead" : "343532a21f640ac2709c4076eef57e52279542e1",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.0.0_1588614792013_0.2199808903339333"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "26.0.1" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.0.1",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.0.1.tgz",
+        "shasum" : "f7aeff13b9f387e9d0cac9a8de3bba538d19d796"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.0.1",
+        "@sinonjs/fake-timers" : "^6.0.1",
+        "jest-message-util" : "^26.0.1",
+        "jest-mock" : "^26.0.1",
+        "jest-util" : "^26.0.1"
+      },
+      "devDependencies" : {
+        "@types/node" : "*",
+        "@types/sinonjs__fake-timers" : "^6.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.0.1",
+      "gitHead" : "40b8e1e157c9981dda5a68d73fff647e80fc9f5c",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.0.1_1588675253177_0.8469608339979293"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "26.1.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.1.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.1.0.tgz",
+        "shasum" : "9a76b7a94c351cdbc0ad53e5a748789f819a65fe"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.1.0",
+        "@sinonjs/fake-timers" : "^6.0.1",
+        "jest-message-util" : "^26.1.0",
+        "jest-mock" : "^26.1.0",
+        "jest-util" : "^26.1.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "*",
+        "@types/sinonjs__fake-timers" : "^6.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.1.0",
+      "gitHead" : "817d8b6aca845dd4fcfd7f8316293e69f3a116c5",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.1.0_1592925317057_0.14811182429249992"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.2.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.2.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.2.0.tgz",
+        "shasum" : "b485c57dc4c74d61406a339807a9af4bac74b75a"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.2.0",
+        "@sinonjs/fake-timers" : "^6.0.1",
+        "@types/node" : "*",
+        "jest-message-util" : "^26.2.0",
+        "jest-mock" : "^26.2.0",
+        "jest-util" : "^26.2.0"
+      },
+      "devDependencies" : {
+        "@types/sinonjs__fake-timers" : "^6.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.2.0",
+      "gitHead" : "4a716811a309dae135b780a87dc1647b285800eb",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.2.0_1596103910187_0.17453168333062097"
+      },
+      "_nodeVersion" : "12.18.1"
+    },
+    "26.3.0" : {
+      "name" : "@jest/fake-timers",
+      "version" : "26.3.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-fake-timers"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.14.2"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@jest/fake-timers/-/fake-timers-26.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40jest%2Ffake-timers%2F-%2Ffake-timers-26.3.0.tgz",
+        "shasum" : "f515d4667a6770f60ae06ae050f4e001126c666a"
+      },
+      "dependencies" : {
+        "@jest/types" : "^26.3.0",
+        "@sinonjs/fake-timers" : "^6.0.1",
+        "@types/node" : "*",
+        "jest-message-util" : "^26.3.0",
+        "jest-mock" : "^26.3.0",
+        "jest-util" : "^26.3.0"
+      },
+      "devDependencies" : {
+        "@types/sinonjs__fake-timers" : "^6.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      }, {
+        "email" : "sbekkhus91@gmail.com",
+        "name" : "simenb"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.18.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "simenb",
+        "email" : "sbekkhus91@gmail.com"
+      },
+      "_id" : "@jest/fake-timers@26.3.0",
+      "gitHead" : "3a7e06fe855515a848241bb06a6f6e117847443d",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fake-timers_26.3.0_1597059115254_0.7552152488220383"
+      },
+      "_nodeVersion" : "12.18.1"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "maintainers" : [ {
+    "email" : "aaron@abramov.io",
+    "name" : "aaronabramov"
+  }, {
+    "email" : "christoph.pojer@gmail.com",
+    "name" : "cpojer"
+  }, {
+    "email" : "davidzilburg@gmail.com",
+    "name" : "davidzilburg"
+  }, {
+    "email" : "opensource+npm@fb.com",
+    "name" : "fb"
+  }, {
+    "email" : "rubennorte@gmail.com",
+    "name" : "rubennorte"
+  }, {
+    "email" : "scott.hovestadt@gmail.com",
+    "name" : "scotthovestadt"
+  }, {
+    "email" : "sbekkhus91@gmail.com",
+    "name" : "simenb"
+  } ],
+  "time" : {
+    "24.6.0" : "2019-04-01T22:26:39.122Z",
+    "24.7.0" : "2019-04-03T03:55:34.915Z",
+    "24.7.1" : "2019-04-04T01:18:53.576Z",
+    "24.8.0" : "2019-05-05T02:02:33.638Z",
+    "24.9.0" : "2019-08-16T05:56:10.407Z",
+    "24.3.0" : "2019-03-07T12:59:58.290Z",
+    "25.2.0-alpha.86" : "2020-03-25T17:16:51.833Z",
+    "24.5.0" : "2019-03-12T16:36:44.592Z",
+    "25.2.1-alpha.2" : "2020-03-26T08:10:49.606Z",
+    "25.0.0" : "2019-08-22T03:24:09.283Z",
+    "25.2.1-alpha.1" : "2020-03-26T07:54:41.645Z",
+    "25.2.1" : "2020-03-26T09:01:35.918Z",
+    "25.3.0" : "2020-04-08T13:21:17.358Z",
+    "modified" : "2020-08-10T11:32:01.986Z",
+    "25.4.0" : "2020-04-19T21:50:32.342Z",
+    "26.0.1-alpha.0" : "2020-05-04T22:16:04.165Z",
+    "25.1.0" : "2020-01-22T01:00:17.257Z",
+    "25.2.0" : "2020-03-25T17:58:41.525Z",
+    "26.0.0-alpha.0" : "2020-05-02T12:13:09.731Z",
+    "26.0.0-alpha.1" : "2020-05-03T18:48:05.441Z",
+    "25.2.6" : "2020-04-02T10:29:22.840Z",
+    "26.0.0-alpha.2" : "2020-05-04T16:05:33.983Z",
+    "25.2.3" : "2020-03-26T20:25:13.651Z",
+    "25.5.0" : "2020-04-28T19:45:27.487Z",
+    "24.2.0-alpha.0" : "2019-03-05T15:00:19.610Z",
+    "25.2.4" : "2020-03-29T19:38:46.924Z",
+    "created" : "2019-03-05T15:00:19.298Z",
+    "26.0.0" : "2020-05-04T17:53:12.114Z",
+    "26.0.1" : "2020-05-05T10:40:53.328Z",
+    "26.1.0" : "2020-06-23T15:15:17.268Z",
+    "26.2.0" : "2020-07-30T10:11:50.330Z",
+    "26.3.0" : "2020-08-10T11:31:55.452Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/facebook/jest.git",
+    "directory" : "packages/jest-fake-timers"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/facebook/jest#readme",
+  "bugs" : {
+    "url" : "https://github.com/facebook/jest/issues"
+  },
+  "license" : "MIT"
+}

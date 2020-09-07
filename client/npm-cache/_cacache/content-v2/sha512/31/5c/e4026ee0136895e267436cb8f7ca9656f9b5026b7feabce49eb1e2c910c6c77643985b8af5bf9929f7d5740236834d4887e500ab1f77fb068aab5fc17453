@@ -1,0 +1,826 @@
+{
+  "_id" : "decimal.js-light",
+  "_rev" : "23-9a8c54e535be9ee5bec26cda2b384b16",
+  "name" : "decimal.js-light",
+  "description" : "An arbitrary-precision Decimal type for JavaScript.",
+  "dist-tags" : {
+    "latest" : "2.5.0"
+  },
+  "versions" : {
+    "2.1.0" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.1.0.tgz",
+        "shasum" : "e524394465d8b088b46af10cc5a5859ff5c13d35"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.1.0 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.1.0",
+      "gitHead" : "30ce5d106e97e50d3175ec1dc11506d9f97e9e4d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-2.1.0.tgz_1484006776108_0.9317003542091697"
+      },
+      "_shasum" : "e524394465d8b088b46af10cc5a5859ff5c13d35",
+      "_nodeVersion" : "7.2.0"
+    },
+    "2.2.4" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.2.4",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.2.4.tgz",
+        "shasum" : "cb1da21bf2e9fe2847dbca8e4a48df8061216592"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.2.4 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_npmVersion" : "5.0.4",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.2.4",
+      "gitHead" : "3cba2fc8f396493044255a981ac52a016d8f908b",
+      "types" : "decimal.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decimal.js-light-2.2.4.tgz_1502836727209_0.27714058035053313"
+      },
+      "_nodeVersion" : "8.1.3"
+    },
+    "2.2.5" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.2.5",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.2.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.2.5.tgz",
+        "shasum" : "4b59349841128e3389d070af3845d5719edd7154"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.2.5 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_npmVersion" : "5.0.4",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.2.5",
+      "gitHead" : "b4108529b383afba4bac11f82f517e24a28ae54c",
+      "types" : "decimal.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decimal.js-light-2.2.5.tgz_1504901458006_0.31503807404078543"
+      },
+      "_nodeVersion" : "8.1.3"
+    },
+    "2.2.2" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.2.2.tgz",
+        "shasum" : "bf9905ae4bb13ab219c6fa11ba52005fd2a48daa"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.2.2 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.2.2",
+      "gitHead" : "69081ec834631b9426b8cc8055e30d096d8ecc94",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-2.2.2.tgz_1491415925893_0.7031566295772791"
+      },
+      "_shasum" : "bf9905ae4bb13ab219c6fa11ba52005fd2a48daa",
+      "_nodeVersion" : "7.7.3"
+    },
+    "2.3.1" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.3.1",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.3.1.tgz",
+        "shasum" : "2a31d60385c5c365b49ddedb223e41240c72955a"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.3.1 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_npmVersion" : "5.0.4",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.3.1",
+      "gitHead" : "b66a9a732b7c424cacb0a48d2d4a180c5dcafd38",
+      "types" : "decimal.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decimal.js-light-2.3.1.tgz_1510600528290_0.6648335373029113"
+      },
+      "_nodeVersion" : "8.9.0"
+    },
+    "2.4.0" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.4.0.tgz",
+        "shasum" : "d0b5edf9c48e1afefecf901f17847b19aa1e30c3"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.4.0 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_npmVersion" : "5.0.4",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.4.0",
+      "gitHead" : "439fe53b39ddd8d9c8c7c29eaebeeda28ca90e0b",
+      "types" : "decimal.d.ts",
+      "module" : "decimal.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decimal.js-light_2.4.0_1526987870067_0.565666138704092"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "2.2.3" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.2.3",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.2.3.tgz",
+        "shasum" : "f601763f011833839be04f3f21f69d9b4021979b"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.2.3 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.2.3",
+      "gitHead" : "76c6ff5b2b6c08cdb695aac494052a2d227e1988",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-2.2.3.tgz_1493925729734_0.07527798064984381"
+      },
+      "_shasum" : "f601763f011833839be04f3f21f69d9b4021979b",
+      "_nodeVersion" : "7.7.3"
+    },
+    "2.4.1" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.4.1",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.4.1.tgz",
+        "shasum" : "3260d025fa504f30b94b0ef8721f0b4d37dcfc72"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.4.1 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_npmVersion" : "5.0.4",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.4.1",
+      "gitHead" : "7279cf7695bf04104909081d8df6623b8aa69874",
+      "types" : "decimal.d.ts",
+      "module" : "decimal.mjs",
+      "browser" : "decimal.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decimal.js-light_2.4.1_1527177035395_0.5741565400682429"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "2.5.0" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.5.0",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.5.0.tgz",
+        "shasum" : "ca7faf504c799326df94b0ab920424fdfc125348"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.5.0 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.5.0",
+      "gitHead" : "ff1e0f93ef0967e18c198f09aa2b329791e7dc0e",
+      "types" : "decimal.d.ts",
+      "module" : "decimal.mjs",
+      "browser" : "decimal.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decimal.js-light_2.5.0_1539720081686_0.08109391058656423"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "2.0.2" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.0.2.tgz",
+        "shasum" : "4ce0d6ffc38cc530400072f9c82a9d1c800ea6b5"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.0.2 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.0.2",
+      "gitHead" : "260aa8b51914db17e56bdd83547622fa18b36d9f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-2.0.2.tgz_1481549887771_0.9016948877833784"
+      },
+      "_shasum" : "4ce0d6ffc38cc530400072f9c82a9d1c800ea6b5",
+      "_nodeVersion" : "7.2.0"
+    },
+    "2.2.0" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.2.0.tgz",
+        "shasum" : "0639351eeb5e09dd3115634139e63954d589f7a1"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.2.0 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.2.0",
+      "gitHead" : "fcbd555ca78d5461319143a6ba3814459e104082",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-2.2.0.tgz_1484069821263_0.6932935970835388"
+      },
+      "_shasum" : "0639351eeb5e09dd3115634139e63954d589f7a1",
+      "_nodeVersion" : "7.2.0"
+    },
+    "2.2.1" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.2.1.tgz",
+        "shasum" : "25cf85cae390d2ab66268f9012f36368ed9b7557"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.2.1 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.2.1",
+      "gitHead" : "97bd3d23e2cdba534d6730acbfe71f7c2e4130c4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-2.2.1.tgz_1489172402108_0.6337193816434592"
+      },
+      "_shasum" : "25cf85cae390d2ab66268f9012f36368ed9b7557",
+      "_nodeVersion" : "7.5.0"
+    },
+    "2.3.0" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-2.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-2.3.0.tgz",
+        "shasum" : "ffc39c9f4ccc031afb6da0bb2eeecc440239e777"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v2.3.0 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_npmVersion" : "5.0.4",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@2.3.0",
+      "gitHead" : "7349bff9805364b62cb92111d85d58cd43059dc9",
+      "types" : "decimal.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decimal.js-light-2.3.0.tgz_1506461910987_0.31596876471303403"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "1.0.3" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-1.0.3.tgz",
+        "shasum" : "e728455a2c4eaa3b71e433fc71e8a3f759d91442"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v1.0.3 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@1.0.3",
+      "gitHead" : "eedf6676c6b11746909f1296547e55e40a3f8b05",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-1.0.3.tgz_1456428148113_0.6715827933512628"
+      },
+      "_shasum" : "e728455a2c4eaa3b71e433fc71e8a3f759d91442",
+      "_nodeVersion" : "5.1.1"
+    },
+    "1.0.4" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-1.0.4.tgz",
+        "shasum" : "8ab317e49ddb7f2796eacb8ae5730e61edac7c47"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v1.0.4 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@1.0.4",
+      "gitHead" : "7a8e6b2519000d4d893ecc675140ff44c2afc223",
+      "_npmOperationalInternal" : {
+        "host" : "packages-5-east.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-1.0.4.tgz_1456694358190_0.9297179854474962"
+      },
+      "_shasum" : "8ab317e49ddb7f2796eacb8ae5730e61edac7c47",
+      "_nodeVersion" : "5.1.1"
+    },
+    "1.0.2" : {
+      "name" : "decimal.js-light",
+      "description" : "An arbitrary-precision Decimal type for JavaScript.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Michael Mclaughlin",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+      },
+      "main" : "decimal",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decimal.js-light/-/decimal.js-light-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecimal.js-light%2F-%2Fdecimal.js-light-1.0.2.tgz",
+        "shasum" : "648bac72633207a2d6afb5082bf9c14209900030"
+      },
+      "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test/test.js",
+        "build" : "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js-light v1.0.2 https://github.com/MikeMcl/decimal.js-light/LICENCE */\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.1",
+      "_npmUser" : {
+        "name" : "mikemcl",
+        "email" : "M8ch88l@gmail.com"
+      },
+      "_id" : "decimal.js-light@1.0.2",
+      "gitHead" : "1c7222126d76a8ef17f381b2ff365348a3668a14",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/decimal.js-light-1.0.2.tgz_1456359449269_0.9978933627717197"
+      },
+      "_shasum" : "648bac72633207a2d6afb5082bf9c14209900030",
+      "_nodeVersion" : "5.1.1"
+    }
+  },
+  "readme" : "![decimal.js-light](https://raw.githubusercontent.com/MikeMcl/decimal.js-light/gh-pages/decimaljslight.png)\r\n\r\nThe light version of [decimal.js](https://github.com/MikeMcl/decimal.js/), an arbitrary-precision Decimal type for JavaScript.\r\n\r\n[![Build Status](https://travis-ci.org/MikeMcl/decimal.js-light.svg)](https://travis-ci.org/MikeMcl/decimal.js-light)\r\n\r\n<br />\r\n\r\nThis library is the newest of the family of libraries: [bignumber.js](https://github.com/MikeMcl/bignumber.js/), [big.js](https://github.com/MikeMcl/big.js/), [decimal.js](https://github.com/MikeMcl/decimal.js/) and *decimal.js-light*.<br>\r\nThe API is more or less a subset of the API of *decimal.js*.\r\n\r\n![API](https://raw.githubusercontent.com/MikeMcl/decimal.js-light/gh-pages/API.png)\r\n\r\n__Differences between this library and *decimal.js*__\r\n\r\nSize of *decimal.js* minified: 32.1 KB.<br>\r\nSize of *decimal.js-light* minified: 12.7 KB.\r\n\r\nThis library does not include `NaN`, `Infinity` or `-0` as legitimate values, or work with values in other bases.\r\n\r\nHere, the `Decimal.round` property is just the default rounding mode for `toDecimalPlaces`, `toExponential`, `toFixed`, `toPrecision` and `toSignificantDigits`. It does not apply to arithmetic operations, which are simply truncated at the required precision.\r\n\r\nIf rounding is required just apply it explicitly, for example\r\n\r\n```js\r\nx = new Decimal(2);\r\ny = new Decimal(3);\r\n\r\n// decimal.js\r\nx.dividedBy(y).toString();                       // '0.66666666666666666667'\r\n\r\n// decimal.js-light\r\nx.dividedBy(y).toString();                       // '0.66666666666666666666'\r\nx.dividedBy(y).toDecimalPlaces(19).toString();   // '0.6666666666666666667'\r\n```\r\n\r\nThe `naturalExponential`, `naturalLogarithm`, `logarithm`, and `toPower` methods in this library have by default a limited precision of around 100 digits. This limit can be increased at runtime using the `LN10` (the natural logarithm of ten) configuration object property.\r\n\r\nFor example, if a maximum precision of 400 digits is required for these operations use\r\n\r\n```js\r\n// 415 digits\r\nDecimal.set({\r\n  LN10: '2.302585092994045684017991454684364207601101488628772976033327900967572609677352480235997205089598298341967784042286248633409525465082806756666287369098781689482907208325554680843799894826233198528393505308965377732628846163366222287698219886746543667474404243274365155048934314939391479619404400222105101714174800368808401264708068556774321622835522011480466371565912137345074785694768346361679210180644507064800027'\r\n});\r\n```\r\n\r\nAlso, in this library the `e` property of a Decimal is the base 10000000 exponent, not the base 10 exponent as in *decimal.js*.<br>\r\nUse the `exponent` method to get the base 10 exponent.\r\n\r\n## Quickstart\r\n\r\nBrowser:\r\n\r\n```html\r\n<script src='path/to/decimal.js-light'></script>\r\n```\r\n\r\nNode package manager:\r\n\r\n```shell\r\n$ npm install --save decimal.js-light\r\n```\r\n\r\n```js\r\n// Node.js\r\nvar Decimal = require('decimal.js-light');\r\n\r\n// Adjust the global configuration if required (these are the defaults)\r\nDecimal.set({\r\n  precision: 20,\r\n  rounding: Decimal.ROUND_HALF_UP,\r\n  toExpNeg: -7,\r\n  toExpPos: 21\r\n});\r\n\r\nphi = new Decimal('1.61803398874989484820458683436563811772030917980576');\r\n\r\nphi.toFixed(10);    // '1.6180339887'\r\n\r\nphi.times(2).minus(1).toPower(2).plus('1e-19').equals(5);    // true\r\n\r\n```\r\n\r\nSee the [documentation](http://mikemcl.github.io/decimal.js-light) for further information.\r\n\r\n[TypeScript](https://github.com/Microsoft/TypeScript) type declaration file contributed by [TANAKA Koichi](https://github.com/MugeSo).\r\n\r\n\r\n\r\n\r\n\r\n",
+  "maintainers" : [ {
+    "name" : "mikemcl",
+    "email" : "M8ch88l@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Michael Mclaughlin",
+    "email" : "M8ch88l@gmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2016-12-12T12:26:46.529Z",
+    "2.0.1" : "2016-12-12T13:14:53.108Z",
+    "2.1.0" : "2017-01-10T00:06:18.398Z",
+    "created" : "2016-02-24T23:50:08.200Z",
+    "2.2.4" : "2017-08-15T22:38:48.277Z",
+    "2.2.5" : "2017-09-08T20:10:59.226Z",
+    "2.2.2" : "2017-04-05T18:12:06.480Z",
+    "2.3.1" : "2017-11-13T19:15:29.342Z",
+    "2.4.0" : "2018-05-22T11:17:50.171Z",
+    "2.2.3" : "2017-05-04T19:22:10.673Z",
+    "2.4.1" : "2018-05-24T15:50:35.504Z",
+    "2.5.0" : "2018-10-16T20:01:21.833Z",
+    "2.0.2" : "2016-12-12T13:38:10.015Z",
+    "2.2.0" : "2017-01-10T17:37:03.317Z",
+    "2.2.1" : "2017-03-10T19:00:04.054Z",
+    "2.3.0" : "2017-09-26T21:38:32.158Z",
+    "1.0.3" : "2016-02-25T19:22:30.994Z",
+    "1.0.4" : "2016-02-28T21:19:19.615Z",
+    "modified" : "2019-01-02T20:09:43.039Z",
+    "1.0.0" : "2016-02-24T23:50:08.200Z",
+    "1.0.2" : "2016-02-25T00:17:31.981Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/MikeMcl/decimal.js-light.git"
+  },
+  "users" : {
+    "nogirev" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/MikeMcl/decimal.js-light#readme",
+  "keywords" : [ "arbitrary", "precision", "arithmetic", "big", "number", "decimal", "float", "biginteger", "bigdecimal", "bignumber", "bigint", "bignum" ],
+  "bugs" : {
+    "url" : "https://github.com/MikeMcl/decimal.js-light/issues"
+  },
+  "license" : "MIT"
+}
