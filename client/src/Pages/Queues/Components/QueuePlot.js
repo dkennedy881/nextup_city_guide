@@ -61,7 +61,7 @@ const QueuePlot = ({ data, showPlotTitles }) => {
             top: -(K_HEIGHT + 10),
             left: -(K_WIDTH + 20),
             zIndex: 1,
-            fontWeight: 900,
+            fontWeight: 300,
           }}
         >
           {data.title}

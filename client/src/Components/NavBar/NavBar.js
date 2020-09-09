@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import iconImg from "../../images/icon.jpeg";
 import logoImg from "../../images/next-up.png";
@@ -18,19 +19,34 @@ const NavBar = () => {
           <img alt="headerImage" src={iconImg} id="navIconImg" />
         </div>
         <img alt="headerImage" src={logoImg} id="navLogoImg" />
-        <div className="navFlex" />
+        <div
+          className="navFlex"
+          style={{ display: "flex", flexDirection: "row-reverse" }}
+        >
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </div>
       </div>
-
-      {/* 
-      //TODO add toggle drop down
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Privacy Policy</Nav.Link>
+          <Link
+            to="/"
+            onClick={() => {
+              document.querySelector(".navbar-toggler").click();
+            }}
+            className="navLinkWBoarder"
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            onClick={() => {
+              document.querySelector(".navbar-toggler").click();
+            }}
+          >
+            About
+          </Link>
         </Nav>
-      </Navbar.Collapse> */}
-      {/* </div> */}
+      </Navbar.Collapse>
     </Navbar>
   );
 };
