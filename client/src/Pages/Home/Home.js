@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 //comps
 import { Greeting } from "./Components/Greeting";
@@ -9,6 +9,9 @@ import { Section4 } from "./Components/Section4";
 import { Footer } from "../../Components/Footer/Footer";
 
 const Home = () => {
+  useEffect(() => {
+    document.querySelector("body").scrollTo(0, 0);
+  });
   return (
     <>
       <Greeting />
