@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import { Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import iconImg from "../../images/icon.jpeg";
 import logoImg from "../../images/next-up.png";
-const NavBar = () => {
+const NavBar = ({}) => {
+  const location = useLocation();
+
   return (
     <Navbar
       style={{ height: "60px" }}
@@ -24,6 +26,33 @@ const NavBar = () => {
           style={{ display: "flex", flexDirection: "row-reverse" }}
         >
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Nav id="basic-navbar-nav-hide">
+            <Link
+              to="/"
+              style={{
+                textDecoration:
+                  location.pathname !== "/about" ? "underline" : "none",
+              }}
+              onClick={() => {
+                document.querySelector(".navbar-toggler").click();
+              }}
+              className="navLinkWBoarder"
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              style={{
+                textDecoration:
+                  location.pathname === "/about" ? "underline" : "none",
+              }}
+              onClick={() => {
+                document.querySelector(".navbar-toggler").click();
+              }}
+            >
+              About
+            </Link>
+          </Nav>
         </div>
       </div>
       <Navbar.Collapse id="basic-navbar-nav">

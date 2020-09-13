@@ -8,6 +8,9 @@ body {
   margin-left: 250px !important;
   margin-right: 250px !important;
 }
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
 @media (min-width: 760px) and (max-width: 1025px) {
   /*iPad*/
   body {

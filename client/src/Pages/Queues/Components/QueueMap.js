@@ -15,6 +15,11 @@ const refs = {
 const QueueMap = ({ queueItems }) => {
   const [queuePlotData, setQueuePlotData] = useState([]);
   const [showPlotTitles, setShowPlotTitles] = useState(false);
+  const [mapZoom, setMapZoom] = useState(4.1);
+  const [mapCenter] = useState({
+    lat: 38.95,
+    lng: -108.3,
+  });
 
   const addQueueCoords = async (queueItems) => {
     const promises = [];
@@ -46,17 +51,21 @@ const QueueMap = ({ queueItems }) => {
     } else if (zoom < 9 && showPlotTitles) {
       setShowPlotTitles(false);
     }
+    setTimeout(() => {
+      setMapZoom(zoom + 0.002);
+    }, 1000);
   };
 
   const updateQueueItems = async (queueItems) => {
     const queueItemsWCoors = await addQueueCoords(queueItems);
     await setQueuePlotData(queueItemsWCoors);
-    console.log(queuePlotData);
   };
 
   useEffect(() => {
     if (queueItems !== queuePlotData) updateQueueItems(queueItems);
   }, [queueItems]);
+
+  useEffect(() => {}, [mapZoom]);
 
   return (
     <div
@@ -71,18 +80,14 @@ const QueueMap = ({ queueItems }) => {
         bootstrapURLKeys={{ key: "AIzaSyDl4Fg7fPNuqn0fd2RV-LkXp7bLTuE0HxI" }}
         options={{
           fullscreenControl: false,
-          zoom_changed: () => {},
           gestureHandling: "greedy",
           clickableIcons: false,
+          zoomControl: false,
         }}
-        defaultCenter={{
-          lat: 38.95,
-          lng: -108.3,
-        }}
-        defaultZoom={4.1}
-        zoom={4.1}
+        defaultCenter={mapCenter}
+        zoom={mapZoom}
         onChange={({ center, zoom, bounds, marginBounds }) => {
-          setPlotTitles(zoom);
+          setPlotTitles(zoom, center);
         }}
       >
         {queuePlotData.length ? (

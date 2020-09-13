@@ -12,19 +12,19 @@ const Section4 = () => {
           <h2 id="Section1Title" style={{ textAlign: "center" }}>
             How Next Up Makes the Voter Experience Better
           </h2>
-          <div className="">
+          <div className="Section1SubNContainer">
             <h5 className="Section1SubN">
               1. We give voters visibility to estimated wait times and number of
               people in line at polling locations before arriving.
             </h5>
           </div>
-          <div className="">
+          <div className="Section1SubNContainer">
             <h5 className="Section1SubN">
               2. We show voters polling locations that have estimated wait times
               over 30 minutes.
             </h5>
           </div>
-          <div className="">
+          <div className="Section1SubNContainer">
             <h5 className="Section1SubN">
               3. We give voters useful information about polling location
               conditions to make a personal calculation about when its best to
@@ -32,7 +32,7 @@ const Section4 = () => {
               time and least risk of financial loss).
             </h5>
           </div>
-          <div className="">
+          <div className="Section1SubNContainer">
             <h5 className="Section1SubN">
               4. After the election, we will advocate for voters by using the
               app’s data in efforts to eliminate racial disparities in wait time

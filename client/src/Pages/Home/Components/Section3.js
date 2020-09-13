@@ -37,13 +37,38 @@ const Section3 = () => {
   });
 
   return (
-    <div className="container-fluid Section" id="Section1Container">
+    <div className="container-fluid Section" id="Section3Container">
       <div className="row padded">
         <div className="col-md-12" id="Section1TextContainer">
           <h2 id="Section3Title">
-            We're in this together. Connect with us to find out more.
+            We're in this together.
+            <br />
+            Connect with us to find out more.
           </h2>
-          <Form id="messageFormContainer">
+          <div id="contactItemContainer">
+            <div className="contactItem">
+              <a
+                className="contactItemLink"
+                target="_blank"
+                href="mailto:admin@nextup.city?subject=Next Up City "
+                rel="noopener noreferrer"
+              >
+                admin@nextup.city
+              </a>
+              <p className="contactItemText">Email Next Up</p>
+            </div>
+            <div className="contactItem">
+              <a
+                className="contactItemLink"
+                href="https://www.instagram.com/mrwelltravelled/"
+                target="_blank"
+              >
+                @nextupcity
+              </a>
+              <p className="contactItemText">Follow Us on Instagram</p>
+            </div>
+          </div>
+          {/* <Form id="messageFormContainer">
             <Form.Group controlId="formBusinessName">
               <Form.Control
                 type="text"
@@ -92,7 +117,7 @@ const Section3 = () => {
                 Send
               </Button>
             </Form.Group>
-          </Form>
+          </Form> */}
         </div>
       </div>
     </div>

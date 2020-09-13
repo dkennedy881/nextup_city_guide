@@ -26,7 +26,7 @@ h6 {
 
 .Section2Sub {
   text-align: left;
-  margin: 25px 0px 50px 0px;
+  margin: 120px 0px 50px 0px;
 }
 .Section2SubLit {
   color: yellow;
@@ -77,9 +77,14 @@ h6 {
     line-height: 100px;
     text-align: center;
   }
+  .Section1SubNContainer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
   .Section1SubN {
-    line-height: 100px;
+    line-height: 85px;
     padding: 10px 0px;
+    font-weight: 400;
   }
   #Section2TextContainer1 {
     margin: 50px 0px 20px 0px;
@@ -146,6 +151,34 @@ h6 {
   h2 {
     font-size: 3.3em;
   }
+  #Section3Container {
+    margin-bottom: 250px;
+  }
+
+  #contactItemContainer {
+    margin: 50px 250px;
+  }
+  .contactItem {
+    border: solid 1px #eee;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+  }
+  .contactItemLink {
+    text-decoration: underline;
+    color: #5dbecb;
+    font-weight: 600;
+    font-size: 1.4em;
+  }
+  .contactItemLink:hover {
+    text-decoration: underline;
+    color: red;
+    font-weight: 600;
+  }
+  .contactItemText {
+    color: #777;
+    margin: 5px 0px 0px 0px;
+    font-size: 1.4em;
+  }
 }
 @media (min-width: 760px) and (max-width: 1000px) {
   /*iPad small*/
@@ -155,6 +188,43 @@ h6 {
     position: relative;
     top: 40px !important;
     left: -0px !important;
+  }
+  #contactItemContainer {
+    margin: 100px 50px;
+  }
+  .contactItem {
+    border: solid 1px #eee;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+  }
+  .contactItemLink {
+    text-decoration: underline;
+    color: #5dbecb;
+    font-weight: 600;
+    font-size: 1.3em;
+  }
+  .contactItemLink:hover {
+    text-decoration: underline;
+    color: red;
+    font-weight: 600;
+  }
+  .contactItemText {
+    color: #777;
+    margin: 5px 0px 0px 0px;
+    font-size: 1.2em;
+  }
+  .Section1SubN {
+    line-height: 60px;
+  }
+  .Section1SubNContainer {
+    text-align: center;
+    margin-top: 55px;
+  }
+  #Section3Container {
+    margin-bottom: 200px;
+  }
+  .Section2Sub {
+    margin-top: 100px;
   }
 }
 @media (min-width: 770px) and (max-width: 1025px) {
@@ -171,7 +241,7 @@ h6 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 320px;
+    top: 420px;
     left: -220px;
   }
 
@@ -236,6 +306,7 @@ h6 {
 
   .Section2Sub {
     line-height: 50px;
+    margin-top: 100px;
   }
   .Section2SubLit {
     color: yellow;
@@ -259,10 +330,46 @@ h6 {
   h2 {
     font-size: 3.3em;
   }
+  .contactItem {
+    border: solid 1px #eee;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+  }
+  .contactItemLink {
+    text-decoration: underline;
+    color: #5dbecb;
+    font-weight: 600;
+    font-size: 1.8em;
+  }
+  .contactItemLink:hover {
+    text-decoration: underline;
+    color: red;
+    font-weight: 600;
+  }
+  .contactItemText {
+    color: #777;
+    margin: 5px 0px 0px 0px;
+    font-size: 1.7em;
+  }
+  .Section1SubN {
+    line-height: 60px;
+  }
+  .Section1SubNContainer {
+    margin-top: 60px;
+  }
+  #Section3Container {
+    margin-bottom: 200px;
+  }
+  #contactItemContainer {
+    margin: 100px 150px;
+  }
 }
 
 @media (max-width: 759px) {
   /*iphone*/
+  #Section3Container {
+    margin-bottom: 175px;
+  }
   #GreetingContainer {
     height: 75vh;
     display: flex;
@@ -294,8 +401,13 @@ h6 {
     line-height: 50px;
     text-align: center;
   }
+  .Section1SubNContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
   .Section1SubN {
-    line-height: 50px;
+    line-height: 35px;
   }
   #Section2TextContainer1 {
     margin: 25px 0px 10px 0px;
@@ -352,5 +464,29 @@ h6 {
   }
   h2 {
     font-size: 2em;
+  }
+  .contactItem {
+    border: solid 1px #eee;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+  }
+  .contactItemLink {
+    text-decoration: underline;
+    color: #5dbecb;
+    font-weight: 600;
+  }
+  .contactItemLink:hover {
+    text-decoration: underline;
+    color: red;
+    font-weight: 600;
+  }
+  .contactItemText {
+    color: #777;
+    margin: 5px 0px 0px 0px;
+    font-size: 0.9em;
+  }
+
+  #contactItemContainer {
+    margin: 50px 0px;
   }
 }

@@ -33,6 +33,14 @@ const Queues = () => {
     },
   });
 
+  useEffect(() => {
+    document.querySelector("body").style.overflow = "visible";
+    document.querySelector("body").scrollTo(0, 0);
+    setTimeout(() => {
+      document.querySelector("body").style.overflow = "hidden";
+    }, 1000);
+  });
+
   // init queue fetch
   useEffect(() => {
     fetchQueueController.run();
@@ -40,15 +48,14 @@ const Queues = () => {
 
   // locks body scroll and scrolls queue list to the top
   useEffect(() => {
-    if (doShowList) {
-      window.scrollTo(0, 0);
-      document.querySelector("body").style.overflow = "hidden";
-    } else {
-      document.querySelector("body").style.overflow = "visible";
-      if (document.querySelector("#QueueListContainer")) {
-        document.querySelector("#QueueListContainer").scrollTo(0, 0);
-      }
+    window.scrollTo(0, 0);
+    document.querySelector("body").style.overflow = "visible";
+    if (document.querySelector("#QueueListContainer")) {
+      document.querySelector("#QueueListContainer").scrollTo(0, 0);
     }
+    setTimeout(() => {
+      document.querySelector("body").style.overflow = "hidden";
+    });
   }, [doShowList]);
 
   const ToggleContentBtnContainer = ({ doShowList }) => {

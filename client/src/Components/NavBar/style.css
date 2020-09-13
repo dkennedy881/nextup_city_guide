@@ -14,7 +14,8 @@
   height: 64px !important;
   padding: 10px 15px 15px 15px !important;
 }
-@media (min-width: 1026x) {
+
+@media screen and (min-width: 1025px) {
   /* desktop */
   #navIconImg {
     height: 30px;
@@ -32,9 +33,43 @@
     height: 64px !important;
     padding: 10px 15px 15px 15px !important;
   }
+  #basic-navbar-nav-hide > a {
+    color: #5dbecb;
+    font-weight: 900;
+    margin: 5px 20px;
+  }
+  #basic-navbar-nav-hide:first {
+    color: #5dbecb;
+    font-weight: 900;
+    margin: 5px 20px;
+    border-left: 1px solid red;
+  }
+  #basic-navbar-nav {
+    display: none !important;
+  }
 }
-@media (min-width: 760px) and (max-width: 1025px) {
-  /*iPad*/
+@media (min-width: 760px) and (max-width: 1000px) {
+  /*iPad small*/
+  .navbar-nav > a {
+    color: #7f7f7f !important;
+    padding: 10px 0px;
+  }
+  .navbar-nav > a.navLinkWBoarder {
+    border-bottom: solid 1px #7f7f7f;
+  }
+  #basic-navbar-nav-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+  /*iPad Pro*/
+  #basic-navbar-nav {
+    display: none !important;
+  }
+  #basic-navbar-nav-hide > a {
+    color: #5dbecb;
+    font-weight: 900;
+  }
   #navIconImg {
     height: 30px;
     width: 30px;
@@ -51,9 +86,24 @@
     height: 64px !important;
     padding: 10px 15px 15px 15px !important;
   }
+  #basic-navbar-nav-hide > a {
+    color: #5dbecb;
+    font-weight: 900;
+    margin: 5px 20px;
+  }
+  #basic-navbar-nav-hide:first {
+    color: #5dbecb;
+    font-weight: 900;
+    margin: 5px 20px;
+    border-left: 1px solid red;
+  }
 }
 @media (max-width: 759px) {
   /*iphone */
+  #basic-navbar-nav-hide {
+    display: none;
+  }
+
   #navIconImg {
     height: 30px;
     width: 30px;
