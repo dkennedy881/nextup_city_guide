@@ -1,41 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import "../style.css";
-import { Form, Button } from "react-bootstrap";
-import Axios from "axios";
-import { useAsync } from "react-async";
 
-const sendEmail = async ([name, email, message]) => {
-  let { data: success } = await Axios.post(
-    "https://webhooks.mongodb-realm.com/api/client/v2.0/app/nextup-ssnrm/service/sendMessage/incoming_webhook/webhook0",
-    {
-      name: String(name),
-      email: String(email),
-      message: String(message),
-    }
-  );
+// const sendEmail = async ([name, email, message]) => {
+//   let { data: success } = await Axios.post(
+//     "https://webhooks.mongodb-realm.com/api/client/v2.0/app/nextup-ssnrm/service/sendMessage/incoming_webhook/webhook0",
+//     {
+//       name: String(name),
+//       email: String(email),
+//       message: String(message),
+//     }
+//   );
 
-  return success;
-};
+//   return success;
+// };
 
 const Section3 = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [successMessage, setSuccessMessage] = useState("");
-
-  const sendEmailController = useAsync({
-    deferFn: sendEmail,
-    onResolve: () => {
-      setName("");
-      setEmail("");
-      setMessage("");
-      setSuccessMessage("Thank you for your submission");
-      setTimeout(() => {
-        setSuccessMessage("");
-      }, 5000);
-    },
-  });
-
   return (
     <div className="container-fluid Section" id="Section3Container">
       <div className="row padded">
@@ -60,7 +39,7 @@ const Section3 = () => {
             <div className="contactItem">
               <a
                 className="contactItemLink"
-                href="https://www.instagram.com/mrwelltravelled/"
+                href="https://www.instagram.com/nextupcity/"
                 target="_blank"
               >
                 @nextupcity
