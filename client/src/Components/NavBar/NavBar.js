@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./style.css";
+import "../../App.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 
@@ -32,6 +33,9 @@ const NavBar = ({}) => {
               style={{
                 textDecoration:
                   location.pathname !== "/about" ? "underline" : "none",
+                color: "#5dbecb",
+                fontWeight: "900",
+                margin: " 5px 20px",
               }}
               onClick={() => {
                 document.querySelector(".navbar-toggler").click();
@@ -45,6 +49,9 @@ const NavBar = ({}) => {
               style={{
                 textDecoration:
                   location.pathname === "/about" ? "underline" : "none",
+                color: "#5dbecb",
+                fontWeight: "900",
+                margin: " 5px 20px",
               }}
               onClick={() => {
                 document.querySelector(".navbar-toggler").click();
