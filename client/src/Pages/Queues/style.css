@@ -114,12 +114,27 @@
 }
 /* @media (max-width: 1025px)  {  */
 @media screen {
+  #toggleQueueContent {
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 1;
+  }
 }
 @media (min-width: 760px) and (max-width: 1000px) {
   /*iPad small*/
+  #toggleQueueContent {
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 1;
+  }
 }
 @media (min-width: 770px) and (max-width: 1025px) {
   /*iPad Pro*/
+  #toggleQueueContent {
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 1;
+  }
 }
 
 @media (max-width: 759px) {
