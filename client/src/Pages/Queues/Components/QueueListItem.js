@@ -96,6 +96,23 @@ const QueueListItem = ({ queueItem, onMap = false }) => {
     }
   };
 
+  const setBackgroundcolor = () => {
+    if (queueItem.estMinutes && queueItem.estMinutes["$numberLong"]) {
+      const mins = queueItem.estMinutes["$numberLong"];
+      if (mins < 25) {
+        return "#11a90f";
+      } else {
+        if (mins < 50) {
+          return "yellow";
+        } else {
+          return "red";
+        }
+      }
+    } else {
+      return "blue";
+    }
+  };
+
   if (onMap) {
     return (
       <div className="queueListItem">
@@ -105,9 +122,14 @@ const QueueListItem = ({ queueItem, onMap = false }) => {
         <div className="queueListItemMeta">
           <div className="queueListItemMetaLeft">
             <div className="queueListItemAddressContainer">
-              <span>{`${queueItem.address}, ${queueItem.zipCode}`}</span>
-              <br />
-              <span>{`${queueItem.city}, ${queueItem.state}`}</span>
+              <a
+                href={`https://www.google.com/maps/place/${queueItem.addressString}`}
+                target="_blank"
+              >
+                <span>{`${queueItem.address}, ${queueItem.zipCode}`}</span>
+                <br />
+                <span>{`${queueItem.city}, ${queueItem.state}`}</span>
+              </a>
             </div>
             <span className="queueListItemOOO">
               {queueItem.active === true && getOpen() !== "Closed"
@@ -116,11 +138,20 @@ const QueueListItem = ({ queueItem, onMap = false }) => {
             </span>
           </div>
           <div className="queueListItemMetaRightMap">
-            <div className="queueListItemCountContaierMap">
+            <div
+              className="queueListItemCountContaierMap"
+              style={{ backgroundColor: setBackgroundcolor() }}
+            >
               <span className="queueListItemCountMap">
-                {queueItem.count["$numberLong"]}
+                {queueItem.estMinutes && queueItem.estMinutes["$numberLong"] ? (
+                  <span className="queueListItemCount">
+                    {queueItem.estMinutes["$numberLong"]}
+                  </span>
+                ) : (
+                  <span className="queueListItemCount">NA</span>
+                )}
               </span>
-              <p className="queueListItemCountInLine">In Line</p>
+              <p className="queueListItemCountInLine">Minutes</p>
             </div>
           </div>
         </div>
@@ -135,11 +166,16 @@ const QueueListItem = ({ queueItem, onMap = false }) => {
         <div className="queueListItemMeta">
           <div className="queueListItemMetaLeft">
             <p className="queueListItemMessage">{queueItem.message}</p>
-            <div className="queueListItemAddressContainer">
-              <span>{`${queueItem.address}, ${queueItem.zipCode}`}</span>
-              <br />
-              <span>{`${queueItem.city}, ${queueItem.state}`}</span>
-            </div>
+            <a
+              href={`https://www.google.com/maps/place/${queueItem.addressString}`}
+              target="_blank"
+            >
+              <div className="queueListItemAddressContainer">
+                <span>{`${queueItem.address}, ${queueItem.zipCode}`}</span>
+                <br />
+                <span>{`${queueItem.city}, ${queueItem.state}`}</span>
+              </div>
+            </a>
             <span className="queueListItemOOO">
               {queueItem.active === true && getOpen() !== "Closed"
                 ? `${getOpen()} ${getClose()}`
@@ -147,11 +183,18 @@ const QueueListItem = ({ queueItem, onMap = false }) => {
             </span>
           </div>
           <div className="queueListItemMetaRight">
-            <div className="queueListItemCountContaier">
-              <span className="queueListItemCount">
-                {queueItem.count["$numberLong"]}
-              </span>
-              <p className="queueListItemCountInLine">In Line</p>
+            <div
+              className="queueListItemCountContaier"
+              style={{ backgroundColor: setBackgroundcolor() }}
+            >
+              {queueItem.estMinutes && queueItem.estMinutes["$numberLong"] ? (
+                <span className="queueListItemCount">
+                  {queueItem.estMinutes["$numberLong"]}
+                </span>
+              ) : (
+                <span className="queueListItemCount">NA</span>
+              )}
+              <p className="queueListItemCountInLine">Minutes</p>
             </div>
           </div>
         </div>

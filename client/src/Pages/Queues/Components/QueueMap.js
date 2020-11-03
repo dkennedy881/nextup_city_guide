@@ -7,18 +7,14 @@ import Axios from "axios";
 import { QueuePlot } from "../Components/QueuePlot";
 
 import "../style.css";
-import { useAsync } from "react-async";
-const refs = {
-  map: undefined,
-};
 
 const QueueMap = ({ queueItems }) => {
   const [queuePlotData, setQueuePlotData] = useState([]);
   const [showPlotTitles, setShowPlotTitles] = useState(false);
-  const [mapZoom, setMapZoom] = useState(4.1);
+  const [mapZoom, setMapZoom] = useState(9.6);
   const [mapCenter] = useState({
-    lat: 38.95,
-    lng: -108.3,
+    lat: 29.95,
+    lng: -95.3,
   });
 
   const addQueueCoords = async (queueItems) => {
@@ -37,6 +33,7 @@ const QueueMap = ({ queueItems }) => {
             `https://maps.googleapis.com/maps/api/geocode/json?address=${addressString}&key=AIzaSyDl4Fg7fPNuqn0fd2RV-LkXp7bLTuE0HxI`
           );
           queueItem.locationInfo = data.data.results[0];
+          queueItem.addressString = addressString;
           res(queueItem);
         })
       );
@@ -46,9 +43,9 @@ const QueueMap = ({ queueItems }) => {
   };
 
   const setPlotTitles = (zoom) => {
-    if (zoom >= 9 && !showPlotTitles) {
+    if (zoom >= 12 && !showPlotTitles) {
       setShowPlotTitles(true);
-    } else if (zoom < 9 && showPlotTitles) {
+    } else if (zoom < 12 && showPlotTitles) {
       setShowPlotTitles(false);
     }
     setTimeout(() => {
@@ -91,17 +88,21 @@ const QueueMap = ({ queueItems }) => {
         }}
       >
         {queuePlotData.length ? (
-          queuePlotData.map((queueItem) => {
-            return (
-              <QueuePlot
-                key={queueItem.id["$numberLong"]}
-                lat={queueItem.locationInfo.geometry.location.lat}
-                lng={queueItem.locationInfo.geometry.location.lng}
-                data={queueItem}
-                showPlotTitles={showPlotTitles}
-              />
-            );
-          })
+          queuePlotData
+            .filter((queueItem) => {
+              return queueItem.locationInfo !== undefined;
+            })
+            .map((queueItem) => {
+              return (
+                <QueuePlot
+                  key={queueItem.id["$numberLong"]}
+                  lat={queueItem.locationInfo.geometry.location.lat}
+                  lng={queueItem.locationInfo.geometry.location.lng}
+                  data={queueItem}
+                  showPlotTitles={showPlotTitles}
+                />
+              );
+            })
         ) : (
           <></>
         )}

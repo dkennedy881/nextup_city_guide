@@ -32,7 +32,10 @@ const NavBar = ({}) => {
               to="/"
               style={{
                 textDecoration:
-                  location.pathname !== "/about" ? "underline" : "none",
+                  location.pathname !== "/about" &&
+                  location.pathname !== "/privacypolicy"
+                    ? "underline"
+                    : "none",
                 color: "#5dbecb",
                 fontWeight: "900",
                 margin: " 5px 20px",
@@ -59,6 +62,21 @@ const NavBar = ({}) => {
             >
               About
             </Link>
+            <Link
+              to="/privacypolicy"
+              style={{
+                textDecoration:
+                  location.pathname === "/privacypolicy" ? "underline" : "none",
+                color: "#5dbecb",
+                fontWeight: "900",
+                margin: " 5px 20px",
+              }}
+              onClick={() => {
+                document.querySelector(".navbar-toggler").click();
+              }}
+            >
+              Privacy Policy
+            </Link>
           </Nav>
         </div>
       </div>
@@ -78,8 +96,17 @@ const NavBar = ({}) => {
             onClick={() => {
               document.querySelector(".navbar-toggler").click();
             }}
+            className="navLinkWBoarder"
           >
             About
+          </Link>
+          <Link
+            to="/privacypolicy"
+            onClick={() => {
+              document.querySelector(".navbar-toggler").click();
+            }}
+          >
+            Privacy Policy
           </Link>
         </Nav>
       </Navbar.Collapse>

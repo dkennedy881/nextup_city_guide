@@ -1,0 +1,65 @@
+@media screen {
+  #loginContainer {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #loginForm {
+    background-color: rgb(249, 249, 249) !important;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+    box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+    padding: 10px 20px;
+    border-radius: 9px;
+  }
+  #loginBtnDiv {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #loginForm {
+    margin: 10px 0px;
+    width: 50%;
+    justify-content: center;
+  }
+  #loginFormContent {
+    display: flex;
+    justify-content: center;
+  }
+  #queueTableContainer {
+    margin-top: 75px;
+    min-height: 100vh;
+  }
+  .updateBtnRow {
+    text-align: center;
+  }
+}
+@media (min-width: 760px) and (max-width: 1000px) {
+  /*iPad small*/
+  #loginFormContent {
+    display: block;
+  }
+  #loginForm {
+    margin: 10px 200px;
+    width: auto;
+  }
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+  /*iPad Pro*/
+  #loginFormContent {
+    display: block;
+  }
+  #loginForm {
+    margin: 10px 200px;
+    width: auto;
+  }
+}
+@media (max-width: 759px) {
+  #loginFormContent {
+    display: block;
+  }
+  #loginForm {
+    margin: 10px 20px;
+    width: auto;
+  }
+}

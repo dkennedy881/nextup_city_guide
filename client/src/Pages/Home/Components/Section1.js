@@ -3,6 +3,9 @@ import React from "react";
 import "../style.css";
 
 import iconImg from "../../../images/icon.jpeg";
+import step1 from "../../../images/step1.png";
+import step2 from "../../../images/step2.png";
+import step3 from "../../../images/step3.png";
 
 const Section1 = () => {
   return (
@@ -16,50 +19,40 @@ const Section1 = () => {
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
                 alt="headerImage"
-                src={iconImg}
+                src={step2}
                 style={{
-                  height: "150px",
-                  width: "150px",
                   position: "relative",
                   top: "5px",
                 }}
+                className="demoImages"
               />
             </div>
-            <h5 className="Section1Sub">
-              Download the app on the Apple App Store.
-            </h5>
           </div>
           <div className="">
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
                 alt="headerImage"
-                src={iconImg}
+                src={step1}
                 style={{
-                  height: "150px",
-                  width: "150px",
                   position: "relative",
                   top: "5px",
                 }}
+                className="demoImages"
               />
             </div>
-            <h5 className="Section1Sub">Select your city</h5>
           </div>
           <div className="">
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
                 alt="headerImage"
-                src={iconImg}
+                src={step3}
                 style={{
-                  height: "150px",
-                  width: "150px",
                   position: "relative",
                   top: "5px",
                 }}
+                className="demoImages"
               />
             </div>
-            <h5 className="Section1Sub">
-              View polling stations and wait times
-            </h5>
           </div>
         </div>
       </div>

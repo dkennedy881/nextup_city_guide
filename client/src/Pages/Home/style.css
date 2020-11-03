@@ -142,6 +142,9 @@ h6 {
     letter-spacing: 3px;
     line-height: 70px;
   }
+  h6 {
+    font-size: 1.2em;
+  }
   h5 {
     font-size: 2em;
   }
@@ -178,6 +181,10 @@ h6 {
     color: #777;
     margin: 5px 0px 0px 0px;
     font-size: 1.4em;
+  }
+  .demoImages {
+    height: 575px;
+    width: 600px;
   }
 }
 @media (min-width: 760px) and (max-width: 1000px) {
@@ -225,6 +232,10 @@ h6 {
   }
   .Section2Sub {
     margin-top: 100px;
+  }
+  .demoImages {
+    height: 475px;
+    width: 500px;
   }
 }
 @media (min-width: 770px) and (max-width: 1025px) {
@@ -321,6 +332,9 @@ h6 {
     letter-spacing: 3px;
     line-height: 70px;
   }
+  h6 {
+    font-size: 1.2em;
+  }
   h5 {
     font-size: 2em;
   }
@@ -363,10 +377,18 @@ h6 {
   #contactItemContainer {
     margin: 100px 150px;
   }
+  .demoImages {
+    height: 575px;
+    width: 600px;
+  }
 }
 
 @media (max-width: 759px) {
   /*iphone*/
+  .demoImages {
+    height: 375px;
+    width: 400px;
+  }
   #Section3Container {
     margin-bottom: 175px;
   }
@@ -455,6 +477,9 @@ h6 {
   #GreetingTitle {
     font-weight: 600;
     line-height: 35px;
+  }
+  h6 {
+    font-size: 1em;
   }
   h5 {
     font-size: 1.2em;

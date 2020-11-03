@@ -5,10 +5,27 @@ import "../style.css";
 //comps
 import { QueueListItem } from "../Components/QueueListItem";
 
-const K_WIDTH = 20;
-const K_HEIGHT = 20;
+const K_WIDTH = 12;
+const K_HEIGHT = 12;
 const QueuePlot = ({ data, showPlotTitles }) => {
   const [doShowDetails, setDoShowDetails] = useState(false);
+
+  const setBackgroundcolor = () => {
+    if (data.estMinutes && data.estMinutes["$numberLong"]) {
+      const mins = data.estMinutes["$numberLong"];
+      if (mins < 25) {
+        return "#11a90f";
+      } else {
+        if (mins < 50) {
+          return "yellow";
+        } else {
+          return "red";
+        }
+      }
+    } else {
+      return "blue";
+    }
+  };
 
   return doShowDetails ? (
     <div
@@ -18,7 +35,7 @@ const QueuePlot = ({ data, showPlotTitles }) => {
     >
       <div
         style={{
-          minWidth: "150px",
+          minWidth: "200px",
           position: "relative",
           top: -(K_HEIGHT * 3),
           left: -(K_WIDTH + 50),
@@ -56,12 +73,13 @@ const QueuePlot = ({ data, showPlotTitles }) => {
       {showPlotTitles ? (
         <p
           style={{
-            width: "150px",
+            width: "10px",
             position: "relative",
             top: -(K_HEIGHT + 10),
             left: -(K_WIDTH + 20),
             zIndex: 1,
-            fontWeight: 300,
+            fontWeight: 900,
+            borderWidth: ".5px",
           }}
         >
           {data.title}
@@ -76,14 +94,14 @@ const QueuePlot = ({ data, showPlotTitles }) => {
           height: K_HEIGHT,
           left: -K_WIDTH / 2,
           top: -K_HEIGHT / 2,
-          border: "5px solid red",
+          border: ".5px solid #5dbecb",
           borderRadius: K_HEIGHT,
-          backgroundColor: "#5dbecb",
+          backgroundColor: setBackgroundcolor(),
           textAlign: "center",
           color: "#3f51b5",
           fontSize: 16,
           fontWeight: "bold",
-          padding: 4,
+          padding: 2,
         }}
       ></div>
     </div>

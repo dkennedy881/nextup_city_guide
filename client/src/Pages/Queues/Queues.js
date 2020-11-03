@@ -35,7 +35,7 @@ const Queues = () => {
 
   useEffect(() => {
     document.querySelector("body").style.overflow = "visible";
-    document.querySelector("body").scrollTo(0, 0);
+    window.scrollTo(0, 0);
     setTimeout(() => {
       document.querySelector("body").style.overflow = "hidden";
     }, 1000);

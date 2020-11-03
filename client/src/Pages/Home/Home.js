@@ -11,7 +11,7 @@ import { Footer } from "../../Components/Footer/Footer";
 const Home = () => {
   useEffect(() => {
     document.querySelector("body").style.overflow = "visible";
-    document.querySelector("body").scrollTo(0, 0);
+    window.scrollTo(0, 0);
   });
   return (
     <>
