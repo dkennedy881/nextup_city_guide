@@ -10,12 +10,12 @@ import { Home, Queues, DataEntry, Policy } from "./Pages";
 import { NavBar } from "./Components/NavBar/NavBar";
 
 function App() {
-  if (window.location.protocol === "http:") {
-    window.location.href = window.location.href.replace(
-      /http:(.*)/g,
-      "https:$1"
-    );
-  }
+  // if (window.location.protocol === "http:") {
+  //   window.location.href = window.location.href.replace(
+  //     /http:(.*)/g,
+  //     "https:$1"
+  //   );
+  // }
 
   return (
     <div className="App">
